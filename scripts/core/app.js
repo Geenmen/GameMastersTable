@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-            navigator.serviceWorker.register('./GameMastersTable/service-worker.js')
+            navigator.serviceWorker.register('./service-worker.js')
                 .then(registration => {
                     console.log('ServiceWorker registered: ', registration);
                 })
