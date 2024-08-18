@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="manifest" href="manifest.json">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Master's Table</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/panels.css">
+    <link rel="stylesheet" href="assets/styles/custom-styles.css">
+
+</head>
+<body>
+    <button id="install-button" style="display:none;">Install GameMaster's Table</button>
+
+    <div id="loading-screen">
+        <img id="logo" src="assets/images/GMT_Icon.png" alt="Game Master's Table Logo">
+        <p id="welcome-text">Welcome!</p>
+    </div>
+    <div id="app" style="visibility: hidden;">
+        <!-- Popup for adding a new panel -->
+        <div id="add-panel-popup" class="popup" style="display: none;">
+            <div class="popup-content">
+                <h3>Add New Panel</h3>
+                <label for="panel-name">Panel Name:</label>
+                <input type="text" id="panel-name" placeholder="Enter panel name" required>
+
+                <label for="panel-type">Panel Type:</label>
+                <select id="panel-type">
+                    <!-- Panel types will be dynamically populated -->
+                </select>
+
+                <button id="add-panel-btn-confirm" style="display: none;">Add Panel</button>
+                <button id="cancel-panel-btn">Cancel</button>
+            </div>
+        </div>
+
+        <div id="top-section">
+            <span id="current-time">00:00</span>
+            <button id="add-panel-btn">➕</button>
+            <button id="calculator-btn">🧮</button>
+            <button id="stopwatch-btn">⏱️</button>
+            <button id="settings-btn">⚙️</button>
+        </div>
+
+        <div id="settings-menu" style="display: none;">
+            <div class="settings-row">
+                <div class="settings-name">Accent</div>
+                <div class="settings-value">
+                    <input type="color" id="red-accent-picker" value="#ff4747">
+                </div>
+            </div>
+            <div class="settings-row">
+                <div class="settings-name">Border</div>
+                <div class="settings-value">
+                    <input type="color" id="blue-border-picker" value="#00bfff">
+                </div>
+            </div>
+            <div class="settings-row">
+                <div class="settings-name">Background Color</div>
+                <div class="settings-value">
+                    <input type="color" id="background-color-picker" value="#121212">
+                </div>
+            </div>
+            <div class="settings-row">
+                <div class="settings-name">Section Color</div>
+                <div class="settings-value">
+                    <input type="color" id="section-color-picker" value="#1f1f1f">
+                </div>
+            </div>
+        </div>
+
+        <div id="middle-section">
+            <!-- Panels will be dynamically added here -->
+        </div>
+
+        <div id="bottom-section">
+            <!-- Minimized panels will go here -->
+        </div>
+    </div>
+
+    <script src="scripts/core/app.js"></script>
+    <script src="assets/libraries/interactjs/interact.min.js"></script>
+
+</body>
+</html>

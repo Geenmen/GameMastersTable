@@ -1,0 +1,117 @@
+.bestiary-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--section-color);
+    color: var(--text-color);
+    border: 1px solid var(--blue-border);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+}
+
+.bestiary-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    .bestiary-header h1 {
+        font-size: 36px;
+        font-weight: bold;
+        color: var(--red-accent);
+    }
+
+    .bestiary-header p {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+#cr-select {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--blue-border);
+}
+
+#load-creatures-btn {
+    margin-top: 10px;
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: var(--blue-border);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    #load-creatures-btn:hover {
+        background-color: #0056b3;
+    }
+
+.creature-list-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid var(--blue-border);
+    border-radius: 5px;
+    background-color: var(--section-color);
+}
+
+    .creature-list-container h2 {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: var(--blue-border);
+    }
+
+#creature-list {
+    list-style: none;
+    padding: 0;
+}
+
+    #creature-list li {
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid var(--blue-border);
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: var(--section-color);
+    }
+
+        #creature-list li:hover {
+            background-color: var(--blue-border);
+            color: #fff;
+        }
+
+.creature-details-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid var(--blue-border);
+    border-radius: 5px;
+    background-color: var(--section-color);
+    color: var(--text-color);
+}
+
+    .creature-details-container h2 {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: var(--red-accent);
+    }
+
+    .creature-details-container .stat-block,
+    .creature-details-container .ability-scores,
+    .creature-details-container .saving-throws,
+    .creature-details-container .skills,
+    .creature-details-container .damage-immunities,
+    .creature-details-container .senses,
+    .creature-details-container .languages-cr,
+    .creature-details-container .traits-actions {
+        margin-bottom: 20px;
+    }
+
+    .creature-details-container h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        color: var(--blue-border);
+    }
