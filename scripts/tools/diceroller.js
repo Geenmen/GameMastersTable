@@ -48,7 +48,7 @@ function initializeDiceRoller(panel) {
             diceIcon.classList.remove('spin', 'pulsate');
 
             let total = 0;
-            let resultText = ${ diceCount }d${ diceType }: ;
+            let resultText = `${diceCount}d${diceType}: `;
 
             for (let i = 0; i < diceCount; i++) {
                 const roll = Math.floor(Math.random() * diceType) + 1;
@@ -56,7 +56,7 @@ function initializeDiceRoller(panel) {
                 resultText += (i > 0 ? ', ' : '') + roll;
             }
 
-            resultText += (Total: ${ total });
+            resultText += ` (Total: ${total})`;
 
             rollResult.textContent = resultText;
             addToHistory(resultText);
@@ -77,7 +77,7 @@ function initializeDiceRoller(panel) {
         rollHistory.innerHTML = '';
         history.forEach((item) => {
             const p = document.createElement('p');
-            p.textContent = ${ item };
+            p.textContent = `${item}`;
             rollHistory.appendChild(p);
         });
     }
