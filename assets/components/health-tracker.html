@@ -1,0 +1,27 @@
+<div id="healthtracker-modal" class="ht-modal">
+    <div class="ht-modal-content">
+        <span class="ht-close-modal">&times;</span>
+        <h2>Add Character</h2>
+        <form id="healthtracker-character-form">
+            <label for="ht-character-name">Name:</label>
+            <input type="text" id="ht-character-name" name="ht-character-name" required>
+
+            <label for="ht-character-max-health">MAX Health:</label>
+            <input type="number" id="ht-character-max-health" name="ht-character-max-health" required>
+
+            <label for="ht-character-current-health">Current Health:</label>
+            <input type="number" id="ht-character-current-health" name="ht-character-current-health" required>
+
+            <label>Status:</label>
+            <div class="ht-radio-group">
+                <label><input type="radio" name="ht-status" value="Friendly" checked> Friendly</label>
+                <label><input type="radio" name="ht-status" value="Neutral"> Neutral</label>
+                <label><input type="radio" name="ht-status" value="Aggressive"> Aggressive</label>
+                <label><input type="radio" name="ht-status" value="Incapacitated"> Incapacitated</label>
+                <label><input type="radio" name="ht-status" value="Player"> Player</label>
+            </div>
+
+            <button type="submit">Add Character</button>
+        </form>
+    </div>
+</div>
