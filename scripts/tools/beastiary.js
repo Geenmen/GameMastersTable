@@ -69,7 +69,7 @@ function initializeBeastiary(panel) {
         const details = [];
 
         // Set creature image, use default if none found
-        creatureImage.src = data.image ? `assets/libraries/Beastiary/${data.challenge_rating}/${data.creature_name}/${data.image}` : 'assets/libraries/beastiary/default-creature-GMT.png';
+        creatureImage.src = data.image ? `assets/libraries/Beastiary/${data.challenge_rating}/${data.creature_name}/${data.image}` : 'assets/libraries/Beastiary/default-creature-GMT.png';
 
         details.push(`<h2>${data.creature_name}</h2>`);
         if (data.type) details.push(`<p><strong>Type:</strong> ${data.type}</p>`);

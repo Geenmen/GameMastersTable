@@ -1,0 +1,69 @@
+{
+  "creature_name": "Crystalline Slime",
+  "type": "Ooze",
+  "alignment": "Unaligned",
+  "description": "The Crystalline Slime is a rare and mesmerizing ooze, composed of a dense, semi-transparent jelly infused with shards of glowing crystal. These crystals grant the slime enhanced durability and a mesmerizing appearance. Found in deep caverns and ancient ruins, the Crystalline Slime is prized for its ability to store and reflect light. When tamed, it can be used to illuminate dark areas or even focus its internal energy to unleash powerful light-based attacks.",
+  "image": "assets/libraries/Beastiary/CR3/Crystalline_Slime/Crystalline_Slime.png",
+  "armor_class": 12,
+  "hit_points": 67,
+  "speed": {
+    "walk": "20 ft",
+    "fly": ""
+  },
+  "ability_scores": {
+    "strength": 16,
+    "dexterity": 8,
+    "constitution": 18,
+    "intelligence": 3,
+    "wisdom": 6,
+    "charisma": 5
+  },
+  "saving_throws": {
+    "strength": "+5",
+    "dexterity": "+1",
+    "constitution": "+6"
+  },
+  "skills": {
+    "perception": "+3",
+    "stealth": "+3"
+  },
+  "damage_resistances": "Acid, Fire, Radiant",
+  "damage_immunities": "Bludgeoning, Piercing, Slashing from nonmagical attacks",
+  "condition_immunities": "Blinded, Charmed, Deafened, Exhaustion, Frightened, Prone",
+  "senses": {
+    "darkvision": "60 ft",
+    "passive_perception": "13"
+  },
+  "languages": "Understands Common but cannot speak",
+  "challenge_rating": "3",
+  "tamable": true,
+  "lair_type": "Caverns, Ancient Ruins",
+  "traits": [
+    {
+      "name": "Crystalline Body",
+      "description": "The Crystalline Slime's body is infused with magical crystals, giving it resistance to acid, fire, and radiant damage."
+    },
+    {
+      "name": "Luminous Aura",
+      "description": "The slime emits bright light in a 20-foot radius and dim light for an additional 20 feet. As a bonus action, the slime can focus this light to temporarily blind a creature within 10 feet that can see it. The creature must succeed on a DC 13 Constitution saving throw or be blinded until the start of its next turn."
+    },
+    {
+      "name": "Reflective Burst",
+      "description": "When the slime is hit by a critical hit or reduced to 0 hit points, it releases a burst of radiant energy. All creatures within 10 feet must make a DC 14 Dexterity saving throw, taking 3d6 radiant damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Pseudopod",
+      "description": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 2d6+3 bludgeoning damage plus 2d6 radiant damage."
+    },
+    {
+      "name": "Engulf",
+      "description": "The slime moves up to its speed. While doing so, it can enter Large or smaller creatures' spaces. Whenever the slime enters a creature's space, the creature must make a DC 14 Dexterity saving throw. On a successful save, the creature can choose to be pushed 5 feet back or to the side of the slime. A creature that chooses not to be pushed suffers the consequences of a failed saving throw.\n\nOn a failed save, the slime enters the creature's space, and the creature takes 2d6 radiant damage and is engulfed. The engulfed creature can't breathe, is restrained, and takes 2d6 radiant damage at the start of each of the slime's turns. When the slime moves, the engulfed creature moves with it. The engulfed creature can try to escape by taking an action to make a DC 14 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the slime."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
+}
