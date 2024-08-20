@@ -1,4 +1,4 @@
-function initializeBestiary(panel) {
+function initializeBeastiary(panel) {
     const crSelect = panel.querySelector('#cr-select');
     const loadCreaturesBtn = panel.querySelector('#load-creatures-btn');
     const creatureListContainer = panel.querySelector('#creature-list-container');

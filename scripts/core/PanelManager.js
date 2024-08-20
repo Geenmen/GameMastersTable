@@ -12,7 +12,7 @@
     { id: 'random-rumor', name: 'Random Rumor' },
     { id: 'random-job', name: 'Random Job' },
     { id: 'draw-pad', name: 'Draw Pad' },
-    { id: 'bestiary', name: 'Bestiary' },
+    { id: 'beastiary', name: 'Beastiary' },
     { id: 'travel-time', name: 'Travel Time Calculator' }
 ];
 
@@ -265,7 +265,7 @@ function loadTool(panelContainer, toolName) {
                         case 'draw-pad':
                             initializeDrawPad(panelContainer);
                             break;
-                        case 'bestiary':
+                        case 'beastiary':
                             initializeBestiary(panelContainer);
                             break;
                         case 'travel-time':

@@ -1,30 +1,32 @@
 <div class="dice-roller-container">
-    <label for="dice-type">Select Dice:</label>
-    <select id="dice-type" class="dice-dropdown">
-        <option value="2">D2</option>
-        <option value="4">D4</option>
-        <option value="6">D6</option>
-        <option value="8">D8</option>
-        <option value="10">D10</option>
-        <option value="12">D12</option>
-        <option value="20">D20</option>
-        <option value="100">D100</option>
-        <option value="custom">Custom</option>
-    </select>
-
-    <label for="dice-count">Number of Dice:</label>
-    <input type="number" id="dice-count" class="dice-input" min="1" value="1" />
-
-    <button id="roll-button" class="roll-button">Roll</button>
-
-    <div class="dice-icon-container">
-        <img src="assets/images/DiceRollerIcon.png" alt="Dice Icon" class="dice-icon" id="dice-icon" />
+    <div class="dice-roller-left">
+        <select id="dice-type" class="dice-dropdown">
+            <option value="2">D2</option>
+            <option value="4">D4</option>
+            <option value="6">D6</option>
+            <option value="8">D8</option>
+            <option value="10">D10</option>
+            <option value="12">D12</option>
+            <option value="20">D20</option>
+            <option value="100">D100</option>
+            <option value="custom">Custom</option>
+        </select>
+        <div class="dice-count-container">
+            <button id="decrement-btn" class="count-btn">-</button>
+            <input type="number" id="dice-count" class="dice-input" value="1" min="1">
+            <button id="increment-btn" class="count-btn">+</button>
+        </div>
+        <button id="roll-button" class="roll-button">Roll</button>
+        <div class="dice-icon-container">
+            <img src="assets/images/DiceRollerIcon.png" alt="Dice Icon" class="dice-icon" id="dice-icon" />
+        </div>
+        <div id="roll-result" class="roll-result"></div>
     </div>
 
-    <div id="roll-result" class="roll-result"></div>
-
-    <div class="history-container">
-        <button id="toggle-history" class="history-toggle">Show Roll History</button>
-        <div id="roll-history" class="roll-history"></div>
+    <div class="dice-roller-right">
+        <div id="roll-history" class="roll-history">
+            <h3>History</h3>
+            <!-- History items will be appended here -->
+        </div>
     </div>
 </div>
