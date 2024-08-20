@@ -1,0 +1,65 @@
+{
+  "creature_name": "Glimmering Ooze",
+  "type": "Ooze",
+  "alignment": "Unaligned",
+  "description": "The Glimmering Ooze is a semi-translucent, gelatinous creature with an iridescent sheen. It slowly moves across the ground, absorbing organic material and minerals alike. When tamed, it can be a loyal companion, often used to dissolve obstacles or store small items within its body. Its glowing body serves as a dim light source in dark areas.",
+  "image": "assets/libraries/Beastiary/CR1/Glimmering_Ooze/Glimmering_Ooze.png",
+  "armor_class": 8,
+  "hit_points": 22,
+  "speed": {
+    "walk": "10 ft",
+    "fly": ""
+  },
+  "ability_scores": {
+    "strength": 12,
+    "dexterity": 6,
+    "constitution": 14,
+    "intelligence": 1,
+    "wisdom": 6,
+    "charisma": 3
+  },
+  "saving_throws": {
+    "strength": "+2",
+    "dexterity": "",
+    "constitution": "+4"
+  },
+  "skills": {
+    "perception": "+2",
+    "stealth": "+0"
+  },
+  "damage_resistances": "Acid, Poison",
+  "damage_immunities": "Bludgeoning, Piercing",
+  "condition_immunities": "Blinded, Charmed, Deafened, Exhaustion, Frightened, Prone",
+  "senses": {
+    "darkvision": "60 ft",
+    "passive_perception": "12"
+  },
+  "languages": "Understands Common but cannot speak",
+  "challenge_rating": "1",
+  "tamable": true,
+  "lair_type": "Caves, Swamps",
+  "traits": [
+    {
+      "name": "Amorphous",
+      "description": "The Glimmering Ooze can move through a space as narrow as 1 inch wide without squeezing."
+    },
+    {
+      "name": "Luminescence",
+      "description": "The ooze emits dim light in a 10-foot radius."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Pseudopod",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d6+2 bludgeoning damage plus 1d4 acid damage."
+    },
+    {
+      "name": "Engulf",
+      "description": "The ooze moves up to its speed. While doing so, it can enter Large or smaller creatures' spaces. Whenever the ooze enters a creature's space, the creature must make a DC 12 Dexterity saving throw. On a successful save, the creature can choose to be pushed 5 feet back or to the side of the ooze. A creature that chooses not to be pushed suffers the consequences of a failed saving throw.\n\nOn a failed save, the ooze enters the creature's space, and the creature takes 1d6 acid damage and is engulfed. The engulfed creature can't breathe, is restrained, and takes 1d6 acid damage at the start of each of the ooze's turns. When the ooze moves, the engulfed creature moves with it. The engulfed creature can try to escape by taking an action to make a DC 12 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the ooze."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
+}

@@ -1,0 +1,69 @@
+{
+  "creature_name": "Shifting Sludge",
+  "type": "Ooze",
+  "alignment": "Unaligned",
+  "description": "The Shifting Sludge is a dark, viscous ooze that constantly changes its form, mimicking the shapes and textures of its surroundings. This adaptive creature is often found in swamps and underground rivers, where it camouflages itself to ambush prey. When tamed, the Shifting Sludge can be a versatile ally, capable of altering its shape to fit through narrow spaces or conceal itself and its tamer.",
+  "image": "assets/libraries/Beastiary/CR2/Shifting_Sludge/Shifting_Sludge.png",
+  "armor_class": 10,
+  "hit_points": 45,
+  "speed": {
+    "walk": "20 ft",
+    "fly": ""
+  },
+  "ability_scores": {
+    "strength": 14,
+    "dexterity": 10,
+    "constitution": 16,
+    "intelligence": 2,
+    "wisdom": 6,
+    "charisma": 3
+  },
+  "saving_throws": {
+    "strength": "+4",
+    "dexterity": "+2",
+    "constitution": "+5"
+  },
+  "skills": {
+    "perception": "+2",
+    "stealth": "+4"
+  },
+  "damage_resistances": "Acid, Cold, Poison",
+  "damage_immunities": "Bludgeoning, Piercing, Slashing from nonmagical attacks",
+  "condition_immunities": "Blinded, Charmed, Deafened, Exhaustion, Frightened, Prone",
+  "senses": {
+    "darkvision": "60 ft",
+    "passive_perception": "12"
+  },
+  "languages": "Understands Common but cannot speak",
+  "challenge_rating": "2",
+  "tamable": true,
+  "lair_type": "Swamps, Underground Rivers",
+  "traits": [
+    {
+      "name": "Amorphous",
+      "description": "The Shifting Sludge can move through a space as narrow as 1 inch wide without squeezing."
+    },
+    {
+      "name": "Mimicry",
+      "description": "The ooze can mimic the appearance and texture of any object it has come into contact with, gaining advantage on Stealth checks to hide."
+    },
+    {
+      "name": "Corrosive Form",
+      "description": "A creature that touches the Shifting Sludge or hits it with a melee attack while within 5 feet of it takes 1d6 acid damage. Any nonmagical weapon made of metal or wood that hits the ooze corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition that hits the ooze is destroyed after dealing damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Pseudopod",
+      "description": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 1d8+2 bludgeoning damage plus 1d6 acid damage."
+    },
+    {
+      "name": "Engulf",
+      "description": "The ooze moves up to its speed. While doing so, it can enter Large or smaller creatures' spaces. Whenever the ooze enters a creature's space, the creature must make a DC 13 Dexterity saving throw. On a successful save, the creature can choose to be pushed 5 feet back or to the side of the ooze. A creature that chooses not to be pushed suffers the consequences of a failed saving throw.\n\nOn a failed save, the ooze enters the creature's space, and the creature takes 1d8 acid damage and is engulfed. The engulfed creature can't breathe, is restrained, and takes 1d8 acid damage at the start of each of the ooze's turns. When the ooze moves, the engulfed creature moves with it. The engulfed creature can try to escape by taking an action to make a DC 13 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the ooze."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
+}

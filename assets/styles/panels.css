@@ -1,0 +1,80 @@
+.panel-container {
+    position: absolute;
+    background-color: #2e2e2e;
+    color: #e0e0e0;
+    border: 1px solid var(--blue-border);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--section-color);
+    padding: 8px;
+    border-bottom: 1px solid var(--blue-border);
+    cursor: move;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+    .panel-header .move-handle {
+        cursor: move;
+    }
+
+    .panel-header button {
+        background-color: var(--blue-border);
+        border: none;
+        color: #e0e0e0;
+        padding: 4px 8px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+        .panel-header button:hover {
+            background-color: #6e9dc9;
+        }
+
+.panel-body {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #3b3b3b;
+    color: #e0e0e0;
+}
+
+.panel-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--section-color);
+    padding: 5px;
+    border-top: 1px solid var(--blue-border);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+    .panel-footer .panel-label {
+        font-size: 14px;
+        color: #e0e0e0;
+    }
+
+.restore-panel-btn {
+    background-color: var(--blue-border);
+    color: #e0e0e0;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5px;
+}
+
+    .restore-panel-btn:hover {
+        background-color: #6e9dc9;
+    }

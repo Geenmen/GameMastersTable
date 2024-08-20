@@ -4,6 +4,8 @@ function initializeBeastiary(panel) {
     const creatureListContainer = panel.querySelector('#creature-list-container');
     const creatureList = panel.querySelector('#creature-list');
     const creatureDetailsContainer = panel.querySelector('#creature-details-container');
+    const creatureImage = panel.querySelector('#creature-image');
+    const creatureInfo = panel.querySelector('.creature-info');
 
     // Populate the CR dropdown (1 to 30)
     for (let i = 1; i <= 30; i++) {
@@ -21,27 +23,26 @@ function initializeBeastiary(panel) {
         }
     });
 
-    // Function to fetch the list of creatures from the selected CR folder
     function fetchCreatureList(cr) {
         fetch(`assets/libraries/Beastiary/${cr}/`)
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
-                return response.text(); // Fetch as text, as we are assuming an HTML response that might list files
+                return response.text();
             })
             .then(html => {
                 const parser = new DOMParser();
                 const doc = parser.parseFromString(html, 'text/html');
                 const files = Array.from(doc.querySelectorAll('a')).map(link => link.href.split('/').pop());
 
-                creatureList.innerHTML = ''; // Clear previous list
-                creatureListContainer.style.display = 'block'; // Show the container
+                creatureList.innerHTML = '';
+                creatureListContainer.style.display = 'block';
 
                 files.forEach(file => {
-                    if (file.endsWith('.json')) { // Ensure only JSON files are processed
+                    if (file.endsWith('.json')) {
                         const listItem = document.createElement('li');
-                        listItem.textContent = file.replace('.json', ''); // Remove .json extension for display
+                        listItem.textContent = file.replace('.json', '');
                         listItem.addEventListener('click', () => loadCreatureDetails(cr, file));
                         creatureList.appendChild(listItem);
                     }
@@ -50,8 +51,6 @@ function initializeBeastiary(panel) {
             .catch(err => console.error(`Error fetching creatures for ${cr}:`, err));
     }
 
-
-    // Function to load and display creature details
     function loadCreatureDetails(cr, fileName) {
         fetch(`assets/libraries/Beastiary/${cr}/${fileName}`)
             .then(response => {
@@ -66,14 +65,16 @@ function initializeBeastiary(panel) {
             .catch(err => console.error(`Error loading creature file: ${fileName}`, err));
     }
 
-    // Function to display creature details in the UI
     function displayCreatureDetails(data) {
         const details = [];
 
-        details.push(`<h2>${data.creature_name}</h2>`);
+        // Set creature image, use default if none found
+        creatureImage.src = data.image ? `assets/libraries/Beastiary/${data.challenge_rating}/${data.creature_name}/${data.image}` : 'assets/libraries/beastiary/default-creature-GMT.png';
 
+        details.push(`<h2>${data.creature_name}</h2>`);
         if (data.type) details.push(`<p><strong>Type:</strong> ${data.type}</p>`);
         if (data.alignment) details.push(`<p><strong>Alignment:</strong> ${data.alignment}</p>`);
+        if (data.description) details.push(`<p><strong>Description:</strong> ${data.description}</p>`);
 
         if (data.armor_class || data.hit_points || data.speed) {
             details.push('<div class="stat-block">');
@@ -149,6 +150,14 @@ function initializeBeastiary(panel) {
             details.push(`<div class="languages-cr"><h3>Challenge Rating</h3><p>${data.challenge_rating}</p></div>`);
         }
 
+        if (data.tamable) {
+            details.push(`<p><strong>Tamable:</strong> ${data.tamable ? 'Yes' : 'No'}</p>`);
+        }
+
+        if (data.lair_type) {
+            details.push(`<p><strong>Lair Type:</strong> ${data.lair_type}</p>`);
+        }
+
         const sections = ['traits', 'actions', 'reactions', 'legendary_actions', 'lair_actions', 'regional_effects'];
 
         for (const section of sections) {
@@ -159,8 +168,7 @@ function initializeBeastiary(panel) {
             }
         }
 
-        creatureDetailsContainer.innerHTML = details.join('');
+        creatureInfo.innerHTML = details.join('');
         creatureDetailsContainer.style.display = 'block';
     }
-
 }
