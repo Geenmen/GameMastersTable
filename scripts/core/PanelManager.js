@@ -266,7 +266,7 @@ function loadTool(panelContainer, toolName) {
                             initializeDrawPad(panelContainer);
                             break;
                         case 'beastiary':
-                            initializeBestiary(panelContainer);
+                            initializeBeastiary(panelContainer);
                             break;
                         case 'travel-time':
                             initializeTravelTimeCalculator(panelContainer);
