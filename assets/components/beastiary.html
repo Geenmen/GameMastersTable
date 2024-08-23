@@ -1,8 +1,10 @@
 <div class="bestiary-container">
     <div class="bestiary-header">
         <h1>Bestiary</h1>
-        <p>Select a Challenge Rating Folder:</p>
-        <input type="file" id="cr-folder-picker" webkitdirectory directory multiple>
+        <p>Select a Challenge Rating:</p>
+        <select id="cr-select">
+            <!-- Options for CR 1 to 30 will be dynamically generated -->
+        </select>
         <button id="load-creatures-btn">Load Creatures</button>
     </div>
 
@@ -15,7 +17,7 @@
 
     <div id="creature-details-container" class="creature-details-container" style="display:none;">
         <div class="creature-card">
-            <img id="creature-image" src="assets/libraries/beastiary/default-creature-GMT.png" alt="Creature Image" class="creature-image" />
+            <img id="creature-image" src="assets/libraries/Beastiary/default-creature-GMT.png" alt="Creature Image" class="creature-image" />
             <div class="creature-info">
                 <!-- Creature details will be dynamically loaded here -->
             </div>
