@@ -7,69 +7,62 @@ function initializeBeastiary(panel) {
     const creatureImage = panel.querySelector('#creature-image');
     const creatureInfo = panel.querySelector('.creature-info');
 
-    // Populate the CR dropdown (1 to 30)
-    for (let i = 1; i <= 30; i++) {
-        const option = document.createElement('option');
-        option.value = `CR${i}`;
-        option.textContent = `Challenge Rating ${i}`;
-        crSelect.appendChild(option);
+    let creaturesData = {};  // To store the creatures.json data
+
+    // Fetch the initial creatures.json
+    fetch('assets/libraries/Beastiary/creatures.json')
+        .then(response => response.json())
+        .then(data => {
+            creaturesData = data;
+            populateCRDropdown(creaturesData);
+        })
+        .catch(err => console.error('Error loading creatures.json:', err));
+
+    // Populate the CR dropdown based on the creatures.json content
+    function populateCRDropdown(data) {
+        const crLevels = Object.keys(data);
+        crLevels.forEach(cr => {
+            const option = document.createElement('option');
+            option.value = cr;
+            option.textContent = `Challenge Rating ${cr.slice(2)}`;
+            crSelect.appendChild(option);
+        });
     }
 
-    // Load creatures when the user selects a CR and clicks the button
     loadCreaturesBtn.addEventListener('click', () => {
         const selectedCR = crSelect.value;
         if (selectedCR) {
-            fetchCreatureList(selectedCR);
+            loadCreaturesForCR(selectedCR);
         }
     });
 
-    function fetchCreatureList(cr) {
-        fetch(`assets/libraries/Beastiary/${cr}/`)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.text();
-            })
-            .then(html => {
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(html, 'text/html');
-                const files = Array.from(doc.querySelectorAll('a')).map(link => link.href.split('/').pop());
+    function loadCreaturesForCR(cr) {
+        creatureList.innerHTML = '';
+        creatureListContainer.style.display = 'block';
 
-                creatureList.innerHTML = '';
-                creatureListContainer.style.display = 'block';
-
-                files.forEach(file => {
-                    if (file.endsWith('.json')) {
-                        const listItem = document.createElement('li');
-                        listItem.textContent = file.replace('.json', '');
-                        listItem.addEventListener('click', () => loadCreatureDetails(cr, file));
-                        creatureList.appendChild(listItem);
-                    }
-                });
-            })
-            .catch(err => console.error(`Error fetching creatures for ${cr}:`, err));
+        const creatures = creaturesData[cr] || [];
+        creatures.forEach(creature => {
+            const listItem = document.createElement('li');
+            listItem.textContent = creature.name;
+            listItem.addEventListener('click', () => loadCreatureDetails(creature.jsonPath, creature.imagePath));
+            creatureList.appendChild(listItem);
+        });
     }
 
-    function loadCreatureDetails(cr, fileName) {
-        fetch(`assets/libraries/Beastiary/${cr}/${fileName}`)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
+    function loadCreatureDetails(jsonPath, imagePath) {
+        fetch(jsonPath)
+            .then(response => response.json())
             .then(data => {
-                displayCreatureDetails(data);
+                displayCreatureDetails(data, imagePath);
             })
-            .catch(err => console.error(`Error loading creature file: ${fileName}`, err));
+            .catch(err => console.error(`Error loading creature details from ${jsonPath}:`, err));
     }
 
-    function displayCreatureDetails(data) {
+    function displayCreatureDetails(data, imagePath) {
         const details = [];
 
         // Set creature image, use default if none found
-        creatureImage.src = data.image ? `assets/libraries/Beastiary/${data.challenge_rating}/${data.creature_name}/${data.image}` : 'assets/libraries/Beastiary/default-creature-GMT.png';
+        creatureImage.src = imagePath || 'assets/libraries/Beastiary/default-creature-GMT.png';
 
         details.push(`<h2>${data.creature_name}</h2>`);
         if (data.type) details.push(`<p><strong>Type:</strong> ${data.type}</p>`);
@@ -80,7 +73,6 @@ function initializeBeastiary(panel) {
             details.push('<div class="stat-block">');
             if (data.armor_class) details.push(`<p><strong>Armor Class:</strong> ${data.armor_class}</p>`);
             if (data.hit_points) details.push(`<p><strong>Hit Points:</strong> ${data.hit_points}</p>`);
-
             if (data.speed) {
                 const speeds = [];
                 if (data.speed.walk) speeds.push(`Walk: ${data.speed.walk}`);
@@ -90,7 +82,6 @@ function initializeBeastiary(panel) {
                 if (data.speed.burrow) speeds.push(`Burrow: ${data.speed.burrow}`);
                 if (speeds.length > 0) details.push(`<p><strong>Speed:</strong> ${speeds.join(', ')}</p>`);
             }
-
             details.push('</div>');
         }
 

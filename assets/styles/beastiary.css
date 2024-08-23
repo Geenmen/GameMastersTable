@@ -1,48 +1,50 @@
+.bestiary-container {
+    padding: 20px;
+}
+
+.bestiary-header {
+    text-align: center;
+}
+
+#cr-select {
+    margin-bottom: 10px;
+}
+
+#cr-list, #creature-folder-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+    #cr-list li, #creature-folder-list li {
+        cursor: pointer;
+        padding: 5px;
+        border: 1px solid var(--blue-border);
+        border-radius: 4px;
+        margin-bottom: 5px;
+        background-color: var(--section-color);
+    }
+
+        #cr-list li:hover, #creature-folder-list li:hover {
+            background-color: var(--blue-border);
+            color: #fff;
+        }
+
 .creature-card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding: 20px;
     border: 1px solid var(--blue-border);
-    border-radius: 10px;
+    border-radius: 8px;
     background-color: var(--section-color);
-    color: var(--text-color);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .creature-image {
-    max-width: 100%;
+    width: 150px;
     height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    margin-right: 20px;
 }
 
 .creature-info {
-    width: 100%;
+    flex-grow: 1;
 }
-
-    .creature-info h2 {
-        text-align: center;
-        font-size: 28px;
-        color: var(--red-accent);
-        margin-bottom: 15px;
-    }
-
-    .creature-info p {
-        margin-bottom: 10px;
-        font-size: 16px;
-        line-height: 1.5;
-    }
-
-    .creature-info .stat-block, .creature-info .ability-scores, .creature-info .saving-throws,
-    .creature-info .skills, .creature-info .damage-resistances, .creature-info .damage-immunities,
-    .creature-info .condition-immunities, .creature-info .senses, .creature-info .languages-cr,
-    .creature-info .traits-actions {
-        margin-bottom: 20px;
-    }
-
-    .creature-info h3 {
-        font-size: 22px;
-        margin-bottom: 10px;
-        color: var(--blue-border);
-    }

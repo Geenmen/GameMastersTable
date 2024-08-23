@@ -1,0 +1,50 @@
+{
+    "CR01": [
+        {
+            "name": "Glimmering_Ooze",
+            "jsonPath": "CR01\\Glimmering_Ooze\\Glimmering_Ooze.json",
+            "imagePath": "CR01\\Glimmering_Ooze\\Glimmering_Ooze.png"
+        }
+    ],
+    "CR02": [
+        {
+            "name": "Shifting_Sludge",
+            "jsonPath": "CR02\\Shifting_Sludge\\Shifting_Sludge.json",
+            "imagePath": "CR02\\Shifting_Sludge\\Shifting_Sludge.png"
+        }
+    ],
+    "CR03": [
+        {
+            "name": "Crystalline_Slime",
+            "jsonPath": "CR03\\Crystalline_Slime\\Crystalline_Slime.json",
+            "imagePath": "CR03\\Crystalline_Slime\\Crystalline_Slime.png"
+        }
+    ],
+    "CR04": [],
+    "CR05": [],
+    "CR06": [],
+    "CR07": [],
+    "CR08": [],
+    "CR09": [],
+    "CR10": [],
+    "CR11": [],
+    "CR12": [],
+    "CR13": [],
+    "CR14": [],
+    "CR15": [],
+    "CR16": [],
+    "CR17": [],
+    "CR18": [],
+    "CR19": [],
+    "CR20": [],
+    "CR21": [],
+    "CR22": [],
+    "CR23": [],
+    "CR24": [],
+    "CR25": [],
+    "CR26": [],
+    "CR27": [],
+    "CR28": [],
+    "CR29": [],
+    "CR30": []
+}
