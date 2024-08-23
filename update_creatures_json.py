@@ -26,8 +26,8 @@ for cr_folder in sorted(os.listdir(bestiary_path)):
                 if os.path.exists(json_file_path):
                     creature = {
                         'name': creature_folder,
-                        'jsonPath': os.path.relpath(json_file_path, bestiary_path),
-                        'imagePath': os.path.relpath(image_file_path, bestiary_path) if os.path.exists(image_file_path) else None
+                        'jsonPath': os.path.join('assets', 'libraries', 'Beastiary', cr_folder, creature_folder, json_file_name).replace('\\', '/'),
+                        'imagePath': os.path.join('assets', 'libraries', 'Beastiary', cr_folder, creature_folder, image_file_name).replace('\\', '/') if os.path.exists(image_file_path) else None
                     }
                     creatures[cr_folder].append(creature)
 

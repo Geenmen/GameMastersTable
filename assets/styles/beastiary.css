@@ -1,50 +1,56 @@
 .bestiary-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.bestiary-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
 }
 
-.bestiary-header {
-    text-align: center;
+#cr-select, #load-creatures-btn, #reset-cr-btn, #reset-creature-btn {
+    margin-top: 10px;
 }
 
-#cr-select {
-    margin-bottom: 10px;
-}
-
-#cr-list, #creature-folder-list {
+ul#creature-list {
     list-style-type: none;
     padding: 0;
+    margin: 20px 0;
 }
 
-    #cr-list li, #creature-folder-list li {
+    ul#creature-list li {
         cursor: pointer;
         padding: 5px;
         border: 1px solid var(--blue-border);
         border-radius: 4px;
         margin-bottom: 5px;
         background-color: var(--section-color);
+        color: #e0e0e0;
+        text-align: center;
     }
 
-        #cr-list li:hover, #creature-folder-list li:hover {
-            background-color: var(--blue-border);
-            color: #fff;
+        ul#creature-list li:hover {
+            background-color: var(--red-accent);
         }
 
 .creature-card {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    padding: 20px;
-    border: 1px solid var(--blue-border);
-    border-radius: 8px;
-    background-color: var(--section-color);
 }
 
 .creature-image {
-    width: 150px;
+    max-width: 100%;
     height: auto;
-    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 .creature-info {
-    flex-grow: 1;
+    text-align: left;
+    width: 100%;
 }

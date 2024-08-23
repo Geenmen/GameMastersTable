@@ -2,22 +2,22 @@
     "CR01": [
         {
             "name": "Glimmering_Ooze",
-            "jsonPath": "CR01\\Glimmering_Ooze\\Glimmering_Ooze.json",
-            "imagePath": "CR01\\Glimmering_Ooze\\Glimmering_Ooze.png"
+            "jsonPath": "assets/libraries/Beastiary/CR01/Glimmering_Ooze/Glimmering_Ooze.json",
+            "imagePath": "assets/libraries/Beastiary/CR01/Glimmering_Ooze/Glimmering_Ooze.png"
         }
     ],
     "CR02": [
         {
             "name": "Shifting_Sludge",
-            "jsonPath": "CR02\\Shifting_Sludge\\Shifting_Sludge.json",
-            "imagePath": "CR02\\Shifting_Sludge\\Shifting_Sludge.png"
+            "jsonPath": "assets/libraries/Beastiary/CR02/Shifting_Sludge/Shifting_Sludge.json",
+            "imagePath": "assets/libraries/Beastiary/CR02/Shifting_Sludge/Shifting_Sludge.png"
         }
     ],
     "CR03": [
         {
             "name": "Crystalline_Slime",
-            "jsonPath": "CR03\\Crystalline_Slime\\Crystalline_Slime.json",
-            "imagePath": "CR03\\Crystalline_Slime\\Crystalline_Slime.png"
+            "jsonPath": "assets/libraries/Beastiary/CR03/Crystalline_Slime/Crystalline_Slime.json",
+            "imagePath": "assets/libraries/Beastiary/CR03/Crystalline_Slime/Crystalline_Slime.png"
         }
     ],
     "CR04": [],
