@@ -1,0 +1,57 @@
+{
+    "creature_name": "Goresnout Boarling",
+    "type": "Beast",
+    "alignment": "Neutral",
+    "description": "The Goresnout Boarling is a fearsome and aggressive creature, known for its sharp tusks and relentless charge. These creatures are often found in dense forests or swamps, where they fiercely defend their territory. Despite their smaller size compared to fully grown boars, Boarlings are fast and cunning, making them dangerous even to seasoned hunters.",
+    "image": "path/to/goresnout_boarling_image.png",
+    "armor_class": 13,
+    "hit_points": 32,
+    "speed": {
+        "walk": "40 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 14,
+        "dexterity": 12,
+        "constitution": 15,
+        "intelligence": 2,
+        "wisdom": 10,
+        "charisma": 6
+    },
+    "saving_throws": {
+        "strength": "+4",
+        "dexterity": "+2",
+        "constitution": "+4"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+3"
+    },
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "12"
+    },
+    "languages": "None",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "Dense forests or swamps",
+    "traits": [
+        {
+            "name": "Charge",
+            "description": "If the Goresnout Boarling moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Tusk",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) slashing damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

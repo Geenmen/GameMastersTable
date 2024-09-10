@@ -1,0 +1,65 @@
+{
+    "creature_name": "Bloodmoon Howler",
+    "type": "Beast",
+    "alignment": "Chaotic Evil",
+    "description": "The Bloodmoon Howler is a ferocious wolf-like creature that prowls the night under the eerie red light of a blood moon. Its eyes glow with a crimson hue, and its fur is dark as midnight, matted with dried blood. Known for its haunting howl that sends chills down the spine of even the bravest adventurers, this beast is feared in the darkest forests.",
+    "image": "assets/libraries/Beastiary/CR2/BloodmoonHowler/BloodmoonHowler.png",
+    "armor_class": 13,
+    "hit_points": 27,
+    "speed": {
+        "walk": "40 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 15,
+        "dexterity": 14,
+        "constitution": 12,
+        "intelligence": 6,
+        "wisdom": 12,
+        "charisma": 8
+    },
+    "saving_throws": {
+        "strength": "+4",
+        "dexterity": "+4",
+        "constitution": "+3"
+    },
+    "skills": {
+        "perception": "+4",
+        "stealth": "+6"
+    },
+    "damage_resistances": "Necrotic",
+    "damage_immunities": "",
+    "condition_immunities": "Frightened",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "14"
+    },
+    "languages": "Understands Common but cannot speak",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "Dark Forests",
+    "traits": [
+        {
+            "name": "Blood Frenzy",
+            "description": "The Bloodmoon Howler has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+        },
+        {
+            "name": "Howl of the Bloodmoon",
+            "description": "Once per day, the Bloodmoon Howler can let out a terrifying howl. All creatures within 60 feet that can hear the howl must succeed on a DC 13 Wisdom saving throw or become frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The Bloodmoon Howler makes two bite attacks."
+        },
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

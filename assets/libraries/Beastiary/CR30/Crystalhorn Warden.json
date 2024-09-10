@@ -1,0 +1,93 @@
+{
+    "creature_name": "Crystalhorn Warden",
+    "type": "Elemental",
+    "alignment": "Lawful Neutral",
+    "description": "The Crystalhorn Warden is a towering elemental guardian forged from the purest crystal. It serves as the protector of ancient, hidden sanctuaries, and its shimmering form reflects the light into dazzling patterns. Its mere presence commands respect and awe, as it stands as an unyielding sentinel against all who would defile the sacred grounds.",
+    "image": "assets/libraries/beastiary/cr30/CrystalhornWarden/CrystalhornWarden.png",
+    "armor_class": 25,
+    "hit_points": 850,
+    "speed": {
+        "walk": "30 ft.",
+        "fly": "60 ft. (hover)"
+    },
+    "ability_scores": {
+        "strength": 30,
+        "dexterity": 15,
+        "constitution": 30,
+        "intelligence": 22,
+        "wisdom": 24,
+        "charisma": 18
+    },
+    "saving_throws": {
+        "strength": "+17",
+        "dexterity": "+10",
+        "constitution": "+17"
+    },
+    "skills": {
+        "perception": "+15",
+        "stealth": "+10"
+    },
+    "damage_resistances": "Bludgeoning, Piercing, and Slashing from non-magical attacks",
+    "damage_immunities": "Radiant, Cold, Lightning, Psychic",
+    "condition_immunities": "Charmed, Exhaustion, Frightened, Paralyzed, Petrified",
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": "25"
+    },
+    "languages": "Primordial, Celestial, Telepathy 120 ft.",
+    "challenge_rating": "30",
+    "tamable": false,
+    "lair_type": "Ancient Crystal Sanctuaries",
+    "traits": [
+        {
+            "name": "Reflective Armor",
+            "description": "When a creature within 60 feet of the Crystalhorn Warden targets it with a ranged spell attack, the Warden can use its reaction to reflect the spell back at the caster."
+        },
+        {
+            "name": "Legendary Resistance (3/Day)",
+            "description": "If the Crystalhorn Warden fails a saving throw, it can choose to succeed instead."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The Crystalhorn Warden makes three Crystal Slam attacks."
+        },
+        {
+            "name": "Crystal Slam",
+            "description": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 40 (6d10 + 7) force damage."
+        },
+        {
+            "name": "Shatter Pulse (Recharge 5-6)",
+            "description": "The Warden emits a pulse of destructive energy. Each creature within 60 feet of it must make a DC 25 Constitution saving throw, taking 88 (16d10) radiant damage on a failed save, or half as much damage on a successful one."
+        }
+    ],
+    "reactions": [
+        {
+            "name": "Crystal Reflection",
+            "description": "When a creature hits the Warden with a melee attack, it can reflect a portion of the damage back to the attacker. The attacker must make a DC 23 Dexterity saving throw or take 26 (4d12) radiant damage."
+        }
+    ],
+    "legendary_actions": [
+        {
+            "name": "Crystal Burst",
+            "description": "The Warden releases a burst of radiant energy in a 30-foot radius. Each creature in the area must succeed on a DC 25 Dexterity saving throw or take 45 (10d8) radiant damage."
+        },
+        {
+            "name": "Crystallize",
+            "description": "The Warden can target one creature it can see within 60 feet of it. The target must succeed on a DC 24 Constitution saving throw or be petrified as its body begins to turn into crystal. The effect lasts for 1 minute or until dispelled."
+        }
+    ],
+    "lair_actions": [
+        {
+            "name": "Crystalline Regeneration",
+            "description": "At the start of its turn, the Warden can regenerate 50 hit points as long as it is within its lair."
+        }
+    ],
+    "regional_effects": [
+        {
+            "name": "Radiant Glow",
+            "description": "The area within 10 miles of the Warden’s lair is suffused with a radiant glow, granting advantage on Wisdom (Perception) checks to detect creatures within the glow."
+        }
+    ]
+}

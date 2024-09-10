@@ -1,0 +1,57 @@
+{
+    "creature_name": "Forest Pup",
+    "type": "Beast",
+    "alignment": "Neutral",
+    "description": "The Forest Pup is a small, nimble creature resembling a wolf cub, with fur that blends seamlessly with the forest floor. These creatures are known for their keen senses and their ability to navigate dense woods silently. Though they are generally peaceful, they can become ferocious when threatened or when protecting their territory.",
+    "image": "",
+    "armor_class": 12,
+    "hit_points": 22,
+    "speed": {
+        "walk": "40 ft",
+        "fly": "0 ft"
+    },
+    "ability_scores": {
+        "strength": 12,
+        "dexterity": 14,
+        "constitution": 12,
+        "intelligence": 4,
+        "wisdom": 12,
+        "charisma": 6
+    },
+    "saving_throws": {
+        "strength": "+2",
+        "dexterity": "+4",
+        "constitution": "+2"
+    },
+    "skills": {
+        "perception": "+3",
+        "stealth": "+4"
+    },
+    "damage_resistances": "None",
+    "damage_immunities": "None",
+    "condition_immunities": "None",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "13"
+    },
+    "languages": "Understands Common but cannot speak",
+    "challenge_rating": "1",
+    "tamable": true,
+    "lair_type": "Forests",
+    "traits": [
+        {
+            "name": "Pack Tactics",
+            "description": "The Forest Pup has advantage on an attack roll against a creature if at least one of the Forest Pup's allies is within 5 feet of the creature and the ally isn't incapacitated."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 2) piercing damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

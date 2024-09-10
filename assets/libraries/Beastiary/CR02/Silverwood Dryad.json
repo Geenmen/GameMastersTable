@@ -1,0 +1,65 @@
+{
+    "creature_name": "Silverwood Dryad",
+    "type": "Fey",
+    "alignment": "Neutral Good",
+    "description": "Silverwood Dryads are guardians of ancient, mystical forests. Their skin shimmers like silver bark, and their hair flows like leaves in a gentle breeze. These dryads are deeply connected to the trees they protect, often found near sacred groves where the oldest trees reside.",
+    "image": "",
+    "armor_class": 15,
+    "hit_points": 36,
+    "speed": {
+        "walk": "30 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 10,
+        "dexterity": 16,
+        "constitution": 12,
+        "intelligence": 14,
+        "wisdom": 15,
+        "charisma": 18
+    },
+    "saving_throws": {
+        "strength": "",
+        "dexterity": "Dex +5",
+        "constitution": "Con +3"
+    },
+    "skills": {
+        "perception": "+4",
+        "stealth": "+7"
+    },
+    "damage_resistances": "Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
+    "damage_immunities": "",
+    "condition_immunities": "Charmed, Frightened",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "14"
+    },
+    "languages": "Sylvan, Common",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "Sacred Grove",
+    "traits": [
+        {
+            "name": "Tree Stride",
+            "description": "Once on her turn, the Silverwood Dryad can use 10 feet of her movement to step magically into one living tree within her reach and emerge from a second living tree within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger."
+        },
+        {
+            "name": "Innate Spellcasting",
+            "description": "The Silverwood Dryad’s innate spellcasting ability is Charisma (spell save DC 14). She can innately cast the following spells, requiring no material components:\nAt will: *Druidcraft*\n3/day each: *Barkskin*, *Entangle*\n1/day each: *Charm Person*, *Pass Without Trace*"
+        }
+    ],
+    "actions": [
+        {
+            "name": "Club",
+            "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) bludgeoning damage."
+        },
+        {
+            "name": "Fey Charm",
+            "description": "The Silverwood Dryad targets one humanoid or beast that she can see within 30 feet of her. If the target can see the dryad, it must succeed on a DC 14 Wisdom saving throw or be magically charmed. The charmed creature regards the dryad as a trusted friend to be heeded and protected. Although the target isn’t under the dryad’s control, it takes the dryad’s requests or actions in the most favorable way it can.\nEach time the dryad or her allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the dryad dies, is on a different plane of existence from the target, or ends it as a bonus action."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

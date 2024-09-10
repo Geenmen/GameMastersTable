@@ -1,0 +1,104 @@
+{
+    "creature_name": "Goblin War-God",
+    "type": "Fiend",
+    "alignment": "Chaotic Evil",
+    "description": "The Goblin War-God is the embodiment of goblin fury and bloodlust, towering over its kin with god-like power. Its presence on the battlefield turns the tide of wars, its very steps causing the earth to tremble. Cloaked in dark, malevolent energy, this deity is feared by all who cross its path.",
+    "image": "goblin-war-god.png",
+    "armor_class": 25,
+    "hit_points": 650,
+    "speed": {
+        "walk": "60 ft.",
+        "fly": "120 ft. (hover)"
+    },
+    "ability_scores": {
+        "strength": 30,
+        "dexterity": 24,
+        "constitution": 28,
+        "intelligence": 20,
+        "wisdom": 22,
+        "charisma": 26
+    },
+    "saving_throws": {
+        "strength": "+19",
+        "dexterity": "+16",
+        "constitution": "+18"
+    },
+    "skills": {
+        "perception": "+17",
+        "stealth": "+16"
+    },
+    "damage_resistances": "fire, cold, necrotic; bludgeoning, piercing, and slashing from non-magical attacks",
+    "damage_immunities": "poison, psychic",
+    "condition_immunities": "charmed, frightened, paralyzed, poisoned",
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": "27"
+    },
+    "languages": "Common, Goblin, Infernal, Telepathy 120 ft.",
+    "challenge_rating": "30",
+    "tamable": false,
+    "lair_type": "Desecrated Temple",
+    "traits": [
+        {
+            "name": "Aura of Despair",
+            "description": "Any creature that starts its turn within 60 feet of the Goblin War-God must succeed on a DC 26 Wisdom saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        },
+        {
+            "name": "Divine Resilience",
+            "description": "The Goblin War-God has advantage on saving throws against spells and other magical effects."
+        },
+        {
+            "name": "War God's Wrath",
+            "description": "When the Goblin War-God is reduced to 0 hit points, it explodes in a 100-foot-radius sphere centered on itself. Each creature in that area must make a DC 26 Dexterity saving throw, taking 100 (20d8) force damage on a failed save, or half as much damage on a successful one."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The Goblin War-God makes three attacks: one with its Greatsword, one with its Infernal Longbow, and one with its Hellfire Breath."
+        },
+        {
+            "name": "Greatsword",
+            "description": "Melee Weapon Attack: +19 to hit, reach 15 ft., one target. Hit: 30 (4d8 + 12) slashing damage plus 18 (4d8) necrotic damage."
+        },
+        {
+            "name": "Infernal Longbow",
+            "description": "Ranged Weapon Attack: +16 to hit, range 150/600 ft., one target. Hit: 25 (3d10 + 9) piercing damage plus 14 (4d6) fire damage."
+        },
+        {
+            "name": "Hellfire Breath (Recharge 5-6)",
+            "description": "The Goblin War-God exhales a 90-foot cone of hellfire. Each creature in that area must make a DC 26 Dexterity saving throw, taking 98 (14d12) fire damage on a failed save, or half as much damage on a successful one."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [
+        {
+            "name": "Teleport",
+            "description": "The Goblin War-God magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+        },
+        {
+            "name": "Command Goblins",
+            "description": "Up to three goblins within 120 feet of the Goblin War-God that can hear it can use their reactions to move up to their speed and make a weapon attack."
+        },
+        {
+            "name": "Wrathful Gaze",
+            "description": "The Goblin War-God targets one creature it can see within 60 feet of it. The target must succeed on a DC 26 Wisdom saving throw or be paralyzed until the end of its next turn."
+        }
+    ],
+    "lair_actions": [
+        {
+            "name": "Darkness Descends",
+            "description": "Magical darkness spreads from a point the Goblin War-God chooses within its lair, filling a 60-foot radius sphere. The darkness spreads around corners. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it."
+        }
+    ],
+    "regional_effects": [
+        {
+            "name": "Goblinoid Influence",
+            "description": "Within 6 miles of the Goblin War-God's lair, goblins become more aggressive and warlike, attacking any non-goblinoid creatures they encounter."
+        },
+        {
+            "name": "Echoes of War",
+            "description": "Within 1 mile of the Goblin War-God's lair, the sounds of distant battle echo through the air, regardless of time or weather."
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "creature_name": "Cutpurse Scamp",
+    "type": "Humanoid",
+    "alignment": "Chaotic Neutral",
+    "description": "A small, wiry figure with quick hands and a mischievous grin. The Cutpurse Scamp thrives in crowded places, picking pockets and creating distractions. Despite their small stature, they are nimble and resourceful, making them a constant nuisance in urban environments.",
+    "image": "",
+    "armor_class": 13,
+    "hit_points": 16,
+    "speed": {
+        "walk": "30 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 8,
+        "dexterity": 16,
+        "constitution": 12,
+        "intelligence": 10,
+        "wisdom": 10,
+        "charisma": 14
+    },
+    "saving_throws": {
+        "strength": "",
+        "dexterity": "+5",
+        "constitution": "+2"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+7"
+    },
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "12"
+    },
+    "languages": "Common, Thieves' Cant",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "Urban",
+    "traits": [
+        {
+            "name": "Nimble Escape",
+            "description": "The Cutpurse Scamp can take the Disengage or Hide action as a bonus action on each of its turns."
+        },
+        {
+            "name": "Pickpocket",
+            "description": "The Cutpurse Scamp has advantage on Sleight of Hand checks to steal items from creatures within 5 feet."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Dagger",
+            "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+        },
+        {
+            "name": "Sling",
+            "description": "Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage."
+        },
+        {
+            "name": "Distract",
+            "description": "The Cutpurse Scamp can throw a small object or create a noise that distracts a creature within 30 feet, causing it to have disadvantage on its next attack roll."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

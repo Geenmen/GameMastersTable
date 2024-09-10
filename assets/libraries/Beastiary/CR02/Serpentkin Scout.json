@@ -1,0 +1,69 @@
+{
+    "creature_name": "Serpentkin Scout",
+    "type": "Humanoid",
+    "alignment": "Neutral Evil",
+    "description": "Serpentkin Scouts are agile and cunning creatures with a snake-like lower body and humanoid upper body. They serve as scouts and spies for larger serpentkin clans, using their stealth and speed to gather information and strike quickly when needed.",
+    "image": "",
+    "armor_class": 14,
+    "hit_points": 27,
+    "speed": {
+        "walk": "30 ft.",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 12,
+        "dexterity": 16,
+        "constitution": 12,
+        "intelligence": 11,
+        "wisdom": 13,
+        "charisma": 10
+    },
+    "saving_throws": {
+        "strength": "+3",
+        "dexterity": "+5",
+        "constitution": "+3"
+    },
+    "skills": {
+        "perception": "+3",
+        "stealth": "+7"
+    },
+    "damage_resistances": "Poison",
+    "damage_immunities": "",
+    "condition_immunities": "Poisoned",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "13"
+    },
+    "languages": "Common, Draconic",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "None",
+    "traits": [
+        {
+            "name": "Snake Body",
+            "description": "The Serpentkin Scout can move through small spaces as if it were one size smaller."
+        },
+        {
+            "name": "Keen Senses",
+            "description": "The Serpentkin Scout has advantage on Wisdom (Perception) checks that rely on smell."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The Serpentkin Scout makes two attacks with its scimitar or shortbow."
+        },
+        {
+            "name": "Scimitar",
+            "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+        },
+        {
+            "name": "Shortbow",
+            "description": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

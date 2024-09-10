@@ -41,9 +41,9 @@
     margin-top: 10px;
 }
 
-    .roll-button:hover {
-        background-color: #d93636;
-    }
+.roll-button:hover {
+    background-color: #d93636;
+}
 
 .dice-icon-container {
     margin: 10px 0;
@@ -58,9 +58,9 @@
     transition: transform 0.2s ease;
 }
 
-    .dice-icon.spin {
-        animation: spin-and-pulsate 0.6s linear infinite;
-    }
+.dice-icon.spin {
+    animation: spin-and-pulsate 0.6s linear infinite;
+}
 
 @keyframes spin-and-pulsate {
     0% {
@@ -100,19 +100,19 @@
     overflow-y: auto;
 }
 
-    .roll-history h3 {
-        margin-top: 0;
-        text-align: center;
-        font-size: 16px;
-        border-bottom: 1px solid var(--blue-border);
-        padding-bottom: 5px;
-    }
+.roll-history h3 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid var(--blue-border);
+    padding-bottom: 5px;
+}
 
-    .roll-history p {
-        margin: 0;
-        padding: 3px 0;
-        border-bottom: 1px solid var(--blue-border);
-    }
+.roll-history p {
+    margin: 0;
+    padding: 3px 0;
+    border-bottom: 1px solid var(--blue-border);
+}
 
 .dice-count-container {
     display: flex;
@@ -160,4 +160,19 @@
 
 .count-btn:hover {
     background-color: #383838; /* Slightly lighter shade on hover */
+}
+
+/* Style for the custom dice input */
+#custom-dice-input {
+    margin-bottom: 10px;
+    padding: 6px;
+    border: 1px solid var(--blue-border);
+    border-radius: 4px;
+    background-color: var(--section-color);
+    color: #e0e0e0;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    display: none; /* Initially hidden */
 }

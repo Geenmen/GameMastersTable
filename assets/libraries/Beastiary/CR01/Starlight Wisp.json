@@ -1,0 +1,61 @@
+{
+    "creature_name": "Starlight Wisp",
+    "type": "Celestial",
+    "alignment": "Neutral Good",
+    "description": "A small, glowing orb of light that dances through the night sky, the Starlight Wisp is often mistaken for a wandering star. It emits a soothing aura that calms those nearby, and its light is said to guide lost travelers to safety. Though it is not particularly strong, it can defend itself with bursts of radiant energy.",
+    "image": "assets/libraries/beastiary/CR1/StarlightWisp/StarlightWisp.png",
+    "armor_class": 13,
+    "hit_points": 12,
+    "speed": {
+        "walk": "0 ft.",
+        "fly": "30 ft."
+    },
+    "ability_scores": {
+        "strength": 1,
+        "dexterity": 17,
+        "constitution": 10,
+        "intelligence": 10,
+        "wisdom": 14,
+        "charisma": 16
+    },
+    "saving_throws": {
+        "dexterity": "+5",
+        "wisdom": "+4",
+        "charisma": "+5"
+    },
+    "skills": {
+        "perception": "+4",
+        "stealth": "+7"
+    },
+    "damage_resistances": "Radiant",
+    "damage_immunities": "Necrotic",
+    "condition_immunities": "Frightened",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "14"
+    },
+    "languages": "Understands Celestial, telepathy 30 ft.",
+    "challenge_rating": "1",
+    "tamable": true,
+    "lair_type": "None",
+    "traits": [
+        {
+            "name": "Guiding Light",
+            "description": "The Starlight Wisp emits bright light in a 10-foot radius and dim light for an additional 10 feet. This light can be extinguished or reignited as a bonus action."
+        },
+        {
+            "name": "Calming Presence",
+            "description": "Any creature within 10 feet of the Starlight Wisp has advantage on saving throws against being frightened."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Radiant Burst",
+            "description": "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit: 1d8 radiant damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

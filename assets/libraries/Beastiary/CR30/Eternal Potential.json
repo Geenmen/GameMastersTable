@@ -1,0 +1,88 @@
+{
+    "creature_name": "Eternal Potential",
+    "type": "Celestial",
+    "alignment": "Neutral",
+    "description": "The Eternal Potential is a being of immense cosmic power, neither benevolent nor malevolent. It exists beyond the constraints of time and reality, offering to alter the very essence of those who seek its counsel. Appearing as a towering figure of shifting light and shadow, its form is both awe-inspiring and terrifying, reflecting the duality of its gifts—boons and banes that can elevate or devastate those who dare approach.",
+    "image": "",
+    "armor_class": 25,
+    "hit_points": 500,
+    "speed": {
+        "walk": "30 ft.",
+        "fly": "60 ft."
+    },
+    "ability_scores": {
+        "strength": 10,
+        "dexterity": 14,
+        "constitution": 18,
+        "intelligence": 30,
+        "wisdom": 30,
+        "charisma": 30
+    },
+    "saving_throws": {
+        "strength": "+5",
+        "dexterity": "+10",
+        "constitution": "+15"
+    },
+    "skills": {
+        "perception": "+20",
+        "stealth": "+12"
+    },
+    "damage_resistances": "Radiant, Necrotic",
+    "damage_immunities": "Psychic, Poison",
+    "condition_immunities": "Charmed, Frightened",
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": "30"
+    },
+    "languages": "All, Telepathy 120 ft.",
+    "challenge_rating": "30",
+    "tamable": false,
+    "lair_type": "Astral Plane",
+    "traits": [
+        {
+            "name": "Twist of Fate",
+            "description": "The Eternal Potential can permanently alter a creature’s ability scores, increasing one score by up to +4 and reducing another by the same amount. This effect cannot be dispelled and is not subject to restoration by any means short of a wish spell."
+        },
+        {
+            "name": "Boon of the Eternal",
+            "description": "Once per day, the Eternal Potential can bestow a unique racial upgrade to a creature, such as granting them the ability to breathe underwater, grow wings for flight, or even change their race entirely. The boon is permanent and irrevocable."
+        },
+        {
+            "name": "Curse of Potential Lost",
+            "description": "The Eternal Potential can impose a curse on a creature, permanently reducing one of their skills by 5 points. This effect can manifest as forgetfulness, clumsiness, or loss of talent."
+        },
+        {
+            "name": "Essence Exchange",
+            "description": "The Eternal Potential can allow a creature to trade one of their traits, abilities, or skills with another creature that the Eternal Potential has previously encountered. This exchange is permanent and can have unforeseen consequences."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Gift of Potential",
+            "description": "The Eternal Potential can grant a creature a +2 bonus to all ability scores or a +10 bonus to any one skill of their choice. This effect lasts indefinitely until the creature performs a significant act of good or evil, upon which the bonus either becomes permanent or is lost forever, based on the act's nature."
+        },
+        {
+            "name": "Vision of Potential",
+            "description": "The Eternal Potential can show a creature visions of their ultimate potential, granting them advantage on all rolls related to a single skill for the next 24 hours. However, this vision may also reveal their deepest fears, imposing disadvantage on all rolls related to another skill for the same duration."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [
+        {
+            "name": "Alter Reality",
+            "description": "The Eternal Potential can use a legendary action to alter the outcome of any event or action within its sight, changing a failed roll into a success or vice versa. This power can only be used once per long rest."
+        }
+    ],
+    "lair_actions": [
+        {
+            "name": "Shift of Potential",
+            "description": "When in its lair, the Eternal Potential can manipulate the very fabric of reality, causing all creatures within its domain to feel their potential shifting. Each creature must succeed on a DC 25 Wisdom saving throw or have one of their ability scores temporarily swapped with another for 1 hour."
+        }
+    ],
+    "regional_effects": [
+        {
+            "name": "Aura of Potential",
+            "description": "The area around the Eternal Potential’s lair is suffused with an aura that subtly influences the growth or decline of creatures within it. Those who reside within 10 miles of the lair for more than a week may find their abilities enhanced or diminished by 1d4 points in a randomly chosen ability score."
+        }
+    ]
+}

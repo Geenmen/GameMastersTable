@@ -1,0 +1,65 @@
+{
+    "creature_name": "Bogling Creeper",
+    "type": "Aberration",
+    "alignment": "Chaotic Evil",
+    "description": "The Bogling Creeper is a small, twisted creature that lurks in the dense, foggy swamps. Its body is a mass of writhing tendrils and glowing eyes that peer out from the shadows, seeking its next victim. It moves silently through the muck, blending in with the environment, and strikes with venomous bites and constricting tendrils.",
+    "image": "assets/libraries/Beastiary/CR1/BoglingCreeper/BoglingCreeper.png",
+    "armor_class": 13,
+    "hit_points": 22,
+    "speed": {
+        "walk": "20 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 8,
+        "dexterity": 14,
+        "constitution": 12,
+        "intelligence": 6,
+        "wisdom": 10,
+        "charisma": 5
+    },
+    "saving_throws": {
+        "strength": "",
+        "dexterity": "+4",
+        "constitution": "+2"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+6"
+    },
+    "damage_resistances": "Cold, Poison",
+    "damage_immunities": "",
+    "condition_immunities": "Poisoned",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "12"
+    },
+    "languages": "Understands Deep Speech but can't speak",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "Swamp",
+    "traits": [
+        {
+            "name": "Amphibious",
+            "description": "The Bogling Creeper can breathe air and water."
+        },
+        {
+            "name": "Misty Camouflage",
+            "description": "The Bogling Creeper has advantage on Dexterity (Stealth) checks made to hide in swampy or foggy environments."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Tendril Strike",
+            "description": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 6 (1d6+2) bludgeoning damage. The target is grappled (escape DC 12) if it is a creature. Until this grapple ends, the target is restrained, and the Bogling Creeper can't use this tendril on another target."
+        },
+        {
+            "name": "Venomous Bite",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4+2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

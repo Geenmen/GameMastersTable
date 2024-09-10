@@ -1,0 +1,65 @@
+{
+    "creature_name": "Cozy Hearth Sprite",
+    "type": "Fey",
+    "alignment": "Neutral Good",
+    "description": "The Cozy Hearth Sprite is a small, warm-hearted fey creature that embodies the comfort and warmth of a crackling fireplace. These sprites are often found in the homes of those who maintain hearths, protecting them from the cold and ensuring the flames burn brightly. Their presence is marked by a gentle glow and the faint scent of wood smoke.",
+    "image": "",
+    "armor_class": 13,
+    "hit_points": 18,
+    "speed": {
+        "walk": "20 ft.",
+        "fly": "30 ft."
+    },
+    "ability_scores": {
+        "strength": 4,
+        "dexterity": 16,
+        "constitution": 12,
+        "intelligence": 10,
+        "wisdom": 14,
+        "charisma": 16
+    },
+    "saving_throws": {
+        "strength": "-3",
+        "dexterity": "+5",
+        "constitution": "+1"
+    },
+    "skills": {
+        "perception": "+4",
+        "stealth": "+7"
+    },
+    "damage_resistances": "Fire",
+    "damage_immunities": "Cold",
+    "condition_immunities": "Charmed, Frightened",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "14"
+    },
+    "languages": "Sylvan, Common",
+    "challenge_rating": "1",
+    "tamable": true,
+    "lair_type": "Warm and cozy hearths",
+    "traits": [
+        {
+            "name": "Aura of Warmth",
+            "description": "The Cozy Hearth Sprite emits a comforting aura in a 10-foot radius. Creatures within this aura have advantage on saving throws against cold damage and can reduce any cold damage taken by 1d4."
+        },
+        {
+            "name": "Innate Spellcasting",
+            "description": "The Cozy Hearth Sprite’s innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:\n\n- At will: Produce Flame, Control Flames\n- 1/day each: Cure Wounds, Faerie Fire"
+        }
+    ],
+    "actions": [
+        {
+            "name": "Warm Embrace",
+            "description": "The Cozy Hearth Sprite touches a creature, restoring 1d8+2 hit points. This action can only be used once per long rest."
+        },
+        {
+            "name": "Firebolt",
+            "description": "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit: 1d10 fire damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

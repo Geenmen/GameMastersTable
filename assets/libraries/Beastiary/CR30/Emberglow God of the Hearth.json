@@ -1,0 +1,101 @@
+{
+    "creature_name": "Emberglow God of the Hearth",
+    "type": "Celestial",
+    "alignment": "Lawful Good",
+    "description": "The Emberglow God of the Hearth is a towering figure wreathed in eternal flames that neither consume nor destroy but provide warmth and comfort. It is worshipped as the protector of families and communities, known to bring safety and prosperity to those who honor the hearth. Its presence brings light to the darkest of places, and its gaze sees into the hearts of all beings, judging their worth.",
+    "image": "",
+    "armor_class": 26,
+    "hit_points": 800,
+    "speed": {
+        "walk": "60 ft.",
+        "fly": "120 ft."
+    },
+    "ability_scores": {
+        "strength": 30,
+        "dexterity": 20,
+        "constitution": 30,
+        "intelligence": 25,
+        "wisdom": 28,
+        "charisma": 29
+    },
+    "saving_throws": {
+        "strength": "+18",
+        "dexterity": "+14",
+        "constitution": "+18"
+    },
+    "skills": {
+        "perception": "+16",
+        "stealth": "+14"
+    },
+    "damage_resistances": "fire, radiant; bludgeoning, piercing, and slashing from nonmagical weapons",
+    "damage_immunities": "cold, necrotic, poison",
+    "condition_immunities": "charmed, frightened, poisoned",
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": "26"
+    },
+    "languages": "All, telepathy 120 ft.",
+    "challenge_rating": "30",
+    "tamable": false,
+    "lair_type": "A grand hearth in a celestial domain, surrounded by eternal fire and ancient inscriptions, where the Emberglow God can control the elements of fire and light.",
+    "traits": [
+        {
+            "name": "Aura of Comfort",
+            "description": "Allies within 60 feet of the Emberglow God gain advantage on saving throws against fear and resistance to fire damage."
+        },
+        {
+            "name": "Radiant Flame",
+            "description": "The Emberglow God’s attacks deal an additional 20 (6d6) radiant damage. Creatures hit by its attacks must succeed on a DC 25 Constitution saving throw or be blinded until the end of their next turn."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The Emberglow God makes three attacks with its Flaming Sword."
+        },
+        {
+            "name": "Flaming Sword",
+            "description": "Melee Weapon Attack: +18 to hit, reach 15 ft., one target. Hit: 35 (4d12 + 9) slashing damage plus 20 (6d6) radiant damage."
+        },
+        {
+            "name": "Divine Light (Recharge 5-6)",
+            "description": "The Emberglow God releases a burst of divine light. All enemies within 60 feet must make a DC 25 Wisdom saving throw or be paralyzed for 1 minute. A paralyzed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        }
+    ],
+    "reactions": [
+        {
+            "name": "Protective Flames",
+            "description": "When an ally within 60 feet of the Emberglow God is hit by an attack, the Emberglow God can use its reaction to deal 10 (3d6) fire damage to the attacker and grant the ally resistance to that attack’s damage."
+        }
+    ],
+    "legendary_actions": [
+        {
+            "name": "Blazing Step",
+            "description": "The Emberglow God can teleport up to 60 feet to an unoccupied space it can see. When it does so, it leaves behind a trail of fire that lasts until the start of its next turn. The fire deals 10 (3d6) fire damage to any creature that moves through it."
+        },
+        {
+            "name": "Radiant Burst",
+            "description": "The Emberglow God releases a burst of radiant energy in a 30-foot radius. Each enemy creature in that area must make a DC 25 Constitution saving throw, taking 36 (8d8) radiant damage on a failed save, or half as much on a successful one."
+        },
+        {
+            "name": "Hearth’s Blessing (Costs 2 Actions)",
+            "description": "The Emberglow God blesses one ally it can see within 60 feet, granting them 50 temporary hit points and advantage on all attack rolls, saving throws, and ability checks until the end of their next turn."
+        }
+    ],
+    "lair_actions": [
+        {
+            "name": "Hearth's Warmth",
+            "description": "At initiative count 20 (losing initiative ties), the Emberglow God can cause any hearth or fire within its lair to flare up. Each enemy within 30 feet of a hearth or fire must succeed on a DC 25 Dexterity saving throw or take 22 (5d8) fire damage."
+        },
+        {
+            "name": "Comforting Flames",
+            "description": "The Emberglow God can cause all fires within its lair to emit a soothing warmth. All allies within 60 feet of a fire gain 20 temporary hit points."
+        }
+    ],
+    "regional_effects": [
+        {
+            "name": "Blessed Hearths",
+            "description": "Within 10 miles of the Emberglow God’s lair, hearths and fires burn brighter, providing warmth and comfort. Food cooked on these fires is always nourishing, and creatures resting near them recover twice as many hit points from resting."
+        }
+    ]
+}

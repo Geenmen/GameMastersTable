@@ -1,0 +1,101 @@
+{
+    "creature_name": "Abyssal Sea God",
+    "type": "Celestial",
+    "alignment": "Chaotic Evil",
+    "description": "The Abyssal Sea God is an ancient deity, born from the deepest trenches of the ocean. Its form is an ever-shifting mass of tentacles, scales, and abyssal energy. It controls the ocean's most dangerous creatures, commanding the tides and storms with a mere thought. Those who gaze upon its true form are driven mad by its unfathomable power.",
+    "image": "",  // Image URL or file path here
+    "armor_class": 25,
+    "hit_points": 900,
+    "speed": {
+        "walk": "0 ft.",
+        "fly": "60 ft. (hover)",
+        "swim": "120 ft."
+    },
+    "ability_scores": {
+        "strength": 30,
+        "dexterity": 18,
+        "constitution": 28,
+        "intelligence": 25,
+        "wisdom": 27,
+        "charisma": 26
+    },
+    "saving_throws": {
+        "strength": "+18",
+        "dexterity": "+13",
+        "constitution": "+17"
+    },
+    "skills": {
+        "perception": "+16",
+        "stealth": "+13"
+    },
+    "damage_resistances": "Cold; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
+    "damage_immunities": "Poison, Psychic",
+    "condition_immunities": "Charmed, Frightened, Paralyzed, Petrified, Poisoned",
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": "26"
+    },
+    "languages": "Abyssal, Celestial, Aquan; telepathy 120 ft.",
+    "challenge_rating": "30",
+    "tamable": false,
+    "lair_type": "Underwater Abyss",
+    "traits": [
+        {
+            "name": "Amphibious",
+            "description": "The Abyssal Sea God can breathe air and water."
+        },
+        {
+            "name": "Legendary Resistance (3/Day)",
+            "description": "If the Abyssal Sea God fails a saving throw, it can choose to succeed instead."
+        },
+        {
+            "name": "Tidal Wave (Recharge 5-6)",
+            "description": "The Abyssal Sea God can summon a massive tidal wave that crashes down on all creatures within a 120-foot radius, dealing 10d10 bludgeoning damage and knocking them prone."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The Abyssal Sea God makes three attacks: one with its tentacles and two with its bite."
+        },
+        {
+            "name": "Tentacle",
+            "description": "Melee Weapon Attack: +18 to hit, reach 30 ft., one target. Hit: 25 (3d10 + 10) bludgeoning damage, and the target is grappled (escape DC 26)."
+        },
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +18 to hit, reach 5 ft., one target. Hit: 30 (4d10 + 10) piercing damage."
+        },
+        {
+            "name": "Control Water (Recharge 5-6)",
+            "description": "The Abyssal Sea God can cast the spell Control Water at will."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [
+        {
+            "name": "Tentacle Slam",
+            "description": "The Abyssal Sea God slams a creature it is grappling into the ground, dealing 35 (5d10 + 10) bludgeoning damage."
+        },
+        {
+            "name": "Whirlpool (Costs 2 Actions)",
+            "description": "The Abyssal Sea God creates a whirlpool in the water around it, forcing all creatures within a 60-foot radius to make a DC 24 Strength saving throw or be pulled 30 feet toward the center of the whirlpool and restrained."
+        },
+        {
+            "name": "Summon Sea Beasts (Costs 3 Actions)",
+            "description": "The Abyssal Sea God summons 1d4 giant sharks or 1 kraken under its command, which appear within 60 feet of it and remain for 1 hour or until they die."
+        }
+    ],
+    "lair_actions": [
+        {
+            "name": "Rising Tides",
+            "description": "The Abyssal Sea God can cause the water level in its lair to rise rapidly, flooding the area and dealing 6d6 cold damage to all non-amphibious creatures."
+        }
+    ],
+    "regional_effects": [
+        {
+            "name": "Oceanic Terror",
+            "description": "The waters within 6 miles of the Abyssal Sea God’s lair become turbulent, making it difficult to navigate and causing fear in all creatures that enter."
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "creature_name": "Exiled Footsoldier",
+    "type": "Humanoid",
+    "alignment": "Chaotic Neutral",
+    "description": "Once a proud member of an elite battalion, the Exiled Footsoldier now wanders the wilds, clad in tattered armor. Haunted by betrayal and driven by a desire for vengeance, they have honed their survival skills and will fight fiercely against anyone they perceive as a threat.",
+    "image": "assets/libraries/Beastiary/CR1/ExiledFootsoldier/ExiledFootsoldier.png",
+    "armor_class": 15,
+    "hit_points": 26,
+    "speed": {
+        "walk": "30 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 14,
+        "dexterity": 12,
+        "constitution": 13,
+        "intelligence": 10,
+        "wisdom": 11,
+        "charisma": 8
+    },
+    "saving_throws": {
+        "strength": "+4",
+        "dexterity": "+2",
+        "constitution": "+3"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+4"
+    },
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "12"
+    },
+    "languages": "Common",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "None",
+    "traits": [
+        {
+            "name": "Survivor",
+            "description": "The Exiled Footsoldier has advantage on saving throws against being frightened."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Longsword",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) slashing damage."
+        },
+        {
+            "name": "Javelin",
+            "description": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 6 (1d6+3) piercing damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

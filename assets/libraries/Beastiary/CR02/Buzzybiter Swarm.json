@@ -1,0 +1,61 @@
+{
+    "creature_name": "Buzzybiter Swarm",
+    "type": "Beast (Swarm)",
+    "alignment": "Unaligned",
+    "description": "A swirling mass of tiny, winged mammals resembling miniature, aggressive rodents. Their fur bristles with static electricity, and their sharp teeth are capable of gnawing through leather and wood with ease. Though individually weak, the swarm poses a significant threat to anyone caught within its chaotic flurry.",
+    "image": "",
+    "armor_class": 14,
+    "hit_points": 22,
+    "speed": {
+        "walk": "20 ft.",
+        "fly": "30 ft."
+    },
+    "ability_scores": {
+        "strength": 4,
+        "dexterity": 16,
+        "constitution": 12,
+        "intelligence": 2,
+        "wisdom": 12,
+        "charisma": 4
+    },
+    "saving_throws": {
+        "strength": "",
+        "dexterity": "3",
+        "constitution": ""
+    },
+    "skills": {
+        "perception": "3",
+        "stealth": "7"
+    },
+    "damage_resistances": "Bludgeoning, Piercing, Slashing",
+    "damage_immunities": "",
+    "condition_immunities": "Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "13"
+    },
+    "languages": "",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "None",
+    "traits": [
+        {
+            "name": "Swarm",
+            "description": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny beast. The swarm can't regain hit points or gain temporary hit points."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +5 to hit, reach 0 ft., one target in the swarm's space. Hit: 2d6 piercing damage, or 1d6 piercing damage if the swarm has half of its hit points or fewer."
+        },
+        {
+            "name": "Static Discharge",
+            "description": "As a bonus action, the swarm can discharge a burst of static electricity, dealing 1d4 lightning damage to each creature in its space."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

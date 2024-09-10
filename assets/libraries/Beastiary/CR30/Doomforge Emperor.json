@@ -1,0 +1,88 @@
+{
+    "creature_name": "Doomforge Emperor",
+    "type": "Fiend",
+    "alignment": "Lawful Evil",
+    "description": "The Doomforge Emperor is an ancient and malevolent entity forged in the deepest pits of the underworld. Commanding legions of infernal creatures, this fiend is known for its mastery over both fire and steel. Its body is a hulking mass of molten metal and charred bone, with eyes that burn like twin suns.",
+    "image": "",
+    "armor_class": 25,
+    "hit_points": 600,
+    "speed": {
+        "walk": "40 ft.",
+        "fly": "80 ft. (hover)"
+    },
+    "ability_scores": {
+        "strength": 30,
+        "dexterity": 14,
+        "constitution": 30,
+        "intelligence": 22,
+        "wisdom": 20,
+        "charisma": 28
+    },
+    "saving_throws": {
+        "strength": "+17",
+        "dexterity": "+10",
+        "constitution": "+17"
+    },
+    "skills": {
+        "perception": "+16",
+        "stealth": "+10"
+    },
+    "damage_resistances": "Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
+    "damage_immunities": "Fire, Poison",
+    "condition_immunities": "Charmed, Frightened, Paralyzed, Poisoned",
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": "26"
+    },
+    "languages": "Abyssal, Infernal, Telepathy 120 ft.",
+    "challenge_rating": "30",
+    "tamable": false,
+    "lair_type": "Volcanic Fortress",
+    "traits": [
+        {
+            "name": "Hellish Aura",
+            "description": "Any creature that starts its turn within 30 feet of the Doomforge Emperor must make a DC 25 Constitution saving throw, taking 35 (10d6) fire damage on a failed save, or half as much damage on a successful one."
+        },
+        {
+            "name": "Molten Form",
+            "description": "The Doomforge Emperor’s body is made of molten metal. Any creature that touches the Emperor or hits it with a melee attack while within 10 feet takes 21 (6d6) fire damage."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The Doomforge Emperor makes three attacks: one with its Hellfire Greatsword and two with its Molten Fist."
+        },
+        {
+            "name": "Hellfire Greatsword",
+            "description": "Melee Weapon Attack: +19 to hit, reach 10 ft., one target. Hit: 30 (4d8 + 12) slashing damage plus 21 (6d6) fire damage."
+        },
+        {
+            "name": "Molten Fist",
+            "description": "Melee Weapon Attack: +17 to hit, reach 5 ft., one target. Hit: 28 (4d6 + 12) bludgeoning damage plus 21 (6d6) fire damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [
+        {
+            "name": "Infernal Command",
+            "description": "The Doomforge Emperor commands all fiends within 120 feet to take an immediate action."
+        },
+        {
+            "name": "Fiery Wrath",
+            "description": "The Doomforge Emperor releases a burst of hellfire in a 60-foot radius. Each creature in the area must make a DC 25 Dexterity saving throw, taking 70 (20d6) fire damage on a failed save, or half as much damage on a successful one."
+        }
+    ],
+    "lair_actions": [
+        {
+            "name": "Volcanic Eruption",
+            "description": "At initiative count 20 (losing initiative ties), the Doomforge Emperor causes the ground to erupt in fire and lava. All creatures on the ground within 120 feet of the Emperor must make a DC 25 Dexterity saving throw, taking 52 (15d6) fire damage on a failed save, or half as much damage on a successful one."
+        }
+    ],
+    "regional_effects": [
+        {
+            "name": "Infernal Heat",
+            "description": "The region within 10 miles of the Doomforge Emperor's lair is plagued by unbearable heat. Nonmagical flames are automatically extinguished, and all water sources are boiling hot."
+        }
+    ]
+}

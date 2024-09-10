@@ -1,0 +1,61 @@
+{
+    "creature_name": "Spark of Creation",
+    "type": "Elemental",
+    "alignment": "Neutral",
+    "description": "A tiny, flickering mote of elemental energy, the Spark of Creation is a living embodiment of raw potential. It crackles with arcane energy, ready to ignite into greater forms or inspire creation in those who come into contact with it.",
+    "image": "",
+    "armor_class": 13,
+    "hit_points": 22,
+    "speed": {
+        "walk": "20 ft",
+        "fly": "40 ft (hover)"
+    },
+    "ability_scores": {
+        "strength": 5,
+        "dexterity": 17,
+        "constitution": 10,
+        "intelligence": 14,
+        "wisdom": 12,
+        "charisma": 16
+    },
+    "saving_throws": {
+        "strength": "-3",
+        "dexterity": "+3",
+        "constitution": "+0"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+5"
+    },
+    "damage_resistances": "fire, lightning",
+    "damage_immunities": "poison",
+    "condition_immunities": "poisoned, charmed",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "12"
+    },
+    "languages": "Primordial",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "None",
+    "traits": [
+        {
+            "name": "Inspiration Aura",
+            "description": "Creatures within 10 feet of the Spark of Creation have advantage on saving throws against fear and gain a +1 bonus to attack rolls and ability checks."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Arcane Burst",
+            "description": "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit: 10 (3d6) force damage."
+        },
+        {
+            "name": "Ignite Potential",
+            "description": "The Spark of Creation can touch a willing creature, infusing them with arcane energy. The creature gains 1d6 temporary hit points and can reroll one failed attack roll, ability check, or saving throw within the next hour."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

@@ -1,0 +1,65 @@
+{
+    "creature_name": "Wary Watchman",
+    "type": "Humanoid",
+    "alignment": "Lawful Neutral",
+    "description": "The Wary Watchman is a vigilant guardian, known for its sharp senses and unwavering focus. Found near the gates of ancient ruins or patrolling quiet villages, this creature rarely misses a detail. With keen eyes and an attuned mind, the Wary Watchman is quick to spot danger and alert allies.",
+    "image": "",
+    "armor_class": 14,
+    "hit_points": 26,
+    "speed": {
+        "walk": "30 ft.",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 12,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 10,
+        "wisdom": 16,
+        "charisma": 11
+    },
+    "saving_throws": {
+        "strength": "+3",
+        "dexterity": "+4",
+        "constitution": "+3"
+    },
+    "skills": {
+        "perception": "+7",
+        "stealth": "+6"
+    },
+    "damage_resistances": "Poison",
+    "damage_immunities": "",
+    "condition_immunities": "Frightened",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "17"
+    },
+    "languages": "Common, Elvish",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "Urban",
+    "traits": [
+        {
+            "name": "Keen Hearing and Sight",
+            "description": "The Wary Watchman has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The Wary Watchman makes two melee attacks with its longsword."
+        },
+        {
+            "name": "Longsword",
+            "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage."
+        },
+        {
+            "name": "Alertness",
+            "description": "The Wary Watchman can use its reaction to warn allies, granting them advantage on the next attack roll or saving throw until the end of its next turn."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

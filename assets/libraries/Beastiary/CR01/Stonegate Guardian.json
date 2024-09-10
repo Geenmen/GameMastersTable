@@ -1,0 +1,57 @@
+{
+    "creature_name": "Stonegate Guardian",
+    "type": "Construct",
+    "alignment": "Neutral",
+    "description": "The Stonegate Guardian is an ancient construct built to protect sacred sites and ancient ruins. Its body is made of rough-hewn stone, and it stands vigilant, attacking any who dare trespass without proper rites.",
+    "image": "",
+    "armor_class": 15,
+    "hit_points": 39,
+    "speed": {
+        "walk": "20 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 17,
+        "dexterity": 8,
+        "constitution": 15,
+        "intelligence": 3,
+        "wisdom": 10,
+        "charisma": 5
+    },
+    "saving_throws": {
+        "strength": "+3",
+        "dexterity": "",
+        "constitution": "+2"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": ""
+    },
+    "damage_resistances": "bludgeoning, piercing, and slashing from non-magical attacks",
+    "damage_immunities": "poison",
+    "condition_immunities": "exhaustion, petrified, poisoned",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "12"
+    },
+    "languages": "understands commands in Terran but cannot speak",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "Ancient ruins or sacred sites",
+    "traits": [
+        {
+            "name": "False Appearance",
+            "description": "While the Stonegate Guardian remains motionless, it is indistinguishable from a normal stone statue."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Slam",
+            "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 3) bludgeoning damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

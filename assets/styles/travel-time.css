@@ -1,0 +1,117 @@
+/* Container for the entire travel time feature */
+.travel-time-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #f5f5f5;
+    color: #333;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Headings */
+.travel-time-container h3 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #222;
+}
+
+/* Grid layout for input fields */
+.travel-inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+/* Input group: label and input paired together */
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels for inputs */
+.input-group label {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 3px;
+}
+
+/* Input fields */
+.travel-inputs input {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #333;
+    font-size: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Checkbox for encounter generation */
+.encounter-checkbox {
+    font-size: 12px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.encounter-checkbox input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Button styles */
+.calculate-btn {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 8px 0;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    text-align: center;
+    transition: background-color 0.2s ease-in-out;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.calculate-btn:hover {
+    background-color: #555;
+}
+
+/* Result container */
+.results {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+/* Individual result items */
+.result-item {
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.result-item h4 {
+    margin: 0 0 5px;
+    font-size: 12px;
+    color: #333;
+}
+
+.result-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}

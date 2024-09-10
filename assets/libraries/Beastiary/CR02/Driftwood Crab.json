@@ -1,0 +1,61 @@
+{
+    "creature_name": "Driftwood Crab",
+    "type": "Beast",
+    "alignment": "Unaligned",
+    "description": "The Driftwood Crab is a large, amphibious creature with a carapace resembling the weathered remains of a small shipwreck. This natural camouflage allows it to blend seamlessly into coastal environments, often being mistaken for debris from a shipwreck. It uses this disguise to ambush unsuspecting prey or to avoid predators. Its sturdy claws are powerful enough to snap through thick ropes or wooden beams, further adding to the illusion that it's just another piece of wreckage until it moves.",
+    "image": "",
+    "armor_class": 15,
+    "hit_points": 37,
+    "speed": {
+        "walk": "20 ft.",
+        "swim": "30 ft."
+    },
+    "ability_scores": {
+        "strength": 15,
+        "dexterity": 12,
+        "constitution": 14,
+        "intelligence": 2,
+        "wisdom": 10,
+        "charisma": 4
+    },
+    "saving_throws": {
+        "strength": "+4",
+        "dexterity": "+2",
+        "constitution": "+4"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+4"
+    },
+    "damage_resistances": "Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "12"
+    },
+    "languages": "",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "Coastal shores, shipwrecks",
+    "traits": [
+        {
+            "name": "Natural Camouflage",
+            "description": "The Driftwood Crab has advantage on Dexterity (Stealth) checks made to hide in coastal or wreckage environments."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Claw",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. If the target is a creature, it is grappled (escape DC 12). The Driftwood Crab has two claws, each of which can grapple only one target."
+        },
+        {
+            "name": "Snapping Claw",
+            "description": "The Driftwood Crab can use an action to deal 8 (1d8 + 4) slashing damage to a creature it has grappled."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

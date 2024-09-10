@@ -1,0 +1,65 @@
+{
+    "creature_name": "Chattering Teacup",
+    "type": "Construct",
+    "alignment": "Neutral",
+    "description": "A whimsical, animated porcelain teacup with a handle that mimics a mouth. The Chattering Teacup hops around on its delicate base, making clinking sounds as it moves. Despite its small size, it has a mischievous personality and is known for its incessant chattering and attempts to cause mild chaos.",
+    "image": "",
+    "armor_class": 12,
+    "hit_points": 18,
+    "speed": {
+        "walk": "20 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 6,
+        "dexterity": 14,
+        "constitution": 12,
+        "intelligence": 10,
+        "wisdom": 12,
+        "charisma": 14
+    },
+    "saving_throws": {
+        "strength": "",
+        "dexterity": "4",
+        "constitution": "3"
+    },
+    "skills": {
+        "perception": "2",
+        "stealth": "4"
+    },
+    "damage_resistances": "Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
+    "damage_immunities": "Poison, Psychic",
+    "condition_immunities": "Charmed, Exhaustion, Frightened, Paralyzed, Poisoned",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "12"
+    },
+    "languages": "Understands Common but can't speak",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "Abandoned Tea Parlors or Forgotten Corners of Magical Estates",
+    "traits": [
+        {
+            "name": "Magical Mimicry",
+            "description": "The Chattering Teacup can mimic any sound it has heard within the last 24 hours, including voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check."
+        },
+        {
+            "name": "Innocuous Appearance",
+            "description": "Due to its harmless appearance, the Chattering Teacup has advantage on Dexterity (Stealth) checks made to hide."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Chattering Distraction",
+            "description": "The Chattering Teacup chatters loudly, distracting a creature within 30 feet that can hear it. The target must succeed on a DC 12 Wisdom saving throw or have disadvantage on attack rolls and ability checks until the end of its next turn."
+        },
+        {
+            "name": "Hop and Bite",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

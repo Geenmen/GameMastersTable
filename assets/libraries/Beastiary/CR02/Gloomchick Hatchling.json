@@ -1,0 +1,60 @@
+{
+    "creature_name": "Gloomchick Hatchling",
+    "type": "Aberration",
+    "alignment": "Neutral Evil",
+    "description": "A small, eerie bird-like creature with jet-black feathers that seem to absorb light. Its eyes glow with a faint purple hue, and its talons are sharp and dripping with a mysterious dark substance. The Gloomchick Hatchling is the juvenile form of the feared Gloomchick, known for its sinister presence in dark forests and forgotten ruins.",
+    "image": "assets/libraries/Beastiary/CR2/GloomchickHatchling/GloomchickHatchling.png",
+    "armor_class": 13,
+    "hit_points": 32,
+    "speed": {
+        "walk": "20 ft.",
+        "fly": "50 ft."
+    },
+    "ability_scores": {
+        "strength": 8,
+        "dexterity": 16,
+        "constitution": 12,
+        "intelligence": 5,
+        "wisdom": 10,
+        "charisma": 7
+    },
+    "saving_throws": {
+        "dexterity": "+5",
+        "constitution": "+2"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+6"
+    },
+    "damage_resistances": "necrotic",
+    "damage_immunities": "",
+    "condition_immunities": "charmed, frightened",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "12"
+    },
+    "languages": "Understands Abyssal but cannot speak",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "Dark, shadowy forests or ruins",
+    "traits": [
+        {
+            "name": "Shadow Stealth",
+            "description": "While in dim light or darkness, the Gloomchick Hatchling can take the Hide action as a bonus action."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Talon Strike",
+            "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d6+3 slashing damage plus 1d4 necrotic damage."
+        },
+        {
+            "name": "Dark Whispers",
+            "description": "The Gloomchick Hatchling can emit a chilling whisper that affects one creature within 30 feet. The target must succeed on a DC 12 Wisdom saving throw or take 2d6 psychic damage and be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

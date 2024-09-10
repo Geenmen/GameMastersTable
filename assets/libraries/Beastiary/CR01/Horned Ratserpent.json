@@ -1,0 +1,61 @@
+{
+    "creature_name": "Horned Ratserpent",
+    "type": "Beast",
+    "alignment": "Neutral",
+    "description": "A small, serpentine creature with the body of a snake and the head of a rat, adorned with a pair of tiny, sharp horns. It is known for its speed and agility, often found in dark forests or caves. The Horned Ratserpent is not particularly strong, but it can be quite cunning.",
+    "image": "",
+    "armor_class": 12,
+    "hit_points": 15,
+    "speed": {
+        "walk": "30 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 8,
+        "dexterity": 15,
+        "constitution": 12,
+        "intelligence": 2,
+        "wisdom": 10,
+        "charisma": 4
+    },
+    "saving_throws": {
+        "strength": "",
+        "dexterity": "2",
+        "constitution": ""
+    },
+    "skills": {
+        "perception": "2",
+        "stealth": "4"
+    },
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "12"
+    },
+    "languages": "",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "Cave",
+    "traits": [
+        {
+            "name": "Nimble Escape",
+            "description": "The Horned Ratserpent can take the Disengage or Hide action as a bonus action on each of its turns."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 2) piercing damage."
+        },
+        {
+            "name": "Tail Whip",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage. The target must succeed on a DC 10 Strength saving throw or be knocked prone."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

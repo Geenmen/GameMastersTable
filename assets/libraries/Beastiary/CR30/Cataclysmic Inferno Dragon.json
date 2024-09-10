@@ -1,0 +1,105 @@
+{
+    "creature_name": "Cataclysmic Inferno Dragon",
+    "type": "Dragon",
+    "alignment": "Chaotic Evil",
+    "description": "A terrifying behemoth of flame and shadow, the Cataclysmic Inferno Dragon is said to herald the end of worlds. Its scales glow with the heat of a thousand suns, and its breath can reduce entire cities to ash in seconds. Legends speak of its arrival during cataclysmic events, drawn to the chaos and destruction it relishes.",
+    "image": "assets/libraries/beastiary/CR30/CataclysmicInfernoDragon/InfernoDragon.png",
+    "armor_class": 25,
+    "hit_points": 600,
+    "speed": {
+        "walk": "40 ft.",
+        "fly": "120 ft."
+    },
+    "ability_scores": {
+        "strength": 30,
+        "dexterity": 18,
+        "constitution": 29,
+        "intelligence": 25,
+        "wisdom": 22,
+        "charisma": 28
+    },
+    "saving_throws": {
+        "strength": "+17",
+        "dexterity": "+12",
+        "constitution": "+16"
+    },
+    "skills": {
+        "perception": "+19",
+        "stealth": "+12"
+    },
+    "damage_resistances": "Necrotic, Psychic",
+    "damage_immunities": "Fire, Poison",
+    "condition_immunities": "Charmed, Frightened, Poisoned",
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": "29"
+    },
+    "languages": "Draconic, Abyssal, Common",
+    "challenge_rating": "30",
+    "tamable": false,
+    "lair_type": "Volcanic or Ashen Wasteland",
+    "traits": [
+        {
+            "name": "Legendary Resistance (3/Day)",
+            "description": "If the dragon fails a saving throw, it can choose to succeed instead."
+        },
+        {
+            "name": "Magma Blood",
+            "description": "When the dragon is hit with a melee attack, the attacker takes 15 (3d6) fire damage."
+        },
+        {
+            "name": "Infernal Presence",
+            "description": "Any creature that starts its turn within 30 feet of the dragon must succeed on a DC 22 Wisdom saving throw or become frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+        },
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 22 (4d6 + 10) piercing damage plus 14 (4d6) fire damage."
+        },
+        {
+            "name": "Claw",
+            "description": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 18 (4d4 + 10) slashing damage."
+        },
+        {
+            "name": "Fire Breath (Recharge 5–6)",
+            "description": "The dragon exhales fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one."
+        }
+    ],
+    "reactions": [
+        {
+            "name": "Infernal Fury",
+            "description": "When the dragon is reduced to 200 hit points or fewer, it unleashes a wave of searing heat. All creatures within 60 feet must make a DC 22 Dexterity saving throw, taking 45 (10d8) fire damage on a failed save, or half as much on a successful one."
+        }
+    ],
+    "legendary_actions": [
+        {
+            "name": "Detect",
+            "description": "The dragon makes a Wisdom (Perception) check."
+        },
+        {
+            "name": "Tail Attack",
+            "description": "The dragon makes a tail attack."
+        },
+        {
+            "name": "Wing Attack (Costs 2 Actions)",
+            "description": "The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+        }
+    ],
+    "lair_actions": [
+        {
+            "name": "Volcanic Eruption",
+            "description": "Magma erupts from the ground at three points the dragon can see within 120 feet of it. Each creature within 10 feet of an eruption must make a DC 20 Dexterity saving throw, taking 28 (8d6) fire damage on a failed save, or half as much damage on a successful one."
+        }
+    ],
+    "regional_effects": [
+        {
+            "name": "Blazing Skies",
+            "description": "The sky within 10 miles of the dragon's lair is perpetually overcast with volcanic ash. The area is heavily obscured during the day, and creatures in the area have disadvantage on saving throws against fire damage."
+        }
+    ]
+}

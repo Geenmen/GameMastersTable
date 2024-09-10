@@ -1,0 +1,61 @@
+{
+    "creature_name": "Shivering Deer",
+    "type": "Beast",
+    "alignment": "Neutral",
+    "description": "The Shivering Deer is a medium-sized, ethereal creature often found in cold, misty forests. Its coat shimmers with a faint blue hue, giving it an almost ghostly appearance. Despite its fragile appearance, it possesses an aura of cold that chills the air around it.",
+    "image": "path/to/shivering_deer_image.png",
+    "armor_class": 13,
+    "hit_points": 27,
+    "speed": {
+        "walk": "40 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 10,
+        "dexterity": 15,
+        "constitution": 12,
+        "intelligence": 4,
+        "wisdom": 14,
+        "charisma": 6
+    },
+    "saving_throws": {
+        "strength": "+2",
+        "dexterity": "+4",
+        "constitution": "+3"
+    },
+    "skills": {
+        "perception": "+4",
+        "stealth": "+6"
+    },
+    "damage_resistances": "Cold",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "14"
+    },
+    "languages": "Understands Sylvan but cannot speak",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "Frozen Forest",
+    "traits": [
+        {
+            "name": "Aura of Chill",
+            "description": "Creatures that start their turn within 10 feet of the Shivering Deer must succeed on a DC 12 Constitution saving throw or take 1d6 cold damage."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Hoof Attack",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) bludgeoning damage."
+        },
+        {
+            "name": "Frost Breath (Recharge 5-6)",
+            "description": "The Shivering Deer exhales a blast of freezing air in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 10 (3d6) cold damage on a failed save, or half as much damage on a successful one."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

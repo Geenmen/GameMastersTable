@@ -1,0 +1,57 @@
+{
+    "creature_name": "Venomfang Hatchling",
+    "type": "Dragon",
+    "alignment": "Neutral Evil",
+    "description": "A small, serpentine dragon with scales that glisten like emeralds. Despite its size, the Venomfang Hatchling is highly venomous, often found lurking in dark, damp caves, waiting to ambush unsuspecting prey.",
+    "image": "",
+    "armor_class": 13,
+    "hit_points": 22,
+    "speed": {
+        "walk": "30 ft.",
+        "fly": "60 ft."
+    },
+    "ability_scores": {
+        "strength": 14,
+        "dexterity": 15,
+        "constitution": 13,
+        "intelligence": 8,
+        "wisdom": 10,
+        "charisma": 12
+    },
+    "saving_throws": {
+        "strength": "+2",
+        "dexterity": "+2",
+        "constitution": "+1"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+4"
+    },
+    "damage_resistances": "Poison",
+    "damage_immunities": "",
+    "condition_immunities": "Poisoned",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "12"
+    },
+    "languages": "Draconic",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "Caves",
+    "traits": [
+        {
+            "name": "Keen Smell",
+            "description": "The Venomfang Hatchling has advantage on Wisdom (Perception) checks that rely on smell."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 4 (1d8) poison damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

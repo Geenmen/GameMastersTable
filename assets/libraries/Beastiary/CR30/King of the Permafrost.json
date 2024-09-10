@@ -1,0 +1,100 @@
+{
+    "creature_name": "King of the Permafrost",
+    "type": "Elemental",
+    "alignment": "Lawful Evil",
+    "description": "The King of the Permafrost is a towering, ancient elemental being born from the heart of the coldest glacier in existence. Wreathed in icy winds and surrounded by a blizzard that never ceases, it embodies the unforgiving nature of winter. Its body is composed of solid ice, as hard as diamond, with veins of pure frostfire coursing through it. The King's very presence drains the warmth from the air, freezing everything in its domain to the core.",
+    "image": "",
+    "armor_class": 25,
+    "hit_points": 650,
+    "speed": {
+        "walk": "40 ft.",
+        "fly": "60 ft. (hover)"
+    },
+    "ability_scores": {
+        "strength": 30,
+        "dexterity": 18,
+        "constitution": 30,
+        "intelligence": 22,
+        "wisdom": 24,
+        "charisma": 26
+    },
+    "saving_throws": {
+        "strength": "+18",
+        "dexterity": "+12",
+        "constitution": "+18"
+    },
+    "skills": {
+        "perception": "+16",
+        "stealth": "+12"
+    },
+    "damage_resistances": "Cold, Nonmagical Bludgeoning, Piercing, and Slashing",
+    "damage_immunities": "Cold, Fire, Poison",
+    "condition_immunities": "Charmed, Frightened, Paralyzed, Poisoned",
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": "26"
+    },
+    "languages": "Primordial, Telepathy 120 ft.",
+    "challenge_rating": "30",
+    "tamable": false,
+    "lair_type": "Icy Fortress in the Heart of a Glacial Mountain",
+    "traits": [
+        {
+            "name": "Aura of Absolute Zero",
+            "description": "Any creature that starts its turn within 60 feet of the King of the Permafrost must make a DC 26 Constitution saving throw, taking 54 (12d8) cold damage on a failed save, or half as much damage on a successful one. The area within the aura is difficult terrain for creatures other than the King."
+        },
+        {
+            "name": "Frostfire Rebirth",
+            "description": "When the King of the Permafrost is reduced to 0 hit points, it shatters into thousands of icy shards. At the start of its next turn, the shards coalesce into a new form of the King, fully healed. This can only occur once per long rest."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The King of the Permafrost makes three Frostclaw attacks."
+        },
+        {
+            "name": "Frostclaw",
+            "description": "Melee Weapon Attack: +18 to hit, reach 10 ft., one target. Hit: 35 (6d6 + 14) slashing damage plus 21 (6d6) cold damage."
+        },
+        {
+            "name": "Glacial Spike",
+            "description": "Ranged Weapon Attack: +18 to hit, range 120 ft., one target. Hit: 40 (8d8) piercing damage plus 36 (8d8) cold damage. On a hit, the target must succeed on a DC 26 Strength saving throw or be restrained by ice until the end of its next turn."
+        },
+        {
+            "name": "Blizzard of Despair (Recharge 5-6)",
+            "description": "The King of the Permafrost summons a howling blizzard in a 60-foot radius centered on itself. The area becomes heavily obscured, and creatures other than the King must make a DC 26 Constitution saving throw at the start of each of their turns, taking 54 (12d8) cold damage on a failed save, or half as much on a successful one. The blizzard lasts for 1 minute or until the King dismisses it as a bonus action."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [
+        {
+            "name": "Freezing Gaze",
+            "description": "The King targets one creature it can see within 60 feet of it. The target must succeed on a DC 26 Wisdom saving throw or become paralyzed with fear as frost begins to creep over their body. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        },
+        {
+            "name": "Shatter Step",
+            "description": "The King of the Permafrost magically teleports up to 60 feet to an unoccupied space it can see. The space it left becomes encased in ice, creating difficult terrain."
+        }
+    ],
+    "lair_actions": [
+        {
+            "name": "Icicle Barrage",
+            "description": "At initiative count 20 (losing initiative ties), the King can cause icicles to fall from the ceiling of its lair. Each creature in a 20-foot-radius sphere centered on a point the King can see must make a DC 26 Dexterity saving throw, taking 45 (10d8) piercing damage on a failed save, or half as much damage on a successful one."
+        },
+        {
+            "name": "Freezing Wind",
+            "description": "A blast of icy wind fills a 60-foot line that is 10 feet wide. Each creature in the line must succeed on a DC 26 Strength saving throw or be pushed 30 feet away from the King and be knocked prone."
+        }
+    ],
+    "regional_effects": [
+        {
+            "name": "Permafrost",
+            "description": "The area within 10 miles of the King's lair is permanently frozen, regardless of weather conditions. Water freezes within minutes, and plants quickly wither and die."
+        },
+        {
+            "name": "Blizzards",
+            "description": "Blizzards frequently ravage the land within 6 miles of the lair, making travel nearly impossible and hiding the King's lair from sight."
+        }
+    ]
+}

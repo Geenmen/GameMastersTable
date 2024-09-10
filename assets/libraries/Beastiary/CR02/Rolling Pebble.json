@@ -1,0 +1,64 @@
+{
+    "creature_name": "Rolling Pebble",
+    "type": "Elemental",
+    "alignment": "Neutral",
+    "description": "A Rolling Pebble is a small, animated boulder that roams mountainous and rocky terrains. Though it appears as nothing more than an ordinary rock, it possesses a curious nature and a surprising amount of strength. Rolling Pebbles are often seen moving in groups, rolling down hills and crashing into anything in their path. They are known to form symbiotic relationships with larger elemental beings, acting as scouts or even as projectiles in battle. Some adventurers have discovered that, with patience and the right approach, a Rolling Pebble can be tamed and kept as a loyal, albeit peculiar, pet.",
+    "image": "assets/libraries/beastiary/CR2/RollingPebble/RollingPebble.png",
+    "armor_class": 15,
+    "hit_points": 30,
+    "speed": {
+        "walk": "20 ft.",
+        "fly": "0 ft."
+    },
+    "ability_scores": {
+        "strength": 16,
+        "dexterity": 8,
+        "constitution": 14,
+        "intelligence": 3,
+        "wisdom": 10,
+        "charisma": 5
+    },
+    "saving_throws": {
+        "strength": "+5",
+        "dexterity": "",
+        "constitution": "+4"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+1"
+    },
+    "damage_resistances": "Bludgeoning, Piercing, Slashing from nonmagical attacks",
+    "damage_immunities": "Poison, Psychic",
+    "condition_immunities": "Exhaustion, Paralyzed, Petrified, Poisoned",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "12"
+    },
+    "languages": "Terran",
+    "challenge_rating": "2",
+    "tamable": true,
+    "lair_type": "Mountainous Terrain",
+    "traits": [
+        {
+            "name": "Rolling Charge",
+            "description": "If the Rolling Pebble moves at least 10 feet straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 7 (2d6) bludgeoning damage."
+        },
+        {
+            "name": "Stone Camouflage",
+            "description": "The Rolling Pebble has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Slam",
+            "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": [],
+    "taming_instructions": {
+        "method": "To tame a Rolling Pebble, an adventurer must approach it slowly and offer small, polished stones as a gift. With a successful DC 15 Animal Handling check, the Rolling Pebble will warm up to the adventurer and follow them as a pet. The creature becomes friendly and obedient but still retains its playful nature, occasionally rolling off in search of new terrain to explore."
+    }
+}

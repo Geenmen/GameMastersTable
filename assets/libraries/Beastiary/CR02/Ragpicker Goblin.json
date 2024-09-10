@@ -1,0 +1,65 @@
+{
+    "creature_name": "Ragpicker Goblin",
+    "type": "Humanoid (Goblinoid)",
+    "alignment": "Neutral Evil",
+    "description": "Ragpicker Goblins are small, wiry creatures known for scavenging through the refuse of others, often found lurking in dark alleys or abandoned ruins. They are quick and cunning, using their knowledge of discarded objects to create makeshift traps and weapons. Despite their small size, they are fierce when cornered.",
+    "image": "",
+    "armor_class": 14,
+    "hit_points": 22,
+    "speed": {
+        "walk": "30 ft.",
+        "fly": "—"
+    },
+    "ability_scores": {
+        "strength": 8,
+        "dexterity": 16,
+        "constitution": 12,
+        "intelligence": 10,
+        "wisdom": 8,
+        "charisma": 6
+    },
+    "saving_throws": {
+        "strength": "",
+        "dexterity": "+5",
+        "constitution": ""
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+7"
+    },
+    "damage_resistances": "Poison",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "12"
+    },
+    "languages": "Common, Goblin",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "Urban Ruins",
+    "traits": [
+        {
+            "name": "Nimble Escape",
+            "description": "The Ragpicker Goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Scavenged Blade",
+            "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 3) slashing damage."
+        },
+        {
+            "name": "Junk Toss",
+            "description": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 6 (1d4 + 3) bludgeoning damage."
+        },
+        {
+            "name": "Set Trap",
+            "description": "The Ragpicker Goblin can spend an action to set a simple trap in an unoccupied space within 5 feet. The trap is a pressure plate that, when triggered, releases a burst of sharp debris. Any creature that steps on the trap must succeed on a DC 13 Dexterity saving throw or take 1d8 piercing damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

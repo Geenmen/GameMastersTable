@@ -1,0 +1,61 @@
+{
+    "creature_name": "Gloomgnat",
+    "type": "Fey",
+    "alignment": "Chaotic Neutral",
+    "description": "The Gloomgnat is a small, elusive creature that thrives in dark, damp environments like swamps and shadowy forests. It resembles a large, iridescent gnat with wings that shimmer in hues of deep purple and midnight blue. Despite its size, the Gloomgnat is known for its potent venom and its ability to induce fear in those who encounter it.",
+    "image": "",
+    "armor_class": 13,
+    "hit_points": 27,
+    "speed": {
+        "walk": "20 ft",
+        "fly": "60 ft"
+    },
+    "ability_scores": {
+        "strength": 6,
+        "dexterity": 16,
+        "constitution": 12,
+        "intelligence": 8,
+        "wisdom": 14,
+        "charisma": 10
+    },
+    "saving_throws": {
+        "strength": "-2",
+        "dexterity": "+5",
+        "constitution": "+1"
+    },
+    "skills": {
+        "perception": "+4",
+        "stealth": "+7"
+    },
+    "damage_resistances": "necrotic",
+    "damage_immunities": "",
+    "condition_immunities": "frightened",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "14"
+    },
+    "languages": "Sylvan, understands Common but cannot speak",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "Swamps, Shadowy Forests",
+    "traits": [
+        {
+            "name": "Shadow Blend",
+            "description": "While in dim light or darkness, the Gloomgnat can use a bonus action to become invisible until it attacks or uses a reaction."
+        },
+        {
+            "name": "Venomous Bite",
+            "description": "The Gloomgnat's bite is laced with a venom that causes intense fear. The target must succeed on a DC 12 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage plus 7 (2d6) necrotic damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

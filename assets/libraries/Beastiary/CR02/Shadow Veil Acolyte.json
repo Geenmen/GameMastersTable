@@ -1,0 +1,61 @@
+{
+    "creature_name": "Shadow Veil Acolyte",
+    "type": "Humanoid",
+    "alignment": "Neutral Evil",
+    "description": "A mysterious follower of the Shadow Veil cult, these acolytes are known for their mastery of dark rituals and shadow magic. They are often found in ancient, abandoned temples or secluded underground chambers, where they perform forbidden rites to strengthen their connection to the Shadow Realm.",
+    "image": "",
+    "armor_class": 13,
+    "hit_points": 27,
+    "speed": {
+        "walk": "30 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 10,
+        "dexterity": 14,
+        "constitution": 12,
+        "intelligence": 13,
+        "wisdom": 15,
+        "charisma": 12
+    },
+    "saving_throws": {
+        "strength": "",
+        "dexterity": "",
+        "constitution": ""
+    },
+    "skills": {
+        "perception": "4",
+        "stealth": "4"
+    },
+    "damage_resistances": "necrotic",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "14"
+    },
+    "languages": "Common, Infernal",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "Underground Temples, Abandoned Sanctuaries",
+    "traits": [
+        {
+            "name": "Shadow Stealth",
+            "description": "While in dim light or darkness, the Shadow Veil Acolyte can take the Hide action as a bonus action."
+        },
+        {
+            "name": "Spellcasting",
+            "description": "The Shadow Veil Acolyte is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It has the following cleric spells prepared: Cantrips (at will): Thaumaturgy, Sacred Flame, Spare the Dying. 1st level (4 slots): Bane, Inflict Wounds. 2nd level (2 slots): Darkness, Hold Person."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Shadow Dagger",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

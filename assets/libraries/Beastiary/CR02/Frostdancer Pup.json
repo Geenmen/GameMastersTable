@@ -1,0 +1,61 @@
+{
+    "creature_name": "Frostdancer Pup",
+    "type": "Beast",
+    "alignment": "Neutral",
+    "description": "The Frostdancer Pup is a young, nimble creature found in icy terrains. Its fur shimmers with frost, and it leaves a trail of ice crystals as it moves. Though still young, it possesses a natural grace and agility that makes it a formidable opponent. Its playful nature belies its ability to defend itself and its pack.",
+    "image": "",
+    "armor_class": 13,
+    "hit_points": 26,
+    "speed": {
+        "walk": "40 ft.",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 12,
+        "dexterity": 16,
+        "constitution": 14,
+        "intelligence": 8,
+        "wisdom": 12,
+        "charisma": 10
+    },
+    "saving_throws": {
+        "strength": "+2",
+        "dexterity": "+5",
+        "constitution": "+3"
+    },
+    "skills": {
+        "perception": "+4",
+        "stealth": "+5"
+    },
+    "damage_resistances": "Cold",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "14"
+    },
+    "languages": "Understands Common but cannot speak",
+    "challenge_rating": "2",
+    "tamable": true,
+    "lair_type": "Icy Caves",
+    "traits": [
+        {
+            "name": "Frost Aura",
+            "description": "The Frostdancer Pup emits an aura of cold in a 5-foot radius. Any creature that starts its turn in the aura takes 2 (1d4) cold damage."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Frostbite Bite",
+            "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage plus 3 (1d6) cold damage."
+        },
+        {
+            "name": "Icy Dash",
+            "description": "The Frostdancer Pup can dash as a bonus action. When it does, it leaves behind a trail of slippery ice that remains until the start of its next turn. Any creature moving through the trail must succeed on a DC 13 Dexterity saving throw or fall prone."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

@@ -1,0 +1,65 @@
+{
+    "creature_name": "Arctic Winds Drake",
+    "type": "Dragon",
+    "alignment": "Neutral",
+    "description": "A smaller dragon native to the frozen tundras, the Arctic Winds Drake is known for its speed and icy breath. Despite its size, it is a formidable predator, using the harsh winds to its advantage.",
+    "image": "",
+    "armor_class": 14,
+    "hit_points": 52,
+    "speed": {
+        "walk": "30 ft.",
+        "fly": "60 ft."
+    },
+    "ability_scores": {
+        "strength": 14,
+        "dexterity": 18,
+        "constitution": 14,
+        "intelligence": 8,
+        "wisdom": 12,
+        "charisma": 10
+    },
+    "saving_throws": {
+        "strength": "+4",
+        "dexterity": "+6",
+        "constitution": "+4"
+    },
+    "skills": {
+        "perception": "+4",
+        "stealth": "+7"
+    },
+    "damage_resistances": "Cold",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "14"
+    },
+    "languages": "Draconic",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "Icy Caves",
+    "traits": [
+        {
+            "name": "Ice Glide",
+            "description": "The drake can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost it extra movement."
+        },
+        {
+            "name": "Snow Camouflage",
+            "description": "The drake has advantage on Dexterity (Stealth) checks made to hide in snowy terrain."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 4) piercing damage."
+        },
+        {
+            "name": "Icy Breath (Recharge 5-6)",
+            "description": "The drake exhales an icy blast in a 15-foot cone. Each creature in that area must make a DC 12 Constitution saving throw, taking 16 (3d8) cold damage on a failed save, or half as much damage on a successful one."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

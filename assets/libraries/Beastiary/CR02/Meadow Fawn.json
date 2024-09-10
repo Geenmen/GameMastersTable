@@ -1,0 +1,61 @@
+{
+    "creature_name": "Meadow Fawn",
+    "type": "Fey",
+    "alignment": "Neutral Good",
+    "description": "The Meadow Fawn is a gentle creature that roams enchanted forests and meadows. It is known for its calming presence and its ability to heal minor wounds with a touch of its nose. Its fur is a mix of soft green and earthy brown, blending perfectly with the environment. Meadow Fawns are guardians of nature, often seen frolicking among flowers and helping lost travelers find their way.",
+    "image": "",
+    "armor_class": 12,
+    "hit_points": 27,
+    "speed": {
+        "walk": "40 ft.",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 10,
+        "dexterity": 14,
+        "constitution": 12,
+        "intelligence": 10,
+        "wisdom": 15,
+        "charisma": 13
+    },
+    "saving_throws": {
+        "strength": "",
+        "dexterity": "14",
+        "constitution": ""
+    },
+    "skills": {
+        "perception": "4",
+        "stealth": "5"
+    },
+    "damage_resistances": "Cold, Radiant",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "14"
+    },
+    "languages": "Sylvan, understands Common but cannot speak",
+    "challenge_rating": "2",
+    "tamable": true,
+    "lair_type": "Enchanted Meadow",
+    "traits": [
+        {
+            "name": "Natural Camouflage",
+            "description": "The Meadow Fawn has advantage on Dexterity (Stealth) checks made to hide in forested or grassy areas."
+        },
+        {
+            "name": "Healing Touch",
+            "description": "The Meadow Fawn can touch a creature with its nose, healing 1d6 hit points. It can use this ability three times per day."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Hoof",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

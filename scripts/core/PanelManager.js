@@ -103,10 +103,15 @@ function createPanel(name, type) {
     activePanels.push({ id: panelContainer.id, name, type, panelContainer });
 }
 
+
+
+
+
 function makePanelMovable(panel) {
+    // Enable dragging
     interact(panel.querySelector('.move-handle'))
         .draggable({
-            inertia: false,
+            inertia: true,
             autoScroll: true,
             listeners: {
                 start(event) {
@@ -129,18 +134,22 @@ function makePanelMovable(panel) {
             },
         });
 
+    // Enable resizing
     interact(panel)
         .resizable({
-            edges: { left: true, right: true, bottom: true, top: false },
+            edges: { left: true, right: true, bottom: true, top: true },
+            inertia: true,
             listeners: {
                 move(event) {
-                    const { target } = event;
+                    const target = event.target;
                     let x = parseFloat(target.getAttribute('data-x')) || 0;
                     let y = parseFloat(target.getAttribute('data-y')) || 0;
 
+                    // Update the element's width and height
                     target.style.width = `${event.rect.width}px`;
                     target.style.height = `${event.rect.height}px`;
 
+                    // Update the element's position
                     x += event.deltaRect.left;
                     y += event.deltaRect.top;
 
@@ -149,21 +158,22 @@ function makePanelMovable(panel) {
                     target.setAttribute('data-y', y);
                 },
             },
-            inertia: false,
             modifiers: [
                 interact.modifiers.restrictEdges({
                     outer: 'parent',
                 }),
                 interact.modifiers.restrictSize({
-                    min: { width: 100, height: 50 },
-                    max: {
-                        width: 10000,
-                        height: 10000,
-                    },
+                    min: { width: 150, height: 100 },
+                    max: { width: 10000, height: 10000 },
                 }),
             ],
         });
 }
+
+
+
+
+
 
 function minimizePanel(panel) {
     const minimizedArea = document.getElementById('bottom-section');

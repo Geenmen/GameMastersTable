@@ -1,0 +1,61 @@
+{
+    "creature_name": "Ember Drake Hatchling",
+    "type": "Dragon",
+    "alignment": "Neutral",
+    "description": "The Ember Drake Hatchling is a young and fiery dragon, only recently hatched. Its scales glow with a soft, ember-like warmth, and its eyes burn with the curiosity of youth. Though small, it possesses the potential for immense power, making it a dangerous foe even at this early stage of life.",
+    "image": "assets/libraries/Beastiary/CR1/EmberDrakeHatchling/EmberDrakeHatchling.png",
+    "armor_class": 13,
+    "hit_points": 22,
+    "speed": {
+        "walk": "30 ft.",
+        "fly": "40 ft."
+    },
+    "ability_scores": {
+        "strength": 12,
+        "dexterity": 15,
+        "constitution": 14,
+        "intelligence": 8,
+        "wisdom": 10,
+        "charisma": 11
+    },
+    "saving_throws": {
+        "strength": "+2",
+        "dexterity": "+4",
+        "constitution": "+4"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+4"
+    },
+    "damage_resistances": "Fire",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "12"
+    },
+    "languages": "Draconic",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "Volcanic Cavern",
+    "traits": [
+        {
+            "name": "Ember Breath",
+            "description": "The Ember Drake Hatchling can exhale a 15-foot cone of embers. Each creature in that area must make a DC 12 Dexterity saving throw, taking 2d6 fire damage on a failed save, or half as much on a successful one."
+        },
+        {
+            "name": "Fiery Scales",
+            "description": "Any creature that hits the Ember Drake Hatchling with a melee attack while within 5 feet of it takes 1d4 fire damage."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d6+2 piercing damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

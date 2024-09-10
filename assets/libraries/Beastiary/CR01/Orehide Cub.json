@@ -1,0 +1,61 @@
+{
+    "creature_name": "Orehide Cub",
+    "type": "Beast",
+    "alignment": "Unaligned",
+    "description": "The Orehide Cub is the juvenile form of the Orehide, a creature known for its incredibly tough, metallic hide. Even as a cub, its skin glimmers with traces of ore, providing it with natural protection from predators. Despite its small size, the Orehide Cub is fiercely territorial and will charge at intruders with surprising speed.",
+    "image": "assets/libraries/Beastiary/CR1/OrehideCub/OrehideCub.png",
+    "armor_class": 14,
+    "hit_points": 19,
+    "speed": {
+        "walk": "30 ft.",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 13,
+        "dexterity": 12,
+        "constitution": 14,
+        "intelligence": 2,
+        "wisdom": 11,
+        "charisma": 6
+    },
+    "saving_throws": {
+        "strength": "+3",
+        "dexterity": "+2",
+        "constitution": "+4"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+4"
+    },
+    "damage_resistances": "Piercing, Slashing",
+    "damage_immunities": "",
+    "condition_immunities": "Frightened",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "12"
+    },
+    "languages": "",
+    "challenge_rating": "1",
+    "tamable": true,
+    "lair_type": "Caves",
+    "traits": [
+        {
+            "name": "Metallic Hide",
+            "description": "The Orehide Cub has resistance to piercing and slashing damage due to its naturally tough hide."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Claw",
+            "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (1d6+2) slashing damage."
+        },
+        {
+            "name": "Charge",
+            "description": "If the Orehide Cub moves at least 20 feet straight toward a target and then hits it with a claw attack on the same turn, the target takes an extra 4 (1d4+2) slashing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

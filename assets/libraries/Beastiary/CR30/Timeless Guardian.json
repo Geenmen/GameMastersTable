@@ -1,0 +1,89 @@
+{
+    "creature_name": "Timeless Guardian",
+    "type": "Celestial",
+    "alignment": "Lawful Neutral",
+    "description": "The Timeless Guardian is a colossal entity, forged in the heart of the cosmos by the gods themselves to watch over the fabric of time. Its form is a swirling mass of radiant energy and ancient stone, with eyes that gleam like distant stars. Its presence alone causes time to warp and bend, making it a fearsome opponent for any who dare to challenge the natural order.",
+    "image": "",
+    "armor_class": 28,
+    "hit_points": 650,
+    "speed": {
+        "walk": "40 ft.",
+        "fly": "120 ft. (hover)"
+    },
+    "ability_scores": {
+        "strength": 30,
+        "dexterity": 18,
+        "constitution": 30,
+        "intelligence": 26,
+        "wisdom": 28,
+        "charisma": 24
+    },
+    "saving_throws": {
+        "strength": "+19",
+        "dexterity": "+12",
+        "constitution": "+19"
+    },
+    "skills": {
+        "perception": "+18",
+        "stealth": "+12"
+    },
+    "damage_resistances": "radiant; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "damage_immunities": "necrotic, poison",
+    "condition_immunities": "charmed, frightened, paralyzed, poisoned",
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": "28"
+    },
+    "languages": "all, telepathy 120 ft.",
+    "challenge_rating": "30",
+    "tamable": false,
+    "lair_type": "A floating citadel within a time-locked plane where the flow of time is under the Guardian's complete control.",
+    "traits": [
+        {
+            "name": "Temporal Mastery",
+            "description": "The Timeless Guardian can manipulate time within a 1-mile radius of itself. As a bonus action, it can cause time to speed up, slow down, or revert within this area. The effects last for 1 minute and can be used once per short rest."
+        },
+        {
+            "name": "Eternal Vigilance",
+            "description": "The Guardian never sleeps and is immune to any effects that would put it to sleep or render it unconscious. It can see invisible creatures and objects, as well as into the Ethereal Plane."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Chronal Blast",
+            "description": "Ranged Spell Attack: +18 to hit, range 300 ft., one target. Hit: 45 (10d8) radiant damage. The target must succeed on a DC 26 Wisdom saving throw or be aged by 1d10 years (at the DM's discretion, this may result in penalties or benefits)."
+        },
+        {
+            "name": "Temporal Shift",
+            "description": "The Guardian can choose up to 3 creatures it can see within 60 feet and force them to make a DC 26 Constitution saving throw. On a failure, the creatures are frozen in time, becoming incapacitated for 1 minute (concentration, as if casting a spell)."
+        }
+    ],
+    "reactions": [
+        {
+            "name": "Time Reversal",
+            "description": "When the Guardian takes damage, it can use its reaction to reverse time on itself, healing the damage taken in the last round and resetting the position of creatures that attacked it during that time to their positions at the beginning of their last turn."
+        }
+    ],
+    "legendary_actions": [
+        {
+            "name": "Time Warp (Costs 2 Actions)",
+            "description": "The Guardian targets a point it can see within 120 feet. All creatures within a 30-foot radius of that point must make a DC 26 Wisdom saving throw or lose their next turn, as time shifts around them unpredictably."
+        },
+        {
+            "name": "Chronal Surge",
+            "description": "The Guardian moves up to its speed and makes a Chronal Blast attack."
+        }
+    ],
+    "lair_actions": [
+        {
+            "name": "Temporal Distortion",
+            "description": "On initiative count 20 (losing initiative ties), the Guardian can distort time within its lair. All creatures within the lair must make a DC 26 Dexterity saving throw or have their movement speed halved until the next initiative count 20."
+        }
+    ],
+    "regional_effects": [
+        {
+            "name": "Time Anomaly",
+            "description": "The region containing the Guardian’s lair is warped by its presence, causing time anomalies such as brief glimpses of the past or future, random accelerations or decelerations in the passage of time, and creatures or objects from different eras occasionally appearing."
+        }
+    ]
+}

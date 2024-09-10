@@ -1,0 +1,96 @@
+{
+    "creature_name": "Army of the Colossus",
+    "type": "Swarm of Colossal Beings",
+    "alignment": "Chaotic Neutral",
+    "description": "The Army of the Colossus is a swarm of ancient, colossal beings, each towering over the landscape with an aura of mythic power. These beings are fragments of long-forgotten titans, bound together by a cursed destiny to forever roam the world as a destructive force. When they converge, the earth trembles, and their combined might is enough to flatten cities and shatter mountains.",
+    "image": "assets/libraries/beastiary/default-creature-GMT.png",
+    "armor_class": 25,
+    "hit_points": 800,
+    "speed": {
+        "walk": "40 ft",
+        "fly": "100 ft"
+    },
+    "ability_scores": {
+        "strength": 30,
+        "dexterity": 10,
+        "constitution": 30,
+        "intelligence": 8,
+        "wisdom": 16,
+        "charisma": 18
+    },
+    "saving_throws": {
+        "strength": "+19",
+        "dexterity": "+11",
+        "constitution": "+19"
+    },
+    "skills": {
+        "perception": "+14",
+        "stealth": "—"
+    },
+    "damage_resistances": "bludgeoning, piercing, slashing (from non-magical attacks)",
+    "damage_immunities": "fire, lightning, poison",
+    "condition_immunities": "charmed, frightened, paralyzed, poisoned",
+    "senses": {
+        "darkvision": "120 ft",
+        "passive_perception": "24"
+    },
+    "languages": "Titan, Primordial",
+    "challenge_rating": "30",
+    "tamable": false,
+    "lair_type": "Moving Entity (cannot have a stationary lair)",
+    "traits": [
+        {
+            "name": "Colossal Swarm",
+            "description": "The Army of the Colossus is composed of numerous colossal beings that act as one. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Medium creature. The swarm can't regain hit points or gain temporary hit points."
+        },
+        {
+            "name": "Titanic Stomp",
+            "description": "As a bonus action, the Army of the Colossus can stomp the ground, causing a shockwave in a 120-foot radius. Each creature within this area must succeed on a DC 27 Strength saving throw or be knocked prone and take 45 (10d8) bludgeoning damage."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The Army of the Colossus makes three attacks: one with its Titanic Slam and two with its Rock Hurl."
+        },
+        {
+            "name": "Titanic Slam",
+            "description": "Melee Weapon Attack: +19 to hit, reach 15 ft., one target. Hit: 60 (8d10+15) bludgeoning damage. If the target is a creature, it must succeed on a DC 27 Strength saving throw or be pushed 30 feet away and knocked prone."
+        },
+        {
+            "name": "Rock Hurl",
+            "description": "Ranged Weapon Attack: +19 to hit, range 300/600 ft., one target. Hit: 75 (10d12+10) bludgeoning damage. If the target is a structure, the hit automatically deals maximum damage."
+        }
+    ],
+    "reactions": [
+        {
+            "name": "Unyielding Might",
+            "description": "When the Army of the Colossus is reduced to 400 hit points or fewer, it can use its reaction to enter a frenzied state. For 1 minute, it gains resistance to all damage types, and its attacks deal an additional 20 damage of the appropriate type."
+        }
+    ],
+    "legendary_actions": [
+        {
+            "name": "Legendary Resistance (3/Day)",
+            "description": "If the Army of the Colossus fails a saving throw, it can choose to succeed instead."
+        },
+        {
+            "name": "Crushing Advance (Costs 2 Actions)",
+            "description": "The Army of the Colossus moves up to half its speed. During this movement, it can move through the space of any creature smaller than Huge. The first time it enters a creature's space during this move, the creature must make a DC 27 Dexterity saving throw, taking 52 (15d6) bludgeoning damage on a failed save, or half as much damage on a successful one."
+        },
+        {
+            "name": "Earthshaker (Costs 3 Actions)",
+            "description": "The Army of the Colossus strikes the ground with unimaginable force, causing an earthquake in a 300-foot radius. All creatures on the ground in this area must make a DC 27 Dexterity saving throw. On a failed save, a creature takes 70 (20d6) bludgeoning damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone."
+        }
+    ],
+    "lair_actions": [],
+    "regional_effects": [
+        {
+            "name": "Seismic Activity",
+            "description": "The presence of the Army of the Colossus causes minor earthquakes and tremors in a 10-mile radius. Non-magical buildings and structures in this area have a 25% chance of collapsing each day the Army remains in the region."
+        },
+        {
+            "name": "Eternal Thunder",
+            "description": "Storm clouds gather perpetually above the Army of the Colossus, with frequent thunder and lightning, creating a sense of doom in a 20-mile radius. The lightning never strikes the Army but will often strike other creatures or structures."
+        }
+    ]
+}

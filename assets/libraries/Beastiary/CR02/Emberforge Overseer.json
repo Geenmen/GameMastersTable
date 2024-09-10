@@ -1,0 +1,65 @@
+{
+    "creature_name": "Emberforge Overseer",
+    "type": "Elemental",
+    "alignment": "Neutral Evil",
+    "description": "The Emberforge Overseer is a fearsome elemental creature born from the heart of volcanic forges. Its body is composed of molten metal and rock, with glowing veins of magma coursing through its form. This overseer is often summoned to guard ancient forges or to serve as an enforcer for those who wield fire-based magic.",
+    "image": "emberforge_overseer.png",
+    "armor_class": 15,
+    "hit_points": 45,
+    "speed": {
+        "walk": "25 ft.",
+        "fly": "0 ft."
+    },
+    "ability_scores": {
+        "strength": 16,
+        "dexterity": 10,
+        "constitution": 14,
+        "intelligence": 8,
+        "wisdom": 12,
+        "charisma": 11
+    },
+    "saving_throws": {
+        "strength": "+5",
+        "dexterity": "+2",
+        "constitution": "+4"
+    },
+    "skills": {
+        "perception": "+3",
+        "stealth": "+2"
+    },
+    "damage_resistances": "Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
+    "damage_immunities": "Fire, Poison",
+    "condition_immunities": "Exhaustion, Poisoned",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "13"
+    },
+    "languages": "Ignan, understands Common but can't speak",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "Volcanic Forge",
+    "traits": [
+        {
+            "name": "Heated Body",
+            "description": "A creature that touches the Emberforge Overseer or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage."
+        },
+        {
+            "name": "Molten Core",
+            "description": "When reduced to 0 hit points, the Emberforge Overseer explodes in a burst of molten metal. All creatures within 10 feet of it must make a DC 13 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Searing Slam",
+            "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage plus 4 (1d8) fire damage."
+        },
+        {
+            "name": "Fiery Breath (Recharge 5-6)",
+            "description": "The Emberforge Overseer exhales fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

@@ -1,0 +1,65 @@
+{
+    "creature_name": "Swiftclaw Kitten",
+    "type": "Beast",
+    "alignment": "Neutral",
+    "description": "The Swiftclaw Kitten is a small, agile predator, known for its incredible speed and sharp claws. Despite its small size, it is a formidable opponent in the wild, relying on its quick reflexes and cunning to outmaneuver larger predators. These kittens are often found in dense forests, where their striped fur blends seamlessly with the underbrush.",
+    "image": "",
+    "armor_class": 14,
+    "hit_points": 22,
+    "speed": {
+        "walk": "40 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 8,
+        "dexterity": 18,
+        "constitution": 12,
+        "intelligence": 3,
+        "wisdom": 14,
+        "charisma": 10
+    },
+    "saving_throws": {
+        "strength": "",
+        "dexterity": "4",
+        "constitution": ""
+    },
+    "skills": {
+        "perception": "4",
+        "stealth": "6"
+    },
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "14"
+    },
+    "languages": "",
+    "challenge_rating": "2",
+    "tamable": true,
+    "lair_type": "Forests",
+    "traits": [
+        {
+            "name": "Pounce",
+            "description": "If the Swiftclaw Kitten moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone."
+        },
+        {
+            "name": "Keen Senses",
+            "description": "The Swiftclaw Kitten has advantage on Wisdom (Perception) checks that rely on sight, smell, or hearing."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Claw",
+            "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage."
+        },
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 4) piercing damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

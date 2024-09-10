@@ -1,0 +1,65 @@
+{
+    "creature_name": "Celestial Sprite",
+    "type": "Celestial",
+    "alignment": "Chaotic Good",
+    "description": "The Celestial Sprite is a small, radiant creature with a mischievous glint in its eyes. Though it is a being of pure light and good intentions, its chaotic nature often leads to unintended consequences. With a heart full of compassion, it tries to aid those in need but often misinterprets situations, causing more harm than good. Despite this, the Celestial Sprite remains a beloved and mysterious figure in folklore, known for its spontaneous acts of kindness and mischief.",
+    "image": "",
+    "armor_class": 14,
+    "hit_points": 18,
+    "speed": {
+        "walk": "20 ft",
+        "fly": "40 ft"
+    },
+    "ability_scores": {
+        "strength": 6,
+        "dexterity": 18,
+        "constitution": 12,
+        "intelligence": 10,
+        "wisdom": 14,
+        "charisma": 16
+    },
+    "saving_throws": {
+        "dexterity": "+6",
+        "wisdom": "+4",
+        "charisma": "+5"
+    },
+    "skills": {
+        "perception": "+4",
+        "stealth": "+8"
+    },
+    "damage_resistances": "Radiant",
+    "damage_immunities": "",
+    "condition_immunities": "Charmed",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "14"
+    },
+    "languages": "Celestial, Common",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "None",
+    "traits": [
+        {
+            "name": "Mischievous Light",
+            "description": "The Celestial Sprite emits a bright light that can blind or confuse those nearby. Creatures within 10 feet of the sprite must succeed on a DC 13 Wisdom saving throw or be blinded until the end of their next turn."
+        },
+        {
+            "name": "Chaotic Kindness",
+            "description": "The Celestial Sprite can cast the spell 'Cure Wounds' at 2nd level, but the target must make a DC 13 Charisma saving throw. On a failed save, the healing is doubled, but the target also becomes Frightened for 1 minute."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Radiant Bolt",
+            "description": "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit: 10 (2d6 + 3) radiant damage."
+        },
+        {
+            "name": "Chaotic Smite",
+            "description": "The Celestial Sprite charges a target within 5 feet with radiant energy. The target takes 7 (1d8 + 3) radiant damage, and must succeed on a DC 13 Wisdom saving throw or be pushed back 10 feet and knocked prone."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

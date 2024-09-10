@@ -1,0 +1,65 @@
+{
+    "creature_name": "Swampstalker Scout",
+    "type": "Humanoid (Reptilian)",
+    "alignment": "Neutral Evil",
+    "description": "The Swampstalker Scout is a cunning and stealthy reptilian humanoid that thrives in marshy environments. It uses the natural cover of swamps to ambush its prey, often targeting those who wander too close to its territory. With scales that blend seamlessly with the murky waters and dense foliage, it is nearly invisible until it strikes.",
+    "image": "",
+    "armor_class": 14,
+    "hit_points": 22,
+    "speed": {
+        "walk": "30 ft.",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 12,
+        "dexterity": 16,
+        "constitution": 13,
+        "intelligence": 10,
+        "wisdom": 14,
+        "charisma": 8
+    },
+    "saving_throws": {
+        "strength": "+1",
+        "dexterity": "+5",
+        "constitution": "+2"
+    },
+    "skills": {
+        "perception": "+4",
+        "stealth": "+7"
+    },
+    "damage_resistances": "Poison",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "14"
+    },
+    "languages": "Draconic, Common",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "Swamps",
+    "traits": [
+        {
+            "name": "Swamp Camouflage",
+            "description": "The Swampstalker Scout has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The Swampstalker Scout makes two attacks with its spear."
+        },
+        {
+            "name": "Spear",
+            "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage."
+        },
+        {
+            "name": "Poison Spit",
+            "description": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 9 (2d4 + 4) poison damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned until the end of its next turn."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

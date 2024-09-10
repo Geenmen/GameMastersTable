@@ -1,0 +1,65 @@
+{
+    "creature_name": "Streetrat Pickpocket",
+    "type": "Humanoid",
+    "alignment": "Chaotic Neutral",
+    "description": "The Streetrat Pickpocket is a nimble and cunning thief, often found in the bustling alleyways of large cities. They are known for their quick hands, sharp eyes, and a knack for slipping away unnoticed after lifting purses and trinkets from unsuspecting passersby.",
+    "image": "",
+    "armor_class": 14,
+    "hit_points": 18,
+    "speed": {
+        "walk": "30 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 10,
+        "dexterity": 16,
+        "constitution": 12,
+        "intelligence": 14,
+        "wisdom": 12,
+        "charisma": 10
+    },
+    "saving_throws": {
+        "strength": "",
+        "dexterity": "5",
+        "constitution": "3"
+    },
+    "skills": {
+        "perception": "4",
+        "stealth": "7"
+    },
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "",
+        "passive_perception": "14"
+    },
+    "languages": "Common, Thieves' Cant",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "Urban",
+    "traits": [
+        {
+            "name": "Cunning Action",
+            "description": "The Streetrat Pickpocket can take the Dash, Disengage, or Hide action as a bonus action on each of its turns."
+        },
+        {
+            "name": "Evasion",
+            "description": "When the Streetrat Pickpocket is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Dagger",
+            "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+        },
+        {
+            "name": "Sling",
+            "description": "Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 3) bludgeoning damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

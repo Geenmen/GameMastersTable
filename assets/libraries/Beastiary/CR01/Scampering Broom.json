@@ -1,0 +1,59 @@
+{
+    "creature_name": "Scampering Broom",
+    "type": "Construct",
+    "alignment": "Unaligned",
+    "description": "The Scampering Broom is a magical construct often found in enchanted homes or wizard's workshops. It appears as a simple broomstick with bristles that twitch and sweep of their own accord. Though seemingly harmless, it can quickly become an annoyance or even a danger if not properly controlled.",
+    "image": "",
+    "armor_class": 12,
+    "hit_points": 15,
+    "speed": {
+        "walk": "40 ft",
+        "fly": "10 ft (hover)"
+    },
+    "ability_scores": {
+        "strength": 8,
+        "dexterity": 14,
+        "constitution": 10,
+        "intelligence": 1,
+        "wisdom": 5,
+        "charisma": 1
+    },
+    "saving_throws": {
+        "dexterity": "+4"
+    },
+    "skills": {
+        "perception": "+1",
+        "stealth": "+4"
+    },
+    "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+    "damage_immunities": "poison, psychic",
+    "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "11"
+    },
+    "languages": "understands the languages of its creator but cannot speak",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "Indoor spaces",
+    "traits": [
+        {
+            "name": "False Appearance",
+            "description": "While the broom remains motionless, it is indistinguishable from a normal broom."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Whack",
+            "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage."
+        },
+        {
+            "name": "Sweep",
+            "description": "The broom sweeps the area around it in a 10-foot radius. Each creature in that area must succeed on a DC 10 Dexterity saving throw or be knocked prone."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

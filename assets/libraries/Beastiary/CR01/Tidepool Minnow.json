@@ -1,0 +1,62 @@
+{
+    "creature_name": "Tidepool Minnow",
+    "type": "Beast",
+    "alignment": "Unaligned",
+    "description": "The Tidepool Minnow is a small, aquatic creature commonly found in shallow tidepools along rocky coastlines. It is known for its vibrant scales that shimmer in sunlight, making it a favorite among fishermen and collectors. Despite its small size, it is incredibly fast and can dart between rocks to evade predators.",
+    "image": "",
+    "armor_class": 12,
+    "hit_points": 10,
+    "speed": {
+        "walk": "5 ft.",
+        "fly": "",
+        "swim": "30 ft."
+    },
+    "ability_scores": {
+        "strength": 4,
+        "dexterity": 15,
+        "constitution": 8,
+        "intelligence": 2,
+        "wisdom": 10,
+        "charisma": 6
+    },
+    "saving_throws": {
+        "strength": "",
+        "dexterity": "",
+        "constitution": ""
+    },
+    "skills": {
+        "perception": "2",
+        "stealth": "4"
+    },
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "",
+        "passive_perception": "12"
+    },
+    "languages": "",
+    "challenge_rating": "1",
+    "tamable": true,
+    "lair_type": "Tidepool",
+    "traits": [
+        {
+            "name": "Evasion",
+            "description": "If the Tidepool Minnow is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+        },
+        {
+            "name": "Aquatic Camouflage",
+            "description": "The Tidepool Minnow has advantage on Dexterity (Stealth) checks made to hide in aquatic environments."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) piercing damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

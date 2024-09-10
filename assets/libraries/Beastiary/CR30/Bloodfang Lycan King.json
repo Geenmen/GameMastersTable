@@ -1,0 +1,104 @@
+{
+    "creature_name": "Bloodfang Lycan King",
+    "type": "Monstrosity",
+    "alignment": "Chaotic Evil",
+    "description": "The Bloodfang Lycan King is the apex predator of the lycanthropic lineage. Standing at a towering 12 feet tall, this monstrous werewolf is cloaked in thick, jet-black fur with streaks of crimson that seem to shimmer in the moonlight. Its eyes burn with an eerie red glow, and its fangs are long and razor-sharp, dripping with the cursed blood of its victims. The Bloodfang Lycan King is both a brutal warrior and a cunning tactician, leading packs of lesser werewolves with ruthless efficiency.",
+    "image": "path/to/image.png", 
+    "armor_class": 24,
+    "hit_points": 620,
+    "speed": {
+        "walk": "50 ft.",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 30,
+        "dexterity": 18,
+        "constitution": 28,
+        "intelligence": 22,
+        "wisdom": 20,
+        "charisma": 24
+    },
+    "saving_throws": {
+        "strength": "+17",
+        "dexterity": "+11",
+        "constitution": "+16"
+    },
+    "skills": {
+        "perception": "+14",
+        "stealth": "+11"
+    },
+    "damage_resistances": "cold, lightning, bludgeoning, piercing, and slashing from nonmagical attacks",
+    "damage_immunities": "necrotic, poison",
+    "condition_immunities": "charmed, frightened, paralyzed, poisoned",
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": "24"
+    },
+    "languages": "Common, Abyssal, Infernal, Lycanthropic",
+    "challenge_rating": "30",
+    "tamable": false,
+    "lair_type": "Deep forests or ancient cursed ruins",
+    "traits": [
+        {
+            "name": "Regeneration",
+            "description": "The Bloodfang Lycan King regains 30 hit points at the start of its turn if it has at least 1 hit point."
+        },
+        {
+            "name": "Legendary Resistance (3/Day)",
+            "description": "If the Bloodfang Lycan King fails a saving throw, it can choose to succeed instead."
+        },
+        {
+            "name": "Frightful Presence",
+            "description": "Each creature of the Lycan King's choice that is within 120 feet of it and aware of it must succeed on a DC 22 Wisdom saving throw or be frightened for 1 minute."
+        },
+        {
+            "name": "Shapechanger",
+            "description": "The Bloodfang Lycan King can use its action to polymorph into a wolf-humanoid hybrid or into a dire wolf, or back into its true form."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The Bloodfang Lycan King can make three attacks: one with its bite and two with its claws."
+        },
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 32 (4d10+10) piercing damage. The target must succeed on a DC 24 Constitution saving throw or be cursed with lycanthropy."
+        },
+        {
+            "name": "Claw",
+            "description": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 28 (4d8+10) slashing damage."
+        },
+        {
+            "name": "Blood Moon Howl (Recharge 5-6)",
+            "description": "The Lycan King lets out a terrifying howl that summons 3d4 werewolves to join the battle. These werewolves obey the Lycan King and take their turns immediately after it."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [
+        {
+            "name": "Move",
+            "description": "The Lycan King moves up to its speed without provoking opportunity attacks."
+        },
+        {
+            "name": "Rend",
+            "description": "The Lycan King makes one claw attack."
+        },
+        {
+            "name": "Savage Charge (Costs 2 Actions)",
+            "description": "The Lycan King moves up to its speed and makes a Bite attack."
+        }
+    ],
+    "lair_actions": [
+        {
+            "name": "Summon Pack",
+            "description": "On initiative count 20 (losing initiative ties), the Bloodfang Lycan King can summon 2d4 werewolves, which appear within 60 feet of it and act immediately after it in the initiative order."
+        }
+    ],
+    "regional_effects": [
+        {
+            "name": "Cursed Forest",
+            "description": "Within 6 miles of the Lycan King’s lair, the forest becomes unnaturally dark, and the sounds of wolves can be heard howling at all times. Any humanoid that spends at least 1 hour in the region must succeed on a DC 18 Wisdom saving throw or be cursed with lycanthropy."
+        }
+    ]
+}

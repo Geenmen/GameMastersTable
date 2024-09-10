@@ -1,0 +1,64 @@
+{
+    "creature_name": "Haunted Coin",
+    "type": "Undead",
+    "alignment": "Neutral Evil",
+    "description": "The Haunted Coin is a cursed relic from a long-forgotten treasure hoard. It appears as an ordinary gold coin, but those who take possession of it are plagued by a malevolent spirit bound to the coin. The spirit manifests as a shadowy figure that haunts its possessor, whispering dark secrets and bringing misfortune. The coin has a mind of its own, moving subtly when not observed, and leading its owner into dangerous situations.",
+    "image": "",
+    "armor_class": 14,
+    "hit_points": 22,
+    "speed": {
+        "walk": "0 ft",
+        "fly": "20 ft (hover)"
+    },
+    "ability_scores": {
+        "strength": 1,
+        "dexterity": 18,
+        "constitution": 12,
+        "intelligence": 8,
+        "wisdom": 14,
+        "charisma": 16
+    },
+    "saving_throws": {
+        "dexterity": "+6",
+        "constitution": "+3"
+    },
+    "skills": {
+        "perception": "+4",
+        "stealth": "+6"
+    },
+    "damage_resistances": "Necrotic; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
+    "damage_immunities": "Poison",
+    "condition_immunities": "Charmed, Frightened, Paralyzed, Poisoned",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "14"
+    },
+    "languages": "Understands Common and Infernal but can't speak",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "None",
+    "traits": [
+        {
+            "name": "Incorporeal Movement",
+            "description": "The Haunted Coin can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+        },
+        {
+            "name": "Cursed",
+            "description": "Any creature that possesses the Haunted Coin is cursed. While cursed, the creature has disadvantage on all attack rolls, ability checks, and saving throws. The curse can only be lifted by a remove curse spell or similar magic."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Haunting Touch",
+            "description": "Melee Spell Attack: +5 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) necrotic damage. The target must succeed on a DC 13 Wisdom saving throw or be frightened until the end of its next turn."
+        },
+        {
+            "name": "Whispers of Doom",
+            "description": "The Haunted Coin whispers dark secrets to a creature within 30 feet that it can see. The target must succeed on a DC 13 Wisdom saving throw or take 5 (1d10) psychic damage and have disadvantage on its next attack roll."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

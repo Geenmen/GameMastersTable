@@ -1,0 +1,61 @@
+{
+    "creature_name": "Arcane Outcast",
+    "type": "Humanoid",
+    "alignment": "Chaotic Neutral",
+    "description": "The Arcane Outcast is a rogue magic-user, exiled from a powerful wizard's guild for forbidden experiments. They wander the wilderness, shunned by society but feared for their unpredictable magic.",
+    "image": "",
+    "armor_class": 12,
+    "hit_points": 32,
+    "speed": {
+        "walk": "30 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 10,
+        "dexterity": 14,
+        "constitution": 12,
+        "intelligence": 16,
+        "wisdom": 10,
+        "charisma": 8
+    },
+    "saving_throws": {
+        "strength": "",
+        "dexterity": "14",
+        "constitution": "12"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+4"
+    },
+    "damage_resistances": "Force",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "12"
+    },
+    "languages": "Common, Elvish",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "Ruined Tower",
+    "traits": [
+        {
+            "name": "Unstable Magic",
+            "description": "When the Arcane Outcast casts a spell, roll a d20. On a roll of 1, the spell backfires, dealing 1d6 force damage to the Outcast."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Arcane Bolt",
+            "description": "Ranged Spell Attack: +5 to hit, range 120 ft., one target. Hit: 10 (2d6 + 3) force damage."
+        },
+        {
+            "name": "Minor Illusion",
+            "description": "The Arcane Outcast can cast the Minor Illusion cantrip at will."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

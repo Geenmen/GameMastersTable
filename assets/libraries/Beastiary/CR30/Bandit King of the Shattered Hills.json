@@ -1,0 +1,107 @@
+{
+    "creature_name": "Bandit King of the Shattered Hills",
+    "type": "Humanoid",
+    "alignment": "Chaotic Evil",
+    "description": "The Bandit King of the Shattered Hills is a towering figure, cloaked in shadows and draped in the spoils of countless raids. His eyes burn with a malevolent intelligence, and his voice commands unwavering loyalty from the ruthless brigands that serve him. He wields a cursed blade that saps the life from his enemies, and his presence alone is enough to strike fear into the hearts of even the bravest warriors.",
+    "image": "",
+    "armor_class": 22,
+    "hit_points": 450,
+    "speed": {
+        "walk": "40 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 28,
+        "dexterity": 20,
+        "constitution": 26,
+        "intelligence": 18,
+        "wisdom": 16,
+        "charisma": 24
+    },
+    "saving_throws": {
+        "strength": "+18",
+        "dexterity": "+12",
+        "constitution": "+16"
+    },
+    "skills": {
+        "perception": "+14",
+        "stealth": "+12"
+    },
+    "damage_resistances": "cold, necrotic",
+    "damage_immunities": "poison; bludgeoning, piercing, and slashing from nonmagical weapons",
+    "condition_immunities": "charmed, frightened, poisoned",
+    "senses": {
+        "darkvision": "120 ft",
+        "passive_perception": "24"
+    },
+    "languages": "Common, Infernal, Abyssal",
+    "challenge_rating": "30",
+    "tamable": false,
+    "lair_type": "Fortress of the Shattered Hills",
+    "traits": [
+        {
+            "name": "Legendary Resistance (3/Day)",
+            "description": "If the Bandit King fails a saving throw, he can choose to succeed instead."
+        },
+        {
+            "name": "Cunning Action",
+            "description": "The Bandit King can take the Dash, Disengage, or Hide action as a bonus action on each of his turns."
+        },
+        {
+            "name": "Cursed Blade",
+            "description": "The Bandit King's weapon attacks are magical and deal an additional 6d6 necrotic damage. When he reduces a creature to 0 hit points with this blade, he regains hit points equal to the necrotic damage dealt."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The Bandit King makes three attacks with his Cursed Blade."
+        },
+        {
+            "name": "Cursed Blade",
+            "description": "Melee Weapon Attack: +18 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 10) slashing damage plus 21 (6d6) necrotic damage."
+        },
+        {
+            "name": "Commanding Presence",
+            "description": "The Bandit King can use an action to command all allied creatures within 60 feet of him to make a single weapon attack as a reaction."
+        }
+    ],
+    "reactions": [
+        {
+            "name": "Parry",
+            "description": "The Bandit King adds 6 to his AC against one melee attack that would hit him. To do so, he must see the attacker and be wielding a melee weapon."
+        }
+    ],
+    "legendary_actions": [
+        {
+            "name": "Move",
+            "description": "The Bandit King moves up to his speed without provoking opportunity attacks."
+        },
+        {
+            "name": "Attack",
+            "description": "The Bandit King makes one Cursed Blade attack."
+        },
+        {
+            "name": "Unleash Hell (Costs 2 Actions)",
+            "description": "The Bandit King chooses a point he can see within 60 feet. Each creature within 20 feet of that point must succeed on a DC 24 Dexterity saving throw or take 35 (10d6) fire damage."
+        }
+    ],
+    "lair_actions": [
+        {
+            "name": "Lair Action",
+            "description": "On initiative count 20 (losing initiative ties), the Bandit King can take a lair action to cause one of the following effects; the Bandit King can't use the same effect two rounds in a row:
+1. The Bandit King summons 2d4 bandits that appear in unoccupied spaces within 60 feet of him.
+2. The Bandit King causes the ground to tremble, each creature other than him within 60 feet must succeed on a DC 24 Strength saving throw or be knocked prone.
+3. The Bandit King darkens the area within 120 feet of him, causing magical darkness to appear. The darkness lasts until the Bandit King dismisses it (no action required) or until he uses this lair action again."
+        }
+    ],
+    "regional_effects": [
+        {
+            "name": "Regional Effect",
+            "description": "The region containing the Bandit King's lair is warped by his malevolent presence, which creates the following effects:
+1. Creatures within 1 mile of the lair that are not the Bandit King's allies are unnaturally fatigued, causing disadvantage on saving throws to resist being frightened.
+2. The land within 6 miles of the lair becomes treacherous, with sudden sinkholes and jagged rocks making travel difficult.
+3. Birds and other creatures become unusually aggressive within 1 mile of the Bandit King's lair, attacking intruders on sight."
+        }
+    ]
+}

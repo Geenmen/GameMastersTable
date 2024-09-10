@@ -1,0 +1,105 @@
+{
+    "creature_name": "Celestial God of Light",
+    "type": "Celestial",
+    "alignment": "Lawful Evil",
+    "description": "The Celestial God of Light is a towering, radiant being who once represented the epitome of goodness and purity. However, over eons, its desire for worship and adulation twisted its heart. Now, it seeks to control and dominate all under its light, forcing lesser beings to bow to its will. It sees itself as the rightful ruler of the cosmos, and any who do not offer their devotion are met with blinding wrath.",
+    "image": "",
+    "armor_class": 25,
+    "hit_points": 600,
+    "speed": {
+        "walk": "40 ft.",
+        "fly": "120 ft."
+    },
+    "ability_scores": {
+        "strength": 30,
+        "dexterity": 24,
+        "constitution": 28,
+        "intelligence": 25,
+        "wisdom": 27,
+        "charisma": 30
+    },
+    "saving_throws": {
+        "strength": "+17",
+        "dexterity": "+14",
+        "constitution": "+16"
+    },
+    "skills": {
+        "perception": "+18",
+        "stealth": "+14"
+    },
+    "damage_resistances": "radiant; bludgeoning, piercing, and slashing from nonmagical weapons",
+    "damage_immunities": "fire, necrotic, poison",
+    "condition_immunities": "charmed, frightened, poisoned",
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": "28"
+    },
+    "languages": "all, telepathy 300 ft.",
+    "challenge_rating": "30",
+    "tamable": false,
+    "lair_type": "A floating palace of light, surrounded by an impenetrable field of radiant energy that only the most powerful beings can withstand.",
+    "traits": [
+        {
+            "name": "Aura of Domination",
+            "description": "The Celestial God of Light emits an aura of radiant energy that compels all creatures within 120 feet to make a DC 26 Wisdom saving throw or be charmed for 1 minute. Creatures charmed in this way view the Celestial God as the ultimate authority and will obey its commands, even if doing so goes against their nature."
+        },
+        {
+            "name": "Blinding Radiance",
+            "description": "As a bonus action, the Celestial God of Light can emit a burst of blinding light. All creatures within 60 feet must make a DC 26 Constitution saving throw or be blinded for 1 minute. The blinded creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The Celestial God of Light makes three attacks: one with its Radiant Blade, one with its Shield of Light, and one with its Eye of Judgement."
+        },
+        {
+            "name": "Radiant Blade",
+            "description": "Melee Weapon Attack: +19 to hit, reach 10 ft., one target. Hit: 30 (6d6 + 13) radiant damage."
+        },
+        {
+            "name": "Shield of Light",
+            "description": "Melee Weapon Attack: +19 to hit, reach 5 ft., one target. Hit: 24 (4d8 + 10) radiant damage, and the target must succeed on a DC 26 Strength saving throw or be knocked prone."
+        },
+        {
+            "name": "Eye of Judgement",
+            "description": "Ranged Spell Attack: +18 to hit, range 300 ft., one target. Hit: 50 (9d10) radiant damage. The target must succeed on a DC 26 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        }
+    ],
+    "reactions": [
+        {
+            "name": "Light's Retribution",
+            "description": "When the Celestial God of Light is hit by an attack, it can use its reaction to release a burst of radiant energy. All creatures within 20 feet of the Celestial God of Light must succeed on a DC 26 Dexterity saving throw or take 26 (4d12) radiant damage and be pushed 10 feet away."
+        }
+    ],
+    "legendary_actions": [
+        {
+            "name": "Radiant Blast",
+            "description": "The Celestial God of Light unleashes a wave of searing light in a 60-foot cone. Each creature in that area must make a DC 26 Dexterity saving throw, taking 45 (10d8) radiant damage on a failed save, or half as much damage on a successful one."
+        },
+        {
+            "name": "Divine Command",
+            "description": "The Celestial God of Light can target one creature it can see within 60 feet of it. The target must succeed on a DC 26 Wisdom saving throw or follow a command issued by the Celestial God. The command can be as simple as 'kneel' or as complex as 'betray your allies.'"
+        },
+        {
+            "name": "Teleport",
+            "description": "The Celestial God of Light magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+        }
+    ],
+    "lair_actions": [
+        {
+            "name": "Blinding Light",
+            "description": "On initiative count 20 (losing initiative ties), the Celestial God of Light can cause a burst of blinding light to erupt from its lair. All creatures within 120 feet must make a DC 26 Constitution saving throw or be blinded for 1 minute."
+        }
+    ],
+    "regional_effects": [
+        {
+            "name": "Daylight Dominance",
+            "description": "Within 10 miles of the Celestial God of Light’s lair, the light is always as bright as midday, regardless of the actual time or weather conditions."
+        },
+        {
+            "name": "Radiant Corruption",
+            "description": "Plants and animals within 10 miles of the lair slowly begin to wither and die, their life force drained by the overwhelming radiance."
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "creature_name": "Puddle Slime",
+    "type": "Ooze",
+    "alignment": "Neutral",
+    "description": "A small, translucent slime that disguises itself as a harmless puddle of water. It waits for unsuspecting prey to step into it, then quickly envelops them in its sticky, acidic form.",
+    "image": "",
+    "armor_class": 8,
+    "hit_points": 22,
+    "speed": {
+        "walk": "10 ft",
+        "fly": "0 ft"
+    },
+    "ability_scores": {
+        "strength": 10,
+        "dexterity": 6,
+        "constitution": 12,
+        "intelligence": 2,
+        "wisdom": 10,
+        "charisma": 1
+    },
+    "saving_throws": {
+        "strength": "+2",
+        "dexterity": "-2",
+        "constitution": "+3"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+4"
+    },
+    "damage_resistances": "Acid, Poison",
+    "damage_immunities": "Bludgeoning, Piercing",
+    "condition_immunities": "Blinded, Charmed, Deafened, Frightened, Prone",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "12"
+    },
+    "languages": "Understands Common but cannot speak",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "Wet, swampy areas or damp caves",
+    "traits": [
+        {
+            "name": "False Appearance",
+            "description": "While the Puddle Slime remains motionless, it is indistinguishable from a normal puddle of water."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Engulf",
+            "description": "The Puddle Slime attempts to engulf a creature that steps into it. The target must succeed on a DC 12 Dexterity saving throw or be engulfed and restrained. The target takes 1d6 acid damage at the start of each of the slime's turns while engulfed. The slime can only engulf one creature at a time."
+        },
+        {
+            "name": "Acidic Touch",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d6 acid damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

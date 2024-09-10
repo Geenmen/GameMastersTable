@@ -1,5 +1,6 @@
 function initializeDiceRoller(panel) {
     const diceTypeSelect = panel.querySelector('#dice-type');
+    const customDiceInput = panel.querySelector('#custom-dice-input');
     const diceCountInput = panel.querySelector('#dice-count');
     const rollButton = panel.querySelector('#roll-button');
     const diceIcon = panel.querySelector('#dice-icon');
@@ -8,26 +9,26 @@ function initializeDiceRoller(panel) {
     const decrementBtn = panel.querySelector('#decrement-btn');
     const incrementBtn = panel.querySelector('#increment-btn');
 
-    console.log('diceTypeSelect:', diceTypeSelect);
-    console.log('diceCountInput:', diceCountInput);
-    console.log('rollButton:', rollButton);
-    console.log('diceIcon:', diceIcon);
-    console.log('rollResult:', rollResult);
-    console.log('rollHistory:', rollHistory);
-    console.log('decrementBtn:', decrementBtn);
-    console.log('incrementBtn:', incrementBtn);
-
     let history = [];
 
     // Check if all required elements are found
-    if (!diceTypeSelect || !diceCountInput || !rollButton || !diceIcon || !rollResult || !rollHistory || !decrementBtn || !incrementBtn) {
+    if (!diceTypeSelect || !customDiceInput || !diceCountInput || !rollButton || !diceIcon || !rollResult || !rollHistory || !decrementBtn || !incrementBtn) {
         console.error('Error: One or more elements could not be found within the panel.');
         return;
     }
 
+    // Toggle visibility of the custom dice input field
+    diceTypeSelect.addEventListener('change', () => {
+        if (diceTypeSelect.value === 'custom') {
+            customDiceInput.style.display = 'block';
+        } else {
+            customDiceInput.style.display = 'none';
+        }
+    });
+
     // Roll Button Click Event
     rollButton.addEventListener('click', () => {
-        const diceType = diceTypeSelect.value === 'custom' ? parseInt(prompt('Enter the number of sides on the custom die:')) : parseInt(diceTypeSelect.value);
+        const diceType = diceTypeSelect.value === 'custom' ? parseInt(customDiceInput.value) : parseInt(diceTypeSelect.value);
         const diceCount = parseInt(diceCountInput.value);
 
         if (isNaN(diceType) || diceType <= 0) {

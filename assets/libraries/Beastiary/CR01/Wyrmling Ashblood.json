@@ -1,0 +1,61 @@
+{
+    "creature_name": "Wyrmling Ashblood",
+    "type": "Dragon",
+    "alignment": "Chaotic Neutral",
+    "description": "A small but fierce dragon, the Wyrmling Ashblood is covered in dark, ash-like scales that seem to smolder with internal heat. It is known for its fiery breath and quick, unpredictable movements.",
+    "image": "assets/libraries/Beastiary/CR1/Wyrmling_Ashblood/ashblood-wyrmling.png",
+    "armor_class": 13,
+    "hit_points": 35,
+    "speed": {
+        "walk": "30 ft.",
+        "fly": "60 ft."
+    },
+    "ability_scores": {
+        "strength": 15,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 10,
+        "wisdom": 11,
+        "charisma": 12
+    },
+    "saving_throws": {
+        "strength": "+4",
+        "dexterity": "+2",
+        "constitution": "+2"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+4"
+    },
+    "damage_resistances": "Fire",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "12"
+    },
+    "languages": "Draconic",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "Volcanic or Mountainous Regions",
+    "traits": [
+        {
+            "name": "Heated Body",
+            "description": "A creature that touches the Wyrmling Ashblood or hits it with a melee attack while within 5 feet of it takes 3 (1d6) fire damage."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 2) piercing damage plus 2 (1d4) fire damage."
+        },
+        {
+            "name": "Fire Breath (Recharge 5-6)",
+            "description": "The Wyrmling exhales fire in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

@@ -1,0 +1,61 @@
+{
+    "creature_name": "Ooze Spawn",
+    "type": "Ooze",
+    "alignment": "Neutral",
+    "description": "The Ooze Spawn is a small, semi-sentient mass of slime that acts as a progenitor for other oozes. Though not particularly intelligent, it has an innate drive to seek out organic matter to consume, which it then uses to spawn smaller, more aggressive oozes. Its body is amorphous and constantly shifting, with tendrils of slime extending from its core.",
+    "image": "assets/libraries/Beastiary/CR2/OozeSpawn/OozeSpawn.png",
+    "armor_class": 8,
+    "hit_points": 45,
+    "speed": {
+        "walk": "20 ft.",
+        "fly": "—"
+    },
+    "ability_scores": {
+        "strength": 14,
+        "dexterity": 6,
+        "constitution": 16,
+        "intelligence": 1,
+        "wisdom": 6,
+        "charisma": 2
+    },
+    "saving_throws": {
+        "strength": "+2",
+        "dexterity": "-2",
+        "constitution": "+3"
+    },
+    "skills": {
+        "perception": "+1",
+        "stealth": "-2"
+    },
+    "damage_resistances": "Acid",
+    "damage_immunities": "Poison",
+    "condition_immunities": "Blinded, Charmed, Deafened, Exhaustion, Frightened, Prone",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "11"
+    },
+    "languages": "—",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "Swamp, Sewers",
+    "traits": [
+        {
+            "name": "Amorphous",
+            "description": "The ooze can move through a space as narrow as 1 inch wide without squeezing."
+        },
+        {
+            "name": "Ooze Spawn",
+            "description": "As a bonus action, the Ooze Spawn can split off a part of itself to spawn a Small ooze with 10 hit points. The spawned ooze is under the control of the Ooze Spawn and acts on its turn."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Pseudopod",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage plus 3 (1d6) acid damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

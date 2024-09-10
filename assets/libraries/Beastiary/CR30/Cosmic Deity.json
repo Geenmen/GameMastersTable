@@ -1,0 +1,89 @@
+{
+    "creature_name": "Cosmic Deity",
+    "type": "Celestial",
+    "alignment": "True Neutral",
+    "description": "The Cosmic Deity is a vast and apathetic celestial being, ancient beyond comprehension. It drifts through the void between worlds, indifferent to the mortal struggles that play out across the planes. Though it rarely interferes, the Cosmic Deity is known to bestow its favor upon those who embrace the concept of 'progression'—the continual advancement of knowledge, power, and understanding. Worshipers of the Cosmic Deity are driven by a relentless pursuit of progress, whether through technology, magic, or personal growth. This deity rewards those who innovate and evolve, while those who stagnate are met with indifference or subtle disdain.",
+    "image": "",
+    "armor_class": 26,
+    "hit_points": 550,
+    "speed": {
+        "walk": "60 ft.",
+        "fly": "120 ft."
+    },
+    "ability_scores": {
+        "strength": 30,
+        "dexterity": 22,
+        "constitution": 28,
+        "intelligence": 30,
+        "wisdom": 28,
+        "charisma": 32
+    },
+    "saving_throws": {
+        "strength": "+17",
+        "dexterity": "+14",
+        "constitution": "+16"
+    },
+    "skills": {
+        "perception": "+18",
+        "stealth": "+14"
+    },
+    "damage_resistances": "Radiant, Necrotic, Psychic",
+    "damage_immunities": "Poison, Non-magical attacks",
+    "condition_immunities": "Charmed, Frightened, Paralyzed, Poisoned",
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": "28"
+    },
+    "languages": "All, telepathy 500 ft.",
+    "challenge_rating": "30",
+    "tamable": false,
+    "lair_type": "The Cosmic Deity resides in a floating citadel of crystal and light, suspended in the void between realities. This lair is inaccessible to most beings, existing in a place where time and space are mere suggestions.",
+    "traits": [
+        {
+            "name": "Divine Indifference",
+            "description": "The Cosmic Deity cannot be surprised, and its emotions are impossible to read. It is immune to effects that would attempt to detect or influence its thoughts or feelings."
+        },
+        {
+            "name": "Apathy Aura",
+            "description": "Creatures within 60 feet of the Cosmic Deity must make a DC 25 Wisdom saving throw at the start of their turn or have disadvantage on all attack rolls and saving throws until the start of their next turn, as a crushing sense of futility overwhelms them."
+        },
+        {
+            "name": "Progression's Reward",
+            "description": "Once per day, the Cosmic Deity can bestow a blessing upon a creature that has demonstrated significant progress. This blessing grants the creature advantage on all ability checks, saving throws, and attack rolls for 24 hours."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Stellar Flare",
+            "description": "Ranged Spell Attack: +19 to hit, range 300 ft., one target. Hit: 70 (10d10) radiant damage. The target must succeed on a DC 25 Constitution saving throw or be blinded for 1 minute."
+        },
+        {
+            "name": "Reality Warp",
+            "description": "The Cosmic Deity bends reality within a 120-foot radius centered on itself. Each creature of its choice in that area must succeed on a DC 25 Charisma saving throw or be transported to a random plane of existence. A creature that succeeds on the saving throw is instead restrained as the space around them warps and twists (escape DC 25)."
+        }
+    ],
+    "reactions": [
+        {
+            "name": "Transcendent Shift",
+            "description": "When the Cosmic Deity is hit by an attack, it can use its reaction to become incorporeal until the start of its next turn, causing the attack to pass through it harmlessly."
+        }
+    ],
+    "legendary_actions": [
+        {
+            "name": "Cosmic Judgment",
+            "description": "The Cosmic Deity can use one of the following legendary actions at the end of another creature's turn: \n\n1. **Celestial Blast:** The Cosmic Deity targets one creature it can see within 120 feet. The target must succeed on a DC 25 Dexterity saving throw or take 45 (10d8) radiant damage.\n\n2. **Nullify Magic:** The Cosmic Deity suppresses magic within a 60-foot radius. All spells of 6th level or lower cast in this area are automatically countered, and all magical effects are dispelled."
+        }
+    ],
+    "lair_actions": [
+        {
+            "name": "Temporal Distortion",
+            "description": "On initiative count 20 (losing initiative ties), the Cosmic Deity causes time to warp in its lair. All creatures within the lair must make a DC 25 Wisdom saving throw or lose their next turn as time momentarily skips forward for them."
+        }
+    ],
+    "regional_effects": [
+        {
+            "name": "Reality Flux",
+            "description": "The area around the Cosmic Deity's lair is in a constant state of flux. The laws of physics may shift unpredictably, causing spells to behave erratically or gravity to change direction. Non-magical objects may slowly disintegrate or spontaneously reassemble."
+        }
+    ]
+}

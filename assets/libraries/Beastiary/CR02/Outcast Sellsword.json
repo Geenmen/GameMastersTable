@@ -1,0 +1,65 @@
+{
+    "creature_name": "Outcast Sellsword",
+    "type": "Humanoid",
+    "alignment": "Chaotic Neutral",
+    "description": "The Outcast Sellsword is a mercenary who wanders the lands, selling their sword to the highest bidder. Once part of a noble army, their betrayal led to a life of solitude and survival by any means necessary. They are cunning, resourceful, and ruthless, but they hold to a personal code of honor that prevents them from harming innocents.",
+    "image": "",
+    "armor_class": 15,
+    "hit_points": 30,
+    "speed": {
+        "walk": "30 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 14,
+        "dexterity": 16,
+        "constitution": 12,
+        "intelligence": 10,
+        "wisdom": 11,
+        "charisma": 13
+    },
+    "saving_throws": {
+        "strength": "+4",
+        "dexterity": "+5",
+        "constitution": "+3"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+5"
+    },
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "",
+        "passive_perception": "12"
+    },
+    "languages": "Common, Elvish",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "None",
+    "traits": [
+        {
+            "name": "Mercenary’s Cunning",
+            "description": "The Outcast Sellsword can take the Disengage or Hide action as a bonus action on each of its turns."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The Outcast Sellsword makes two melee attacks with its longsword."
+        },
+        {
+            "name": "Longsword",
+            "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage."
+        },
+        {
+            "name": "Crossbow",
+            "description": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

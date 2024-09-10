@@ -1,0 +1,57 @@
+{
+    "creature_name": "Moonfang Pup",
+    "type": "Beast",
+    "alignment": "Neutral",
+    "description": "A young, silver-furred wolf with glowing blue eyes that hunts under the light of the moon. The Moonfang Pup is known for its agility and keen senses, making it a formidable opponent despite its size.",
+    "image": "",
+    "armor_class": 12,
+    "hit_points": 18,
+    "speed": {
+        "walk": "40 ft",
+        "fly": "0 ft"
+    },
+    "ability_scores": {
+        "strength": 12,
+        "dexterity": 15,
+        "constitution": 12,
+        "intelligence": 4,
+        "wisdom": 14,
+        "charisma": 7
+    },
+    "saving_throws": {
+        "strength": "+2",
+        "dexterity": "+4",
+        "constitution": "+2"
+    },
+    "skills": {
+        "perception": "+4",
+        "stealth": "+6"
+    },
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "14"
+    },
+    "languages": "Understands Sylvan, but cannot speak",
+    "challenge_rating": "1",
+    "tamable": true,
+    "lair_type": "Forest",
+    "traits": [
+        {
+            "name": "Keen Hearing and Smell",
+            "description": "The Moonfang Pup has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft, one target. Hit: 7 (1d6+2) piercing damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

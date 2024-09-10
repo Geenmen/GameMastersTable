@@ -1,0 +1,61 @@
+{
+    "creature_name": "Stingwing Midge",
+    "type": "Beast",
+    "alignment": "Unaligned",
+    "description": "The Stingwing Midge is a small, agile insect with translucent wings that beat so rapidly they create a faint hum. It is known for its venomous stinger, which can cause intense pain and mild paralysis.",
+    "image": "",  // You can add an image link here
+    "armor_class": 13,
+    "hit_points": 10,
+    "speed": {
+        "walk": "10 ft",
+        "fly": "40 ft"
+    },
+    "ability_scores": {
+        "strength": 4,
+        "dexterity": 16,
+        "constitution": 12,
+        "intelligence": 1,
+        "wisdom": 10,
+        "charisma": 3
+    },
+    "saving_throws": {
+        "strength": "-3",
+        "dexterity": "+5",
+        "constitution": "+1"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+5"
+    },
+    "damage_resistances": "Poison",
+    "damage_immunities": "",
+    "condition_immunities": "Charmed, Frightened",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "12"
+    },
+    "languages": "—",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "Forests, Swamps",
+    "traits": [
+        {
+            "name": "Venomous Sting",
+            "description": "When the Stingwing Midge successfully hits with its sting attack, the target must succeed on a DC 11 Constitution saving throw or become paralyzed until the end of its next turn."
+        },
+        {
+            "name": "Evasion",
+            "description": "If the Stingwing Midge is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Sting",
+            "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 3 (1d6) poison damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

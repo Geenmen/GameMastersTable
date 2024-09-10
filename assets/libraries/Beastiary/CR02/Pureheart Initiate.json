@@ -1,0 +1,65 @@
+{
+    "creature_name": "Pureheart Initiate",
+    "type": "Humanoid",
+    "alignment": "Lawful Good",
+    "description": "The Pureheart Initiate is a devoted follower of a benevolent deity, often found serving in temples or assisting those in need. They are known for their unwavering commitment to righteousness and their ability to channel divine power to heal and protect others.",
+    "image": "",  // You can add an image path here if you have one
+    "armor_class": 14,
+    "hit_points": 27,
+    "speed": {
+        "walk": "30 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 12,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 10,
+        "wisdom": 15,
+        "charisma": 16
+    },
+    "saving_throws": {
+        "strength": "+2",
+        "dexterity": "+4",
+        "constitution": "+3"
+    },
+    "skills": {
+        "perception": "+4",
+        "stealth": "+4"
+    },
+    "damage_resistances": "Radiant",
+    "damage_immunities": "",
+    "condition_immunities": "Charmed",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "14"
+    },
+    "languages": "Common, Celestial",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "None",
+    "traits": [
+        {
+            "name": "Divine Touch",
+            "description": "The Pureheart Initiate can heal a creature within 5 feet of them for 1d8+2 hit points as an action. They can use this ability a number of times equal to their Charisma modifier per day."
+        },
+        {
+            "name": "Aura of Protection",
+            "description": "Allies within 10 feet of the Pureheart Initiate gain a +2 bonus to saving throws."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Radiant Strike",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d8+2 radiant damage."
+        },
+        {
+            "name": "Blessing of Light",
+            "description": "The Pureheart Initiate can cast the 'Bless' spell at will without expending a spell slot."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

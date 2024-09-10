@@ -1,0 +1,57 @@
+{
+    "creature_name": "Rustbite Beetle",
+    "type": "Beast",
+    "alignment": "Unaligned",
+    "description": "The Rustbite Beetle is a large, metallic-colored insect known for its ability to corrode and devour metal. Found in ancient ruins and abandoned mines, these beetles are a menace to adventurers and blacksmiths alike, as they can quickly reduce weapons and armor to rusted scraps.",
+    "image": "",
+    "armor_class": 14,
+    "hit_points": 27,
+    "speed": {
+        "walk": "30 ft",
+        "fly": "—"
+    },
+    "ability_scores": {
+        "strength": 12,
+        "dexterity": 16,
+        "constitution": 13,
+        "intelligence": 2,
+        "wisdom": 10,
+        "charisma": 4
+    },
+    "saving_throws": {
+        "strength": "+3",
+        "dexterity": "+5",
+        "constitution": "+3"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+5"
+    },
+    "damage_resistances": "Non-magical physical attacks",
+    "damage_immunities": "Poison",
+    "condition_immunities": "Charmed, Frightened",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "12"
+    },
+    "languages": "—",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "Abandoned mines, ancient ruins",
+    "traits": [
+        {
+            "name": "Rust Aura",
+            "description": "Metallic objects within 5 feet of the Rustbite Beetle begin to rust and corrode. Non-magical metal objects that start their turn within this area take 1d4 damage, reducing their durability and effectiveness."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage. If the target is wearing non-magical metal armor or is made of metal, it must succeed on a DC 13 Dexterity saving throw or the metal corrodes, reducing its AC by 1."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

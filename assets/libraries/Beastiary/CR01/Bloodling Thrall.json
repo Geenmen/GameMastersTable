@@ -1,0 +1,57 @@
+{
+    "creature_name": "Bloodling Thrall",
+    "type": "Undead",
+    "alignment": "Chaotic Evil",
+    "description": "A Bloodling Thrall is a corrupted, mindless servant bound to its master's will. These creatures are formed from the lifeblood of the fallen, animated by dark magic. They appear as gaunt, hollow-eyed beings with translucent, blood-tinted skin, constantly dripping with a dark, viscous fluid.",
+    "image": "",
+    "armor_class": 12,
+    "hit_points": 18,
+    "speed": {
+        "walk": "30 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 12,
+        "dexterity": 14,
+        "constitution": 10,
+        "intelligence": 3,
+        "wisdom": 8,
+        "charisma": 5
+    },
+    "saving_throws": {
+        "strength": "+2",
+        "dexterity": "+4",
+        "constitution": ""
+    },
+    "skills": {
+        "perception": "+1",
+        "stealth": "+4"
+    },
+    "damage_resistances": "Necrotic",
+    "damage_immunities": "",
+    "condition_immunities": "Charmed, Exhaustion",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "11"
+    },
+    "languages": "Understands Common but cannot speak",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "Graveyards, Ancient Ruins",
+    "traits": [
+        {
+            "name": "Blood Drain",
+            "description": "If the Bloodling Thrall successfully hits with a melee attack, it can attempt to drain the life force from the target. The target must succeed on a DC 12 Constitution saving throw or take 1d4 necrotic damage and the Bloodling Thrall regains hit points equal to the necrotic damage dealt."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Claw",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d6+2 slashing damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

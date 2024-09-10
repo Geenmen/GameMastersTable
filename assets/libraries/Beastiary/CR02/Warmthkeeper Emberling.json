@@ -1,0 +1,65 @@
+{
+    "creature_name": "Warmthkeeper Emberling",
+    "type": "Elemental",
+    "alignment": "Neutral Good",
+    "description": "A Warmthkeeper Emberling is a small, fire-based elemental often found in the hearths of kind-hearted folk or within the enchanted woods where the air is always warm. They emit a soft, comforting heat and are known to protect those who are lost in cold environments. With flickering flames for hair and a body resembling smoldering coals, these creatures are beloved for their ability to keep travelers warm and safe during cold nights.",
+    "image": "",
+    "armor_class": 12,
+    "hit_points": 30,
+    "speed": {
+        "walk": "25 ft.",
+        "fly": "30 ft. (hover)"
+    },
+    "ability_scores": {
+        "strength": 8,
+        "dexterity": 14,
+        "constitution": 12,
+        "intelligence": 10,
+        "wisdom": 13,
+        "charisma": 15
+    },
+    "saving_throws": {
+        "strength": "-1",
+        "dexterity": "+4",
+        "constitution": "+1"
+    },
+    "skills": {
+        "perception": "+3",
+        "stealth": "+4"
+    },
+    "damage_resistances": "Fire; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
+    "damage_immunities": "Cold",
+    "condition_immunities": "Exhaustion, Paralyzed",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "13"
+    },
+    "languages": "Ignan, understands Common but cannot speak",
+    "challenge_rating": "2",
+    "tamable": true,
+    "lair_type": "Warm environments, especially near sources of heat such as campfires or hearths",
+    "traits": [
+        {
+            "name": "Heated Body",
+            "description": "A creature that touches the Emberling or hits it with a melee attack while within 5 feet of it takes 1d6 fire damage."
+        },
+        {
+            "name": "Illuminating Glow",
+            "description": "The Emberling sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Ember Burst",
+            "description": "Ranged Weapon Attack: +4 to hit, range 30 ft., one target. Hit: 2d6 fire damage."
+        },
+        {
+            "name": "Warm Embrace",
+            "description": "The Emberling wraps its fiery arms around a willing creature, granting it resistance to cold damage for 1 hour. The Emberling can only grant this benefit to one creature at a time."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

@@ -1,0 +1,57 @@
+{
+    "creature_name": "Blitzhound Pup",
+    "type": "Beast",
+    "alignment": "Neutral",
+    "description": "A young, energetic creature with fur that crackles with static energy. The Blitzhound Pup is a smaller version of the Blitzhound, known for its loyalty and swift movements. Though not as powerful as its adult form, it can still deliver a shocking bite.",
+    "image": "",
+    "armor_class": 12,
+    "hit_points": 18,
+    "speed": {
+        "walk": "40 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 12,
+        "dexterity": 16,
+        "constitution": 13,
+        "intelligence": 4,
+        "wisdom": 12,
+        "charisma": 7
+    },
+    "saving_throws": {
+        "strength": "+1",
+        "dexterity": "+3",
+        "constitution": "+2"
+    },
+    "skills": {
+        "perception": "+3",
+        "stealth": "+5"
+    },
+    "damage_resistances": "Lightning",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "13"
+    },
+    "languages": "",
+    "challenge_rating": "1",
+    "tamable": true,
+    "lair_type": "None",
+    "traits": [
+        {
+            "name": "Static Fur",
+            "description": "Creatures that touch the Blitzhound Pup or hit it with a melee attack take 1 lightning damage."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +3 to hit, reach 5 ft, one target. Hit: 5 (1d6+2) piercing damage plus 1 lightning damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

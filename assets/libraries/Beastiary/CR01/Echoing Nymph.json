@@ -1,0 +1,61 @@
+{
+    "creature_name": "Echoing Nymph",
+    "type": "Fey",
+    "alignment": "Chaotic Neutral",
+    "description": "The Echoing Nymph is a mysterious fey creature that dwells in dense forests and mist-covered glades. Her voice can be heard echoing through the trees, luring travelers deeper into the woods. While not inherently malicious, she enjoys playing tricks on those who enter her domain, often leading them in circles or causing them to lose their way. The nymph appears as a beautiful, ethereal woman with a translucent form that shimmers like a reflection on water.",
+    "image": "",
+    "armor_class": 12,
+    "hit_points": 22,
+    "speed": {
+        "walk": "30 ft",
+        "fly": "None"
+    },
+    "ability_scores": {
+        "strength": 8,
+        "dexterity": 15,
+        "constitution": 10,
+        "intelligence": 12,
+        "wisdom": 14,
+        "charisma": 16
+    },
+    "saving_throws": {
+        "strength": "",
+        "dexterity": "Dex +4",
+        "constitution": ""
+    },
+    "skills": {
+        "perception": "+4",
+        "stealth": "+6"
+    },
+    "damage_resistances": "Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
+    "damage_immunities": "",
+    "condition_immunities": "Charmed, Frightened",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "14"
+    },
+    "languages": "Sylvan, Common",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "Forest",
+    "traits": [
+        {
+            "name": "Fey Step",
+            "description": "The Echoing Nymph can magically teleport up to 30 feet to an unoccupied space she can see."
+        },
+        {
+            "name": "Misty Echo",
+            "description": "As a bonus action, the nymph can create an illusory duplicate of herself in a location within 30 feet. The duplicate lasts for 1 minute and can move up to 30 feet away from the nymph on her turn, but it cannot take any actions. If a creature attacks the duplicate, it vanishes."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Touch of Lethargy",
+            "description": "Melee Spell Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) psychic damage, and the target must succeed on a DC 13 Wisdom saving throw or be slowed until the end of its next turn."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

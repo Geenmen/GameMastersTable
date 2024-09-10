@@ -1,0 +1,108 @@
+{
+    "creature_name": "God-Serpent of the Abyss",
+    "type": "Monstrosity",
+    "alignment": "Chaotic Evil",
+    "description": "The God-Serpent of the Abyss is an ancient, colossal serpent that dwells in the deepest, darkest reaches of the world. Its scales shimmer with an otherworldly darkness, absorbing light and hope from all who dare approach. It is said to be the embodiment of primal chaos, with a mind that is alien and unfathomable to mortal beings.",
+    "image": "assets/libraries/Beastiary/CR30/GodSerpentAbyss/SerpentImage.png",
+    "armor_class": 25,
+    "hit_points": 678,
+    "speed": {
+        "walk": "60 ft.",
+        "fly": "120 ft. (hover)"
+    },
+    "ability_scores": {
+        "strength": 30,
+        "dexterity": 16,
+        "constitution": 28,
+        "intelligence": 22,
+        "wisdom": 20,
+        "charisma": 24
+    },
+    "saving_throws": {
+        "strength": "+19",
+        "dexterity": "+12",
+        "constitution": "+17"
+    },
+    "skills": {
+        "perception": "+18",
+        "stealth": "+15"
+    },
+    "damage_resistances": "bludgeoning, piercing, and slashing from non-magical attacks",
+    "damage_immunities": "necrotic, poison",
+    "condition_immunities": "charmed, frightened, poisoned",
+    "senses": {
+        "darkvision": "240 ft.",
+        "passive_perception": "28"
+    },
+    "languages": "Abyssal, Telepathy 120 ft.",
+    "challenge_rating": "30",
+    "tamable": false,
+    "lair_type": "Abyssal Depths",
+    "traits": [
+        {
+            "name": "Legendary Resistance (3/Day)",
+            "description": "If the God-Serpent fails a saving throw, it can choose to succeed instead."
+        },
+        {
+            "name": "Abyssal Aura",
+            "description": "Creatures within 60 feet of the God-Serpent must make a DC 26 Wisdom saving throw or be paralyzed with fear for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        },
+        {
+            "name": "Serpentine Body",
+            "description": "The God-Serpent can move through a space as narrow as 1 foot wide without squeezing."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The God-Serpent makes three attacks: one with its bite and two with its constrict."
+        },
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +19 to hit, reach 20 ft., one target. Hit: 36 (4d12 + 10) piercing damage plus 21 (6d6) necrotic damage."
+        },
+        {
+            "name": "Constrict",
+            "description": "Melee Weapon Attack: +19 to hit, reach 20 ft., one target. Hit: 30 (4d10 + 10) bludgeoning damage. The target is grappled (escape DC 27). Until this grapple ends, the target is restrained, and the God-Serpent cannot constrict another target."
+        },
+        {
+            "name": "Breath of the Abyss (Recharge 5-6)",
+            "description": "The God-Serpent exhales a wave of abyssal energy in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 25 Dexterity saving throw, taking 88 (16d10) necrotic damage on a failed save, or half as much damage on a successful one."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [
+        {
+            "name": "Detect",
+            "description": "The God-Serpent makes a Wisdom (Perception) check."
+        },
+        {
+            "name": "Tail Attack",
+            "description": "The God-Serpent makes a tail attack: +19 to hit, reach 30 ft., one target. Hit: 28 (4d8 + 10) bludgeoning damage."
+        },
+        {
+            "name": "Abyssal Gaze (Costs 2 Actions)",
+            "description": "The God-Serpent targets one creature it can see within 60 feet of it. The target must succeed on a DC 26 Wisdom saving throw or be frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        }
+    ],
+    "lair_actions": [
+        {
+            "name": "Darkness Unleashed",
+            "description": "The God-Serpent can create an area of magical darkness in a 60-foot radius centered on a point it can see within 120 feet. This darkness lasts until the next initiative count 20."
+        },
+        {
+            "name": "Abyssal Rift",
+            "description": "The ground in a 30-foot radius centered on a point within 120 feet of the God-Serpent cracks open, creating a deep chasm. Any creature in the area must succeed on a DC 24 Dexterity saving throw or fall into the rift, taking 8d6 bludgeoning damage and landing prone."
+        }
+    ],
+    "regional_effects": [
+        {
+            "name": "Chaotic Surge",
+            "description": "The region containing the God-Serpent's lair is warped by its presence, causing random bursts of wild magic to occur within a 6-mile radius. These effects might include sudden changes in weather, spontaneous growth of dangerous flora, or the manifestation of illusory creatures."
+        },
+        {
+            "name": "Eternal Night",
+            "description": "The area within 6 miles of the God-Serpent's lair is shrouded in perpetual darkness. Natural light is reduced to dim light, and magical light cannot illuminate beyond 30 feet."
+        }
+    ]
+}

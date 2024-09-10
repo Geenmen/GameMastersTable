@@ -1,0 +1,57 @@
+{
+    "creature_name": "Sparkmite",
+    "type": "Elemental",
+    "alignment": "Neutral",
+    "description": "Sparkmites are small, insect-like creatures made of crackling electricity. They thrive in areas with high concentrations of magical energy, feeding on the ambient arcane currents. Sparkmites are known for their swift movements and the faint buzzing sound they emit as they move.",
+    "image": "",
+    "armor_class": 13,
+    "hit_points": 12,
+    "speed": {
+        "walk": "30 ft.",
+        "fly": "40 ft."
+    },
+    "ability_scores": {
+        "strength": 6,
+        "dexterity": 16,
+        "constitution": 12,
+        "intelligence": 5,
+        "wisdom": 10,
+        "charisma": 7
+    },
+    "saving_throws": {
+        "strength": "",
+        "dexterity": "+5",
+        "constitution": ""
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+5"
+    },
+    "damage_resistances": "Lightning, Thunder",
+    "damage_immunities": "Poison",
+    "condition_immunities": "Paralyzed, Poisoned",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "12"
+    },
+    "languages": "None",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "None",
+    "traits": [
+        {
+            "name": "Electrified Body",
+            "description": "Any creature that touches the Sparkmite or hits it with a melee attack while within 5 feet takes 2 (1d4) lightning damage."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Spark Shock",
+            "description": "The Sparkmite releases a small burst of electricity. One creature within 5 feet must make a DC 12 Dexterity saving throw, taking 5 (1d8) lightning damage on a failed save, or half as much damage on a successful one."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

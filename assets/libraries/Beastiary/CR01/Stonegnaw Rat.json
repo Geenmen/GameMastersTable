@@ -1,0 +1,61 @@
+{
+    "creature_name": "Stonegnaw Rat",
+    "type": "Beast",
+    "alignment": "Unaligned",
+    "description": "A large, muscular rat with teeth strong enough to gnaw through stone. These creatures are often found in deep underground caverns, where they carve out extensive burrows by chewing through rock. They are known for their aggressive nature and territorial behavior.",
+    "image": "",
+    "armor_class": 12,
+    "hit_points": 15,
+    "speed": {
+        "walk": "30 ft.",
+        "fly": "—"
+    },
+    "ability_scores": {
+        "strength": 12,
+        "dexterity": 14,
+        "constitution": 12,
+        "intelligence": 2,
+        "wisdom": 10,
+        "charisma": 4
+    },
+    "saving_throws": {
+        "strength": "",
+        "dexterity": "",
+        "constitution": ""
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+4"
+    },
+    "damage_resistances": "Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "12"
+    },
+    "languages": "—",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "Underground caverns",
+    "traits": [
+        {
+            "name": "Stone Gnaw",
+            "description": "The Stonegnaw Rat can chew through stone at a rate of 5 feet per minute. It can create small tunnels and burrows through rock, making it difficult to trap or contain."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 3) piercing damage."
+        },
+        {
+            "name": "Burrow",
+            "description": "The Stonegnaw Rat can dig through stone and earth, moving up to 10 feet through solid stone or 20 feet through softer earth as an action."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

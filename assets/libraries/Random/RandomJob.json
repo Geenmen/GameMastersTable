@@ -1,0 +1,194 @@
+{
+    "categories": {
+        "adventuring": {
+            "description": "Jobs related to adventuring, exploring, and questing.",
+            "jobs": [
+                "Treasure Hunter",
+                "Monster Slayer",
+                "Dungeon Delver",
+                "Artifact Seeker",
+                "Bounty Hunter",
+                "Beast Tracker",
+                "Ranger Scout",
+                "Relic Seeker",
+                "Mythical Beast Tamer",
+                "Explorer",
+                "Dragon Slayer",
+                "Crypt Raider"
+            ]
+        },
+        "crafting": {
+            "description": "Jobs focused on creating and crafting items.",
+            "jobs": [
+                "Blacksmith",
+                "Potion Brewer",
+                "Tailor",
+                "Jeweler",
+                "Fletcher",
+                "Armorsmith",
+                "Weapon Forgemaster",
+                "Rune Engraver",
+                "Glassblower",
+                "Gem Cutter",
+                "Leatherworker",
+                "Woodcarver",
+                "Enchanter"
+            ]
+        },
+        "merchant": {
+            "description": "Jobs related to trade and commerce.",
+            "jobs": [
+                "Trader",
+                "Caravan Leader",
+                "Market Vendor",
+                "Ship Merchant",
+                "Banker",
+                "Auctioneer",
+                "Spice Merchant",
+                "Book Dealer",
+                "Potion Vendor",
+                "Art Dealer",
+                "Coin Collector",
+                "Supply Chain Manager"
+            ]
+        },
+        "scholarly": {
+            "description": "Jobs that require knowledge and scholarly pursuits.",
+            "jobs": [
+                "Librarian",
+                "Historian",
+                "Alchemist",
+                "Magician",
+                "Scribe",
+                "Astronomer",
+                "Scholar",
+                "Arcane Researcher",
+                "Linguist",
+                "Philosopher",
+                "Rune Reader",
+                "Mathematician",
+                "Archaeologist"
+            ]
+        },
+        "service": {
+            "description": "Jobs that provide services to others.",
+            "jobs": [
+                "Innkeeper",
+                "Bartender",
+                "Stablehand",
+                "Cook",
+                "Healer",
+                "Gardener",
+                "Barber",
+                "Housemaid",
+                "Butler",
+                "Bodyguard",
+                "Town Crier",
+                "Messenger",
+                "Herbalist"
+            ]
+        },
+        "military": {
+            "description": "Jobs related to the military and defense.",
+            "jobs": [
+                "Soldier",
+                "Commander",
+                "Archer",
+                "Cavalryman",
+                "Siege Engineer",
+                "Tactician",
+                "Scout",
+                "Guard",
+                "Mercenary",
+                "Weapon Instructor",
+                "Quartermaster",
+                "Naval Officer"
+            ]
+        },
+        "religious": {
+            "description": "Jobs within religious institutions or related to spiritual practices.",
+            "jobs": [
+                "Priest",
+                "Cleric",
+                "Monk",
+                "Paladin",
+                "Shrine Keeper",
+                "Cultist",
+                "Exorcist",
+                "Diviner",
+                "Temple Guardian",
+                "Acolyte",
+                "Oracle",
+                "Confessor"
+            ]
+        },
+        "entertainment": {
+            "description": "Jobs focused on providing entertainment or performing arts.",
+            "jobs": [
+                "Bard",
+                "Actor",
+                "Jester",
+                "Dancer",
+                "Minstrel",
+                "Storyteller",
+                "Acrobat",
+                "Puppeteer",
+                "Circus Performer",
+                "Fire Eater",
+                "Magician (Performer)",
+                "Street Performer"
+            ]
+        },
+        "criminal": {
+            "description": "Jobs associated with criminal activities.",
+            "jobs": [
+                "Thief",
+                "Assassin",
+                "Smuggler",
+                "Spy",
+                "Pirate",
+                "Bandit",
+                "Con Artist",
+                "Blackmailer",
+                "Fence",
+                "Forger",
+                "Pickpocket",
+                "Kidnapper"
+            ]
+        },
+        "noble": {
+            "description": "Jobs related to nobility and high society.",
+            "jobs": [
+                "Lord",
+                "Lady",
+                "Chamberlain",
+                "Steward",
+                "Court Advisor",
+                "Royal Guard",
+                "Diplomat",
+                "Herald",
+                "Ambassador",
+                "Seneschal",
+                "Spymaster",
+                "Chancellor"
+            ]
+        },
+        "agricultural": {
+            "description": "Jobs related to farming and agriculture.",
+            "jobs": [
+                "Farmer",
+                "Rancher",
+                "Shepherd",
+                "Vintner",
+                "Beekeeper",
+                "Fisherman",
+                "Orchard Keeper",
+                "Herbalist",
+                "Miller",
+                "Huntsman",
+                "Stablemaster",
+                "Plowman"
+            ]
+        }
+    }
+}

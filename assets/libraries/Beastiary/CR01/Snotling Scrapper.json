@@ -1,0 +1,61 @@
+{
+    "creature_name": "Snotling Scrapper",
+    "type": "Humanoid",
+    "alignment": "Chaotic Evil",
+    "description": "Small and sneaky, the Snotling Scrapper is a lowly goblinoid that lurks in the shadows of larger orcish warbands. Though weak individually, these creatures are fierce when cornered, lashing out with crude weapons and dirty tricks.",
+    "image": "",
+    "armor_class": 12,
+    "hit_points": 7,
+    "speed": {
+        "walk": "30 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 8,
+        "dexterity": 14,
+        "constitution": 10,
+        "intelligence": 6,
+        "wisdom": 8,
+        "charisma": 4
+    },
+    "saving_throws": {
+        "strength": "",
+        "dexterity": "12",
+        "constitution": ""
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+4"
+    },
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "12"
+    },
+    "languages": "Goblin",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "Cave or Forest",
+    "traits": [
+        {
+            "name": "Nimble Escape",
+            "description": "The Snotling Scrapper can take the Disengage or Hide action as a bonus action on each of its turns."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Dagger",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+        },
+        {
+            "name": "Throw Sand",
+            "description": "Ranged Weapon Attack: +4 to hit, range 10 ft., one target. Hit: The target must succeed on a DC 10 Dexterity saving throw or be blinded until the end of its next turn."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

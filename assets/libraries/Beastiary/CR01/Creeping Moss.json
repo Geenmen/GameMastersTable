@@ -1,0 +1,57 @@
+{
+    "creature_name": "Creeping Moss",
+    "type": "Plant",
+    "alignment": "Neutral",
+    "description": "Creeping Moss is a low, carpet-like plant that slowly expands its territory by crawling across surfaces. It is often found in damp caves, ancient ruins, or deep forests. Though it appears harmless, the moss can overwhelm creatures that remain in its presence for too long, sapping their strength and vitality.",
+    "image": "",
+    "armor_class": 12,
+    "hit_points": 22,
+    "speed": {
+        "walk": "10 ft.",
+        "fly": "0 ft."
+    },
+    "ability_scores": {
+        "strength": 6,
+        "dexterity": 10,
+        "constitution": 14,
+        "intelligence": 1,
+        "wisdom": 10,
+        "charisma": 1
+    },
+    "saving_throws": {
+        "strength": "-2",
+        "dexterity": "0",
+        "constitution": "+2"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+4"
+    },
+    "damage_resistances": "bludgeoning, piercing",
+    "damage_immunities": "poison",
+    "condition_immunities": "blinded, charmed, deafened, frightened, poisoned",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "12"
+    },
+    "languages": "—",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "Caves, Forests, Ruins",
+    "traits": [
+        {
+            "name": "False Appearance",
+            "description": "While the Creeping Moss remains motionless, it is indistinguishable from ordinary moss."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Sapping Tendrils",
+            "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) necrotic damage, and the target must succeed on a DC 12 Constitution saving throw or have its speed reduced by 10 feet until the end of its next turn."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

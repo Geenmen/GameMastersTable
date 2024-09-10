@@ -1,0 +1,65 @@
+{
+    "creature_name": "Bewitched Doll",
+    "type": "Construct",
+    "alignment": "Chaotic Evil",
+    "description": "A malevolent creation, the Bewitched Doll is a small, cursed figure crafted from cloth and dark magic. It moves with unnatural agility, driven by the malicious intent of its creator. These dolls often serve as conduits for curses and hexes, their blank button eyes concealing a deep, vengeful spirit.",
+    "image": "",
+    "armor_class": 13,
+    "hit_points": 22,
+    "speed": {
+        "walk": "30 ft",
+        "fly": "—"
+    },
+    "ability_scores": {
+        "strength": 7,
+        "dexterity": 16,
+        "constitution": 10,
+        "intelligence": 11,
+        "wisdom": 12,
+        "charisma": 14
+    },
+    "saving_throws": {
+        "strength": "-2",
+        "dexterity": "+5",
+        "constitution": "0"
+    },
+    "skills": {
+        "perception": "+3",
+        "stealth": "+7"
+    },
+    "damage_resistances": "Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
+    "damage_immunities": "Poison, Psychic",
+    "condition_immunities": "Charmed, Exhaustion, Frightened, Paralyzed, Poisoned",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "13"
+    },
+    "languages": "Understands the languages of its creator but cannot speak",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "None",
+    "traits": [
+        {
+            "name": "Magic Resistance",
+            "description": "The Bewitched Doll has advantage on saving throws against spells and other magical effects."
+        },
+        {
+            "name": "Voodoo Link",
+            "description": "As an action, the Bewitched Doll can link itself to a creature within 30 feet that it can see. The linked creature must make a DC 13 Wisdom saving throw or be cursed. The cursed creature takes 1d6 psychic damage whenever the Bewitched Doll takes damage. The link lasts until the doll is destroyed or the curse is lifted."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Needle Strike",
+            "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage."
+        },
+        {
+            "name": "Hexing Gaze",
+            "description": "The Bewitched Doll targets one creature it can see within 30 feet. The target must succeed on a DC 13 Charisma saving throw or be frightened until the end of the doll's next turn."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

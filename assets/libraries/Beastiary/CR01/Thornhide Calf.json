@@ -1,0 +1,57 @@
+{
+    "creature_name": "Thornhide Calf",
+    "type": "Beast",
+    "alignment": "Neutral",
+    "description": "The Thornhide Calf is a young creature resembling a small, rugged bison, but with sharp thorns protruding from its hide. Its thick, natural armor serves as both a defense mechanism and a weapon against predators.",
+    "image": "",
+    "armor_class": 12,
+    "hit_points": 19,
+    "speed": {
+        "walk": "30 ft",
+        "fly": "—"
+    },
+    "ability_scores": {
+        "strength": 14,
+        "dexterity": 12,
+        "constitution": 13,
+        "intelligence": 2,
+        "wisdom": 10,
+        "charisma": 6
+    },
+    "saving_throws": {
+        "strength": "+2",
+        "dexterity": "+1",
+        "constitution": "+1"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+1"
+    },
+    "damage_resistances": "Piercing",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "12"
+    },
+    "languages": "None",
+    "challenge_rating": "1",
+    "tamable": true,
+    "lair_type": "Plains",
+    "traits": [
+        {
+            "name": "Thorny Hide",
+            "description": "Any creature that makes a melee attack against the Thornhide Calf takes 1d4 piercing damage."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Gore",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 2) piercing damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

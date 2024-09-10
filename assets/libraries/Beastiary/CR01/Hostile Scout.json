@@ -1,0 +1,65 @@
+{
+    "creature_name": "Hostile Scout",
+    "type": "Humanoid",
+    "alignment": "Neutral Evil",
+    "description": "A nimble and cunning scout, trained to infiltrate enemy territories and sabotage operations. They are skilled in stealth and evasion, preferring to strike from the shadows before slipping away unseen.",
+    "image": "",
+    "armor_class": 13,
+    "hit_points": 22,
+    "speed": {
+        "walk": "30 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 10,
+        "dexterity": 16,
+        "constitution": 12,
+        "intelligence": 11,
+        "wisdom": 14,
+        "charisma": 8
+    },
+    "saving_throws": {
+        "strength": "",
+        "dexterity": "Dex +5",
+        "constitution": "Con +3"
+    },
+    "skills": {
+        "perception": "Perception +4",
+        "stealth": "Stealth +7"
+    },
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "14"
+    },
+    "languages": "Common, Thieves' Cant",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "Forested areas or enemy outposts",
+    "traits": [
+        {
+            "name": "Sneak Attack",
+            "description": "Once per turn, the Hostile Scout deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the scout that isn’t incapacitated, and the scout doesn’t have disadvantage on the attack roll."
+        },
+        {
+            "name": "Cunning Action",
+            "description": "On each of its turns, the Hostile Scout can use a bonus action to take the Dash, Disengage, or Hide action."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Shortsword",
+            "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 3) piercing damage."
+        },
+        {
+            "name": "Longbow",
+            "description": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

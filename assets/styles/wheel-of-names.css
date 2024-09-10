@@ -1,0 +1,120 @@
+/* Container for the entire wheel of names feature */
+.wheel-of-names-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    color: #333;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for name input fields and buttons */
+.name-inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.name-inputs input {
+    width: 45%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #333;
+    font-size: 12px;
+}
+
+/* Style for buttons */
+.control-btn, .spin-button, .reset-button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 8px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 12px;
+    flex: 1;
+    margin: 0 5px;
+    text-align: center;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.control-btn:hover, .spin-button:hover, .reset-button:hover {
+    background-color: #555;
+}
+
+/* Container for displaying the list of names added */
+.name-list {
+    margin-bottom: 10px;
+    width: 100%;
+    max-height: 80px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #333;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+/* Container for the spin and reset buttons */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Container for the scrolling names during the spin */
+.wheel-display {
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Style for the area that scrolls */
+.scroll-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: scroll 1s linear infinite;
+}
+
+/* Style for each name in the scroll */
+.wheel-text {
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    color: #333;
+}
+
+/* Keyframe for scrolling effect */
+@keyframes scroll {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "creature_name": "Twisted Piglet",
+    "type": "Beast",
+    "alignment": "Chaotic Evil",
+    "description": "A grotesque and malformed piglet with a twisted body, sharp tusks, and a menacing red glow in its eyes. The Twisted Piglet is a result of dark magic gone awry, and it roams the wilderness with a feral hunger for flesh.",
+    "image": "",
+    "armor_class": 12,
+    "hit_points": 15,
+    "speed": {
+        "walk": "30 ft",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 12,
+        "dexterity": 14,
+        "constitution": 12,
+        "intelligence": 3,
+        "wisdom": 8,
+        "charisma": 6
+    },
+    "saving_throws": {
+        "strength": "+2",
+        "dexterity": "+2",
+        "constitution": "+2"
+    },
+    "skills": {
+        "perception": "+1",
+        "stealth": "+4"
+    },
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "Frightened",
+    "senses": {
+        "darkvision": "60 ft",
+        "passive_perception": "11"
+    },
+    "languages": "",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "Cursed Forest",
+    "traits": [
+        {
+            "name": "Ferocious Charge",
+            "description": "If the Twisted Piglet moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 5 (2d4) slashing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Tusk",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 2) slashing damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

@@ -1,0 +1,61 @@
+{
+    "creature_name": "Bonecrusher Grunt",
+    "type": "Humanoid (Orc)",
+    "alignment": "Chaotic Evil",
+    "description": "The Bonecrusher Grunt is a fearsome orc warrior known for its raw strength and brutality. Often found leading small raiding parties, it relishes in smashing through its enemies with overwhelming force.",
+    "image": "",
+    "armor_class": 13,
+    "hit_points": 30,
+    "speed": {
+        "walk": "30 ft.",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 16,
+        "dexterity": 12,
+        "constitution": 14,
+        "intelligence": 8,
+        "wisdom": 10,
+        "charisma": 9
+    },
+    "saving_throws": {
+        "strength": "+5",
+        "dexterity": "+2",
+        "constitution": "+4"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+2"
+    },
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": "12"
+    },
+    "languages": "Common, Orc",
+    "challenge_rating": "1",
+    "tamable": false,
+    "lair_type": "Caves, Ruins",
+    "traits": [
+        {
+            "name": "Aggressive",
+            "description": "As a bonus action, the Bonecrusher Grunt can move up to its speed toward a hostile creature that it can see."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Greataxe",
+            "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage."
+        },
+        {
+            "name": "Javelin",
+            "description": "Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

@@ -1,0 +1,61 @@
+{
+    "creature_name": "Fleeing Hare",
+    "type": "Beast",
+    "alignment": "Neutral",
+    "description": "The Fleeing Hare is a small, nimble creature that relies on its speed and agility to escape predators. Its fur is a mottled brown and white, allowing it to blend in with its surroundings. Despite its size, the Fleeing Hare is incredibly perceptive and can sense danger from afar.",
+    "image": "",
+    "armor_class": 13,
+    "hit_points": 8,
+    "speed": {
+        "walk": "50 ft.",
+        "fly": ""
+    },
+    "ability_scores": {
+        "strength": 6,
+        "dexterity": 18,
+        "constitution": 10,
+        "intelligence": 2,
+        "wisdom": 14,
+        "charisma": 6
+    },
+    "saving_throws": {
+        "strength": "",
+        "dexterity": "+6",
+        "constitution": ""
+    },
+    "skills": {
+        "perception": "+4",
+        "stealth": "+8"
+    },
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": {
+        "darkvision": "",
+        "passive_perception": "14"
+    },
+    "languages": "",
+    "challenge_rating": "1",
+    "tamable": true,
+    "lair_type": "Grasslands",
+    "traits": [
+        {
+            "name": "Keen Hearing and Sight",
+            "description": "The Fleeing Hare has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+        },
+        {
+            "name": "Nimble Escape",
+            "description": "The Fleeing Hare can take the Disengage or Hide action as a bonus action on each of its turns."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 2) piercing damage."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}

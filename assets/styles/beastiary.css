@@ -1,56 +1,122 @@
+/* Container and layout */
 .bestiary-container {
+    padding: 20px;
+    color: #f0f0f0;
+    font-family: 'MedievalSharp', sans-serif; /* Add a fantasy-themed font for extra flair */
+    position: relative; /* Ensure the modal is contained within the panel */
+    overflow: hidden; /* Prevent overflow issues */
+}
+
+.bestiary-header {
+    text-align: center;
+}
+
+.creature-list-container {
+    margin-top: 20px;
+}
+
+/* Bestiary Modal */
+.bestiary-modal {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark translucent background */
 }
 
-.bestiary-step {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.bestiary-modal-content {
+    background-color: #2c2c2c;
+    border-radius: 12px;
+    width: 90%; /* Responsive width */
+    max-width: 100%; /* Fill the panel width */
+    max-height: 90%; /* Ensure the modal doesn't overflow vertically */
     padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
 }
 
-#cr-select, #load-creatures-btn, #reset-cr-btn, #reset-creature-btn {
-    margin-top: 10px;
+/* Close button */
+.bestiary-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #f0f0f0;
 }
 
-ul#creature-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 20px 0;
-}
-
-    ul#creature-list li {
-        cursor: pointer;
-        padding: 5px;
-        border: 1px solid var(--blue-border);
-        border-radius: 4px;
-        margin-bottom: 5px;
-        background-color: var(--section-color);
-        color: #e0e0e0;
-        text-align: center;
-    }
-
-        ul#creature-list li:hover {
-            background-color: var(--red-accent);
-        }
-
+/* Creature card styling */
 .creature-card {
+    background-color: #383838;
+    border-radius: 10px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-grow: 1; /* Allow card to grow */
+    max-height: 100%; /* Prevent overflow */
+    overflow-y: auto; /* Allow scrolling if content exceeds height */
 }
 
 .creature-image {
-    max-width: 100%;
+    border-radius: 8px;
+    width: 100%;
     height: auto;
-    margin-bottom: 10px;
+    max-width: 100%; /* Ensure the image is responsive */
+    margin-bottom: 20px;
+    border: 3px solid #a67132; /* Add a golden border for a regal touch */
 }
 
 .creature-info {
-    text-align: left;
+    text-align: center;
+    color: #e0e0e0;
     width: 100%;
+    flex-grow: 1; /* Allow content to take available space */
+    overflow-y: auto; /* Enable scrolling if content overflows */
+}
+
+.creature-info h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f4d03f; /* Golden color for creature name */
+}
+
+.creature-info p {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Card shadow effect */
+.creature-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.creature-info h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f39c12; /* Orange color for section headers */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .bestiary-modal-content {
+        width: 100%;
+        max-width: none;
+        max-height: 90%;
+    }
+
+    .creature-image {
+        max-width: 100%;
+    }
 }

@@ -1,0 +1,101 @@
+{
+    "creature_name": "Shard of the Apocalypse",
+    "type": "Celestial",
+    "alignment": "Chaotic Neutral",
+    "description": "A fragment of an ancient force that heralds the end of worlds, the Shard of the Apocalypse is a being of unimaginable power, wrapped in a swirling maelstrom of elemental chaos. Its form constantly shifts between fire, ice, lightning, and shadow, leaving devastation in its wake. It is said that those who encounter it are driven to madness, as they glimpse the inevitable destruction it will one day bring.",
+    "image": "",
+    "armor_class": 24,
+    "hit_points": 680,
+    "speed": {
+        "walk": "40 ft.",
+        "fly": "120 ft. (hover)"
+    },
+    "ability_scores": {
+        "strength": 30,
+        "dexterity": 22,
+        "constitution": 30,
+        "intelligence": 25,
+        "wisdom": 27,
+        "charisma": 28
+    },
+    "saving_throws": {
+        "strength": "+19",
+        "dexterity": "+15",
+        "constitution": "+19"
+    },
+    "skills": {
+        "perception": "+18",
+        "stealth": "+15"
+    },
+    "damage_resistances": "fire, cold, lightning",
+    "damage_immunities": "necrotic, radiant, poison",
+    "condition_immunities": "charmed, frightened, poisoned",
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": "28"
+    },
+    "languages": "all, telepathy 120 ft.",
+    "challenge_rating": "30",
+    "tamable": false,
+    "lair_type": "A swirling vortex of destruction, filled with elements in constant turmoil.",
+    "traits": [
+        {
+            "name": "Aura of Destruction",
+            "description": "Creatures within 30 feet of the Shard of the Apocalypse must make a DC 25 Constitution saving throw at the start of their turn or take 40 (8d10) damage of a random type (fire, cold, lightning, necrotic, or radiant)."
+        },
+        {
+            "name": "Apocalyptic Presence",
+            "description": "When a creature starts its turn within 120 feet of the Shard and can see it, it must succeed on a DC 26 Wisdom saving throw or be stunned until the end of its next turn."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The Shard of the Apocalypse makes three elemental strike attacks."
+        },
+        {
+            "name": "Elemental Strike",
+            "description": "Melee Weapon Attack: +19 to hit, reach 10 ft., one target. Hit: 30 (4d8+12) damage of a random type (fire, cold, lightning)."
+        },
+        {
+            "name": "Worldbreaker",
+            "description": "The Shard releases a wave of apocalyptic energy in a 90-foot radius. Each creature in that area must make a DC 25 Dexterity saving throw, taking 100 (20d10) damage of a random type on a failed save, or half as much damage on a successful one."
+        }
+    ],
+    "reactions": [
+        {
+            "name": "Apocalyptic Rebound",
+            "description": "When the Shard takes damage from a creature within 60 feet of it, the Shard can force the creature to make a DC 24 Constitution saving throw. On a failed save, the creature takes the same amount of damage the Shard took."
+        }
+    ],
+    "legendary_actions": [
+        {
+            "name": "Cataclysmic Burst",
+            "description": "The Shard of the Apocalypse unleashes a burst of destructive energy in a 60-foot radius. Each creature in that area must succeed on a DC 25 Dexterity saving throw or take 50 (10d10) damage of a type determined by the DM."
+        },
+        {
+            "name": "Unyielding Might",
+            "description": "The Shard makes an elemental strike attack."
+        },
+        {
+            "name": "Apocalypse Unleashed (Costs 3 Actions)",
+            "description": "The Shard channels its full power, creating a massive explosion. Each creature within 120 feet must make a DC 25 Constitution saving throw, taking 150 (30d10) damage of a random type on a failed save, or half as much on a successful save."
+        }
+    ],
+    "lair_actions": [
+        {
+            "name": "Unstable Reality",
+            "description": "At initiative count 20 (losing initiative ties), the Shard can cause the very fabric of reality to twist within its lair. All creatures within the lair must make a DC 24 Wisdom saving throw or be teleported to a random location within the lair and stunned until the end of their next turn."
+        },
+        {
+            "name": "Elemental Surge",
+            "description": "At initiative count 20 (losing initiative ties), the Shard causes a surge of elemental energy in a 30-foot radius. Each creature in that area must make a DC 24 Dexterity saving throw or take 35 (10d6) damage of a type determined by the DM."
+        }
+    ],
+    "regional_effects": [
+        {
+            "name": "Signs of the Apocalypse",
+            "description": "The region within 10 miles of the Shard of the Apocalypse becomes increasingly unstable, with frequent natural disasters and unpredictable weather patterns. Creatures living within this region are more prone to madness."
+        }
+    ]
+}

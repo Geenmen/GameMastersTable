@@ -1,0 +1,66 @@
+{
+    "creature_name": "Mirelurker Hatchling",
+    "type": "Beast",
+    "alignment": "Unaligned",
+    "description": "The Mirelurker Hatchling is a small, amphibious creature that lurks in swamps and murky waters. Its slimy, mud-colored skin allows it to blend seamlessly with its environment. Despite its size, it is fiercely territorial and will attack anything that comes near its nesting grounds.",
+    "image": "assets/libraries/beastiary/mirelurker-hatchling.png",
+    "armor_class": 12,
+    "hit_points": 22,
+    "speed": {
+        "walk": "20 ft.",
+        "fly": "—",
+        "swim": "30 ft."
+    },
+    "ability_scores": {
+        "strength": 10,
+        "dexterity": 14,
+        "constitution": 12,
+        "intelligence": 2,
+        "wisdom": 10,
+        "charisma": 3
+    },
+    "saving_throws": {
+        "strength": "+2",
+        "dexterity": "+4",
+        "constitution": "+3"
+    },
+    "skills": {
+        "perception": "+2",
+        "stealth": "+4"
+    },
+    "damage_resistances": "Piercing from nonmagical attacks",
+    "damage_immunities": "Poison",
+    "condition_immunities": "Poisoned",
+    "senses": {
+        "darkvision": "30 ft.",
+        "passive_perception": "12"
+    },
+    "languages": "None",
+    "challenge_rating": "2",
+    "tamable": false,
+    "lair_type": "Swamp",
+    "traits": [
+        {
+            "name": "Amphibious",
+            "description": "The Mirelurker Hatchling can breathe air and water."
+        },
+        {
+            "name": "Camouflage",
+            "description": "The Mirelurker Hatchling has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Bite",
+            "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+        },
+        {
+            "name": "Spit Poison",
+            "description": "Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 5 (1d6 + 2) poison damage, and the target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 minute."
+        }
+    ],
+    "reactions": [],
+    "legendary_actions": [],
+    "lair_actions": [],
+    "regional_effects": []
+}
