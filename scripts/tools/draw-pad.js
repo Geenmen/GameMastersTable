@@ -1,144 +1,149 @@
 function initializeDrawPad(panel) {
-    const canvas = panel.querySelector('#draw-pad-canvas');
-    const ctx = canvas.getContext('2d');
-    const colorBtns = panel.querySelectorAll('.color-btn');
-    const eraserBtn = panel.querySelector('#eraser');
-    const importImageBtn = panel.querySelector('#import-image');
-    const zoomInBtn = panel.querySelector('#zoom-in');
-    const zoomOutBtn = panel.querySelector('#zoom-out');
-    const panBtn = panel.querySelector('#pan');
-    const resetBtn = panel.querySelector('#reset');
+    const drawPadContainer = panel.querySelector('#draw-pad-container');
+    const drawingArea = panel.querySelector('#drawing-area');
+    const backgroundImage = panel.querySelector('#background-image');
+    const clearBtn = panel.querySelector('#clear');
+    const eraseBtn = panel.querySelector('#erase');
+    const colorPicker = panel.querySelector('#color-picker');
+    const imageUpload = panel.querySelector('#image-upload');
+    const downloadBtn = panel.querySelector('#download');
 
-    let isDrawing = false;
-    let currentColor = '#000000';
+    let drawing = false;
+    let erasing = false;
+    let currentColor = colorPicker.value;
 
-    let lastX = 0;
-    let lastY = 0;
-    let isPanning = false;
-    let startX = 0;
-    let startY = 0;
-    let scale = 1;
+    drawPadContainer.addEventListener('mousedown', (e) => {
+        drawing = true;
+        drawOrEraseCircle(e);
+    });
 
-    // Set up canvas size
-    canvas.width = panel.querySelector('.draw-pad-canvas-container').clientWidth;
-    canvas.height = panel.querySelector('.draw-pad-canvas-container').clientHeight;
+    drawPadContainer.addEventListener('mousemove', (e) => {
+        if (!drawing) return;
+        drawOrEraseCircle(e);
+    });
 
-    // Event listener to start drawing
-    canvas.addEventListener('mousedown', (e) => {
-        if (!isPanning) {
-            isDrawing = true;
-            [lastX, lastY] = [e.offsetX / scale, e.offsetY / scale];
-        } else {
-            startX = e.offsetX - canvas.offsetLeft;
-            startY = e.offsetY - canvas.offsetTop;
-            canvas.style.cursor = 'move';
+    drawPadContainer.addEventListener('mouseup', () => {
+        drawing = false;
+    });
+
+    drawPadContainer.addEventListener('mouseout', () => {
+        drawing = false;
+    });
+
+    clearBtn.addEventListener('click', () => {
+        drawingArea.innerHTML = '';
+    });
+
+    eraseBtn.addEventListener('click', () => {
+        erasing = !erasing;
+        eraseBtn.textContent = erasing ? 'Drawing Mode' : 'Erase';
+    });
+
+    colorPicker.addEventListener('input', () => {
+        currentColor = colorPicker.value;
+        erasing = false;
+        eraseBtn.textContent = 'Erase';
+    });
+
+    imageUpload.addEventListener('change', (e) => {
+        const file = e.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                backgroundImage.src = event.target.result;
+                backgroundImage.style.display = 'block';
+                backgroundImage.onload = () => {
+                    resizeDrawPadToImage(backgroundImage.naturalWidth, backgroundImage.naturalHeight);
+                };
+            };
+            reader.readAsDataURL(file);
         }
     });
 
-    // Event listener to draw on the canvas
-    canvas.addEventListener('mousemove', (e) => {
-        if (isDrawing) {
-            ctx.beginPath();
-            ctx.moveTo(lastX, lastY);
-            ctx.lineTo(e.offsetX / scale, e.offsetY / scale);
-            ctx.strokeStyle = currentColor;
-            ctx.lineWidth = 2 / scale;
-            ctx.stroke();
-            [lastX, lastY] = [e.offsetX / scale, e.offsetY / scale];
-        } else if (isPanning) {
-            canvas.style.left = `${e.offsetX - startX}px`;
-            canvas.style.top = `${e.offsetY - startY}px`;
-        }
-    });
-
-    // Stop drawing when the mouse is released
-    canvas.addEventListener('mouseup', () => {
-        isDrawing = false;
-        isPanning = false;
-        canvas.style.cursor = 'crosshair';
-    });
-
-    // Stop drawing when the mouse leaves the canvas
-    canvas.addEventListener('mouseout', () => {
-        isDrawing = false;
-        isPanning = false;
-        canvas.style.cursor = 'crosshair';
-    });
-
-    // Change color
-    colorBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-            currentColor = btn.getAttribute('data-color');
-            deactivateAllTools();
-            btn.classList.add('active');
+    downloadBtn.addEventListener('click', () => {
+        html2canvas(drawPadContainer, {
+            useCORS: true  // Ensures cross-origin images are handled
+        }).then((canvas) => {
+            const link = document.createElement('a');
+            link.download = 'draw-pad.png';
+            link.href = canvas.toDataURL('image/png');
+            link.click();
         });
     });
 
-    // Eraser functionality
-    eraserBtn.addEventListener('click', () => {
-        currentColor = '#ffffff';
-        deactivateAllTools();
-        eraserBtn.classList.add('active');
-    });
-
-    // Import image functionality
-    importImageBtn.addEventListener('change', (e) => {
-        const file = e.target.files[0];
-        const reader = new FileReader();
-        reader.onload = function (event) {
-            const img = new Image();
-            img.onload = function () {
-                ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas
-                ctx.drawImage(img, 0, 0, canvas.width, canvas.height); // Draw the image
-            };
-            img.src = event.target.result;
+    function getCursorPosition(e) {
+        const rect = drawPadContainer.getBoundingClientRect();
+        return {
+            x: e.clientX - rect.left,
+            y: e.clientY - rect.top
         };
-        reader.readAsDataURL(file);
-    });
-
-    // Zoom in functionality
-    zoomInBtn.addEventListener('click', () => {
-        scale *= 1.2;
-        resizeCanvas();
-    });
-
-    // Zoom out functionality
-    zoomOutBtn.addEventListener('click', () => {
-        scale /= 1.2;
-        resizeCanvas();
-    });
-
-    // Pan functionality
-    panBtn.addEventListener('click', () => {
-        deactivateAllTools();
-        isPanning = true;
-        panBtn.classList.add('active');
-    });
-
-    // Reset functionality
-    resetBtn.addEventListener('click', () => {
-        ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear the entire canvas
-        scale = 1;
-        canvas.style.transform = 'translate(0, 0)';
-        canvas.style.left = '0px';
-        canvas.style.top = '0px';
-        deactivateAllTools();
-        panel.querySelector('#color-black').classList.add('active'); // Default color to black
-        currentColor = '#000000';
-    });
-
-    // Resize canvas based on the current scale
-    function resizeCanvas() {
-        canvas.style.transform = `scale(${scale})`;
     }
 
-    // Deactivate all tools (for button state management)
-    function deactivateAllTools() {
-        panel.querySelectorAll('.tool-btn').forEach(btn => btn.classList.remove('active'));
-        panel.querySelectorAll('.color-btn').forEach(btn => btn.classList.remove('active'));
+    function drawOrEraseCircle(e) {
+        const pos = getCursorPosition(e);
+
+        if (erasing) {
+            eraseCircle(pos.x, pos.y);
+        } else {
+            drawCircle(pos.x, pos.y);
+        }
     }
 
-    // Initialize with the first color active
-    panel.querySelector('#color-black').classList.add('active');
-    currentColor = '#000000';
+    function drawCircle(x, y) {
+        const circle = document.createElement('div');
+        circle.style.width = '10px';
+        circle.style.height = '10px';
+        circle.style.backgroundColor = currentColor;
+        circle.style.left = `${x - 5}px`;  // Center the circle at the cursor
+        circle.style.top = `${y - 5}px`;
+        circle.className = 'drawn-circle';
+        circle.dataset.position = `${x},${y}`;  // Tag with position for easy reference
+        drawingArea.appendChild(circle);
+    }
+
+    function eraseCircle(x, y) {
+        const tolerance = 10; // Adjust tolerance for erasing nearby circles
+        const circles = drawingArea.getElementsByClassName('drawn-circle');
+
+        for (let i = circles.length - 1; i >= 0; i--) {
+            const circle = circles[i];
+            const [cx, cy] = circle.dataset.position.split(',').map(Number);
+
+            // Calculate distance from cursor to the circle's center
+            const distance = Math.sqrt(Math.pow(cx - x, 2) + Math.pow(cy - y, 2));
+
+            // If within tolerance, remove the circle
+            if (distance < tolerance) {
+                circle.remove();
+            }
+        }
+    }
+
+    function resizeDrawPadToImage(imageWidth, imageHeight) {
+        const maxWidth = drawPadContainer.parentElement.clientWidth * 0.9; // 90% of parent width
+        const maxHeight = drawPadContainer.parentElement.clientHeight * 0.8; // 80% of parent height
+
+        const aspectRatio = imageWidth / imageHeight;
+
+        let newWidth, newHeight;
+
+        if (imageWidth > maxWidth || imageHeight > maxHeight) {
+            if (aspectRatio > 1) {
+                // Image is wider than tall
+                newWidth = maxWidth;
+                newHeight = maxWidth / aspectRatio;
+            } else {
+                // Image is taller than wide
+                newHeight = maxHeight;
+                newWidth = maxHeight * aspectRatio;
+            }
+        } else {
+            // Image fits within the available space
+            newWidth = imageWidth;
+            newHeight = imageHeight;
+        }
+
+        drawPadContainer.style.width = `${newWidth}px`;
+        drawPadContainer.style.height = `${newHeight}px`;
+    }
 }

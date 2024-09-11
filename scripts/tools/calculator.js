@@ -3,46 +3,30 @@
     const calculatorButtons = Array.from(document.getElementsByClassName('calculator-button'));
 
     let currentInput = ''; // The current number being entered
-    let previousInput = ''; // The previous number entered
+    let fullEquation = ''; // The full equation as a string
     let operator = null; // The operator to apply (e.g., +, -, *, /)
 
-    function updateDisplay(value) {
-        calculatorDisplay.value = value;
+    function updateDisplay() {
+        calculatorDisplay.value = fullEquation || '0';
     }
 
     function clearCalculator() {
         currentInput = '';
-        previousInput = '';
+        fullEquation = '';
         operator = null;
-        updateDisplay('0');
+        updateDisplay();
     }
 
     function performCalculation() {
-        const previous = parseFloat(previousInput);
-        const current = parseFloat(currentInput);
-        let result = 0;
-
-        switch (operator) {
-            case '+':
-                result = previous + current;
-                break;
-            case '-':
-                result = previous - current;
-                break;
-            case '*':
-                result = previous * current;
-                break;
-            case '/':
-                result = previous / current;
-                break;
-            default:
-                return;
+        try {
+            fullEquation = eval(fullEquation).toString();
+            currentInput = fullEquation;
+            operator = null;
+        } catch (error) {
+            fullEquation = 'Error';
+            currentInput = '';
         }
-
-        currentInput = result.toString();
-        operator = null;
-        previousInput = '';
-        updateDisplay(currentInput);
+        updateDisplay();
     }
 
     calculatorButtons.forEach(button => {
@@ -50,32 +34,31 @@
             const value = button.innerText;
 
             if (!isNaN(value) || value === '.') {
-                // If the button is a number or a decimal point
                 currentInput += value;
-                updateDisplay(currentInput);
+                fullEquation += value;
             } else if (value === 'C') {
-                // Clear the calculator
                 clearCalculator();
+                return;
             } else if (value === '=') {
-                // Perform the calculation
-                if (operator && previousInput) {
-                    performCalculation();
-                }
+                performCalculation();
+                return;
             } else {
-                // Handle the operator buttons (+, -, *, /)
                 if (currentInput === '') return;
-
-                if (previousInput !== '') {
-                    performCalculation();
-                }
-
-                operator = value;
-                previousInput = currentInput;
+                fullEquation += ` ${value} `;
                 currentInput = '';
             }
+            updateDisplay();
         });
     });
 
     // Initialize calculator display
     clearCalculator();
+
+    // Make the calculator container movable
+    const calculatorContainer = document.getElementById('calculator-container');
+    calculatorContainer.style.transform = 'translate(0px, 0px)';
+    calculatorContainer.setAttribute('data-x', 0);
+    calculatorContainer.setAttribute('data-y', 0);
+
+    makePanelMovable(calculatorContainer);
 })();

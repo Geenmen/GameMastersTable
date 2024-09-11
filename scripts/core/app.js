@@ -87,13 +87,12 @@ document.addEventListener('DOMContentLoaded', function () {
     panelManagerScript.src = 'scripts/core/PanelManager.js';
     document.body.appendChild(panelManagerScript);
 
-    //Time
+    // Time
     function updateCurrentTime() {
         const currentTimeElement = document.getElementById('current-time');
         const now = new Date();
-        const hours = now.getHours().toString().padStart(2, '0');
-        const minutes = now.getMinutes().toString().padStart(2, '0');
-        currentTimeElement.textContent = `${hours}:${minutes}`;
+        const options = { hour: 'numeric', minute: 'numeric' }; // This allows for both 12h and 24h based on user settings
+        currentTimeElement.textContent = now.toLocaleTimeString(undefined, options);
     }
 
     // Update the time immediately when the page loads
@@ -101,7 +100,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Update the time every minute
     setInterval(updateCurrentTime, 60000);
-
 
     // Toggle the settings menu visibility
     settingsBtn.addEventListener('click', () => {
@@ -117,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (!calculatorLoaded) {
             // Load the calculator HTML dynamically
             fetch('assets/components/calculator.html')
-                .then(response => {
+                /*.then(response => {
                     if (!response.ok) {
                         throw new Error('Network response was not ok');
                     }
@@ -139,7 +137,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     document.body.appendChild(script);
 
                     calculatorLoaded = true; // Mark the calculator as loaded
-                })
+                })*/
                 .catch(err => console.error('Error loading calculator:', err));
         } else {
             const calculatorContainer = document.getElementById('calculator-container');
@@ -210,3 +208,56 @@ document.addEventListener('DOMContentLoaded', function () {
     }, 2000);
 });
 
+//Log the world
+// Function to log the loading of a script
+function logScriptLoad(scriptElement) {
+    console.log(`Script loaded: ${scriptElement.src}`);
+}
+
+// Function to log the loading of a CSS file
+function logCSSLoad(linkElement) {
+    console.log(`CSS loaded: ${linkElement.href}`);
+}
+
+// Monitor already added scripts and stylesheets
+document.querySelectorAll('script').forEach(script => {
+    script.addEventListener('load', () => logScriptLoad(script));
+    script.addEventListener('error', () => console.error(`Script failed to load: ${script.src}`));
+});
+
+document.querySelectorAll('link[rel="stylesheet"]').forEach(link => {
+    link.addEventListener('load', () => logCSSLoad(link));
+    link.addEventListener('error', () => console.error(`CSS failed to load: ${link.href}`));
+});
+
+// Monitor dynamically added scripts and stylesheets
+const observer = new MutationObserver(mutations => {
+    mutations.forEach(mutation => {
+        mutation.addedNodes.forEach(node => {
+            if (node.tagName === 'SCRIPT') {
+                node.addEventListener('load', () => logScriptLoad(node));
+                node.addEventListener('error', () => console.error(`Script failed to load: ${node.src}`));
+            } else if (node.tagName === 'LINK' && node.rel === 'stylesheet') {
+                node.addEventListener('load', () => logCSSLoad(node));
+                node.addEventListener('error', () => console.error(`CSS failed to load: ${node.href}`));
+            }
+        });
+    });
+});
+
+// Start observing the document
+observer.observe(document.head, { childList: true, subtree: true });
+
+// Log HTML fetches using fetch API
+const originalFetch = fetch;
+window.fetch = function (...args) {
+    console.log(`Fetching: ${args[0]}`);
+    return originalFetch.apply(this, args);
+};
+
+// Log HTML fetches using XMLHttpRequest
+const originalXHR = XMLHttpRequest.prototype.open;
+XMLHttpRequest.prototype.open = function (method, url, ...rest) {
+    console.log(`Requesting: ${method} ${url}`);
+    return originalXHR.apply(this, [method, url, ...rest]);
+};

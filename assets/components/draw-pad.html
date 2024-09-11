@@ -1,16 +1,13 @@
-<div class="draw-pad-container">
-    <div class="draw-pad-controls">
-        <button id="color-black" class="color-btn" data-color="#000000">Black</button>
-        <button id="color-red" class="color-btn" data-color="#FF0000">Red</button>
-        <button id="color-blue" class="color-btn" data-color="#0000FF">Blue</button>
-        <button id="eraser" class="tool-btn">Eraser</button>
-        <input type="file" id="import-image" class="tool-btn" accept="image/*" />
-        <button id="zoom-in" class="tool-btn">Zoom In</button>
-        <button id="zoom-out" class="tool-btn">Zoom Out</button>
-        <button id="pan" class="tool-btn">Pan</button>
-        <button id="reset" class="tool-btn">Reset</button>
-    </div>
-    <div class="draw-pad-canvas-container">
-        <canvas id="draw-pad-canvas"></canvas>
-    </div>
+<div id="draw-pad-container">
+    <img id="background-image" alt="Background">
+    <div id="drawing-area"></div>
+</div>
+
+<div id="toolbar">
+    <button id="clear">Clear</button>
+    <button id="erase">Erase</button>
+    <input type="color" id="color-picker" value="#000000">
+    <label for="image-upload" id="upload-label">Upload Image</label>
+    <input type="file" id="image-upload" accept="image/*">
+    <button id="download">Download</button>
 </div>

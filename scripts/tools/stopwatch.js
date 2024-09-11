@@ -6,6 +6,7 @@
     const startButton = document.getElementById('start-stopwatch');
     const stopButton = document.getElementById('stop-stopwatch');
     const resetButton = document.getElementById('reset-stopwatch');
+    const stopwatchContainer = document.getElementById('stopwatch-container');
 
     function formatTime(seconds) {
         const hrs = Math.floor(seconds / 3600).toString().padStart(2, '0');
@@ -40,4 +41,12 @@
     });
 
     updateDisplay();
+
+    // Initialize the position attributes to avoid jump
+    stopwatchContainer.style.transform = 'translate(0px, 0px)';
+    stopwatchContainer.setAttribute('data-x', 0);
+    stopwatchContainer.setAttribute('data-y', 0);
+
+    // Make the stopwatch container movable
+    makePanelMovable(stopwatchContainer);
 })();

@@ -16,13 +16,13 @@
     align-items: center;
     background-color: var(--section-color);
     padding: 8px;
+    cursor: pointer;
     border-bottom: 1px solid var(--blue-border);
-    cursor: move;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
 
-.panel-header .move-handle {
+.move-handle {
     cursor: move;
     touch-action: none; /* Added to prevent interference with drag */
 }

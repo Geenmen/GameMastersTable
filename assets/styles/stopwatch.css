@@ -8,11 +8,22 @@
     background-color: var(--section-color);
     color: #e0e0e0;
     width: max-content;
-    position: fixed; /* Fixed position */
-    top: 10%;
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Adjust position to truly center */
     z-index: 1000; /* Ensure it stays on top of other elements */
+    position: absolute; /* Position absolute for dragging */
+}
+
+.move-handle {
+    background-color: var(--blue-border);
+    color: #fff;
+    padding: 5px;
+    cursor: move;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid var(--section-color);
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 #stopwatch-display {

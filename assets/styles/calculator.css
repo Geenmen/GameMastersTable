@@ -1,30 +1,42 @@
 #calculator-container.floating-calculator {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: absolute; /* Changed to absolute for proper drag handling */
     background-color: #333;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    width: 260px; /* Slightly reduced width for better fit */
+    width: 260px;
     display: flex;
     flex-direction: column;
     align-items: center;
     z-index: 1000;
+    transform: translate(0px, 0px);
+}
+
+.move-handle {
+    background-color: var(--blue-border);
+    color: #fff;
+    padding: 5px;
+    cursor: move;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid var(--section-color);
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 #calculator-display {
     width: 100%;
     padding: 10px;
     font-size: 24px;
-    text-align: center; /* Center the number display */
+    text-align: right; /* Align text to the right for full equation */
     margin-bottom: 10px;
     border: 2px solid var(--blue-border);
     border-radius: 8px;
     background-color: #1f1f1f;
     color: red; /* Change text color to red */
-    box-sizing: border-box; /* Ensures padding and border are included in width */
+    box-sizing: border-box;
 }
 
 #calculator-buttons {
@@ -48,11 +60,11 @@
     align-items: center;
 }
 
-.calculator-button:hover {
-    background-color: #d93636;
-    border-color: var(--red-accent);
-}
+    .calculator-button:hover {
+        background-color: #d93636;
+        border-color: var(--red-accent);
+    }
 
-.calculator-button.large {
-    grid-column: span 3; /* Span across all 3 columns */
-}
+    .calculator-button.large {
+        grid-column: span 3; /* Span across all 3 columns */
+    }
