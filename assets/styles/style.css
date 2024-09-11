@@ -90,18 +90,25 @@ body, html {
         border-color: var(--red-accent);
     }
 
-/* Centering content in settings rows */
-#settings-menu {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+/* General popup styles */
+.popup-menu {
+    display: none; /* Initially hidden */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001; /* Ensure it's above other elements */
     background-color: var(--section-color);
     border: 2px solid var(--blue-border);
     border-radius: 12px;
-    margin: 20px auto;
-    width: 50%;
-    justify-content: center;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .settings-row {
@@ -110,7 +117,6 @@ body, html {
     align-items: center;
     width: 100%;
     padding: 10px 0;
-    flex: 1; /* Make each row grow equally */
 }
 
 .settings-name {
@@ -124,15 +130,27 @@ body, html {
     text-align: left;
 }
 
-/* Ensure equal spacing between rows and inside columns */
 #settings-menu .settings-row:not(:last-child) {
-    margin-bottom: 20px; /* Space between rows */
+    margin-bottom: 20px;
 }
 
 #settings-menu .settings-name,
 #settings-menu .settings-value {
-    flex-basis: 50%; /* Ensure equal width for label and input */
+    flex-basis: 50%;
 }
+
+.popup-menu {
+    width: 50%;
+    padding: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .popup-menu {
+        width: 90%;
+    }
+}
+
 
 /* Keyframes */
 @keyframes fadeIn {

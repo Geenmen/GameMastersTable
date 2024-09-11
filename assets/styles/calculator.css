@@ -14,17 +14,11 @@
 }
 
 .move-handle {
-    background-color: var(--blue-border);
-    color: #fff;
-    padding: 5px;
     cursor: move;
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid var(--section-color);
-    border-radius: 10px 10px 0 0;
-    margin-bottom: 10px;
-    font-size: 14px;
-    font-weight: bold;
+    touch-action: none; /* Added to prevent interference with drag */
+    border: dotted;
+    border-color: white;
+    padding: 5px;
 }
 
 #calculator-display {

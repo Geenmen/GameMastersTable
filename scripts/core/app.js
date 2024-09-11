@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     const settingsBtn = document.getElementById('settings-btn');
-    const calculatorBtn = document.getElementById('calculator-btn');
     const settingsMenu = document.getElementById('settings-menu');
+    const calculatorBtn = document.getElementById('calculator-btn');
+
     let calculatorLoaded = false;
 
     // Function to load settings from localStorage
@@ -101,14 +102,17 @@ document.addEventListener('DOMContentLoaded', function () {
     // Update the time every minute
     setInterval(updateCurrentTime, 60000);
 
+
+
     // Toggle the settings menu visibility
     settingsBtn.addEventListener('click', () => {
-        if (settingsMenu.style.display === 'none' || settingsMenu.style.display === '') {
-            settingsMenu.style.display = 'flex';
-        } else {
+        if (settingsMenu.style.display === 'block') {
             settingsMenu.style.display = 'none';
+        } else {
+            settingsMenu.style.display = 'block';
         }
     });
+
 
     // Event listener for the calculator button
     calculatorBtn.addEventListener('click', () => {

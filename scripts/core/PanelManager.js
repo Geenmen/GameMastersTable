@@ -112,7 +112,7 @@ function makePanelMovable(panel) {
     // Enable dragging
     interact(panel.querySelector('.move-handle'))
         .draggable({
-            inertia: true,
+            inertia: false,
             autoScroll: true,
             listeners: {
                 start(event) {

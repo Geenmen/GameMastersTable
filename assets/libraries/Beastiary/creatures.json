@@ -1,50 +1,5032 @@
 {
     "CR01": [
         {
+            "name": "Blitzhound_Pup",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Blitzhound_Pup/Blitzhound_Pup.json",
+            "imagePath": "assets/libraries/Beastiary/CR01/Blitzhound_Pup/Blitzhound_Pup.png"
+        },
+        {
+            "name": "Bloodling_Thrall",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Bloodling_Thrall/Bloodling_Thrall.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bogling_Creeper",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Bogling_Creeper/Bogling_Creeper.json",
+            "imagePath": "assets/libraries/Beastiary/CR01/Bogling_Creeper/Bogling_Creeper.png"
+        },
+        {
+            "name": "Bonecrusher_Grunt",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Bonecrusher_Grunt/Bonecrusher_Grunt.json",
+            "imagePath": "assets/libraries/Beastiary/CR01/Bonecrusher_Grunt/Bonecrusher_Grunt.png"
+        },
+        {
+            "name": "Cozy_Hearth_Sprite",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Cozy_Hearth_Sprite/Cozy_Hearth_Sprite.json",
+            "imagePath": "assets/libraries/Beastiary/CR01/Cozy_Hearth_Sprite/Cozy_Hearth_Sprite.png"
+        },
+        {
+            "name": "Creeping_Moss",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Creeping_Moss/Creeping_Moss.json",
+            "imagePath": "assets/libraries/Beastiary/CR01/Creeping_Moss/Creeping_Moss.png"
+        },
+        {
+            "name": "Cutpurse_Scamp",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Cutpurse_Scamp/Cutpurse_Scamp.json",
+            "imagePath": "assets/libraries/Beastiary/CR01/Cutpurse_Scamp/Cutpurse_Scamp.png"
+        },
+        {
+            "name": "Echoing_Nymph",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Echoing_Nymph/Echoing_Nymph.json",
+            "imagePath": "assets/libraries/Beastiary/CR01/Echoing_Nymph/Echoing_Nymph.png"
+        },
+        {
+            "name": "Ember_Drake_Hatchling",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Ember_Drake_Hatchling/Ember_Drake_Hatchling.json",
+            "imagePath": "assets/libraries/Beastiary/CR01/Ember_Drake_Hatchling/Ember_Drake_Hatchling.png"
+        },
+        {
+            "name": "Exiled_Footsoldier",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Exiled_Footsoldier/Exiled_Footsoldier.json",
+            "imagePath": "assets/libraries/Beastiary/CR01/Exiled_Footsoldier/Exiled_Footsoldier.png"
+        },
+        {
+            "name": "Fleeing_Hare",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Fleeing_Hare/Fleeing_Hare.json",
+            "imagePath": null
+        },
+        {
+            "name": "Forest_Pup",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Forest_Pup/Forest_Pup.json",
+            "imagePath": null
+        },
+        {
             "name": "Glimmering_Ooze",
             "jsonPath": "assets/libraries/Beastiary/CR01/Glimmering_Ooze/Glimmering_Ooze.json",
             "imagePath": "assets/libraries/Beastiary/CR01/Glimmering_Ooze/Glimmering_Ooze.png"
+        },
+        {
+            "name": "Hatchling_Sneak",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Hatchling_Sneak/Hatchling_Sneak.json",
+            "imagePath": null
+        },
+        {
+            "name": "Haunted_Coin",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Haunted_Coin/Haunted_Coin.json",
+            "imagePath": "assets/libraries/Beastiary/CR01/Haunted_Coin/Haunted_Coin.png"
+        },
+        {
+            "name": "Horned_Ratserpent",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Horned_Ratserpent/Horned_Ratserpent.json",
+            "imagePath": "assets/libraries/Beastiary/CR01/Horned_Ratserpent/Horned_Ratserpent.png"
+        },
+        {
+            "name": "Hostile_Scout",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Hostile_Scout/Hostile_Scout.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ivory_Skin_Acolyte",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Ivory_Skin_Acolyte/Ivory_Skin_Acolyte.json",
+            "imagePath": null
+        },
+        {
+            "name": "Moonfang_Pup",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Moonfang_Pup/Moonfang_Pup.json",
+            "imagePath": null
+        },
+        {
+            "name": "Orehide_Cub",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Orehide_Cub/Orehide_Cub.json",
+            "imagePath": "assets/libraries/Beastiary/CR01/Orehide_Cub/Orehide_Cub.png"
+        },
+        {
+            "name": "Puddle_Slime",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Puddle_Slime/Puddle_Slime.json",
+            "imagePath": null
+        },
+        {
+            "name": "Scampering_Broom",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Scampering_Broom/Scampering_Broom.json",
+            "imagePath": null
+        },
+        {
+            "name": "Scorchling_Apprentice",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Scorchling_Apprentice/Scorchling_Apprentice.json",
+            "imagePath": null
+        },
+        {
+            "name": "Seed_of_Possibility",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Seed_of_Possibility/Seed_of_Possibility.json",
+            "imagePath": null
+        },
+        {
+            "name": "Snotling_Scrapper",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Snotling_Scrapper/Snotling_Scrapper.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sparkmite",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Sparkmite/Sparkmite.json",
+            "imagePath": "assets/libraries/Beastiary/CR01/Sparkmite/Sparkmite.png"
+        },
+        {
+            "name": "Starlight_Wisp",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Starlight_Wisp/Starlight_Wisp.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stingwing_Midge",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Stingwing_Midge/Stingwing_Midge.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stonegate_Guardian",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Stonegate_Guardian/Stonegate_Guardian.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stonegnaw_Rat",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Stonegnaw_Rat/Stonegnaw_Rat.json",
+            "imagePath": null
+        },
+        {
+            "name": "Thornhide_Calf",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Thornhide_Calf/Thornhide_Calf.json",
+            "imagePath": null
+        },
+        {
+            "name": "Tidepool_Minnow",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Tidepool_Minnow/Tidepool_Minnow.json",
+            "imagePath": null
+        },
+        {
+            "name": "Twisted_Piglet",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Twisted_Piglet/Twisted_Piglet.json",
+            "imagePath": null
+        },
+        {
+            "name": "Venomfang_Hatchling",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Venomfang_Hatchling/Venomfang_Hatchling.json",
+            "imagePath": "assets/libraries/Beastiary/CR01/Venomfang_Hatchling/Venomfang_Hatchling.png"
+        },
+        {
+            "name": "Wyrmling_Ashblood",
+            "jsonPath": "assets/libraries/Beastiary/CR01/Wyrmling_Ashblood/Wyrmling_Ashblood.json",
+            "imagePath": null
         }
     ],
     "CR02": [
         {
+            "name": "Arcane_Outcast",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Arcane_Outcast/Arcane_Outcast.json",
+            "imagePath": null
+        },
+        {
+            "name": "Arctic_Winds_Drake",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Arctic_Winds_Drake/Arctic_Winds_Drake.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bewitched_Doll",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Bewitched_Doll/Bewitched_Doll.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodmoon_Howler",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Bloodmoon_Howler/Bloodmoon_Howler.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodsnarl_Raider",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Bloodsnarl_Raider/Bloodsnarl_Raider.json",
+            "imagePath": null
+        },
+        {
+            "name": "Buzzybiter_Swarm",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Buzzybiter_Swarm/Buzzybiter_Swarm.json",
+            "imagePath": null
+        },
+        {
+            "name": "Celestial_Sprite",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Celestial_Sprite/Celestial_Sprite.json",
+            "imagePath": null
+        },
+        {
+            "name": "Chattering_Teacup",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Chattering_Teacup/Chattering_Teacup.json",
+            "imagePath": null
+        },
+        {
+            "name": "Driftwood_Crab",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Driftwood_Crab/Driftwood_Crab.json",
+            "imagePath": null
+        },
+        {
+            "name": "Emberforge_Overseer",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Emberforge_Overseer/Emberforge_Overseer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Feathered_Wolfbat",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Feathered_Wolfbat/Feathered_Wolfbat.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frostdancer_Pup",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Frostdancer_Pup/Frostdancer_Pup.json",
+            "imagePath": null
+        },
+        {
+            "name": "Gloomchick_Hatchling",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Gloomchick_Hatchling/Gloomchick_Hatchling.json",
+            "imagePath": null
+        },
+        {
+            "name": "Gloomgnat",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Gloomgnat/Gloomgnat.json",
+            "imagePath": null
+        },
+        {
+            "name": "Goresnout_Boarling",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Goresnout_Boarling/Goresnout_Boarling.json",
+            "imagePath": null
+        },
+        {
+            "name": "Meadow_Fawn",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Meadow_Fawn/Meadow_Fawn.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mirelurker_Hatchling",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Mirelurker_Hatchling/Mirelurker_Hatchling.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ooze_Spawn",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Ooze_Spawn/Ooze_Spawn.json",
+            "imagePath": null
+        },
+        {
+            "name": "Outcast_Sellsword",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Outcast_Sellsword/Outcast_Sellsword.json",
+            "imagePath": null
+        },
+        {
+            "name": "Pureheart_Initiate",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Pureheart_Initiate/Pureheart_Initiate.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ragpicker_Goblin",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Ragpicker_Goblin/Ragpicker_Goblin.json",
+            "imagePath": null
+        },
+        {
+            "name": "Rolling_Pebble",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Rolling_Pebble/Rolling_Pebble.json",
+            "imagePath": null
+        },
+        {
+            "name": "Rustbite_Beetle",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Rustbite_Beetle/Rustbite_Beetle.json",
+            "imagePath": null
+        },
+        {
+            "name": "Serpentkin_Scout",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Serpentkin_Scout/Serpentkin_Scout.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadow_Veil_Acolyte",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Shadow_Veil_Acolyte/Shadow_Veil_Acolyte.json",
+            "imagePath": null
+        },
+        {
             "name": "Shifting_Sludge",
             "jsonPath": "assets/libraries/Beastiary/CR02/Shifting_Sludge/Shifting_Sludge.json",
             "imagePath": "assets/libraries/Beastiary/CR02/Shifting_Sludge/Shifting_Sludge.png"
+        },
+        {
+            "name": "Shivering_Deer",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Shivering_Deer/Shivering_Deer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Silverwood_Dryad",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Silverwood_Dryad/Silverwood_Dryad.json",
+            "imagePath": null
+        },
+        {
+            "name": "Spark_of_Creation",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Spark_of_Creation/Spark_of_Creation.json",
+            "imagePath": null
+        },
+        {
+            "name": "Streetrat_Pickpocket",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Streetrat_Pickpocket/Streetrat_Pickpocket.json",
+            "imagePath": null
+        },
+        {
+            "name": "Swampstalker_Scout",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Swampstalker_Scout/Swampstalker_Scout.json",
+            "imagePath": null
+        },
+        {
+            "name": "Swiftclaw_Kitten",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Swiftclaw_Kitten/Swiftclaw_Kitten.json",
+            "imagePath": null
+        },
+        {
+            "name": "Warmthkeeper_Emberling",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Warmthkeeper_Emberling/Warmthkeeper_Emberling.json",
+            "imagePath": null
+        },
+        {
+            "name": "Wary_Watchman",
+            "jsonPath": "assets/libraries/Beastiary/CR02/Wary_Watchman/Wary_Watchman.json",
+            "imagePath": null
         }
     ],
     "CR03": [
         {
+            "name": "Aggressive_Raider",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Aggressive_Raider/Aggressive_Raider.json",
+            "imagePath": null
+        },
+        {
+            "name": "Blightbull_Calf",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Blightbull_Calf/Blightbull_Calf.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bonegnasher_Grunt",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Bonegnasher_Grunt/Bonegnasher_Grunt.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bramblehorn_Doe",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Bramblehorn_Doe/Bramblehorn_Doe.json",
+            "imagePath": null
+        },
+        {
+            "name": "Caverncrawler",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Caverncrawler/Caverncrawler.json",
+            "imagePath": null
+        },
+        {
+            "name": "Coralback_Shrimp",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Coralback_Shrimp/Coralback_Shrimp.json",
+            "imagePath": null
+        },
+        {
+            "name": "Creeping_Quill",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Creeping_Quill/Creeping_Quill.json",
+            "imagePath": null
+        },
+        {
+            "name": "Crimson_Fledgling",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Crimson_Fledgling/Crimson_Fledgling.json",
+            "imagePath": null
+        },
+        {
             "name": "Crystalline_Slime",
             "jsonPath": "assets/libraries/Beastiary/CR03/Crystalline_Slime/Crystalline_Slime.json",
             "imagePath": "assets/libraries/Beastiary/CR03/Crystalline_Slime/Crystalline_Slime.png"
+        },
+        {
+            "name": "Cursed_Mirror",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Cursed_Mirror/Cursed_Mirror.json",
+            "imagePath": null
+        },
+        {
+            "name": "Dawnlight_Spark",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Dawnlight_Spark/Dawnlight_Spark.json",
+            "imagePath": null
+        },
+        {
+            "name": "Emberroach",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Emberroach/Emberroach.json",
+            "imagePath": null
+        },
+        {
+            "name": "Fabled_Faun",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Fabled_Faun/Fabled_Faun.json",
+            "imagePath": null
+        },
+        {
+            "name": "Fangblade_Skirmisher",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Fangblade_Skirmisher/Fangblade_Skirmisher.json",
+            "imagePath": null
+        },
+        {
+            "name": "Fireside_Wisp",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Fireside_Wisp/Fireside_Wisp.json",
+            "imagePath": null
+        },
+        {
+            "name": "Fledgling_Dreamweaver",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Fledgling_Dreamweaver/Fledgling_Dreamweaver.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frightened_Fox",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Frightened_Fox/Frightened_Fox.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frostbite_Novice",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Frostbite_Novice/Frostbite_Novice.json",
+            "imagePath": null
+        },
+        {
+            "name": "Gelatinous_Blob",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Gelatinous_Blob/Gelatinous_Blob.json",
+            "imagePath": null
+        },
+        {
+            "name": "Gentle_Hare",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Gentle_Hare/Gentle_Hare.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironfang_Brute",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Ironfang_Brute/Ironfang_Brute.json",
+            "imagePath": null
+        },
+        {
+            "name": "Marshscale_Skirmisher",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Marshscale_Skirmisher/Marshscale_Skirmisher.json",
+            "imagePath": null
+        },
+        {
+            "name": "Needlebeak_Dart",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Needlebeak_Dart/Needlebeak_Dart.json",
+            "imagePath": null
+        },
+        {
+            "name": "Quicksand_Pool",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Quicksand_Pool/Quicksand_Pool.json",
+            "imagePath": null
+        },
+        {
+            "name": "Rockscale_Hatchling",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Rockscale_Hatchling/Rockscale_Hatchling.json",
+            "imagePath": null
+        },
+        {
+            "name": "Rustblade_Knave",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Rustblade_Knave/Rustblade_Knave.json",
+            "imagePath": null
+        },
+        {
+            "name": "Scaled_Toadhawk",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Scaled_Toadhawk/Scaled_Toadhawk.json",
+            "imagePath": null
+        },
+        {
+            "name": "Silverclaw_Hunter",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Silverclaw_Hunter/Silverclaw_Hunter.json",
+            "imagePath": null
+        },
+        {
+            "name": "Smolderfang_Hatchling",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Smolderfang_Hatchling/Smolderfang_Hatchling.json",
+            "imagePath": null
+        },
+        {
+            "name": "Snowborn_Sentinel",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Snowborn_Sentinel/Snowborn_Sentinel.json",
+            "imagePath": null
+        },
+        {
+            "name": "Speedwing_Sparrow",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Speedwing_Sparrow/Speedwing_Sparrow.json",
+            "imagePath": null
+        },
+        {
+            "name": "Swampstalker_Crocodile",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Swampstalker_Crocodile/Swampstalker_Crocodile.json",
+            "imagePath": null
+        },
+        {
+            "name": "Venomfang_Warden",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Venomfang_Warden/Venomfang_Warden.json",
+            "imagePath": null
+        },
+        {
+            "name": "Wandering_Blade",
+            "jsonPath": "assets/libraries/Beastiary/CR03/Wandering_Blade/Wandering_Blade.json",
+            "imagePath": null
         }
     ],
-    "CR04": [],
-    "CR05": [],
-    "CR06": [],
-    "CR07": [],
-    "CR08": [],
-    "CR09": [],
-    "CR10": [],
-    "CR11": [],
-    "CR12": [],
-    "CR13": [],
-    "CR14": [],
-    "CR15": [],
-    "CR16": [],
-    "CR17": [],
-    "CR18": [],
-    "CR19": [],
-    "CR20": [],
-    "CR21": [],
-    "CR22": [],
-    "CR23": [],
-    "CR24": [],
-    "CR25": [],
-    "CR26": [],
-    "CR27": [],
-    "CR28": [],
-    "CR29": [],
-    "CR30": []
+    "CR04": [
+        {
+            "name": "Bloodclaw_Whelp",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Bloodclaw_Whelp/Bloodclaw_Whelp.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bouldertusk_Piglet",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Bouldertusk_Piglet/Bouldertusk_Piglet.json",
+            "imagePath": null
+        },
+        {
+            "name": "Crystalblood_Disciple",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Crystalblood_Disciple/Crystalblood_Disciple.json",
+            "imagePath": null
+        },
+        {
+            "name": "Darting_Fox",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Darting_Fox/Darting_Fox.json",
+            "imagePath": null
+        },
+        {
+            "name": "Dustclaw_Lizard",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Dustclaw_Lizard/Dustclaw_Lizard.json",
+            "imagePath": null
+        },
+        {
+            "name": "Echo_of_Eternity",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Echo_of_Eternity/Echo_of_Eternity.json",
+            "imagePath": null
+        },
+        {
+            "name": "Fenclaw_Lizard",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Fenclaw_Lizard/Fenclaw_Lizard.json",
+            "imagePath": null
+        },
+        {
+            "name": "Feral_Moonstalker",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Feral_Moonstalker/Feral_Moonstalker.json",
+            "imagePath": null
+        },
+        {
+            "name": "Forsaken_Marauder",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Forsaken_Marauder/Forsaken_Marauder.json",
+            "imagePath": null
+        },
+        {
+            "name": "Glimmering_Sprite",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Glimmering_Sprite/Glimmering_Sprite.json",
+            "imagePath": null
+        },
+        {
+            "name": "Gorehide_Berserker",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Gorehide_Berserker/Gorehide_Berserker.json",
+            "imagePath": null
+        },
+        {
+            "name": "Hexed_Locket",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Hexed_Locket/Hexed_Locket.json",
+            "imagePath": null
+        },
+        {
+            "name": "Homespun_Weaver",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Homespun_Weaver/Homespun_Weaver.json",
+            "imagePath": null
+        },
+        {
+            "name": "Kelpweaver_Eel",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Kelpweaver_Eel/Kelpweaver_Eel.json",
+            "imagePath": null
+        },
+        {
+            "name": "Loyal_Hound",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Loyal_Hound/Loyal_Hound.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mireclaw_Warrior",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Mireclaw_Warrior/Mireclaw_Warrior.json",
+            "imagePath": null
+        },
+        {
+            "name": "Moonbeam_Weaver",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Moonbeam_Weaver/Moonbeam_Weaver.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mudfoot_Sneak",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Mudfoot_Sneak/Mudfoot_Sneak.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mudrat",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Mudrat/Mudrat.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mugger_Thug",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Mugger_Thug/Mugger_Thug.json",
+            "imagePath": null
+        },
+        {
+            "name": "Murkmaw_Lamb",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Murkmaw_Lamb/Murkmaw_Lamb.json",
+            "imagePath": null
+        },
+        {
+            "name": "Nightshade_Initiate",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Nightshade_Initiate/Nightshade_Initiate.json",
+            "imagePath": null
+        },
+        {
+            "name": "Pyrefire_Wyrm",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Pyrefire_Wyrm/Pyrefire_Wyrm.json",
+            "imagePath": null
+        },
+        {
+            "name": "Rusting_Chain",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Rusting_Chain/Rusting_Chain.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowshard_Adept",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Shadowshard_Adept/Shadowshard_Adept.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowveil_Specter",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Shadowveil_Specter/Shadowveil_Specter.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shifting_Book",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Shifting_Book/Shifting_Book.json",
+            "imagePath": null
+        },
+        {
+            "name": "Slithering_Raider",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Slithering_Raider/Slithering_Raider.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sludge_Crawler",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Sludge_Crawler/Sludge_Crawler.json",
+            "imagePath": null
+        },
+        {
+            "name": "Spider-Eagle",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Spider-Eagle/Spider-Eagle.json",
+            "imagePath": null
+        },
+        {
+            "name": "Startled_Pheasant",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Startled_Pheasant/Startled_Pheasant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Threatening_Sentinel",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Threatening_Sentinel/Threatening_Sentinel.json",
+            "imagePath": null
+        },
+        {
+            "name": "Winged_Scavenger",
+            "jsonPath": "assets/libraries/Beastiary/CR04/Winged_Scavenger/Winged_Scavenger.json",
+            "imagePath": null
+        }
+    ],
+    "CR05": [
+        {
+            "name": "Alleyway_Cutthroat",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Alleyway_Cutthroat/Alleyway_Cutthroat.json",
+            "imagePath": null
+        },
+        {
+            "name": "Banished_Spearman",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Banished_Spearman/Banished_Spearman.json",
+            "imagePath": null
+        },
+        {
+            "name": "Belligerent_Guard",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Belligerent_Guard/Belligerent_Guard.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodscale_Drake",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Bloodscale_Drake/Bloodscale_Drake.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bogfang_Raider",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Bogfang_Raider/Bogfang_Raider.json",
+            "imagePath": null
+        },
+        {
+            "name": "Brineclaw_Fish",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Brineclaw_Fish/Brineclaw_Fish.json",
+            "imagePath": null
+        },
+        {
+            "name": "Dancing_Candle",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Dancing_Candle/Dancing_Candle.json",
+            "imagePath": null
+        },
+        {
+            "name": "Dawn_of_Infinity",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Dawn_of_Infinity/Dawn_of_Infinity.json",
+            "imagePath": null
+        },
+        {
+            "name": "Emberpup",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Emberpup/Emberpup.json",
+            "imagePath": null
+        },
+        {
+            "name": "Enchanted_Quill",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Enchanted_Quill/Enchanted_Quill.json",
+            "imagePath": null
+        },
+        {
+            "name": "Flashfoot_Hare",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Flashfoot_Hare/Flashfoot_Hare.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frostbite_Sentinel",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Frostbite_Sentinel/Frostbite_Sentinel.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frostvein_Adept",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Frostvein_Adept/Frostvein_Adept.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mirecoil_Striker",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Mirecoil_Striker/Mirecoil_Striker.json",
+            "imagePath": null
+        },
+        {
+            "name": "Muckling",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Muckling/Muckling.json",
+            "imagePath": null
+        },
+        {
+            "name": "Murkweb_Spider",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Murkweb_Spider/Murkweb_Spider.json",
+            "imagePath": null
+        },
+        {
+            "name": "Nightfall_Prowler",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Nightfall_Prowler/Nightfall_Prowler.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ovenlight_Flicker",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Ovenlight_Flicker/Ovenlight_Flicker.json",
+            "imagePath": null
+        },
+        {
+            "name": "Razorfeather_Hawk",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Razorfeather_Hawk/Razorfeather_Hawk.json",
+            "imagePath": null
+        },
+        {
+            "name": "Rustfang_Raider",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Rustfang_Raider/Rustfang_Raider.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sanguine_Disciple",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Sanguine_Disciple/Sanguine_Disciple.json",
+            "imagePath": null
+        },
+        {
+            "name": "Scumsquawk_Crow",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Scumsquawk_Crow/Scumsquawk_Crow.json",
+            "imagePath": null
+        },
+        {
+            "name": "Serpent-Lion",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Serpent-Lion/Serpent-Lion.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowbug",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Shadowbug/Shadowbug.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowfur_Kitten",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Shadowfur_Kitten/Shadowfur_Kitten.json",
+            "imagePath": null
+        },
+        {
+            "name": "Skullsplitter_Ravager",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Skullsplitter_Ravager/Skullsplitter_Ravager.json",
+            "imagePath": null
+        },
+        {
+            "name": "Starborn_Initiate",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Starborn_Initiate/Starborn_Initiate.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stardust_Satyr",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Stardust_Satyr/Stardust_Satyr.json",
+            "imagePath": null
+        },
+        {
+            "name": "Trembling_Rabbit",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Trembling_Rabbit/Trembling_Rabbit.json",
+            "imagePath": null
+        },
+        {
+            "name": "Vineclad_Fawn",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Vineclad_Fawn/Vineclad_Fawn.json",
+            "imagePath": null
+        },
+        {
+            "name": "Whispering_Squirrel",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Whispering_Squirrel/Whispering_Squirrel.json",
+            "imagePath": null
+        },
+        {
+            "name": "Whispering_Walls",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Whispering_Walls/Whispering_Walls.json",
+            "imagePath": null
+        },
+        {
+            "name": "Wildfire_Caster",
+            "jsonPath": "assets/libraries/Beastiary/CR05/Wildfire_Caster/Wildfire_Caster.json",
+            "imagePath": null
+        }
+    ],
+    "CR06": [
+        {
+            "name": "Acidic_Slime",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Acidic_Slime/Acidic_Slime.json",
+            "imagePath": null
+        },
+        {
+            "name": "Blackshield_Raider",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Blackshield_Raider/Blackshield_Raider.json",
+            "imagePath": null
+        },
+        {
+            "name": "Dappled_Deer",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Dappled_Deer/Dappled_Deer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Darting_Squirrel",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Darting_Squirrel/Darting_Squirrel.json",
+            "imagePath": null
+        },
+        {
+            "name": "Defensive_Warrior",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Defensive_Warrior/Defensive_Warrior.json",
+            "imagePath": null
+        },
+        {
+            "name": "Duskwraith_Stalker",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Duskwraith_Stalker/Duskwraith_Stalker.json",
+            "imagePath": null
+        },
+        {
+            "name": "Emberglow_Guardian",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Emberglow_Guardian/Emberglow_Guardian.json",
+            "imagePath": null
+        },
+        {
+            "name": "Filchclaw_Ambusher",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Filchclaw_Ambusher/Filchclaw_Ambusher.json",
+            "imagePath": null
+        },
+        {
+            "name": "Glowtail_Gecko",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Glowtail_Gecko/Glowtail_Gecko.json",
+            "imagePath": null
+        },
+        {
+            "name": "Goat-Scorpion",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Goat-Scorpion/Goat-Scorpion.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironbark_Lamb",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Ironbark_Lamb/Ironbark_Lamb.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironclad_Juggernaut",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Ironclad_Juggernaut/Ironclad_Juggernaut.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironclaw_Pup",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Ironclaw_Pup/Ironclaw_Pup.json",
+            "imagePath": null
+        },
+        {
+            "name": "Lightforged_Acolyte",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Lightforged_Acolyte/Lightforged_Acolyte.json",
+            "imagePath": null
+        },
+        {
+            "name": "Lightningtail_Fawn",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Lightningtail_Fawn/Lightningtail_Fawn.json",
+            "imagePath": null
+        },
+        {
+            "name": "Marshlurker_Serpent",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Marshlurker_Serpent/Marshlurker_Serpent.json",
+            "imagePath": null
+        },
+        {
+            "name": "Possessed_Lantern",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Possessed_Lantern/Possessed_Lantern.json",
+            "imagePath": null
+        },
+        {
+            "name": "Reefsting_Jellyfish",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Reefsting_Jellyfish/Reefsting_Jellyfish.json",
+            "imagePath": null
+        },
+        {
+            "name": "Rolling_Barrel",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Rolling_Barrel/Rolling_Barrel.json",
+            "imagePath": null
+        },
+        {
+            "name": "Scorchheart_Serpent",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Scorchheart_Serpent/Scorchheart_Serpent.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowhide_Lycan",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Shadowhide_Lycan/Shadowhide_Lycan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sharptooth_Rogue",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Sharptooth_Rogue/Sharptooth_Rogue.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shifting_Stones",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Shifting_Stones/Shifting_Stones.json",
+            "imagePath": null
+        },
+        {
+            "name": "Slimehorn_Goat",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Slimehorn_Goat/Slimehorn_Goat.json",
+            "imagePath": null
+        },
+        {
+            "name": "Swamptalon_Hunter",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Swamptalon_Hunter/Swamptalon_Hunter.json",
+            "imagePath": null
+        },
+        {
+            "name": "Thornflea",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Thornflea/Thornflea.json",
+            "imagePath": null
+        },
+        {
+            "name": "Thunderstrike_Conjurer",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Thunderstrike_Conjurer/Thunderstrike_Conjurer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Venomwing_Skitter",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Venomwing_Skitter/Venomwing_Skitter.json",
+            "imagePath": null
+        },
+        {
+            "name": "Viperscale_Warrior",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Viperscale_Warrior/Viperscale_Warrior.json",
+            "imagePath": null
+        },
+        {
+            "name": "Warcry_Savage",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Warcry_Savage/Warcry_Savage.json",
+            "imagePath": null
+        },
+        {
+            "name": "Whispering_Idea",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Whispering_Idea/Whispering_Idea.json",
+            "imagePath": null
+        },
+        {
+            "name": "Whispering_Sylph",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Whispering_Sylph/Whispering_Sylph.json",
+            "imagePath": null
+        },
+        {
+            "name": "Whitescale_Warrior",
+            "jsonPath": "assets/libraries/Beastiary/CR06/Whitescale_Warrior/Whitescale_Warrior.json",
+            "imagePath": null
+        }
+    ],
+    "CR07": [
+        {
+            "name": "Blazecrest_Dragonet",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Blazecrest_Dragonet/Blazecrest_Dragonet.json",
+            "imagePath": null
+        },
+        {
+            "name": "Blightbinder_Evoker",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Blightbinder_Evoker/Blightbinder_Evoker.json",
+            "imagePath": null
+        },
+        {
+            "name": "Boar-Snake",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Boar-Snake/Boar-Snake.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bogshade_Wraith",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Bogshade_Wraith/Bogshade_Wraith.json",
+            "imagePath": null
+        },
+        {
+            "name": "Cindermaw_Ravager",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Cindermaw_Ravager/Cindermaw_Ravager.json",
+            "imagePath": null
+        },
+        {
+            "name": "Cloudsting_Needlefly",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Cloudsting_Needlefly/Cloudsting_Needlefly.json",
+            "imagePath": null
+        },
+        {
+            "name": "Crawling_Vines",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Crawling_Vines/Crawling_Vines.json",
+            "imagePath": null
+        },
+        {
+            "name": "Curious_Otter",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Curious_Otter/Curious_Otter.json",
+            "imagePath": null
+        },
+        {
+            "name": "Damned_Ring",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Damned_Ring/Damned_Ring.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frostmane_Calf",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Frostmane_Calf/Frostmane_Calf.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frostmane_Packleader",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Frostmane_Packleader/Frostmane_Packleader.json",
+            "imagePath": null
+        },
+        {
+            "name": "Glimmerant",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Glimmerant/Glimmerant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Glimmerfin_Sardine",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Glimmerfin_Sardine/Glimmerfin_Sardine.json",
+            "imagePath": null
+        },
+        {
+            "name": "Gloophopper",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Gloophopper/Gloophopper.json",
+            "imagePath": null
+        },
+        {
+            "name": "Grimwanderer_Mercenary",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Grimwanderer_Mercenary/Grimwanderer_Mercenary.json",
+            "imagePath": null
+        },
+        {
+            "name": "Gutter_Rat_Brigand",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Gutter_Rat_Brigand/Gutter_Rat_Brigand.json",
+            "imagePath": null
+        },
+        {
+            "name": "Hearthfire_Watcher",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Hearthfire_Watcher/Hearthfire_Watcher.json",
+            "imagePath": null
+        },
+        {
+            "name": "Moonlit_Blade",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Moonlit_Blade/Moonlit_Blade.json",
+            "imagePath": null
+        },
+        {
+            "name": "Moonlit_Centaur",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Moonlit_Centaur/Moonlit_Centaur.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mossmane_Elk",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Mossmane_Elk/Mossmane_Elk.json",
+            "imagePath": null
+        },
+        {
+            "name": "Paleclaw_Ranger",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Paleclaw_Ranger/Paleclaw_Ranger.json",
+            "imagePath": null
+        },
+        {
+            "name": "Potentialling",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Potentialling/Potentialling.json",
+            "imagePath": null
+        },
+        {
+            "name": "Radiant_Disciple",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Radiant_Disciple/Radiant_Disciple.json",
+            "imagePath": null
+        },
+        {
+            "name": "Rotwool_Sheep",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Rotwool_Sheep/Rotwool_Sheep.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowfang_Assassin",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Shadowfang_Assassin/Shadowfang_Assassin.json",
+            "imagePath": null
+        },
+        {
+            "name": "Skittering_Chair",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Skittering_Chair/Skittering_Chair.json",
+            "imagePath": null
+        },
+        {
+            "name": "Skittish_Doe",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Skittish_Doe/Skittish_Doe.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sludgehide_Berserker",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Sludgehide_Berserker/Sludgehide_Berserker.json",
+            "imagePath": null
+        },
+        {
+            "name": "Snaggletooth_Scout",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Snaggletooth_Scout/Snaggletooth_Scout.json",
+            "imagePath": null
+        },
+        {
+            "name": "Steelclad_Marauder",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Steelclad_Marauder/Steelclad_Marauder.json",
+            "imagePath": null
+        },
+        {
+            "name": "Tunnel_Mole",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Tunnel_Mole/Tunnel_Mole.json",
+            "imagePath": null
+        },
+        {
+            "name": "Vengeful_Hunter",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Vengeful_Hunter/Vengeful_Hunter.json",
+            "imagePath": null
+        },
+        {
+            "name": "Whirlwind_Cub",
+            "jsonPath": "assets/libraries/Beastiary/CR07/Whirlwind_Cub/Whirlwind_Cub.json",
+            "imagePath": null
+        }
+    ],
+    "CR08": [
+        {
+            "name": "Bloodborne_Enforcer",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Bloodborne_Enforcer/Bloodborne_Enforcer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodcast_Gladiator",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Bloodcast_Gladiator/Bloodcast_Gladiator.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodsipper_Bat",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Bloodsipper_Bat/Bloodsipper_Bat.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodtick",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Bloodtick/Bloodtick.json",
+            "imagePath": null
+        },
+        {
+            "name": "Corrosive_Ooze",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Corrosive_Ooze/Corrosive_Ooze.json",
+            "imagePath": null
+        },
+        {
+            "name": "Crawling_Chest",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Crawling_Chest/Crawling_Chest.json",
+            "imagePath": null
+        },
+        {
+            "name": "Deathaxe_Warrior",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Deathaxe_Warrior/Deathaxe_Warrior.json",
+            "imagePath": null
+        },
+        {
+            "name": "Dreadshade_Lurker",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Dreadshade_Lurker/Dreadshade_Lurker.json",
+            "imagePath": null
+        },
+        {
+            "name": "Duskwalker_Alpha",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Duskwalker_Alpha/Duskwalker_Alpha.json",
+            "imagePath": null
+        },
+        {
+            "name": "Enchanted_Gorgon",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Enchanted_Gorgon/Enchanted_Gorgon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Flamewing_Wyvern",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Flamewing_Wyvern/Flamewing_Wyvern.json",
+            "imagePath": null
+        },
+        {
+            "name": "Flicker_of_Insight",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Flicker_of_Insight/Flicker_of_Insight.json",
+            "imagePath": null
+        },
+        {
+            "name": "Glacialbone_Monk",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Glacialbone_Monk/Glacialbone_Monk.json",
+            "imagePath": null
+        },
+        {
+            "name": "Glimmerwing_Butterfly",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Glimmerwing_Butterfly/Glimmerwing_Butterfly.json",
+            "imagePath": null
+        },
+        {
+            "name": "Gloomfang_Spider",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Gloomfang_Spider/Gloomfang_Spider.json",
+            "imagePath": null
+        },
+        {
+            "name": "Kindling_Spirit",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Kindling_Spirit/Kindling_Spirit.json",
+            "imagePath": null
+        },
+        {
+            "name": "Malevolent_Hourglass",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Malevolent_Hourglass/Malevolent_Hourglass.json",
+            "imagePath": null
+        },
+        {
+            "name": "Malicious_Infiltrator",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Malicious_Infiltrator/Malicious_Infiltrator.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mireclaw_Alligator",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Mireclaw_Alligator/Mireclaw_Alligator.json",
+            "imagePath": null
+        },
+        {
+            "name": "Moldyfeather_Hen",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Moldyfeather_Hen/Moldyfeather_Hen.json",
+            "imagePath": null
+        },
+        {
+            "name": "Muckscale_Shaman",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Muckscale_Shaman/Muckscale_Shaman.json",
+            "imagePath": null
+        },
+        {
+            "name": "Murmuring_Echo",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Murmuring_Echo/Murmuring_Echo.json",
+            "imagePath": null
+        },
+        {
+            "name": "Panicstricken_Fawn",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Panicstricken_Fawn/Panicstricken_Fawn.json",
+            "imagePath": null
+        },
+        {
+            "name": "Pitstrike_Hunter",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Pitstrike_Hunter/Pitstrike_Hunter.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ram-Crocodile",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Ram-Crocodile/Ram-Crocodile.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sandwhisper_Clam",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Sandwhisper_Clam/Sandwhisper_Clam.json",
+            "imagePath": null
+        },
+        {
+            "name": "Scrapheap_Scavenger",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Scrapheap_Scavenger/Scrapheap_Scavenger.json",
+            "imagePath": null
+        },
+        {
+            "name": "Slyfinger_Looter",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Slyfinger_Looter/Slyfinger_Looter.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stonehoof_Goat",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Stonehoof_Goat/Stonehoof_Goat.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stormchaser_Wolf",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Stormchaser_Wolf/Stormchaser_Wolf.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sunflare_Adept",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Sunflare_Adept/Sunflare_Adept.json",
+            "imagePath": null
+        },
+        {
+            "name": "Thunderpaw_Cub",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Thunderpaw_Cub/Thunderpaw_Cub.json",
+            "imagePath": null
+        },
+        {
+            "name": "Voidwhisper_Warlock",
+            "jsonPath": "assets/libraries/Beastiary/CR08/Voidwhisper_Warlock/Voidwhisper_Warlock.json",
+            "imagePath": null
+        }
+    ],
+    "CR09": [
+        {
+            "name": "Bloodclaw_Berserker",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Bloodclaw_Berserker/Bloodclaw_Berserker.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodfang_Raider",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Bloodfang_Raider/Bloodfang_Raider.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodsnout_Brawler",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Bloodsnout_Brawler/Bloodsnout_Brawler.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bonegrinder_Warbringer",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Bonegrinder_Warbringer/Bonegrinder_Warbringer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Brightfeather_Sparrow",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Brightfeather_Sparrow/Brightfeather_Sparrow.json",
+            "imagePath": null
+        },
+        {
+            "name": "Coilwhisper_Mystic",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Coilwhisper_Mystic/Coilwhisper_Mystic.json",
+            "imagePath": null
+        },
+        {
+            "name": "Emberclaw_Pyromancer",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Emberclaw_Pyromancer/Emberclaw_Pyromancer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Embermite",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Embermite/Embermite.json",
+            "imagePath": null
+        },
+        {
+            "name": "Filthfang_Pig",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Filthfang_Pig/Filthfang_Pig.json",
+            "imagePath": null
+        },
+        {
+            "name": "Formless_Thought",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Formless_Thought/Formless_Thought.json",
+            "imagePath": null
+        },
+        {
+            "name": "Gleaming_Griffin",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Gleaming_Griffin/Gleaming_Griffin.json",
+            "imagePath": null
+        },
+        {
+            "name": "Hearthkeeper_Sentinel",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Hearthkeeper_Sentinel/Hearthkeeper_Sentinel.json",
+            "imagePath": null
+        },
+        {
+            "name": "Inferno_Talon",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Inferno_Talon/Inferno_Talon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironclad_Ronin",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Ironclad_Ronin/Ironclad_Ronin.json",
+            "imagePath": null
+        },
+        {
+            "name": "Luminous_Sea_Slug",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Luminous_Sea_Slug/Luminous_Sea_Slug.json",
+            "imagePath": null
+        },
+        {
+            "name": "Midnight_Noble",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Midnight_Noble/Midnight_Noble.json",
+            "imagePath": null
+        },
+        {
+            "name": "Pureblood_Knight",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Pureblood_Knight/Pureblood_Knight.json",
+            "imagePath": null
+        },
+        {
+            "name": "Quickknife_Prowler",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Quickknife_Prowler/Quickknife_Prowler.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sinister_Mask",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Sinister_Mask/Sinister_Mask.json",
+            "imagePath": null
+        },
+        {
+            "name": "Skyshrieker_Harpy",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Skyshrieker_Harpy/Skyshrieker_Harpy.json",
+            "imagePath": null
+        },
+        {
+            "name": "Slickmire_Gel",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Slickmire_Gel/Slickmire_Gel.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sludgebeast_Toad",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Sludgebeast_Toad/Sludgebeast_Toad.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stonemite",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Stonemite/Stonemite.json",
+            "imagePath": null
+        },
+        {
+            "name": "Thornback_Ambusher",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Thornback_Ambusher/Thornback_Ambusher.json",
+            "imagePath": null
+        },
+        {
+            "name": "Thornback_Stag",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Thornback_Stag/Thornback_Stag.json",
+            "imagePath": null
+        },
+        {
+            "name": "Thunderstrike_Lynx",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Thunderstrike_Lynx/Thunderstrike_Lynx.json",
+            "imagePath": null
+        },
+        {
+            "name": "Twilight_Guardian",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Twilight_Guardian/Twilight_Guardian.json",
+            "imagePath": null
+        },
+        {
+            "name": "Twisting_Roots",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Twisting_Roots/Twisting_Roots.json",
+            "imagePath": null
+        },
+        {
+            "name": "Venomfang_Serpentling",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Venomfang_Serpentling/Venomfang_Serpentling.json",
+            "imagePath": null
+        },
+        {
+            "name": "Violent_Marauder",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Violent_Marauder/Violent_Marauder.json",
+            "imagePath": null
+        },
+        {
+            "name": "Wary_Quail",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Wary_Quail/Wary_Quail.json",
+            "imagePath": null
+        },
+        {
+            "name": "Whirling_Umbrella",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Whirling_Umbrella/Whirling_Umbrella.json",
+            "imagePath": null
+        },
+        {
+            "name": "Wolf-Lizard",
+            "jsonPath": "assets/libraries/Beastiary/CR09/Wolf-Lizard/Wolf-Lizard.json",
+            "imagePath": null
+        }
+    ],
+    "CR10": [
+        {
+            "name": "Blackmire_Hag",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Blackmire_Hag/Blackmire_Hag.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodstone_Goliath",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Bloodstone_Goliath/Bloodstone_Goliath.json",
+            "imagePath": null
+        },
+        {
+            "name": "Boulderhide_Bison",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Boulderhide_Bison/Boulderhide_Bison.json",
+            "imagePath": null
+        },
+        {
+            "name": "Celestial_Seeker",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Celestial_Seeker/Celestial_Seeker.json",
+            "imagePath": null
+        },
+        {
+            "name": "Cinderbreath_Drake",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Cinderbreath_Drake/Cinderbreath_Drake.json",
+            "imagePath": null
+        },
+        {
+            "name": "Cursed_Rooster",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Cursed_Rooster/Cursed_Rooster.json",
+            "imagePath": null
+        },
+        {
+            "name": "Embercat",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Embercat/Embercat.json",
+            "imagePath": null
+        },
+        {
+            "name": "Falcon-Serpent",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Falcon-Serpent/Falcon-Serpent.json",
+            "imagePath": null
+        },
+        {
+            "name": "Flameheart_Drake",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Flameheart_Drake/Flameheart_Drake.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frostwhisper_Sorcerer",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Frostwhisper_Sorcerer/Frostwhisper_Sorcerer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Galehound",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Galehound/Galehound.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ghostblade_Dagger",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Ghostblade_Dagger/Ghostblade_Dagger.json",
+            "imagePath": null
+        },
+        {
+            "name": "Gutripper_Chief",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Gutripper_Chief/Gutripper_Chief.json",
+            "imagePath": null
+        },
+        {
+            "name": "Homebound_Protector",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Homebound_Protector/Homebound_Protector.json",
+            "imagePath": null
+        },
+        {
+            "name": "Howling_Nightshade",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Howling_Nightshade/Howling_Nightshade.json",
+            "imagePath": null
+        },
+        {
+            "name": "Hungry_Floor",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Hungry_Floor/Hungry_Floor.json",
+            "imagePath": null
+        },
+        {
+            "name": "Icevein_Sorcerer",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Icevein_Sorcerer/Icevein_Sorcerer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironjaw_Enforcer",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Ironjaw_Enforcer/Ironjaw_Enforcer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Lurking_Lamp",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Lurking_Lamp/Lurking_Lamp.json",
+            "imagePath": null
+        },
+        {
+            "name": "Quagmire_Sludge",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Quagmire_Sludge/Quagmire_Sludge.json",
+            "imagePath": null
+        },
+        {
+            "name": "Redhand_Raider",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Redhand_Raider/Redhand_Raider.json",
+            "imagePath": null
+        },
+        {
+            "name": "Rustroach",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Rustroach/Rustroach.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ruthless_Enforcer",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Ruthless_Enforcer/Ruthless_Enforcer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Saltwater_Snapper",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Saltwater_Snapper/Saltwater_Snapper.json",
+            "imagePath": null
+        },
+        {
+            "name": "Scared_Boar",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Scared_Boar/Scared_Boar.json",
+            "imagePath": null
+        },
+        {
+            "name": "Screeching_Gargoyle",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Screeching_Gargoyle/Screeching_Gargoyle.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowblade_Assassin",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Shadowblade_Assassin/Shadowblade_Assassin.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowblood_Assassin",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Shadowblood_Assassin/Shadowblood_Assassin.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shifting_Potential",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Shifting_Potential/Shifting_Potential.json",
+            "imagePath": null
+        },
+        {
+            "name": "Swampshadow_Stalker",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Swampshadow_Stalker/Swampshadow_Stalker.json",
+            "imagePath": null
+        },
+        {
+            "name": "Swiftfoot_Fox",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Swiftfoot_Fox/Swiftfoot_Fox.json",
+            "imagePath": null
+        },
+        {
+            "name": "Thunderclap_Cyclops",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Thunderclap_Cyclops/Thunderclap_Cyclops.json",
+            "imagePath": null
+        },
+        {
+            "name": "Venomshroud_Stalker",
+            "jsonPath": "assets/libraries/Beastiary/CR10/Venomshroud_Stalker/Venomshroud_Stalker.json",
+            "imagePath": null
+        }
+    ],
+    "CR11": [
+        {
+            "name": "Bogvenom_Shaman",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Bogvenom_Shaman/Bogvenom_Shaman.json",
+            "imagePath": null
+        },
+        {
+            "name": "Boundless_Spark",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Boundless_Spark/Boundless_Spark.json",
+            "imagePath": null
+        },
+        {
+            "name": "Breathing_Cavern",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Breathing_Cavern/Breathing_Cavern.json",
+            "imagePath": null
+        },
+        {
+            "name": "Cavernhound",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Cavernhound/Cavernhound.json",
+            "imagePath": null
+        },
+        {
+            "name": "Crimson_Cloak",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Crimson_Cloak/Crimson_Cloak.json",
+            "imagePath": null
+        },
+        {
+            "name": "Darkveil_Enchanter",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Darkveil_Enchanter/Darkveil_Enchanter.json",
+            "imagePath": null
+        },
+        {
+            "name": "Dawnbringer_Templar",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Dawnbringer_Templar/Dawnbringer_Templar.json",
+            "imagePath": null
+        },
+        {
+            "name": "Deepcurrent_Ray",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Deepcurrent_Ray/Deepcurrent_Ray.json",
+            "imagePath": null
+        },
+        {
+            "name": "Doomclaw_Executioner",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Doomclaw_Executioner/Doomclaw_Executioner.json",
+            "imagePath": null
+        },
+        {
+            "name": "Emberstone_Guardian",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Emberstone_Guardian/Emberstone_Guardian.json",
+            "imagePath": null
+        },
+        {
+            "name": "Fenroot_Ent",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Fenroot_Ent/Fenroot_Ent.json",
+            "imagePath": null
+        },
+        {
+            "name": "Festerhoof_Cow",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Festerhoof_Cow/Festerhoof_Cow.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frostfire_Phoenix",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Frostfire_Phoenix/Frostfire_Phoenix.json",
+            "imagePath": null
+        },
+        {
+            "name": "Goreclaw_Warleader",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Goreclaw_Warleader/Goreclaw_Warleader.json",
+            "imagePath": null
+        },
+        {
+            "name": "Hellfire_Basilisk",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Hellfire_Basilisk/Hellfire_Basilisk.json",
+            "imagePath": null
+        },
+        {
+            "name": "Hunted_Stag",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Hunted_Stag/Hunted_Stag.json",
+            "imagePath": null
+        },
+        {
+            "name": "Hydra-Ram",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Hydra-Ram/Hydra-Ram.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mirelurker_Champion",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Mirelurker_Champion/Mirelurker_Champion.json",
+            "imagePath": null
+        },
+        {
+            "name": "Nightspider",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Nightspider/Nightspider.json",
+            "imagePath": null
+        },
+        {
+            "name": "Quickfang_Panther",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Quickfang_Panther/Quickfang_Panther.json",
+            "imagePath": null
+        },
+        {
+            "name": "Razorwing_Gryphon",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Razorwing_Gryphon/Razorwing_Gryphon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Redcap_Stabber",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Redcap_Stabber/Redcap_Stabber.json",
+            "imagePath": null
+        },
+        {
+            "name": "Savage_Berserker",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Savage_Berserker/Savage_Berserker.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowstep_Sneak",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Shadowstep_Sneak/Shadowstep_Sneak.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shunned_Warbringer",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Shunned_Warbringer/Shunned_Warbringer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Silvermane_Enforcer",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Silvermane_Enforcer/Silvermane_Enforcer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Snowclad_Enforcer",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Snowclad_Enforcer/Snowclad_Enforcer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stalking_Cabinet",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Stalking_Cabinet/Stalking_Cabinet.json",
+            "imagePath": null
+        },
+        {
+            "name": "Trusty_Badger",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Trusty_Badger/Trusty_Badger.json",
+            "imagePath": null
+        },
+        {
+            "name": "Vineclaw_Rhino",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Vineclaw_Rhino/Vineclaw_Rhino.json",
+            "imagePath": null
+        },
+        {
+            "name": "Viscid_Creeper",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Viscid_Creeper/Viscid_Creeper.json",
+            "imagePath": null
+        },
+        {
+            "name": "Wicked_Tome",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Wicked_Tome/Wicked_Tome.json",
+            "imagePath": null
+        },
+        {
+            "name": "Windrazor_Falcon",
+            "jsonPath": "assets/libraries/Beastiary/CR11/Windrazor_Falcon/Windrazor_Falcon.json",
+            "imagePath": null
+        }
+    ],
+    "CR12": [
+        {
+            "name": "Blackmask_Outlaw",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Blackmask_Outlaw/Blackmask_Outlaw.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodbound_Amulet",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Bloodbound_Amulet/Bloodbound_Amulet.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bogblood_Savage",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Bogblood_Savage/Bogblood_Savage.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bonegnash_Warchanter",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Bonegnash_Warchanter/Bonegnash_Warchanter.json",
+            "imagePath": null
+        },
+        {
+            "name": "Cornered_Wolf",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Cornered_Wolf/Cornered_Wolf.json",
+            "imagePath": null
+        },
+        {
+            "name": "Darkscale_Warlord",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Darkscale_Warlord/Darkscale_Warlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Deathwatch_Wraith",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Deathwatch_Wraith/Deathwatch_Wraith.json",
+            "imagePath": null
+        },
+        {
+            "name": "Dripping_Ceiling",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Dripping_Ceiling/Dripping_Ceiling.json",
+            "imagePath": null
+        },
+        {
+            "name": "Embermane_Dragon",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Embermane_Dragon/Embermane_Dragon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Fireside_Warden",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Fireside_Warden/Fireside_Warden.json",
+            "imagePath": null
+        },
+        {
+            "name": "Forsworn_Champion",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Forsworn_Champion/Forsworn_Champion.json",
+            "imagePath": null
+        },
+        {
+            "name": "Glimmer_of_Hope",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Glimmer_of_Hope/Glimmer_of_Hope.json",
+            "imagePath": null
+        },
+        {
+            "name": "Icefang_Wolf",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Icefang_Wolf/Icefang_Wolf.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironhoof_Ox",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Ironhoof_Ox/Ironhoof_Ox.json",
+            "imagePath": null
+        },
+        {
+            "name": "Lion-Hawk",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Lion-Hawk/Lion-Hawk.json",
+            "imagePath": null
+        },
+        {
+            "name": "Luminara_Knight",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Luminara_Knight/Luminara_Knight.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mirebane_Hydra",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Mirebane_Hydra/Mirebane_Hydra.json",
+            "imagePath": null
+        },
+        {
+            "name": "Moonlit_Owl",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Moonlit_Owl/Moonlit_Owl.json",
+            "imagePath": null
+        },
+        {
+            "name": "Nightveil_Inquisitor",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Nightveil_Inquisitor/Nightveil_Inquisitor.json",
+            "imagePath": null
+        },
+        {
+            "name": "Plague_Slime",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Plague_Slime/Plague_Slime.json",
+            "imagePath": null
+        },
+        {
+            "name": "Plaguebeetle",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Plaguebeetle/Plaguebeetle.json",
+            "imagePath": null
+        },
+        {
+            "name": "Plaguefur_Dog",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Plaguefur_Dog/Plaguefur_Dog.json",
+            "imagePath": null
+        },
+        {
+            "name": "Prowling_Carpet",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Prowling_Carpet/Prowling_Carpet.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ravenous_Nightfang",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Ravenous_Nightfang/Ravenous_Nightfang.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shaleclaw_Badger",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Shaleclaw_Badger/Shaleclaw_Badger.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shimmering_Unicorn",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Shimmering_Unicorn/Shimmering_Unicorn.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stormfury_Magus",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Stormfury_Magus/Stormfury_Magus.json",
+            "imagePath": null
+        },
+        {
+            "name": "Tempestwing_Hawk",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Tempestwing_Hawk/Tempestwing_Hawk.json",
+            "imagePath": null
+        },
+        {
+            "name": "Thornbeak_Vulture",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Thornbeak_Vulture/Thornbeak_Vulture.json",
+            "imagePath": null
+        },
+        {
+            "name": "Tidal_Serpent",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Tidal_Serpent/Tidal_Serpent.json",
+            "imagePath": null
+        },
+        {
+            "name": "Tyrannical_Captain",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Tyrannical_Captain/Tyrannical_Captain.json",
+            "imagePath": null
+        },
+        {
+            "name": "Wartskin_Shaman",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Wartskin_Shaman/Wartskin_Shaman.json",
+            "imagePath": null
+        },
+        {
+            "name": "Winterborn_Paladin",
+            "jsonPath": "assets/libraries/Beastiary/CR12/Winterborn_Paladin/Winterborn_Paladin.json",
+            "imagePath": null
+        }
+    ],
+    "CR13": [
+        {
+            "name": "Bear-Eel",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Bear-Eel/Bear-Eel.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodhowl_Chieftain",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Bloodhowl_Chieftain/Bloodhowl_Chieftain.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodhunt_Aristocrat",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Bloodhunt_Aristocrat/Bloodhunt_Aristocrat.json",
+            "imagePath": null
+        },
+        {
+            "name": "Clawwing_Roc",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Clawwing_Roc/Clawwing_Roc.json",
+            "imagePath": null
+        },
+        {
+            "name": "Doomcharm_Pendant",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Doomcharm_Pendant/Doomcharm_Pendant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Flashfire_Tiger",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Flashfire_Tiger/Flashfire_Tiger.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frantic_Wildcat",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Frantic_Wildcat/Frantic_Wildcat.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frostbound_Guardian",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Frostbound_Guardian/Frostbound_Guardian.json",
+            "imagePath": null
+        },
+        {
+            "name": "Hellfire_Tyrant",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Hellfire_Tyrant/Hellfire_Tyrant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Homestead_Sentinel",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Homestead_Sentinel/Homestead_Sentinel.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironfang_Boar",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Ironfang_Boar/Ironfang_Boar.json",
+            "imagePath": null
+        },
+        {
+            "name": "Lavafang_Wyrm",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Lavafang_Wyrm/Lavafang_Wyrm.json",
+            "imagePath": null
+        },
+        {
+            "name": "Marshclaw_Warchief",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Marshclaw_Warchief/Marshclaw_Warchief.json",
+            "imagePath": null
+        },
+        {
+            "name": "Marshmoth",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Marshmoth/Marshmoth.json",
+            "imagePath": null
+        },
+        {
+            "name": "Moonlit_Ravager",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Moonlit_Ravager/Moonlit_Ravager.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mossback_Buffalo",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Mossback_Buffalo/Mossback_Buffalo.json",
+            "imagePath": null
+        },
+        {
+            "name": "Moving_Staircase",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Moving_Staircase/Moving_Staircase.json",
+            "imagePath": null
+        },
+        {
+            "name": "Redclaw_Berserker",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Redclaw_Berserker/Redclaw_Berserker.json",
+            "imagePath": null
+        },
+        {
+            "name": "Relentless_Pursuer",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Relentless_Pursuer/Relentless_Pursuer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Rotmire_Rat",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Rotmire_Rat/Rotmire_Rat.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowflame_Necromancer",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Shadowflame_Necromancer/Shadowflame_Necromancer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Silentfoot_Ambusher",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Silentfoot_Ambusher/Silentfoot_Ambusher.json",
+            "imagePath": null
+        },
+        {
+            "name": "Silvermane_Wolf",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Silvermane_Wolf/Silvermane_Wolf.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sludgefang_Berserker",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Sludgefang_Berserker/Sludgefang_Berserker.json",
+            "imagePath": null
+        },
+        {
+            "name": "Starveil_Monk",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Starveil_Monk/Starveil_Monk.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stormclaw_Raptor",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Stormclaw_Raptor/Stormclaw_Raptor.json",
+            "imagePath": null
+        },
+        {
+            "name": "Swampfiend_Troll",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Swampfiend_Troll/Swampfiend_Troll.json",
+            "imagePath": null
+        },
+        {
+            "name": "Swampvenom_Sorcerer",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Swampvenom_Sorcerer/Swampvenom_Sorcerer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Toxic_Sludge",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Toxic_Sludge/Toxic_Sludge.json",
+            "imagePath": null
+        },
+        {
+            "name": "Twilight_Kirin",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Twilight_Kirin/Twilight_Kirin.json",
+            "imagePath": null
+        },
+        {
+            "name": "Wailing_Mirror",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Wailing_Mirror/Wailing_Mirror.json",
+            "imagePath": null
+        },
+        {
+            "name": "Wavecrest_Dolphin",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Wavecrest_Dolphin/Wavecrest_Dolphin.json",
+            "imagePath": null
+        },
+        {
+            "name": "Whispering_Vision",
+            "jsonPath": "assets/libraries/Beastiary/CR13/Whispering_Vision/Whispering_Vision.json",
+            "imagePath": null
+        }
+    ],
+    "CR14": [
+        {
+            "name": "Blightweevil",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Blightweevil/Blightweevil.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bogreaver_Ghoul",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Bogreaver_Ghoul/Bogreaver_Ghoul.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bramblehide_Bear",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Bramblehide_Bear/Bramblehide_Bear.json",
+            "imagePath": null
+        },
+        {
+            "name": "Brambletusk_Boar",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Brambletusk_Boar/Brambletusk_Boar.json",
+            "imagePath": null
+        },
+        {
+            "name": "Brimstone_Hound",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Brimstone_Hound/Brimstone_Hound.json",
+            "imagePath": null
+        },
+        {
+            "name": "Clattering_Armor",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Clattering_Armor/Clattering_Armor.json",
+            "imagePath": null
+        },
+        {
+            "name": "Cyclone_Stallion",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Cyclone_Stallion/Cyclone_Stallion.json",
+            "imagePath": null
+        },
+        {
+            "name": "Desperate_Lynx",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Desperate_Lynx/Desperate_Lynx.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frostshadow_Illusionist",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Frostshadow_Illusionist/Frostshadow_Illusionist.json",
+            "imagePath": null
+        },
+        {
+            "name": "Gloomshaper_Ooze",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Gloomshaper_Ooze/Gloomshaper_Ooze.json",
+            "imagePath": null
+        },
+        {
+            "name": "Grimblade_Enforcer",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Grimblade_Enforcer/Grimblade_Enforcer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Harmonious_Lynx",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Harmonious_Lynx/Harmonious_Lynx.json",
+            "imagePath": null
+        },
+        {
+            "name": "Hearthbound_Knight",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Hearthbound_Knight/Hearthbound_Knight.json",
+            "imagePath": null
+        },
+        {
+            "name": "Hexblade_Sword",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Hexblade_Sword/Hexblade_Sword.json",
+            "imagePath": null
+        },
+        {
+            "name": "Iceheart_Crusader",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Iceheart_Crusader/Iceheart_Crusader.json",
+            "imagePath": null
+        },
+        {
+            "name": "Infinite_Ember",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Infinite_Ember/Infinite_Ember.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironhide_Crusher",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Ironhide_Crusher/Ironhide_Crusher.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironhide_Warbringer",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Ironhide_Warbringer/Ironhide_Warbringer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Merciless_Assassin",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Merciless_Assassin/Merciless_Assassin.json",
+            "imagePath": null
+        },
+        {
+            "name": "Murkclaw_Cat",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Murkclaw_Cat/Murkclaw_Cat.json",
+            "imagePath": null
+        },
+        {
+            "name": "Murkfang_Beastmaster",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Murkfang_Beastmaster/Murkfang_Beastmaster.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mythic_Manticore",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Mythic_Manticore/Mythic_Manticore.json",
+            "imagePath": null
+        },
+        {
+            "name": "Nightscar_Warlord",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Nightscar_Warlord/Nightscar_Warlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Quaking_Ground",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Quaking_Ground/Quaking_Ground.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sanguine_Warlord",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Sanguine_Warlord/Sanguine_Warlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Scorpion-Tiger",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Scorpion-Tiger/Scorpion-Tiger.json",
+            "imagePath": null
+        },
+        {
+            "name": "Slitherfang_Gladiator",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Slitherfang_Gladiator/Slitherfang_Gladiator.json",
+            "imagePath": null
+        },
+        {
+            "name": "Solstice_Paladin",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Solstice_Paladin/Solstice_Paladin.json",
+            "imagePath": null
+        },
+        {
+            "name": "Spineshade_Wraith",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Spineshade_Wraith/Spineshade_Wraith.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stormbreaker_Colossus",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Stormbreaker_Colossus/Stormbreaker_Colossus.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stormclaw_Howler",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Stormclaw_Howler/Stormclaw_Howler.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stormshell_Turtle",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Stormshell_Turtle/Stormshell_Turtle.json",
+            "imagePath": null
+        },
+        {
+            "name": "Volcanic_Scale_Serpent",
+            "jsonPath": "assets/libraries/Beastiary/CR14/Volcanic_Scale_Serpent/Volcanic_Scale_Serpent.json",
+            "imagePath": null
+        }
+    ],
+    "CR15": [
+        {
+            "name": "Abyssal_Warlock",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Abyssal_Warlock/Abyssal_Warlock.json",
+            "imagePath": null
+        },
+        {
+            "name": "Blazetail_Tiger",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Blazetail_Tiger/Blazetail_Tiger.json",
+            "imagePath": null
+        },
+        {
+            "name": "Blazing_Chimera",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Blazing_Chimera/Blazing_Chimera.json",
+            "imagePath": null
+        },
+        {
+            "name": "Blightbeak_Hawk",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Blightbeak_Hawk/Blightbeak_Hawk.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodlust_Alpha",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Bloodlust_Alpha/Bloodlust_Alpha.json",
+            "imagePath": null
+        },
+        {
+            "name": "Brutal_Conqueror",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Brutal_Conqueror/Brutal_Conqueror.json",
+            "imagePath": null
+        },
+        {
+            "name": "Coraljaw_Barracuda",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Coraljaw_Barracuda/Coraljaw_Barracuda.json",
+            "imagePath": null
+        },
+        {
+            "name": "Cursed_Crown",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Cursed_Crown/Cursed_Crown.json",
+            "imagePath": null
+        },
+        {
+            "name": "Darkcloak_Highwayman",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Darkcloak_Highwayman/Darkcloak_Highwayman.json",
+            "imagePath": null
+        },
+        {
+            "name": "Deathmaul_Warbringer",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Deathmaul_Warbringer/Deathmaul_Warbringer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Duskborne_Lord",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Duskborne_Lord/Duskborne_Lord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Emberflame_Crusader",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Emberflame_Crusader/Emberflame_Crusader.json",
+            "imagePath": null
+        },
+        {
+            "name": "Emberstorm_Archmage",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Emberstorm_Archmage/Emberstorm_Archmage.json",
+            "imagePath": null
+        },
+        {
+            "name": "Festerfly",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Festerfly/Festerfly.json",
+            "imagePath": null
+        },
+        {
+            "name": "Gelatinous_Horror",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Gelatinous_Horror/Gelatinous_Horror.json",
+            "imagePath": null
+        },
+        {
+            "name": "Goldenmane_Lion",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Goldenmane_Lion/Goldenmane_Lion.json",
+            "imagePath": null
+        },
+        {
+            "name": "Grasping_Shadows",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Grasping_Shadows/Grasping_Shadows.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironfist_Enforcer",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Ironfist_Enforcer/Ironfist_Enforcer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ivoryblade_Champion",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Ivoryblade_Champion/Ivoryblade_Champion.json",
+            "imagePath": null
+        },
+        {
+            "name": "Lunar_Archmage",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Lunar_Archmage/Lunar_Archmage.json",
+            "imagePath": null
+        },
+        {
+            "name": "Magmahide_Leviathan",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Magmahide_Leviathan/Magmahide_Leviathan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Marshfire_Elemental",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Marshfire_Elemental/Marshfire_Elemental.json",
+            "imagePath": null
+        },
+        {
+            "name": "Pitviper_Champion",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Pitviper_Champion/Pitviper_Champion.json",
+            "imagePath": null
+        },
+        {
+            "name": "Rockhide_Elephant",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Rockhide_Elephant/Rockhide_Elephant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Scalding_Spitter",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Scalding_Spitter/Scalding_Spitter.json",
+            "imagePath": null
+        },
+        {
+            "name": "Serpent-Bull",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Serpent-Bull/Serpent-Bull.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowed_Buck",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Shadowed_Buck/Shadowed_Buck.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowfur_Ferret",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Shadowfur_Ferret/Shadowfur_Ferret.json",
+            "imagePath": null
+        },
+        {
+            "name": "Slimehide_Mystic",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Slimehide_Mystic/Slimehide_Mystic.json",
+            "imagePath": null
+        },
+        {
+            "name": "Spikeback_Marauder",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Spikeback_Marauder/Spikeback_Marauder.json",
+            "imagePath": null
+        },
+        {
+            "name": "Spinning_Wheel",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Spinning_Wheel/Spinning_Wheel.json",
+            "imagePath": null
+        },
+        {
+            "name": "Thunderhoof_Bull",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Thunderhoof_Bull/Thunderhoof_Bull.json",
+            "imagePath": null
+        },
+        {
+            "name": "Unshaped_Idea",
+            "jsonPath": "assets/libraries/Beastiary/CR15/Unshaped_Idea/Unshaped_Idea.json",
+            "imagePath": null
+        }
+    ],
+    "CR16": [
+        {
+            "name": "Ambushed_Elk",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Ambushed_Elk/Ambushed_Elk.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodcurse_Chalice",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Bloodcurse_Chalice/Bloodcurse_Chalice.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodshadow_Vizier",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Bloodshadow_Vizier/Bloodshadow_Vizier.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bonecrusher_Warlord",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Bonecrusher_Warlord/Bonecrusher_Warlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Charredclaw_Draconid",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Charredclaw_Draconid/Charredclaw_Draconid.json",
+            "imagePath": null
+        },
+        {
+            "name": "Creeping_Clock",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Creeping_Clock/Creeping_Clock.json",
+            "imagePath": null
+        },
+        {
+            "name": "Crystalhorn_Goat",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Crystalhorn_Goat/Crystalhorn_Goat.json",
+            "imagePath": null
+        },
+        {
+            "name": "Darksteel_Knight",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Darksteel_Knight/Darksteel_Knight.json",
+            "imagePath": null
+        },
+        {
+            "name": "Dawn_of_Potential",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Dawn_of_Potential/Dawn_of_Potential.json",
+            "imagePath": null
+        },
+        {
+            "name": "Glacialborn_Inquisitor",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Glacialborn_Inquisitor/Glacialborn_Inquisitor.json",
+            "imagePath": null
+        },
+        {
+            "name": "Grimehide_Ox",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Grimehide_Ox/Grimehide_Ox.json",
+            "imagePath": null
+        },
+        {
+            "name": "Homefire_Sage",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Homefire_Sage/Homefire_Sage.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironfist_Brawler",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Ironfist_Brawler/Ironfist_Brawler.json",
+            "imagePath": null
+        },
+        {
+            "name": "Lightborne_Crusader",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Lightborne_Crusader/Lightborne_Crusader.json",
+            "imagePath": null
+        },
+        {
+            "name": "Lightningclaw_Lion",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Lightningclaw_Lion/Lightningclaw_Lion.json",
+            "imagePath": null
+        },
+        {
+            "name": "Lightningglider_Raptor",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Lightningglider_Raptor/Lightningglider_Raptor.json",
+            "imagePath": null
+        },
+        {
+            "name": "Muckscale_Shadowblade",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Muckscale_Shadowblade/Muckscale_Shadowblade.json",
+            "imagePath": null
+        },
+        {
+            "name": "Poisonspider",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Poisonspider/Poisonspider.json",
+            "imagePath": null
+        },
+        {
+            "name": "Redtusk_Commander",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Redtusk_Commander/Redtusk_Commander.json",
+            "imagePath": null
+        },
+        {
+            "name": "Rockhide_Rhino",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Rockhide_Rhino/Rockhide_Rhino.json",
+            "imagePath": null
+        },
+        {
+            "name": "Savage_Moonwarden",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Savage_Moonwarden/Savage_Moonwarden.json",
+            "imagePath": null
+        },
+        {
+            "name": "Seastone_Lobster",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Seastone_Lobster/Seastone_Lobster.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sliding_Doors",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Sliding_Doors/Sliding_Doors.json",
+            "imagePath": null
+        },
+        {
+            "name": "Slimebound_Amalgam",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Slimebound_Amalgam/Slimebound_Amalgam.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stonehorn_Bull",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Stonehorn_Bull/Stonehorn_Bull.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stormborn_Hydra",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Stormborn_Hydra/Stormborn_Hydra.json",
+            "imagePath": null
+        },
+        {
+            "name": "Swampreaver_Gladiator",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Swampreaver_Gladiator/Swampreaver_Gladiator.json",
+            "imagePath": null
+        },
+        {
+            "name": "Swampshadow_Specter",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Swampshadow_Specter/Swampshadow_Specter.json",
+            "imagePath": null
+        },
+        {
+            "name": "Verdant_Elk",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Verdant_Elk/Verdant_Elk.json",
+            "imagePath": null
+        },
+        {
+            "name": "Vindictive_Avenger",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Vindictive_Avenger/Vindictive_Avenger.json",
+            "imagePath": null
+        },
+        {
+            "name": "Viper-Bear",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Viper-Bear/Viper-Bear.json",
+            "imagePath": null
+        },
+        {
+            "name": "Voidfang_Reaper",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Voidfang_Reaper/Voidfang_Reaper.json",
+            "imagePath": null
+        },
+        {
+            "name": "Voidfrost_Hexer",
+            "jsonPath": "assets/libraries/Beastiary/CR16/Voidfrost_Hexer/Voidfrost_Hexer.json",
+            "imagePath": null
+        }
+    ],
+    "CR17": [
+        {
+            "name": "Abyssal_Angler",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Abyssal_Angler/Abyssal_Angler.json",
+            "imagePath": null
+        },
+        {
+            "name": "Acidblood_Monstrosity",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Acidblood_Monstrosity/Acidblood_Monstrosity.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodcoin_Marauder",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Bloodcoin_Marauder/Bloodcoin_Marauder.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodrune_Slayer",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Bloodrune_Slayer/Bloodrune_Slayer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Crystalhorn_Goat",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Crystalhorn_Goat/Crystalhorn_Goat.json",
+            "imagePath": null
+        },
+        {
+            "name": "Darkscale_Assassin",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Darkscale_Assassin/Darkscale_Assassin.json",
+            "imagePath": null
+        },
+        {
+            "name": "Demonbound_Armor",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Demonbound_Armor/Demonbound_Armor.json",
+            "imagePath": null
+        },
+        {
+            "name": "Dreadwing_Wyvern",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Dreadwing_Wyvern/Dreadwing_Wyvern.json",
+            "imagePath": null
+        },
+        {
+            "name": "Eagle-Wolf",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Eagle-Wolf/Eagle-Wolf.json",
+            "imagePath": null
+        },
+        {
+            "name": "Echo_of_Creation",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Echo_of_Creation/Echo_of_Creation.json",
+            "imagePath": null
+        },
+        {
+            "name": "Foulmouth_Warcaller",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Foulmouth_Warcaller/Foulmouth_Warcaller.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frostbite_Templar",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Frostbite_Templar/Frostbite_Templar.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frostbite_Werebeast",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Frostbite_Werebeast/Frostbite_Werebeast.json",
+            "imagePath": null
+        },
+        {
+            "name": "Glowworm",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Glowworm/Glowworm.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironblood_Warmonger",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Ironblood_Warmonger/Ironblood_Warmonger.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironfang_Lion",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Ironfang_Lion/Ironfang_Lion.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironwood_Moose",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Ironwood_Moose/Ironwood_Moose.json",
+            "imagePath": null
+        },
+        {
+            "name": "Looming_Chandelier",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Looming_Chandelier/Looming_Chandelier.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mirefang_Basilisk",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Mirefang_Basilisk/Mirefang_Basilisk.json",
+            "imagePath": null
+        },
+        {
+            "name": "Nightlord_of_the_Eclipse",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Nightlord_of_the_Eclipse/Nightlord_of_the_Eclipse.json",
+            "imagePath": null
+        },
+        {
+            "name": "Pursued_Panther",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Pursued_Panther/Pursued_Panther.json",
+            "imagePath": null
+        },
+        {
+            "name": "Rocktusk_Pig",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Rocktusk_Pig/Rocktusk_Pig.json",
+            "imagePath": null
+        },
+        {
+            "name": "Searborn_Tyrant",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Searborn_Tyrant/Searborn_Tyrant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Skyterror_Drake",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Skyterror_Drake/Skyterror_Drake.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sludgewing_Bat",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Sludgewing_Bat/Sludgewing_Bat.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stormrage_Warden",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Stormrage_Warden/Stormrage_Warden.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stormrider_Eagle",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Stormrider_Eagle/Stormrider_Eagle.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sunforged_Guardian",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Sunforged_Guardian/Sunforged_Guardian.json",
+            "imagePath": null
+        },
+        {
+            "name": "Venomtide_Warlock",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Venomtide_Warlock/Venomtide_Warlock.json",
+            "imagePath": null
+        },
+        {
+            "name": "Warmthbringer_Herald",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Warmthbringer_Herald/Warmthbringer_Herald.json",
+            "imagePath": null
+        },
+        {
+            "name": "Warpath_Warrior",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Warpath_Warrior/Warpath_Warrior.json",
+            "imagePath": null
+        },
+        {
+            "name": "Weeping_Gargoyle",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Weeping_Gargoyle/Weeping_Gargoyle.json",
+            "imagePath": null
+        },
+        {
+            "name": "Wildfire_Spellblade",
+            "jsonPath": "assets/libraries/Beastiary/CR17/Wildfire_Spellblade/Wildfire_Spellblade.json",
+            "imagePath": null
+        }
+    ],
+    "CR18": [
+        {
+            "name": "Abysswalker_Duelist",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Abysswalker_Duelist/Abysswalker_Duelist.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bogwarden_Giant",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Bogwarden_Giant/Bogwarden_Giant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Celestial_Seraphim",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Celestial_Seraphim/Celestial_Seraphim.json",
+            "imagePath": null
+        },
+        {
+            "name": "Creaking_Door",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Creaking_Door/Creaking_Door.json",
+            "imagePath": null
+        },
+        {
+            "name": "Crimson_Countess",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Crimson_Countess/Crimson_Countess.json",
+            "imagePath": null
+        },
+        {
+            "name": "Crimson_Prowler",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Crimson_Prowler/Crimson_Prowler.json",
+            "imagePath": null
+        },
+        {
+            "name": "Dustwing_Bat",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Dustwing_Bat/Dustwing_Bat.json",
+            "imagePath": null
+        },
+        {
+            "name": "Erosion_Behemoth",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Erosion_Behemoth/Erosion_Behemoth.json",
+            "imagePath": null
+        },
+        {
+            "name": "Firesoul_Defender",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Firesoul_Defender/Firesoul_Defender.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frostbite_Panther",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Frostbite_Panther/Frostbite_Panther.json",
+            "imagePath": null
+        },
+        {
+            "name": "Glimmering_Concept",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Glimmering_Concept/Glimmering_Concept.json",
+            "imagePath": null
+        },
+        {
+            "name": "Gnashing_Teeth",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Gnashing_Teeth/Gnashing_Teeth.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironfist_Enforcer",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Ironfist_Enforcer/Ironfist_Enforcer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Lion-Crocodile",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Lion-Crocodile/Lion-Crocodile.json",
+            "imagePath": null
+        },
+        {
+            "name": "Marshshadow_Elder",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Marshshadow_Elder/Marshshadow_Elder.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mirefang_Wolf",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Mirefang_Wolf/Mirefang_Wolf.json",
+            "imagePath": null
+        },
+        {
+            "name": "Nightshade_Warlock",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Nightshade_Warlock/Nightshade_Warlock.json",
+            "imagePath": null
+        },
+        {
+            "name": "Obsidian_Flame_Dragon",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Obsidian_Flame_Dragon/Obsidian_Flame_Dragon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Rapidstrike_Cheetah",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Rapidstrike_Cheetah/Rapidstrike_Cheetah.json",
+            "imagePath": null
+        },
+        {
+            "name": "Reefback_Manta",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Reefback_Manta/Reefback_Manta.json",
+            "imagePath": null
+        },
+        {
+            "name": "Rustblade_Champion",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Rustblade_Champion/Rustblade_Champion.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowcoil_Infiltrator",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Shadowcoil_Infiltrator/Shadowcoil_Infiltrator.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowveil_Cloak",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Shadowveil_Cloak/Shadowveil_Cloak.json",
+            "imagePath": null
+        },
+        {
+            "name": "Silverfang_Smuggler",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Silverfang_Smuggler/Silverfang_Smuggler.json",
+            "imagePath": null
+        },
+        {
+            "name": "Snowveil_Archmage",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Snowveil_Archmage/Snowveil_Archmage.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stardust_Bear",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Stardust_Bear/Stardust_Bear.json",
+            "imagePath": null
+        },
+        {
+            "name": "Starshard_Sage",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Starshard_Sage/Starshard_Sage.json",
+            "imagePath": null
+        },
+        {
+            "name": "Swampmaggot",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Swampmaggot/Swampmaggot.json",
+            "imagePath": null
+        },
+        {
+            "name": "Thornfang_Mammoth",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Thornfang_Mammoth/Thornfang_Mammoth.json",
+            "imagePath": null
+        },
+        {
+            "name": "Trapped_Otter",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Trapped_Otter/Trapped_Otter.json",
+            "imagePath": null
+        },
+        {
+            "name": "Tyrant_Warlord",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Tyrant_Warlord/Tyrant_Warlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Venomtide_Serpent",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Venomtide_Serpent/Venomtide_Serpent.json",
+            "imagePath": null
+        },
+        {
+            "name": "Warfury_Ravager",
+            "jsonPath": "assets/libraries/Beastiary/CR18/Warfury_Ravager/Warfury_Ravager.json",
+            "imagePath": null
+        }
+    ],
+    "CR19": [
+        {
+            "name": "Ashcloud_Manticore",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Ashcloud_Manticore/Ashcloud_Manticore.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodiron_Overlord",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Bloodiron_Overlord/Bloodiron_Overlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodmoon_Highborn",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Bloodmoon_Highborn/Bloodmoon_Highborn.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodscream_Archfiend",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Bloodscream_Archfiend/Bloodscream_Archfiend.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bogstrider_Lurker",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Bogstrider_Lurker/Bogstrider_Lurker.json",
+            "imagePath": null
+        },
+        {
+            "name": "Boulderclaw_Rhino",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Boulderclaw_Rhino/Boulderclaw_Rhino.json",
+            "imagePath": null
+        },
+        {
+            "name": "Darkmantis",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Darkmantis/Darkmantis.json",
+            "imagePath": null
+        },
+        {
+            "name": "Deathcoil_Warbringer",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Deathcoil_Warbringer/Deathcoil_Warbringer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Destructive_Commander",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Destructive_Commander/Destructive_Commander.json",
+            "imagePath": null
+        },
+        {
+            "name": "Emberhorn_Ox",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Emberhorn_Ox/Emberhorn_Ox.json",
+            "imagePath": null
+        },
+        {
+            "name": "Emberlord_Wyvern",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Emberlord_Wyvern/Emberlord_Wyvern.json",
+            "imagePath": null
+        },
+        {
+            "name": "Fenwalker_Revenant",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Fenwalker_Revenant/Fenwalker_Revenant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Grimshank_Boss",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Grimshank_Boss/Grimshank_Boss.json",
+            "imagePath": null
+        },
+        {
+            "name": "Grimsnarl_Tactician",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Grimsnarl_Tactician/Grimsnarl_Tactician.json",
+            "imagePath": null
+        },
+        {
+            "name": "Hearthstone_Paladin",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Hearthstone_Paladin/Hearthstone_Paladin.json",
+            "imagePath": null
+        },
+        {
+            "name": "Icebound_Warlord",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Icebound_Warlord/Icebound_Warlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Limitless_Vision",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Limitless_Vision/Limitless_Vision.json",
+            "imagePath": null
+        },
+        {
+            "name": "Malice_Orb",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Malice_Orb/Malice_Orb.json",
+            "imagePath": null
+        },
+        {
+            "name": "Moonshadow_Panther",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Moonshadow_Panther/Moonshadow_Panther.json",
+            "imagePath": null
+        },
+        {
+            "name": "Moonshadow_Sphinx",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Moonshadow_Sphinx/Moonshadow_Sphinx.json",
+            "imagePath": null
+        },
+        {
+            "name": "Oceanic_Leviathan",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Oceanic_Leviathan/Oceanic_Leviathan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Radiant_Herald",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Radiant_Herald/Radiant_Herald.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadewalker_Lycanthrope",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Shadewalker_Lycanthrope/Shadewalker_Lycanthrope.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sinking_Pit",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Sinking_Pit/Sinking_Pit.json",
+            "imagePath": null
+        },
+        {
+            "name": "Slithering_Rope",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Slithering_Rope/Slithering_Rope.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sludgefiend_Colossus",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Sludgefiend_Colossus/Sludgefiend_Colossus.json",
+            "imagePath": null
+        },
+        {
+            "name": "Spider-Lion",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Spider-Lion/Spider-Lion.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stonehoof_Ram",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Stonehoof_Ram/Stonehoof_Ram.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stormcaller_Elementalist",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Stormcaller_Elementalist/Stormcaller_Elementalist.json",
+            "imagePath": null
+        },
+        {
+            "name": "Taintfur_Boar",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Taintfur_Boar/Taintfur_Boar.json",
+            "imagePath": null
+        },
+        {
+            "name": "Terrified_Moose",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Terrified_Moose/Terrified_Moose.json",
+            "imagePath": null
+        },
+        {
+            "name": "Tornado_Drake",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Tornado_Drake/Tornado_Drake.json",
+            "imagePath": null
+        },
+        {
+            "name": "Voidblade_Exile",
+            "jsonPath": "assets/libraries/Beastiary/CR19/Voidblade_Exile/Voidblade_Exile.json",
+            "imagePath": null
+        }
+    ],
+    "CR20": [
+        {
+            "name": "Blightfire_Thaumaturge",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Blightfire_Thaumaturge/Blightfire_Thaumaturge.json",
+            "imagePath": null
+        },
+        {
+            "name": "Boundless_Dream",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Boundless_Dream/Boundless_Dream.json",
+            "imagePath": null
+        },
+        {
+            "name": "Celestial_Warlord",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Celestial_Warlord/Celestial_Warlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Crushing_Wall",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Crushing_Wall/Crushing_Wall.json",
+            "imagePath": null
+        },
+        {
+            "name": "Deathshadow_Warmaster",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Deathshadow_Warmaster/Deathshadow_Warmaster.json",
+            "imagePath": null
+        },
+        {
+            "name": "Direfang_Alpha",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Direfang_Alpha/Direfang_Alpha.json",
+            "imagePath": null
+        },
+        {
+            "name": "Dreadfang_High_Priest",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Dreadfang_High_Priest/Dreadfang_High_Priest.json",
+            "imagePath": null
+        },
+        {
+            "name": "Embermane_Wolf",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Embermane_Wolf/Embermane_Wolf.json",
+            "imagePath": null
+        },
+        {
+            "name": "Filthscale_Lizard",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Filthscale_Lizard/Filthscale_Lizard.json",
+            "imagePath": null
+        },
+        {
+            "name": "Galeclaw_Falcon",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Galeclaw_Falcon/Galeclaw_Falcon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Hellfire_Torch",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Hellfire_Torch/Hellfire_Torch.json",
+            "imagePath": null
+        },
+        {
+            "name": "Homestead_Warlord",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Homestead_Warlord/Homestead_Warlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Inferno_Behemoth",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Inferno_Behemoth/Inferno_Behemoth.json",
+            "imagePath": null
+        },
+        {
+            "name": "Lumbering_Wardrobe",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Lumbering_Wardrobe/Lumbering_Wardrobe.json",
+            "imagePath": null
+        },
+        {
+            "name": "Murkscale_Dragon",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Murkscale_Dragon/Murkscale_Dragon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Oppressive_Overlord",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Oppressive_Overlord/Oppressive_Overlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Pureblood_Emperor",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Pureblood_Emperor/Pureblood_Emperor.json",
+            "imagePath": null
+        },
+        {
+            "name": "Pyroclast_Colossus",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Pyroclast_Colossus/Pyroclast_Colossus.json",
+            "imagePath": null
+        },
+        {
+            "name": "Rockhide_Gargant",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Rockhide_Gargant/Rockhide_Gargant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Scorpion-Wolf",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Scorpion-Wolf/Scorpion-Wolf.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowborn_Lich",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Shadowborn_Lich/Shadowborn_Lich.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowveil_Duke",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Shadowveil_Duke/Shadowveil_Duke.json",
+            "imagePath": null
+        },
+        {
+            "name": "Skullcrusher_Tyrant",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Skullcrusher_Tyrant/Skullcrusher_Tyrant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sunray_Falcon",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Sunray_Falcon/Sunray_Falcon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Surrounded_Bear",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Surrounded_Bear/Surrounded_Bear.json",
+            "imagePath": null
+        },
+        {
+            "name": "Swampking_Chieftain",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Swampking_Chieftain/Swampking_Chieftain.json",
+            "imagePath": null
+        },
+        {
+            "name": "Thunderbeak_Wyvern",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Thunderbeak_Wyvern/Thunderbeak_Wyvern.json",
+            "imagePath": null
+        },
+        {
+            "name": "Thunderhoof_Bull",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Thunderhoof_Bull/Thunderhoof_Bull.json",
+            "imagePath": null
+        },
+        {
+            "name": "Tidal_Kraken",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Tidal_Kraken/Tidal_Kraken.json",
+            "imagePath": null
+        },
+        {
+            "name": "Venomroach",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Venomroach/Venomroach.json",
+            "imagePath": null
+        },
+        {
+            "name": "Viperfang_Captain",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Viperfang_Captain/Viperfang_Captain.json",
+            "imagePath": null
+        },
+        {
+            "name": "Voidslime_Leviathan",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Voidslime_Leviathan/Voidslime_Leviathan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Wartusk_Chieftain",
+            "jsonPath": "assets/libraries/Beastiary/CR20/Wartusk_Chieftain/Wartusk_Chieftain.json",
+            "imagePath": null
+        }
+    ],
+    "CR21": [
+        {
+            "name": "Abyssfang_Archdruid",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Abyssfang_Archdruid/Abyssfang_Archdruid.json",
+            "imagePath": null
+        },
+        {
+            "name": "Blightwing_Chimera",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Blightwing_Chimera/Blightwing_Chimera.json",
+            "imagePath": null
+        },
+        {
+            "name": "Corruptclaw_Bear",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Corruptclaw_Bear/Corruptclaw_Bear.json",
+            "imagePath": null
+        },
+        {
+            "name": "Corruptive_Gel",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Corruptive_Gel/Corruptive_Gel.json",
+            "imagePath": null
+        },
+        {
+            "name": "Darkflame_Invoker",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Darkflame_Invoker/Darkflame_Invoker.json",
+            "imagePath": null
+        },
+        {
+            "name": "Deepsea_Leviathan",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Deepsea_Leviathan/Deepsea_Leviathan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Doomscar_Veteran",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Doomscar_Veteran/Doomscar_Veteran.json",
+            "imagePath": null
+        },
+        {
+            "name": "Dreadflame_Behemoth",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Dreadflame_Behemoth/Dreadflame_Behemoth.json",
+            "imagePath": null
+        },
+        {
+            "name": "Dusklord_of_the_Shadows",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Dusklord_of_the_Shadows/Dusklord_of_the_Shadows.json",
+            "imagePath": null
+        },
+        {
+            "name": "Emberforged_Templar",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Emberforged_Templar/Emberforged_Templar.json",
+            "imagePath": null
+        },
+        {
+            "name": "Eternal_Spark",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Eternal_Spark/Eternal_Spark.json",
+            "imagePath": null
+        },
+        {
+            "name": "Falcon-Serpent",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Falcon-Serpent/Falcon-Serpent.json",
+            "imagePath": null
+        },
+        {
+            "name": "Fireant_Swarm",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Fireant_Swarm/Fireant_Swarm.json",
+            "imagePath": null
+        },
+        {
+            "name": "Forsaken_Scepter",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Forsaken_Scepter/Forsaken_Scepter.json",
+            "imagePath": null
+        },
+        {
+            "name": "Glacial_Titan",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Glacial_Titan/Glacial_Titan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Glowhorn_Deer",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Glowhorn_Deer/Glowhorn_Deer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Gutspike_Ravager",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Gutspike_Ravager/Gutspike_Ravager.json",
+            "imagePath": null
+        },
+        {
+            "name": "Hounded_Boar",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Hounded_Boar/Hounded_Boar.json",
+            "imagePath": null
+        },
+        {
+            "name": "Infernal_Broodmother",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Infernal_Broodmother/Infernal_Broodmother.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironbark_Goliath",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Ironbark_Goliath/Ironbark_Goliath.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironclaw_Warlord",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Ironclaw_Warlord/Ironclaw_Warlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Pitiless_Executioner",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Pitiless_Executioner/Pitiless_Executioner.json",
+            "imagePath": null
+        },
+        {
+            "name": "Possessed_Painting",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Possessed_Painting/Possessed_Painting.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowclaw_Thiefmaster",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Shadowclaw_Thiefmaster/Shadowclaw_Thiefmaster.json",
+            "imagePath": null
+        },
+        {
+            "name": "Silverfury_Beastlord",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Silverfury_Beastlord/Silverfury_Beastlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sunflare_Leviathan",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Sunflare_Leviathan/Sunflare_Leviathan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sunshadow_Prophet",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Sunshadow_Prophet/Sunshadow_Prophet.json",
+            "imagePath": null
+        },
+        {
+            "name": "Swampfire_Wyrm",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Swampfire_Wyrm/Swampfire_Wyrm.json",
+            "imagePath": null
+        },
+        {
+            "name": "Thornscale_Lord",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Thornscale_Lord/Thornscale_Lord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Thunderstrike_Leopard",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Thunderstrike_Leopard/Thunderstrike_Leopard.json",
+            "imagePath": null
+        },
+        {
+            "name": "Twilight_Tiger",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Twilight_Tiger/Twilight_Tiger.json",
+            "imagePath": null
+        },
+        {
+            "name": "Venomtail_Scorpion",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Venomtail_Scorpion/Venomtail_Scorpion.json",
+            "imagePath": null
+        },
+        {
+            "name": "Wailing_Winds",
+            "jsonPath": "assets/libraries/Beastiary/CR21/Wailing_Winds/Wailing_Winds.json",
+            "imagePath": null
+        }
+    ],
+    "CR22": [
+        {
+            "name": "Abyssal_Ooze_Lord",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Abyssal_Ooze_Lord/Abyssal_Ooze_Lord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Abyssal_Serpent",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Abyssal_Serpent/Abyssal_Serpent.json",
+            "imagePath": null
+        },
+        {
+            "name": "Abyssal_Sorcerer",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Abyssal_Sorcerer/Abyssal_Sorcerer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ashen_Sovereign",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Ashen_Sovereign/Ashen_Sovereign.json",
+            "imagePath": null
+        },
+        {
+            "name": "Blightborn_Horse",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Blightborn_Horse/Blightborn_Horse.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodspear_Champion",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Bloodspear_Champion/Bloodspear_Champion.json",
+            "imagePath": null
+        },
+        {
+            "name": "Cavebear",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Cavebear/Cavebear.json",
+            "imagePath": null
+        },
+        {
+            "name": "Chimera-Tiger",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Chimera-Tiger/Chimera-Tiger.json",
+            "imagePath": null
+        },
+        {
+            "name": "Crimson_Emissary",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Crimson_Emissary/Crimson_Emissary.json",
+            "imagePath": null
+        },
+        {
+            "name": "Darkwhisper_Grimoire",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Darkwhisper_Grimoire/Darkwhisper_Grimoire.json",
+            "imagePath": null
+        },
+        {
+            "name": "Embermane_Fox",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Embermane_Fox/Embermane_Fox.json",
+            "imagePath": null
+        },
+        {
+            "name": "Enchanted_Anvil",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Enchanted_Anvil/Enchanted_Anvil.json",
+            "imagePath": null
+        },
+        {
+            "name": "Engulfing_Darkness",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Engulfing_Darkness/Engulfing_Darkness.json",
+            "imagePath": null
+        },
+        {
+            "name": "Fenmist_Serpent",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Fenmist_Serpent/Fenmist_Serpent.json",
+            "imagePath": null
+        },
+        {
+            "name": "Flamecrest_Phoenix",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Flamecrest_Phoenix/Flamecrest_Phoenix.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frostmoon_Warlord",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Frostmoon_Warlord/Frostmoon_Warlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Graveworm",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Graveworm/Graveworm.json",
+            "imagePath": null
+        },
+        {
+            "name": "Harried_Eagle",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Harried_Eagle/Harried_Eagle.json",
+            "imagePath": null
+        },
+        {
+            "name": "Hearthwarden_High_Priest",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Hearthwarden_High_Priest/Hearthwarden_High_Priest.json",
+            "imagePath": null
+        },
+        {
+            "name": "Lightweaver_Lord",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Lightweaver_Lord/Lightweaver_Lord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mireborn_High_Priest",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Mireborn_High_Priest/Mireborn_High_Priest.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mossbeast_Titan",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Mossbeast_Titan/Mossbeast_Titan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Nightfall_Reaver",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Nightfall_Reaver/Nightfall_Reaver.json",
+            "imagePath": null
+        },
+        {
+            "name": "Plaguemaw_Abomination",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Plaguemaw_Abomination/Plaguemaw_Abomination.json",
+            "imagePath": null
+        },
+        {
+            "name": "Redcloak_Bandit_Lord",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Redcloak_Bandit_Lord/Redcloak_Bandit_Lord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Serpentblood_Overlord",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Serpentblood_Overlord/Serpentblood_Overlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shifting_Thought",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Shifting_Thought/Shifting_Thought.json",
+            "imagePath": null
+        },
+        {
+            "name": "Skullsplitter_General",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Skullsplitter_General/Skullsplitter_General.json",
+            "imagePath": null
+        },
+        {
+            "name": "Starforged_Dragon",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Starforged_Dragon/Starforged_Dragon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stormtalon_Roc",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Stormtalon_Roc/Stormtalon_Roc.json",
+            "imagePath": null
+        },
+        {
+            "name": "Whirlwind_Gryphon",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Whirlwind_Gryphon/Whirlwind_Gryphon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Whiteshard_Archon",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Whiteshard_Archon/Whiteshard_Archon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Wrathful_General",
+            "jsonPath": "assets/libraries/Beastiary/CR22/Wrathful_General/Wrathful_General.json",
+            "imagePath": null
+        }
+    ],
+    "CR23": [
+        {
+            "name": "Bloodleech",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Bloodleech/Bloodleech.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodnight_Sovereign",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Bloodnight_Sovereign/Bloodnight_Sovereign.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodthirst_Chieftain",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Bloodthirst_Chieftain/Bloodthirst_Chieftain.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bogshade_Lich",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Bogshade_Lich/Bogshade_Lich.json",
+            "imagePath": null
+        },
+        {
+            "name": "Crimsonblade_Warband_Leader",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Crimsonblade_Warband_Leader/Crimsonblade_Warband_Leader.json",
+            "imagePath": null
+        },
+        {
+            "name": "Crystalborn_High_Priest",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Crystalborn_High_Priest/Crystalborn_High_Priest.json",
+            "imagePath": null
+        },
+        {
+            "name": "Darktalon_Warleader",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Darktalon_Warleader/Darktalon_Warleader.json",
+            "imagePath": null
+        },
+        {
+            "name": "Dawnforge_High_Priest",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Dawnforge_High_Priest/Dawnforge_High_Priest.json",
+            "imagePath": null
+        },
+        {
+            "name": "Deathshroud_Mantle",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Deathshroud_Mantle/Deathshroud_Mantle.json",
+            "imagePath": null
+        },
+        {
+            "name": "Eternal_Titan",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Eternal_Titan/Eternal_Titan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frostclaw_Eagle",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Frostclaw_Eagle/Frostclaw_Eagle.json",
+            "imagePath": null
+        },
+        {
+            "name": "Gorgon-Eagle",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Gorgon-Eagle/Gorgon-Eagle.json",
+            "imagePath": null
+        },
+        {
+            "name": "Grimacing_Gargoyle",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Grimacing_Gargoyle/Grimacing_Gargoyle.json",
+            "imagePath": null
+        },
+        {
+            "name": "Hellstorm_Devourer",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Hellstorm_Devourer/Hellstorm_Devourer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Homefire_Sovereign",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Homefire_Sovereign/Homefire_Sovereign.json",
+            "imagePath": null
+        },
+        {
+            "name": "Infinite_Visionary",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Infinite_Visionary/Infinite_Visionary.json",
+            "imagePath": null
+        },
+        {
+            "name": "Lightninghoof_Mustang",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Lightninghoof_Mustang/Lightninghoof_Mustang.json",
+            "imagePath": null
+        },
+        {
+            "name": "Malevolent_Despot",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Malevolent_Despot/Malevolent_Despot.json",
+            "imagePath": null
+        },
+        {
+            "name": "Obsidian_Dragon",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Obsidian_Dragon/Obsidian_Dragon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Plaguegel_Titan",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Plaguegel_Titan/Plaguegel_Titan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Razorback_Boar",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Razorback_Boar/Razorback_Boar.json",
+            "imagePath": null
+        },
+        {
+            "name": "Redcap_Warmaster",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Redcap_Warmaster/Redcap_Warmaster.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowbound_Arcanist",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Shadowbound_Arcanist/Shadowbound_Arcanist.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowfang_Alpha",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Shadowfang_Alpha/Shadowfang_Alpha.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowpaw_Lynx",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Shadowpaw_Lynx/Shadowpaw_Lynx.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stalked_Tiger",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Stalked_Tiger/Stalked_Tiger.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stonehide_Mammoth",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Stonehide_Mammoth/Stonehide_Mammoth.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stormsurge_Hydra",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Stormsurge_Hydra/Stormsurge_Hydra.json",
+            "imagePath": null
+        },
+        {
+            "name": "Swampbane_Bull",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Swampbane_Bull/Swampbane_Bull.json",
+            "imagePath": null
+        },
+        {
+            "name": "Swampfang_Sovereign",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Swampfang_Sovereign/Swampfang_Sovereign.json",
+            "imagePath": null
+        },
+        {
+            "name": "Venomclaw_Griffin",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Venomclaw_Griffin/Venomclaw_Griffin.json",
+            "imagePath": null
+        },
+        {
+            "name": "Warblade_King",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Warblade_King/Warblade_King.json",
+            "imagePath": null
+        },
+        {
+            "name": "Writhing_Tunnels",
+            "jsonPath": "assets/libraries/Beastiary/CR23/Writhing_Tunnels/Writhing_Tunnels.json",
+            "imagePath": null
+        }
+    ],
+    "CR24": [
+        {
+            "name": "Astral_Archon",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Astral_Archon/Astral_Archon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Blazefury_Monarch",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Blazefury_Monarch/Blazefury_Monarch.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodclaw_Overlord",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Bloodclaw_Overlord/Bloodclaw_Overlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodmoon_Tyrant",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Bloodmoon_Tyrant/Bloodmoon_Tyrant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Collapsing_Chamber",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Collapsing_Chamber/Collapsing_Chamber.json",
+            "imagePath": null
+        },
+        {
+            "name": "Crimson_Archduke",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Crimson_Archduke/Crimson_Archduke.json",
+            "imagePath": null
+        },
+        {
+            "name": "Darkmire_Sludge",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Darkmire_Sludge/Darkmire_Sludge.json",
+            "imagePath": null
+        },
+        {
+            "name": "Emberveil_Archon",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Emberveil_Archon/Emberveil_Archon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Fearsome_Sovereign",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Fearsome_Sovereign/Fearsome_Sovereign.json",
+            "imagePath": null
+        },
+        {
+            "name": "Formless_Dream",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Formless_Dream/Formless_Dream.json",
+            "imagePath": null
+        },
+        {
+            "name": "Gloomshroud_Assassin",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Gloomshroud_Assassin/Gloomshroud_Assassin.json",
+            "imagePath": null
+        },
+        {
+            "name": "Haunting_Piano",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Haunting_Piano/Haunting_Piano.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironhide_Highlord",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Ironhide_Highlord/Ironhide_Highlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ivorythorn_King",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Ivorythorn_King/Ivorythorn_King.json",
+            "imagePath": null
+        },
+        {
+            "name": "Maelstrom_Drake",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Maelstrom_Drake/Maelstrom_Drake.json",
+            "imagePath": null
+        },
+        {
+            "name": "Manticore-Bear",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Manticore-Bear/Manticore-Bear.json",
+            "imagePath": null
+        },
+        {
+            "name": "Midnight_Hare",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Midnight_Hare/Midnight_Hare.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mirequeen_Hag",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Mirequeen_Hag/Mirequeen_Hag.json",
+            "imagePath": null
+        },
+        {
+            "name": "Moldfang_Hound",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Moldfang_Hound/Moldfang_Hound.json",
+            "imagePath": null
+        },
+        {
+            "name": "Nightfall_Revenant",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Nightfall_Revenant/Nightfall_Revenant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Preyed_Lion",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Preyed_Lion/Preyed_Lion.json",
+            "imagePath": null
+        },
+        {
+            "name": "Rustfang_Warhound",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Rustfang_Warhound/Rustfang_Warhound.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadebeetle",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Shadebeetle/Shadebeetle.json",
+            "imagePath": null
+        },
+        {
+            "name": "Skyrazor_Pteranodon",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Skyrazor_Pteranodon/Skyrazor_Pteranodon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sludgefang_Archdruid",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Sludgefang_Archdruid/Sludgefang_Archdruid.json",
+            "imagePath": null
+        },
+        {
+            "name": "Soultrap_Relic",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Soultrap_Relic/Soultrap_Relic.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stormborn_Phoenix",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Stormborn_Phoenix/Stormborn_Phoenix.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stormwing_Eagle",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Stormwing_Eagle/Stormwing_Eagle.json",
+            "imagePath": null
+        },
+        {
+            "name": "Thornveil_Behemoth",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Thornveil_Behemoth/Thornveil_Behemoth.json",
+            "imagePath": null
+        },
+        {
+            "name": "Viperlord_Tyrant",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Viperlord_Tyrant/Viperlord_Tyrant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Voidborn_Kraken",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Voidborn_Kraken/Voidborn_Kraken.json",
+            "imagePath": null
+        },
+        {
+            "name": "Voidflame_Warlock",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Voidflame_Warlock/Voidflame_Warlock.json",
+            "imagePath": null
+        },
+        {
+            "name": "Warcry_Sentinel",
+            "jsonPath": "assets/libraries/Beastiary/CR24/Warcry_Sentinel/Warcry_Sentinel.json",
+            "imagePath": null
+        }
+    ],
+    "CR25": [
+        {
+            "name": "Abyssal_Idol",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Abyssal_Idol/Abyssal_Idol.json",
+            "imagePath": null
+        },
+        {
+            "name": "Astral_Wyrm",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Astral_Wyrm/Astral_Wyrm.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodfury_Monarch",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Bloodfury_Monarch/Bloodfury_Monarch.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodvenom_Patriarch",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Bloodvenom_Patriarch/Bloodvenom_Patriarch.json",
+            "imagePath": null
+        },
+        {
+            "name": "Boulderback_Colossus",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Boulderback_Colossus/Boulderback_Colossus.json",
+            "imagePath": null
+        },
+        {
+            "name": "Boundless_Entity",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Boundless_Entity/Boundless_Entity.json",
+            "imagePath": null
+        },
+        {
+            "name": "Deathrat",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Deathrat/Deathrat.json",
+            "imagePath": null
+        },
+        {
+            "name": "Emberwing_Hawk",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Emberwing_Hawk/Emberwing_Hawk.json",
+            "imagePath": null
+        },
+        {
+            "name": "Encircled_Leopard",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Encircled_Leopard/Encircled_Leopard.json",
+            "imagePath": null
+        },
+        {
+            "name": "Enraged_Statue",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Enraged_Statue/Enraged_Statue.json",
+            "imagePath": null
+        },
+        {
+            "name": "Enraged_Tyrant",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Enraged_Tyrant/Enraged_Tyrant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frostfire_Archmage",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Frostfire_Archmage/Frostfire_Archmage.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frosthorn_Elk",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Frosthorn_Elk/Frosthorn_Elk.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frostveil_Lord",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Frostveil_Lord/Frostveil_Lord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Frostwing_Phoenix",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Frostwing_Phoenix/Frostwing_Phoenix.json",
+            "imagePath": null
+        },
+        {
+            "name": "Glowing_Stag",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Glowing_Stag/Glowing_Stag.json",
+            "imagePath": null
+        },
+        {
+            "name": "Griffon-Hydra",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Griffon-Hydra/Griffon-Hydra.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironbound_Warlord",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Ironbound_Warlord/Ironbound_Warlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironfang_Warchief",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Ironfang_Warchief/Ironfang_Warchief.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironhand_Enforcer",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Ironhand_Enforcer/Ironhand_Enforcer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Lycanthropic_Overlord",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Lycanthropic_Overlord/Lycanthropic_Overlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Marshdoom_Behemoth",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Marshdoom_Behemoth/Marshdoom_Behemoth.json",
+            "imagePath": null
+        },
+        {
+            "name": "Marshscale_Tyrant",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Marshscale_Tyrant/Marshscale_Tyrant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Necrotic_Slime",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Necrotic_Slime/Necrotic_Slime.json",
+            "imagePath": null
+        },
+        {
+            "name": "Raging_Firepit",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Raging_Firepit/Raging_Firepit.json",
+            "imagePath": null
+        },
+        {
+            "name": "Seaborn_Behemoth",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Seaborn_Behemoth/Seaborn_Behemoth.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowblood_Prince",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Shadowblood_Prince/Shadowblood_Prince.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sludgehoof_Stag",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Sludgehoof_Stag/Sludgehoof_Stag.json",
+            "imagePath": null
+        },
+        {
+            "name": "Starforged_Titan",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Starforged_Titan/Starforged_Titan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Tempestclaw_Panther",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Tempestclaw_Panther/Tempestclaw_Panther.json",
+            "imagePath": null
+        },
+        {
+            "name": "Volcanic_Emperor",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Volcanic_Emperor/Volcanic_Emperor.json",
+            "imagePath": null
+        },
+        {
+            "name": "Warmthforged_Titan",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Warmthforged_Titan/Warmthforged_Titan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Wraithking_Overlord",
+            "jsonPath": "assets/libraries/Beastiary/CR25/Wraithking_Overlord/Wraithking_Overlord.json",
+            "imagePath": null
+        }
+    ],
+    "CR26": [
+        {
+            "name": "Abyssal_Hexmaster",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Abyssal_Hexmaster/Abyssal_Hexmaster.json",
+            "imagePath": null
+        },
+        {
+            "name": "Abyssal_Wyrm",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Abyssal_Wyrm/Abyssal_Wyrm.json",
+            "imagePath": null
+        },
+        {
+            "name": "Alpha_of_the_Eternal_Hunt",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Alpha_of_the_Eternal_Hunt/Alpha_of_the_Eternal_Hunt.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bewitched_Harp",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Bewitched_Harp/Bewitched_Harp.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodmist_Overlord",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Bloodmist_Overlord/Bloodmist_Overlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bogclaw_Warlock",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Bogclaw_Warlock/Bogclaw_Warlock.json",
+            "imagePath": null
+        },
+        {
+            "name": "Celestial_Paragon",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Celestial_Paragon/Celestial_Paragon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Cyclone_Serpent",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Cyclone_Serpent/Cyclone_Serpent.json",
+            "imagePath": null
+        },
+        {
+            "name": "Deathshade_Kingpin",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Deathshade_Kingpin/Deathshade_Kingpin.json",
+            "imagePath": null
+        },
+        {
+            "name": "Doomslime_Overlord",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Doomslime_Overlord/Doomslime_Overlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Dragon_of_the_Molten_Depths",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Dragon_of_the_Molten_Depths/Dragon_of_the_Molten_Depths.json",
+            "imagePath": null
+        },
+        {
+            "name": "Dreamweaver_Doe",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Dreamweaver_Doe/Dreamweaver_Doe.json",
+            "imagePath": null
+        },
+        {
+            "name": "Echo_of_Infinity",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Echo_of_Infinity/Echo_of_Infinity.json",
+            "imagePath": null
+        },
+        {
+            "name": "Firesoul_Paragon",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Firesoul_Paragon/Firesoul_Paragon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Gloomscale_Serpent",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Gloomscale_Serpent/Gloomscale_Serpent.json",
+            "imagePath": null
+        },
+        {
+            "name": "Grimeblade_King",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Grimeblade_King/Grimeblade_King.json",
+            "imagePath": null
+        },
+        {
+            "name": "Hellfire_Harpy_Matron",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Hellfire_Harpy_Matron/Hellfire_Harpy_Matron.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironhide_Elephant",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Ironhide_Elephant/Ironhide_Elephant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironwood_Leviathan",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Ironwood_Leviathan/Ironwood_Leviathan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Nightmare_Scythe",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Nightmare_Scythe/Nightmare_Scythe.json",
+            "imagePath": null
+        },
+        {
+            "name": "Primordial_Colossus",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Primordial_Colossus/Primordial_Colossus.json",
+            "imagePath": null
+        },
+        {
+            "name": "Pureblood_Highlord",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Pureblood_Highlord/Pureblood_Highlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Pursued_Buffalo",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Pursued_Buffalo/Pursued_Buffalo.json",
+            "imagePath": null
+        },
+        {
+            "name": "Rotvine_Serpent",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Rotvine_Serpent/Rotvine_Serpent.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ruthless_Emperor",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Ruthless_Emperor/Ruthless_Emperor.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowscale_Warlock",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Shadowscale_Warlock/Shadowscale_Warlock.json",
+            "imagePath": null
+        },
+        {
+            "name": "Skullreaver_Overlord",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Skullreaver_Overlord/Skullreaver_Overlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sphinx-Dragon",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Sphinx-Dragon/Sphinx-Dragon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Suffocating_Fog",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Suffocating_Fog/Suffocating_Fog.json",
+            "imagePath": null
+        },
+        {
+            "name": "Swampcrawler",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Swampcrawler/Swampcrawler.json",
+            "imagePath": null
+        },
+        {
+            "name": "Swamplord_of_the_Depths",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Swamplord_of_the_Depths/Swamplord_of_the_Depths.json",
+            "imagePath": null
+        },
+        {
+            "name": "Voidborn_Titan",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Voidborn_Titan/Voidborn_Titan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Voidscar_General",
+            "jsonPath": "assets/libraries/Beastiary/CR26/Voidscar_General/Voidscar_General.json",
+            "imagePath": null
+        }
+    ],
+    "CR27": [
+        {
+            "name": "Brambleclaw_Monarch",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Brambleclaw_Monarch/Brambleclaw_Monarch.json",
+            "imagePath": null
+        },
+        {
+            "name": "Celestial_Archon",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Celestial_Archon/Celestial_Archon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Cursed_Grandfather_Clock",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Cursed_Grandfather_Clock/Cursed_Grandfather_Clock.json",
+            "imagePath": null
+        },
+        {
+            "name": "Deathfang_Overlord",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Deathfang_Overlord/Deathfang_Overlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Deathmarch_Captain",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Deathmarch_Captain/Deathmarch_Captain.json",
+            "imagePath": null
+        },
+        {
+            "name": "Echoing_Void",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Echoing_Void/Echoing_Void.json",
+            "imagePath": null
+        },
+        {
+            "name": "Eldritch_Gel",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Eldritch_Gel/Eldritch_Gel.json",
+            "imagePath": null
+        },
+        {
+            "name": "Eternal_Night_Baron",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Eternal_Night_Baron/Eternal_Night_Baron.json",
+            "imagePath": null
+        },
+        {
+            "name": "Flameclaw_Leopard",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Flameclaw_Leopard/Flameclaw_Leopard.json",
+            "imagePath": null
+        },
+        {
+            "name": "Glacialblood_Sovereign",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Glacialblood_Sovereign/Glacialblood_Sovereign.json",
+            "imagePath": null
+        },
+        {
+            "name": "Hellstorm_Emperor",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Hellstorm_Emperor/Hellstorm_Emperor.json",
+            "imagePath": null
+        },
+        {
+            "name": "Homestead_Sovereign",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Homestead_Sovereign/Homestead_Sovereign.json",
+            "imagePath": null
+        },
+        {
+            "name": "Hunted_Rhino",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Hunted_Rhino/Hunted_Rhino.json",
+            "imagePath": null
+        },
+        {
+            "name": "Implacable_Dictator",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Implacable_Dictator/Implacable_Dictator.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironfang_Warlord",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Ironfang_Warlord/Ironfang_Warlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Luminous_Wolf",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Luminous_Wolf/Luminous_Wolf.json",
+            "imagePath": null
+        },
+        {
+            "name": "Magmablood_Tyrant",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Magmablood_Tyrant/Magmablood_Tyrant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mirefiend_Leviathan",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Mirefiend_Leviathan/Mirefiend_Leviathan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mirefiend_Overlord",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Mirefiend_Overlord/Mirefiend_Overlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Nightblade_Overlord",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Nightblade_Overlord/Nightblade_Overlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Nightveil_Conjurer",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Nightveil_Conjurer/Nightveil_Conjurer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Plaguehide_Bear",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Plaguehide_Bear/Plaguehide_Bear.json",
+            "imagePath": null
+        },
+        {
+            "name": "Savage_Apex_Predator",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Savage_Apex_Predator/Savage_Apex_Predator.json",
+            "imagePath": null
+        },
+        {
+            "name": "Sludgebeard_Tyrant",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Sludgebeard_Tyrant/Sludgebeard_Tyrant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Solar_Sovereign",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Solar_Sovereign/Solar_Sovereign.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stoneback_Beast",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Stoneback_Beast/Stoneback_Beast.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stormlash_Leviathan",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Stormlash_Leviathan/Stormlash_Leviathan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Thunderstorm_Dragon",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Thunderstorm_Dragon/Thunderstorm_Dragon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Tidal_Colossus",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Tidal_Colossus/Tidal_Colossus.json",
+            "imagePath": null
+        },
+        {
+            "name": "Tombmaggot",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Tombmaggot/Tombmaggot.json",
+            "imagePath": null
+        },
+        {
+            "name": "Unbounded_Creation",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Unbounded_Creation/Unbounded_Creation.json",
+            "imagePath": null
+        },
+        {
+            "name": "Voidbound_Shield",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Voidbound_Shield/Voidbound_Shield.json",
+            "imagePath": null
+        },
+        {
+            "name": "Wyvern-Tiger",
+            "jsonPath": "assets/libraries/Beastiary/CR27/Wyvern-Tiger/Wyvern-Tiger.json",
+            "imagePath": null
+        }
+    ],
+    "CR28": [
+        {
+            "name": "Abyssal_Skyraider",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Abyssal_Skyraider/Abyssal_Skyraider.json",
+            "imagePath": null
+        },
+        {
+            "name": "Abysscoil_Emperor",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Abysscoil_Emperor/Abysscoil_Emperor.json",
+            "imagePath": null
+        },
+        {
+            "name": "Blackthorn_Warlord",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Blackthorn_Warlord/Blackthorn_Warlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Blightroach",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Blightroach/Blightroach.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bogreaper_Titan",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Bogreaper_Titan/Bogreaper_Titan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Chasmic_Sludge",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Chasmic_Sludge/Chasmic_Sludge.json",
+            "imagePath": null
+        },
+        {
+            "name": "Crimson_Marquis",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Crimson_Marquis/Crimson_Marquis.json",
+            "imagePath": null
+        },
+        {
+            "name": "Darkfrost_Archmage",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Darkfrost_Archmage/Darkfrost_Archmage.json",
+            "imagePath": null
+        },
+        {
+            "name": "Deathscar_Emperor",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Deathscar_Emperor/Deathscar_Emperor.json",
+            "imagePath": null
+        },
+        {
+            "name": "Devouring_Maw",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Devouring_Maw/Devouring_Maw.json",
+            "imagePath": null
+        },
+        {
+            "name": "Dire_Howl_Monarch",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Dire_Howl_Monarch/Dire_Howl_Monarch.json",
+            "imagePath": null
+        },
+        {
+            "name": "Dragon-Basilisk",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Dragon-Basilisk/Dragon-Basilisk.json",
+            "imagePath": null
+        },
+        {
+            "name": "Endless_Possibility",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Endless_Possibility/Endless_Possibility.json",
+            "imagePath": null
+        },
+        {
+            "name": "Hearthfire_King",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Hearthfire_King/Hearthfire_King.json",
+            "imagePath": null
+        },
+        {
+            "name": "Iceborn_God-King",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Iceborn_God-King/Iceborn_God-King.json",
+            "imagePath": null
+        },
+        {
+            "name": "Lightningstrike_Chimera",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Lightningstrike_Chimera/Lightningstrike_Chimera.json",
+            "imagePath": null
+        },
+        {
+            "name": "Malignant_Monarch",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Malignant_Monarch/Malignant_Monarch.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mirelurker_Croc",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Mirelurker_Croc/Mirelurker_Croc.json",
+            "imagePath": null
+        },
+        {
+            "name": "Moonlit_Emperor",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Moonlit_Emperor/Moonlit_Emperor.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mythic_Dragon",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Mythic_Dragon/Mythic_Dragon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Netherblade_Champion",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Netherblade_Champion/Netherblade_Champion.json",
+            "imagePath": null
+        },
+        {
+            "name": "Seastorm_Titan",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Seastorm_Titan/Seastorm_Titan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowclad_Overlord",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Shadowclad_Overlord/Shadowclad_Overlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowed_Elephant",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Shadowed_Elephant/Shadowed_Elephant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowfur_Tiger",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Shadowfur_Tiger/Shadowfur_Tiger.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shimmering_Feline",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Shimmering_Feline/Shimmering_Feline.json",
+            "imagePath": null
+        },
+        {
+            "name": "Smoldering_World-Eater",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Smoldering_World-Eater/Smoldering_World-Eater.json",
+            "imagePath": null
+        },
+        {
+            "name": "Soulstealer_Blade",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Soulstealer_Blade/Soulstealer_Blade.json",
+            "imagePath": null
+        },
+        {
+            "name": "Swampblood_Sovereign",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Swampblood_Sovereign/Swampblood_Sovereign.json",
+            "imagePath": null
+        },
+        {
+            "name": "Thunderstrike_Wyrm",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Thunderstrike_Wyrm/Thunderstrike_Wyrm.json",
+            "imagePath": null
+        },
+        {
+            "name": "Vinebound_Behemoth",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Vinebound_Behemoth/Vinebound_Behemoth.json",
+            "imagePath": null
+        },
+        {
+            "name": "Warband_Highlord",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Warband_Highlord/Warband_Highlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Warped_Throne",
+            "jsonPath": "assets/libraries/Beastiary/CR28/Warped_Throne/Warped_Throne.json",
+            "imagePath": null
+        }
+    ],
+    "CR29": [
+        {
+            "name": "Abyssal_Swamp_King",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Abyssal_Swamp_King/Abyssal_Swamp_King.json",
+            "imagePath": null
+        },
+        {
+            "name": "Abysswalker_Overlord",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Abysswalker_Overlord/Abysswalker_Overlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Apocalyptic_Destroyer",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Apocalyptic_Destroyer/Apocalyptic_Destroyer.json",
+            "imagePath": null
+        },
+        {
+            "name": "Blackscale_Patriarch",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Blackscale_Patriarch/Blackscale_Patriarch.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodcoin_Emperor",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Bloodcoin_Emperor/Bloodcoin_Emperor.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodmoon_King",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Bloodmoon_King/Bloodmoon_King.json",
+            "imagePath": null
+        },
+        {
+            "name": "Chased_Mammoth",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Chased_Mammoth/Chased_Mammoth.json",
+            "imagePath": null
+        },
+        {
+            "name": "Dreadwing_Vulture",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Dreadwing_Vulture/Dreadwing_Vulture.json",
+            "imagePath": null
+        },
+        {
+            "name": "Endless_Labyrinth",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Endless_Labyrinth/Endless_Labyrinth.json",
+            "imagePath": null
+        },
+        {
+            "name": "Eternal_Curse_Ring",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Eternal_Curse_Ring/Eternal_Curse_Ring.json",
+            "imagePath": null
+        },
+        {
+            "name": "Eternal_Flame_Wyrm",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Eternal_Flame_Wyrm/Eternal_Flame_Wyrm.json",
+            "imagePath": null
+        },
+        {
+            "name": "Eternal_Packlord",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Eternal_Packlord/Eternal_Packlord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Eternal_Serpent_King",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Eternal_Serpent_King/Eternal_Serpent_King.json",
+            "imagePath": null
+        },
+        {
+            "name": "Eternal_Star_King",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Eternal_Star_King/Eternal_Star_King.json",
+            "imagePath": null
+        },
+        {
+            "name": "Eternal_Warmth_Lord",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Eternal_Warmth_Lord/Eternal_Warmth_Lord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Infinite_Mind",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Infinite_Mind/Infinite_Mind.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironclaw_Bear",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Ironclaw_Bear/Ironclaw_Bear.json",
+            "imagePath": null
+        },
+        {
+            "name": "Ironshard_Warchief",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Ironshard_Warchief/Ironshard_Warchief.json",
+            "imagePath": null
+        },
+        {
+            "name": "Kraken-Manticore",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Kraken-Manticore/Kraken-Manticore.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mossborn_Titan",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Mossborn_Titan/Mossborn_Titan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Nightmare_Organ",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Nightmare_Organ/Nightmare_Organ.json",
+            "imagePath": null
+        },
+        {
+            "name": "Oblivion_Ooze",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Oblivion_Ooze/Oblivion_Ooze.json",
+            "imagePath": null
+        },
+        {
+            "name": "Oceanborn_Leviathan",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Oceanborn_Leviathan/Oceanborn_Leviathan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Radiant_Bear",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Radiant_Bear/Radiant_Bear.json",
+            "imagePath": null
+        },
+        {
+            "name": "Rustclaw_Monarch",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Rustclaw_Monarch/Rustclaw_Monarch.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowscarab",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Shadowscarab/Shadowscarab.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shadowstorm_Sorcerer_Supreme",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Shadowstorm_Sorcerer_Supreme/Shadowstorm_Sorcerer_Supreme.json",
+            "imagePath": null
+        },
+        {
+            "name": "Snowbound_Emperor",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Snowbound_Emperor/Snowbound_Emperor.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stormbringer_Wyrm",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Stormbringer_Wyrm/Stormbringer_Wyrm.json",
+            "imagePath": null
+        },
+        {
+            "name": "Tempestwing_Dragon",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Tempestwing_Dragon/Tempestwing_Dragon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Venomspike_Dragon",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Venomspike_Dragon/Venomspike_Dragon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Warhorde_Sovereign",
+            "jsonPath": "assets/libraries/Beastiary/CR29/Warhorde_Sovereign/Warhorde_Sovereign.json",
+            "imagePath": null
+        },
+        {
+            "name": "World-Eater_Jormungandr",
+            "jsonPath": "assets/libraries/Beastiary/CR29/World-Eater_Jormungandr/World-Eater_Jormungandr.json",
+            "imagePath": null
+        }
+    ],
+    "CR30": [
+        {
+            "name": "Abyssal_Sea_God",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Abyssal_Sea_God/Abyssal_Sea_God.json",
+            "imagePath": null
+        },
+        {
+            "name": "Army_of_the_Colossus",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Army_of_the_Colossus/Army_of_the_Colossus.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bandit_King_of_the_Shattered_Hills",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Bandit_King_of_the_Shattered_Hills/Bandit_King_of_the_Shattered_Hills.json",
+            "imagePath": null
+        },
+        {
+            "name": "Bloodfang_Lycan_King",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Bloodfang_Lycan_King/Bloodfang_Lycan_King.json",
+            "imagePath": null
+        },
+        {
+            "name": "Cataclysmic_Inferno_Dragon",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Cataclysmic_Inferno_Dragon/Cataclysmic_Inferno_Dragon.json",
+            "imagePath": null
+        },
+        {
+            "name": "Celestial_God_of_Light",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Celestial_God_of_Light/Celestial_God_of_Light.json",
+            "imagePath": null
+        },
+        {
+            "name": "Cosmic_Deity",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Cosmic_Deity/Cosmic_Deity.json",
+            "imagePath": null
+        },
+        {
+            "name": "Crystalhorn_Warden",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Crystalhorn_Warden/Crystalhorn_Warden.json",
+            "imagePath": null
+        },
+        {
+            "name": "Doomforge_Emperor",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Doomforge_Emperor/Doomforge_Emperor.json",
+            "imagePath": null
+        },
+        {
+            "name": "Emberglow_God_of_the_Hearth",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Emberglow_God_of_the_Hearth/Emberglow_God_of_the_Hearth.json",
+            "imagePath": null
+        },
+        {
+            "name": "Eternal_Potential",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Eternal_Potential/Eternal_Potential.json",
+            "imagePath": null
+        },
+        {
+            "name": "Goblin_War-God",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Goblin_War-God/Goblin_War-God.json",
+            "imagePath": null
+        },
+        {
+            "name": "God-Serpent_of_the_Abyss",
+            "jsonPath": "assets/libraries/Beastiary/CR30/God-Serpent_of_the_Abyss/God-Serpent_of_the_Abyss.json",
+            "imagePath": null
+        },
+        {
+            "name": "Heart_of_the_Dungeon",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Heart_of_the_Dungeon/Heart_of_the_Dungeon.json",
+            "imagePath": null
+        },
+        {
+            "name": "King_of_the_Permafrost",
+            "jsonPath": "assets/libraries/Beastiary/CR30/King_of_the_Permafrost/King_of_the_Permafrost.json",
+            "imagePath": null
+        },
+        {
+            "name": "Last_Beast_Standing",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Last_Beast_Standing/Last_Beast_Standing.json",
+            "imagePath": null
+        },
+        {
+            "name": "Leviathan-Chimera",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Leviathan-Chimera/Leviathan-Chimera.json",
+            "imagePath": null
+        },
+        {
+            "name": "Living_Fortress",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Living_Fortress/Living_Fortress.json",
+            "imagePath": null
+        },
+        {
+            "name": "Lizardfolk_God-King",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Lizardfolk_God-King/Lizardfolk_God-King.json",
+            "imagePath": null
+        },
+        {
+            "name": "Maelstrom_Tyrant",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Maelstrom_Tyrant/Maelstrom_Tyrant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Mutant_Farmhouse_Titan",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Mutant_Farmhouse_Titan/Mutant_Farmhouse_Titan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Omniscient_Oppressor",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Omniscient_Oppressor/Omniscient_Oppressor.json",
+            "imagePath": null
+        },
+        {
+            "name": "Orc_Warlord_Supreme",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Orc_Warlord_Supreme/Orc_Warlord_Supreme.json",
+            "imagePath": null
+        },
+        {
+            "name": "Plaguequeen_Insect",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Plaguequeen_Insect/Plaguequeen_Insect.json",
+            "imagePath": null
+        },
+        {
+            "name": "Shard_of_the_Apocalypse",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Shard_of_the_Apocalypse/Shard_of_the_Apocalypse.json",
+            "imagePath": null
+        },
+        {
+            "name": "Slime_Emperor",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Slime_Emperor/Slime_Emperor.json",
+            "imagePath": null
+        },
+        {
+            "name": "Stormbringer_Tyrant",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Stormbringer_Tyrant/Stormbringer_Tyrant.json",
+            "imagePath": null
+        },
+        {
+            "name": "Thornwood_World-Eater",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Thornwood_World-Eater/Thornwood_World-Eater.json",
+            "imagePath": null
+        },
+        {
+            "name": "Thunderstorm_Leviathan",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Thunderstorm_Leviathan/Thunderstorm_Leviathan.json",
+            "imagePath": null
+        },
+        {
+            "name": "Timeless_Guardian",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Timeless_Guardian/Timeless_Guardian.json",
+            "imagePath": null
+        },
+        {
+            "name": "Vampiric_Darklord",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Vampiric_Darklord/Vampiric_Darklord.json",
+            "imagePath": null
+        },
+        {
+            "name": "Voidfire_Warlock_King",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Voidfire_Warlock_King/Voidfire_Warlock_King.json",
+            "imagePath": null
+        },
+        {
+            "name": "Voidreaver_King",
+            "jsonPath": "assets/libraries/Beastiary/CR30/Voidreaver_King/Voidreaver_King.json",
+            "imagePath": null
+        }
+    ]
 }
