@@ -2,9 +2,9 @@ function initializeRandomEncounter(panel) {
     const encounterSettingSelect = panel.querySelector('#encounter-setting');
     const generateButton = panel.querySelector('#generate-encounter-button');
     const resultDisplay = panel.querySelector('#encounter-result');
-    const historyDisplay = panel.querySelector('#encounter-history-display');
+    const encounterHistoryList = panel.querySelector('#encounter-history-list');
 
-    let lastEncounter = null;
+    let encounterHistory = [];
 
     // Fetch the JSON data
     fetch('assets/libraries/Random/RandomEncounters.json')
@@ -41,6 +41,8 @@ function initializeRandomEncounter(panel) {
 
                 const randomEncounter = getRandomEncounter(filteredEncounters);
                 displayEncounter(randomEncounter);
+
+                // Update the encounter history
                 updateEncounterHistory(randomEncounter);
             });
 
@@ -58,21 +60,23 @@ function initializeRandomEncounter(panel) {
                 `;
             }
 
-            // Function to update and display the last encounter in history
+            // Function to update the encounter history
             function updateEncounterHistory(encounter) {
-                lastEncounter = encounter;
+                encounterHistory.unshift(encounter);
+                if (encounterHistory.length > 10) {
+                    encounterHistory.pop(); // Keep only the last 10 encounters
+                }
                 renderEncounterHistory();
             }
 
-            // Function to render the last encounter history
+            // Function to render the encounter history
             function renderEncounterHistory() {
-                if (lastEncounter) {
-                    historyDisplay.innerHTML = `
-                        <h4>${lastEncounter.title}</h4>
-                        <p><strong>Setting:</strong> ${lastEncounter.setting}</p>
-                        <p>${lastEncounter.description}</p>
-                    `;
-                }
+                encounterHistoryList.innerHTML = '';
+                encounterHistory.forEach((encounter, index) => {
+                    const listItem = document.createElement('li');
+                    listItem.innerHTML = `<strong>${index + 1}. ${encounter.title}</strong> - ${encounter.setting}: ${encounter.description}`;
+                    encounterHistoryList.appendChild(listItem);
+                });
             }
         })
         .catch(err => console.error("Error loading encounters:", err));

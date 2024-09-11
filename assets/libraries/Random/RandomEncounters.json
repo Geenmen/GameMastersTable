@@ -2999,6 +2999,106 @@
       "setting": "Abandoned Mine",
       "title": "Forgotten Shrine",
       "description": "The party discovers a forgotten shrine dedicated to an ancient god or spirit of the mine. The shrine may offer blessings or curses, depending on how the party interacts with it, and it may be guarded by ancient guardians or spirits."
+    },
+    {
+      "setting": "Ruined City",
+      "title": "Wild Pikachu Appears",
+      "description": "As the party walks through the ruined city, they suddenly hear a rustling sound and a flash of yellow. A Pikachu darts out, its cheeks sparking with electricity. The Pikachu is playful but ready to defend its territory with a Thunderbolt."
+    },
+    {
+      "setting": "Jungle Ruins",
+      "title": "Wild Bulbasaur Appears",
+      "description": "The party notices the grass around the jungle ruins rustling unusually. Suddenly, a Bulbasaur emerges, using its Vine Whip to clear the way. It seems calm but curious, observing the party before deciding whether to battle or retreat."
+    },
+    {
+      "setting": "Ruined City",
+      "title": "Wild Eevee Appears",
+      "description": "A soft yip catches the party’s attention as an Eevee scampers out of the rubble in the ruined city. Its fluffy tail sways as it sizes up the party. The Eevee is skittish and may run away unless approached gently, but it’s ready to use Quick Attack if threatened."
+    },
+    {
+      "setting": "Jungle Ruins",
+      "title": "Wild Oddish Appears",
+      "description": "The party stumbles upon a patch of overgrown plants with an unusually strong sweet scent in the jungle ruins. Suddenly, a group of Oddish pop out, their leaves shaking. They are ready to defend their patch with a Sleep Powder if the party gets too close."
+    },
+    {
+      "setting": "Crystal Caves",
+      "title": "Wild Jigglypuff Appears",
+      "description": "The party hears a soft, melodious humming echoing in the crystal caves. A Jigglypuff appears, holding a microphone-like object. It looks at the party with big, round eyes and starts singing, trying to put everyone to sleep."
+    },
+    {
+      "setting": "Vast Plains",
+      "title": "Wild Pidgey Appears",
+      "description": "As the party navigates through the tall grass on the vast plains, a flurry of wings erupts as a Pidgey takes flight. The Pidgey circles above, preparing to dive down with a Gust if the party doesn’t back away from its nesting area."
+    },
+    {
+      "setting": "Ruined City",
+      "title": "Wild Rattata Appears",
+      "description": "The rubble parts as a Wild Rattata dashes out, its whiskers twitching as it surveys the intruders. This Rattata is feisty and ready to use Quick Attack or Hyper Fang to defend its territory."
+    },
+    {
+      "setting": "Jungle Ruins",
+      "title": "Wild Caterpie Appears",
+      "description": "The party notices the grass bending as something crawls toward them in the jungle ruins. A Caterpie inches forward, its small body camouflaged among the foliage. It’s harmless but might use String Shot to slow down the party."
+    },
+    {
+      "setting": "Desert Oasis",
+      "title": "Wild Sandshrew Appears",
+      "description": "A rustling beneath the sandy surface catches the party’s attention near the desert oasis. Suddenly, a Sandshrew bursts out from the ground, shaking off dirt. It seems wary and prepares to defend itself with Sand Attack or Scratch."
+    },
+    {
+      "setting": "Cyberpunk City",
+      "title": "Wild Meowth Appears",
+      "description": "The party hears a mischievous giggle before a Meowth leaps out of the shadows in the cyberpunk city. It seems to be eyeing the party’s shiny items, ready to snatch them with a quick Payday attack."
+    },
+    {
+      "setting": "Underground River",
+      "title": "Wild Psyduck Appears",
+      "description": "A confused quack comes from nearby as a Psyduck waddles out of the shadows near the underground river, holding its head. The Psyduck appears disoriented, and if startled, it might unleash a powerful Water Gun or Confusion attack."
+    },
+    {
+      "setting": "Ruined City",
+      "title": "Wild Growlithe Appears",
+      "description": "The rubble rustles with energy as a Growlithe emerges, its fur bristling. It seems to be guarding something in the ruined city and lets out a warning bark. The Growlithe is loyal and prepared to use Ember or Bite to protect its territory."
+    },
+    {
+      "setting": "Dimensional Rift",
+      "title": "Wild Abra Appears",
+      "description": "The party barely has time to react before an Abra suddenly appears out of thin air within the dimensional rift. The Abra seems calm but distant, and it might teleport away at the first sign of trouble or stay to use a psychic move."
+    },
+    {
+      "setting": "Mountain",
+      "title": "Wild Machop Appears",
+      "description": "A powerful grunt echoes from the mountain as a Machop flexes its muscles, stepping into view. The Machop looks ready for a battle, eager to test its strength with a Karate Chop or Low Kick."
+    },
+    {
+      "setting": "Underground",
+      "title": "Wild Zubat Appears",
+      "description": "A sudden screech fills the air as a Zubat swoops down from the ceiling in the underground tunnels, its wings beating rapidly. The Zubat seems intent on using Supersonic or Leech Life to confuse or drain the party."
+    },
+    {
+      "setting": "Jungle Ruins",
+      "title": "Wild Bellsprout Appears",
+      "description": "The foliage sways rhythmically as a Bellsprout emerges from the jungle ruins, its vines extending outward. The Bellsprout seems curious and ready to use Vine Whip or Growth if the party gets too close to its feeding grounds."
+    },
+    {
+      "setting": "Volcanic Crater",
+      "title": "Wild Diglett Appears",
+      "description": "The ground beneath the volcanic crater trembles slightly before a Diglett’s head pops up. The Diglett appears wary but prepared to dig down quickly or use a Sand Attack to blind its foes."
+    },
+    {
+      "setting": "Mountain",
+      "title": "Wild Mankey Appears",
+      "description": "A wild screech echoes through the mountain as a Mankey leaps out, its fists clenched and eyes filled with rage. The Mankey is aggressive and ready to unleash a Fury Swipes or Low Kick attack."
+    },
+    {
+      "setting": "Crystal Caves",
+      "title": "Wild Clefairy Appears",
+      "description": "A soft, soothing melody drifts through the crystal caves as a Clefairy steps into view, swaying to its own tune. The Clefairy seems peaceful but might use Sing or Metronome if it feels threatened."
+    },
+    {
+      "setting": "Jungle Ruins",
+      "title": "Wild Scyther Appears",
+      "description": "The tall grass and foliage in the jungle ruins part suddenly, revealing the sharp blades of a Scyther. It stands ready, its scythes gleaming in the light. The Scyther is fast and prepared to use Quick Attack or Slash to challenge the party."
     }
   ]
 }

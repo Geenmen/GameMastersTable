@@ -27,7 +27,8 @@
     cursor: move;
     touch-action: none; /* Added to prevent interference with drag */
     border: dotted;
-    border-color: aqua;
+    border-color: white;
+    padding:5px;
 }
 
 .panel-header button {

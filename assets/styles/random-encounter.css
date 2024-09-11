@@ -1,0 +1,103 @@
+.random-encounter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--section-color);
+    color: #e0e0e0;
+    border: 2px solid var(--blue-border);
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.encounter-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+    .encounter-controls label {
+        margin-right: 10px;
+        font-weight: bold;
+    }
+
+    .encounter-controls select,
+    .encounter-controls button {
+        margin-right: 10px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 6px;
+        border: 2px solid var(--blue-border);
+        background-color: var(--red-accent);
+        color: #e0e0e0;
+        cursor: pointer;
+        flex-grow: 1;
+    }
+
+    .encounter-controls select {
+        flex-grow: 2; /* Make the select dropdown larger */
+    }
+
+    .encounter-controls button:hover {
+        background-color: #d93636;
+    }
+
+.encounter-result,
+.encounter-history {
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #2e2e2e;
+    border-radius: 8px;
+}
+
+    .encounter-result h4,
+    .encounter-history h4 {
+        margin: 0 0 10px;
+        color: var(--red-accent);
+    }
+
+    .encounter-result p,
+    .encounter-history p {
+        margin: 5px 0;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .encounter-history ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .encounter-history li {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+.encounter-history {
+    border-top: 2px solid var(--blue-border);
+    padding-top: 10px;
+}
+
+    .encounter-history h3 {
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: #e0e0e0;
+        text-align: center;
+    }
+
+@media (max-width: 600px) {
+    .random-encounter-container {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    .encounter-controls select,
+    .encounter-controls button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}

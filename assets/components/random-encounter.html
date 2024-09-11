@@ -1,21 +1,14 @@
 <div class="random-encounter-container">
     <div class="encounter-controls">
         <label for="encounter-setting">Setting:</label>
-        <select id="encounter-setting">
-            <!-- Populated by JS -->
-        </select>
-
+        <select id="encounter-setting"></select>
         <button id="generate-encounter-button">Generate Encounter</button>
     </div>
 
-    <div id="encounter-result" class="encounter-result">
-        <!-- Generated encounter will be displayed here -->
-    </div>
+    <div id="encounter-result" class="encounter-result"></div>
 
     <div class="encounter-history">
-        <h3>Last Encounter</h3>
-        <div id="encounter-history-display" class="encounter-history-display">
-            <!-- Last generated encounter will be displayed here -->
-        </div>
+        <h3>Encounter History</h3>
+        <ul id="encounter-history-list"></ul>
     </div>
 </div>
