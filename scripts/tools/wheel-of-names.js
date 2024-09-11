@@ -6,8 +6,11 @@ function initializeWheelOfNames(panel) {
     const spinButton = panel.querySelector('#spin-button');
     const resetButton = panel.querySelector('#reset-button');
     const scrollArea = panel.querySelector('.scroll-area');
+    const spinsInput = panel.querySelector('#spins-input');
+    const resultHistoryList = panel.querySelector('#result-history-list');
 
     let namesArray = [];
+    let resultHistory = [];
 
     // Function to add names to the list
     addNameButton.addEventListener('click', () => {
@@ -53,46 +56,84 @@ function initializeWheelOfNames(panel) {
             return;
         }
 
-        // Shuffle the names array for random order display
-        shuffleArray(namesArray);
+        const spinsCount = parseInt(spinsInput.value);
+        if (isNaN(spinsCount) || spinsCount < 1) {
+            alert('Please enter a valid number of spins.');
+            return;
+        }
 
-        scrollArea.innerHTML = ''; // Clear previous display
+        let currentSpin = 0;
 
-        // Populate the scroll area with the shuffled names
-        namesArray.forEach(name => {
-            const scrollItem = document.createElement('div');
-            scrollItem.className = 'wheel-text';
-            scrollItem.textContent = name;
-            scrollArea.appendChild(scrollItem);
-        });
+        function spinAndDisplayResult() {
+            shuffleArray(namesArray);
 
-        // Clone the list to create a seamless loop
-        namesArray.forEach(name => {
-            const scrollItem = document.createElement('div');
-            scrollItem.className = 'wheel-text';
-            scrollItem.textContent = name;
-            scrollArea.appendChild(scrollItem);
-        });
+            scrollArea.innerHTML = ''; // Clear previous display
 
-        // Add the animation to the scroll area
-        scrollArea.style.animation = 'scroll 1s linear infinite';
+            // Populate the scroll area with the shuffled names
+            namesArray.forEach(name => {
+                const scrollItem = document.createElement('div');
+                scrollItem.className = 'wheel-text';
+                scrollItem.textContent = name;
+                scrollArea.appendChild(scrollItem);
+            });
 
-        // Stop the scrolling after a random time and pick a random name
-        setTimeout(() => {
-            const randomIndex = Math.floor(Math.random() * namesArray.length);
-            const selectedName = namesArray[randomIndex];
+            // Clone the list to create a seamless loop
+            namesArray.forEach(name => {
+                const scrollItem = document.createElement('div');
+                scrollItem.className = 'wheel-text';
+                scrollItem.textContent = name;
+                scrollArea.appendChild(scrollItem);
+            });
 
-            // Stop the animation
-            scrollArea.style.animation = 'none';
+            // Add the animation to the scroll area
+            scrollArea.style.animation = 'scroll 1s linear infinite';
 
-            // Clear the scroll area and display the selected name
-            scrollArea.innerHTML = '';
-            const resultItem = document.createElement('div');
-            resultItem.className = 'wheel-text';
-            resultItem.textContent = selectedName;
-            scrollArea.appendChild(resultItem);
-        }, 2000 + Math.random() * 3000); // Random delay between 2 to 5 seconds
+            // Stop the scrolling after a random time and pick a random name
+            setTimeout(() => {
+                const randomIndex = Math.floor(Math.random() * namesArray.length);
+                const selectedName = namesArray[randomIndex];
+
+                // Stop the animation
+                scrollArea.style.animation = 'none';
+
+                // Clear the scroll area and display the selected name
+                scrollArea.innerHTML = '';
+                const resultItem = document.createElement('div');
+                resultItem.className = 'wheel-text';
+                resultItem.textContent = selectedName;
+                scrollArea.appendChild(resultItem);
+
+                // Update the result history
+                updateResultHistory(selectedName);
+
+                currentSpin++;
+                if (currentSpin < spinsCount) {
+                    setTimeout(spinAndDisplayResult, 1000); // Delay before next spin
+                }
+            }, 2000 + Math.random() * 3000); // Random delay between 2 to 5 seconds
+        }
+
+        spinAndDisplayResult(); // Start the first spin
     });
+
+    // Function to update the result history
+    function updateResultHistory(name) {
+        resultHistory.unshift(name);
+        if (resultHistory.length > 10) {
+            resultHistory.pop(); // Keep only the last 10 results
+        }
+        renderResultHistory();
+    }
+
+    // Function to render the result history
+    function renderResultHistory() {
+        resultHistoryList.innerHTML = '';
+        resultHistory.forEach((result, index) => {
+            const listItem = document.createElement('li');
+            listItem.textContent = `${index + 1}. ${result}`;
+            resultHistoryList.appendChild(listItem);
+        });
+    }
 
     // Function to reset the wheel of names
     resetButton.addEventListener('click', () => {
@@ -100,5 +141,7 @@ function initializeWheelOfNames(panel) {
         nameList.innerHTML = ''; // Clear the name list display
         scrollArea.innerHTML = ''; // Clear the wheel display
         scrollArea.style.animation = 'none'; // Stop any ongoing animation
+        resultHistory = []; // Clear the result history
+        renderResultHistory(); // Update the history display
     });
 }

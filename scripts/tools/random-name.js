@@ -4,6 +4,9 @@ function initializeRandomName(panel) {
     const lastNameCheckbox = panel.querySelector('#last-name-checkbox');
     const generateButton = panel.querySelector('#generate-name-button');
     const resultDisplay = panel.querySelector('#name-result');
+    const nameHistoryList = panel.querySelector('#name-history-list');
+
+    let nameHistory = [];
 
     // Fetch the JSON data
     fetch('assets/libraries/Random/RandomName.json')
@@ -58,12 +61,35 @@ function initializeRandomName(panel) {
                     lastName = includeLastName ? getRandomName(styles[selectedStyle].lastNames) : '';
                 }
 
-                resultDisplay.textContent = `${firstName} ${lastName}`.trim();
+                const fullName = `${firstName} ${lastName}`.trim();
+                resultDisplay.textContent = fullName;
+
+                // Update the name history
+                updateNameHistory(fullName);
             });
 
             // Function to get a random name from an array
             function getRandomName(nameArray) {
                 return nameArray[Math.floor(Math.random() * nameArray.length)];
+            }
+
+            // Function to update the name history
+            function updateNameHistory(name) {
+                nameHistory.unshift(name);
+                if (nameHistory.length > 10) {
+                    nameHistory.pop(); // Keep only the last 10 names
+                }
+                renderNameHistory();
+            }
+
+            // Function to render the name history
+            function renderNameHistory() {
+                nameHistoryList.innerHTML = '';
+                nameHistory.forEach((name, index) => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = `${index + 1}. ${name}`;
+                    nameHistoryList.appendChild(listItem);
+                });
             }
         })
         .catch(err => console.error("Error loading names:", err));

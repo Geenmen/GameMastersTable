@@ -205,5 +205,36 @@ document.addEventListener('DOMContentLoaded', function () {
     setTimeout(() => {
         document.getElementById('loading-screen').style.display = 'none';
         document.getElementById('app').style.visibility = 'visible';
-    }, 2000);
+    }, 3000);
 });
+
+
+
+// Function to update the middle section's height based on the panel's position
+function updateMiddleSectionHeight() {
+    const middleSection = document.getElementById('middle-section');
+    const panels = document.querySelectorAll('.panel-container');
+    let maxBottom = 0;
+
+    panels.forEach(panel => {
+        const panelRect = panel.getBoundingClientRect();
+        if (panelRect.bottom > maxBottom) {
+            maxBottom = panelRect.bottom;
+        }
+    });
+
+    // Calculate the new height needed for middle section to occupy the full document space
+    const newHeight = Math.max(maxBottom, window.innerHeight) - middleSection.getBoundingClientRect().top;
+    middleSection.style.height = `${newHeight}px`;
+}
+
+// Monitor panel movement and update the middle section's height accordingly
+const observer = new MutationObserver(updateMiddleSectionHeight);
+observer.observe(document.getElementById('middle-section'), { childList: true, subtree: true });
+
+// Also update on window resize and scroll
+window.addEventListener('resize', updateMiddleSectionHeight);
+window.addEventListener('scroll', updateMiddleSectionHeight);
+
+// Initial update
+updateMiddleSectionHeight();

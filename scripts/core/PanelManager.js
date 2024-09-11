@@ -13,7 +13,8 @@
     { id: 'random-job', name: 'Random Job' },
     { id: 'draw-pad', name: 'Draw Pad' },
     { id: 'beastiary', name: 'Beastiary' },
-    { id: 'travel-time', name: 'Travel Time Calculator' }
+    { id: 'travel-time', name: 'Travel Time Calculator' },
+    { id: 'random-encounter', name: 'Random Encounter' }
 ];
 
 const activePanels = [];
@@ -280,6 +281,9 @@ function loadTool(panelContainer, toolName) {
                             break;
                         case 'travel-time':
                             initializeTravelTimeCalculator(panelContainer);
+                            break;
+                        case 'random-encounter':
+                            initializeRandomEncounter(panelContainer);
                             break;
                         default:
                             console.warn(`No initialization function defined for tool: ${toolName}`);
