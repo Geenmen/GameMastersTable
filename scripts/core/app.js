@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 .catch(err => console.error('Error loading stopwatch:', err));
         } else {
             const stopwatchContainer = document.getElementById('stopwatch-container');
-            stopwatchContainer.style.display = stopwatchContainer.style.display === 'none' ? 'block' : 'none';
+            stopwatchContainer.style.display = stopwatchContainer.style.display === 'none' ? 'flex' : 'none';
         }
     });
 
