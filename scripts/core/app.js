@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Event listener for the calculator button
     calculatorBtn.addEventListener('click', () => {
         if (!calculatorLoaded) {
-            // Load the calculator HTML dynamically
+            // Load the calculator HTML dynamically.
             fetch('assets/components/calculator.html')
                 .then(response => {
                     if (!response.ok) {
