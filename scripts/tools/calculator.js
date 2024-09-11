@@ -56,7 +56,6 @@
 
     // Make the calculator container movable
     const calculatorContainer = document.getElementById('calculator-container');
-    calculatorContainer.style.transform = 'translate(0px, 0px)';
     calculatorContainer.setAttribute('data-x', 0);
     calculatorContainer.setAttribute('data-y', 0);
 

@@ -43,7 +43,6 @@
     updateDisplay();
 
     // Initialize the position attributes to avoid jump
-    stopwatchContainer.style.transform = 'translate(0px, 0px)';
     stopwatchContainer.setAttribute('data-x', 0);
     stopwatchContainer.setAttribute('data-y', 0);
 

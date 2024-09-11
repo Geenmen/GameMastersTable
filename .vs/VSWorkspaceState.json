@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\assets",
+    "\\assets\\libraries",
+    "\\assets\\libraries\\html2canvas",
+    "\\scripts",
+    "\\scripts\\core",
+    "\\scripts\\tools"
+  ],
+  "SelectedNode": "\\scripts\\core\\app.js",
+  "PreviewInSolutionExplorer": false
+}
