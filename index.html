@@ -81,6 +81,12 @@
         </div>
     </div>
 
+    <script>
+        if (typeof navigator.serviceWorker !== 'undefined') {
+            navigator.serviceWorker.register('service-worker.js')
+        }
+    </script>
+
     <script src="scripts/core/app.js"></script>
     <script src="assets/libraries/Interactjs/interact.min.js"></script>
     <script src="assets/libraries/html2canvas/html2canvas.min.js"></script>

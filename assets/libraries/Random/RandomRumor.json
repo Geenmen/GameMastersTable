@@ -1,12 +1,12 @@
 {
   "rumors": [
     {
-      "text": "A shadowy figure has been seen slipping into the mayor's house late at night, leaving no trace behind.",
+      "text": "A shadowy figure has been seen slipping into the mayors house late at night, leaving no trace behind.",
       "category": "Mystery",
       "source": "Local Gossip"
     },
     {
-      "text": "Strange lights have been spotted in the old abandoned mansion on the hill. Some say it's haunted; others believe something more sinister is going on.",
+      "text": "Strange lights have been spotted in the old abandoned mansion on the hill. Some say its haunted; others believe something more sinister is going on.",
       "category": "Mystery",
       "source": "Town Crier"
     },
@@ -36,7 +36,7 @@
       "source": "Gravedigger"
     },
     {
-      "text": "A merchant ship was found adrift off the coast, with the crew missing and the cargo untouched. The only clue was a single word carved into the mast: 'Beware.'",
+      "text": "A merchant ship was found adrift off the coast, with the crew missing and the cargo untouched. The only clue was a single word carved into the mast: Beware.",
       "category": "Mystery",
       "source": "Dock Worker"
     },
@@ -101,7 +101,7 @@
       "source": "Returning Explorer"
     },
     {
-      "text": "The baker's son has been seen sneaking out of the mayor's daughter's window late at night. Seems like a secret romance is brewing.",
+      "text": "The bakers son has been seen sneaking out of the mayors daughters window late at night. Seems like a secret romance is brewing.",
       "category": "Gossip",
       "source": "Village Gossip"
     },
@@ -121,12 +121,12 @@
       "source": "Chambermaid"
     },
     {
-      "text": "The town guard captain was overheard arguing with a cloaked figure in the alley behind the inn. Some say he's mixed up in shady dealings.",
+      "text": "The town guard captain was overheard arguing with a cloaked figure in the alley behind the inn. Some say hes mixed up in shady dealings.",
       "category": "Gossip",
       "source": "Eavesdropper"
     },
     {
-      "text": "Rumor has it the local priest has been accepting bribes to overlook certain 'sins' of the wealthier parishioners.",
+      "text": "Rumor has it the local priest has been accepting bribes to overlook certain sins of the wealthier parishioners.",
       "category": "Gossip",
       "source": "Churchgoer"
     },
@@ -226,7 +226,7 @@
       "source": "Alchemist"
     },
     {
-      "text": "The carpenter is telling everyone that he’s going to build a house that can float. When asked why, he just winks and says, 'You'll see.'",
+      "text": "The carpenter is telling everyone that he’s going to build a house that can float. When asked why, he just winks and says, Youll see.",
       "category": "Banter",
       "source": "Carpenter"
     },
@@ -236,7 +236,7 @@
       "source": "Bard"
     },
     {
-      "text": "A fisherman swears he caught a fish 'this big,' but everyone knows it gets bigger every time he tells the story.",
+      "text": "A fisherman swears he caught a fish this big, but everyone knows it gets bigger every time he tells the story.",
       "category": "Banter",
       "source": "Fisherman"
     },
@@ -256,7 +256,7 @@
       "source": "Council Member"
     },
     {
-      "text": "There’s talk that the new trade agreement was made under the table, with certain officials receiving generous 'gifts' to ensure its passage.",
+      "text": "There’s talk that the new trade agreement was made under the table, with certain officials receiving generous gifts to ensure its passage.",
       "category": "Political",
       "source": "Trade Merchant"
     },

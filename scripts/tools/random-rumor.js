@@ -9,7 +9,7 @@ function initializeRandomRumor(panel) {
     fetch('assets/libraries/Random/RandomRumor.json')
         .then(response => response.json())
         .then(data => {
-            let rumors = data;
+            let rumors = data.rumors;  // Access the rumors array inside the data object
 
             // Populate category and source dropdowns
             populateDropdowns(rumors);
@@ -43,6 +43,7 @@ function initializeRandomRumor(panel) {
             rumorDisplay.textContent = 'Failed to load rumors.';
         });
 
+
     function populateDropdowns(rumors) {
         const categories = [...new Set(rumors.map(rumor => rumor.category))];
         const sources = [...new Set(rumors.map(rumor => rumor.source))];
@@ -72,9 +73,9 @@ function initializeRandomRumor(panel) {
         const selectedRumor = rumors[randomIndex];
 
         rumorDisplay.innerHTML = `
-            <p><strong>Rumor:</strong> ${selectedRumor.text}</p>
-            <p><strong>Category:</strong> ${selectedRumor.category}</p>
             <p><strong>Source:</strong> ${selectedRumor.source}</p>
+            <p><strong>Category:</strong> ${selectedRumor.category}</p>
+            <p><strong>Rumor:</strong> ${selectedRumor.text}</p>
         `;
     }
 }
