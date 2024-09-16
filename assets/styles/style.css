@@ -240,23 +240,7 @@ body, html {
             margin-top: 10px; /* Add spacing between buttons */
         }
 
-#top-section {
-    background-color: var(--section-color);
-    color: #e0e0e0;
-    padding: 10px;
-    text-align: center;
-    border-bottom: 2px solid var(--blue-border);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed; /* Changed to fixed */
-    top: 0; /* Attach to the top of the viewport */
-    left: 0;
-    width: 100%; /* Ensure it spans the full width of the viewport */
-    z-index: 0; /* Ensure it stays on top of other elements */
-    height:auto;
-}
+
 
 #bottom-section {
     background-color: var(--section-color);
@@ -297,4 +281,77 @@ body, html {
 }
 
 
+/* Styles for #top-section */
+#top-section {
+    background-color: var(--section-color);
+    color: #e0e0e0;
+    padding: 10px 0; /* Adjusted padding */
+    border-bottom: 2px solid var(--blue-border);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1; /* Ensure it stays above other elements */
+}
 
+/* Keep buttons laid out horizontally */
+#top-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Span full width */
+    padding-bottom: 5px; /* Space between buttons and banner */
+}
+
+    #top-content > * {
+        margin: 0 5px; /* Spacing between buttons */
+    }
+
+/* Scrolling banner styles */
+#banner {
+    overflow: hidden;
+    width: 100%;
+    background-color: var(--section-color);
+}
+
+.banner-content {
+    display: flex;
+    width: max-content; /* Adjust to content width */
+    animation: scroll-left 20s linear infinite;
+}
+
+.banner-text {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    white-space: nowrap;
+    font-size: 16px;
+    color: #e0e0e0;
+    margin-right: 50px; /* Space between duplicated texts */
+}
+
+    .banner-text a {
+        color: var(--red-accent);
+        text-decoration: none;
+        margin-left: 5px;
+    }
+
+        .banner-text a:hover {
+            text-decoration: underline;
+        }
+
+@keyframes scroll-left {
+    0%, 100% {
+        transform: translateX(0vw);
+    }
+
+    50% {
+        transform: translateX(100vw);
+    }
+}
+    

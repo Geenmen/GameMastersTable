@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 .catch(err => console.error('Error loading calculator:', err));
         } else {
             const calculatorContainer = document.getElementById('calculator-container');
-            calculatorContainer.style.display = calculatorContainer.style.display === 'none' ? 'block' : 'none';
+            calculatorContainer.style.display = calculatorContainer.style.display === 'none' ? 'flex' : 'none';
         }
     });
 

@@ -6,25 +6,19 @@
             <!-- Options for CR 1 to 30 will be dynamically generated -->
         </select>
         <button id="load-creatures-btn">Load Creatures</button>
-        <button id="bestiary-reset-btn">Reset</button> <!-- Updated Reset Button -->
+        <button id="bestiary-reset-btn">Reset</button>
     </div>
 
-    <div id="creature-list-container" class="creature-list-container" style="display:none;">
-        <h2>Creatures</h2>
-        <ul id="creature-list">
-            <!-- Creature names will be dynamically populated here -->
-        </ul>
+    <div id="creature-grid-container" class="creature-grid-container" style="display:none;">
+        <!-- Creature cards will be dynamically populated here -->
     </div>
 
-    <!-- Bestiary Specific Modal, contained within the panel -->
+    <!-- Bestiary Modal -->
     <div id="bestiary-modal" class="bestiary-modal" style="display:none;">
         <div class="bestiary-modal-content">
             <span id="bestiary-modal-close" class="bestiary-modal-close">&times;</span>
-            <div class="creature-card">
-                <img id="creature-image" src="assets/libraries/beastiary/default-creature-GMT.png" alt="Creature Image" class="creature-image">
-                <div class="creature-info">
-                    <!-- Creature details will be dynamically loaded here -->
-                </div>
+            <div class="creature-details">
+                <!-- Creature details will be dynamically loaded here -->
             </div>
         </div>
     </div>
