@@ -16,6 +16,7 @@
     box-sizing: border-box;
     background-color: #1f1f1f;
     color: #e0e0e0;
+    position: relative; /* Added to contain absolutely positioned elements */
 }
 
 .health-tracker-controls {
@@ -37,7 +38,7 @@
     flex-direction: column;
     padding: 10px;
     background-color: var(--section-color);
-    border: 1px solid var(--blue-border);
+    border: 2px solid var(--blue-border);
     border-radius: 4px;
 }
 
@@ -59,7 +60,7 @@
 .health-bar {
     height: 20px;
     flex-grow: 1;
-    background-color: var(--empty-health-color); /* Empty portion color */
+    background-color: var(--empty-health-color);
     margin: 0 10px;
     position: relative;
     border-radius: 5px;
@@ -68,16 +69,17 @@
 
     .health-bar .filled {
         height: 100%;
-        background-color: var(--health-color); /* Filled portion color */
+        background-color: var(--health-color);
         position: absolute;
         left: 0;
         top: 0;
+        width: 100%; /* Default width */
     }
 
 .health-text {
     font-weight: bold;
     color: #e0e0e0;
-    min-width: 60px; /* Ensures the text doesn't collapse */
+    min-width: 60px;
 }
 
 .health-btn {
@@ -115,17 +117,21 @@
 /* Health Tracker Modal styles */
 #healthtracker-modal {
     display: none;
-    position: fixed;
+    position: absolute; /* Changed from fixed to absolute */
     z-index: 100;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 300px;
+    width: 80%; /* Adjusted width */
+    max-width: 90%;
+    max-height: 90%;
     background-color: #2b2b2b;
     border: 1px solid var(--blue-border);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
 }
 
 .ht-close-modal {

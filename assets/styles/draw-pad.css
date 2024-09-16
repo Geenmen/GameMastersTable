@@ -1,9 +1,19 @@
+:root {
+    --red-accent: #ff4747;
+    --blue-border: #00bfff;
+    --background-color: #121212;
+    --section-color: #1f1f1f;
+    --button-text-color: #ffffff;
+    --button-border-radius: 5px;
+    --button-padding: 8px 12px;
+}
+
 #draw-pad-container {
     position: relative;
     width: 90%;
     height: 80%;
-    border: 2px solid #333;
-    background-color: #fff;
+    border: 2px solid var(--blue-border);
+    background-color: var(--background-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,13 +39,34 @@
     justify-content: space-between;
     width: 90%;
     margin-top: 10px;
+    background-color: var(--section-color);
+    border: 1px solid var(--blue-border);
+    border-radius: 10px;
+    padding: 10px;
 }
 
     #toolbar button, #toolbar input[type="color"] {
-        padding: 10px;
+        padding: var(--button-padding);
         margin: 5px;
         cursor: pointer;
         font-size: 16px;
+        color: var(--button-text-color);
+        background-color: var(--section-color);
+        border: 2px solid var(--blue-border);
+        border-radius: var(--button-border-radius);
+        transition: background-color 0.3s ease;
+    }
+
+        #toolbar button:hover, #toolbar label:hover {
+            background-color: var(--red-accent);
+        }
+
+    #toolbar input[type="color"] {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
     }
 
     #toolbar input[type="file"] {
@@ -43,13 +74,20 @@
     }
 
 label[for="image-upload"] {
-    padding: 10px;
+    padding: var(--button-padding);
     margin: 5px;
     cursor: pointer;
     font-size: 16px;
-    background-color: #ccc;
-    border: 1px solid #333;
+    color: var(--button-text-color);
+    background-color: var(--section-color);
+    border: 2px solid var(--blue-border);
+    border-radius: var(--button-border-radius);
+    transition: background-color 0.3s ease;
 }
+
+    label[for="image-upload"]:hover {
+        background-color: var(--red-accent);
+    }
 
 #background-image {
     position: absolute;

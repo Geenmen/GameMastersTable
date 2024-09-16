@@ -15,7 +15,7 @@ function initializeRandomName(panel) {
             // Create the "Select Category" option
             const defaultOption = document.createElement('option');
             defaultOption.value = 'all';
-            defaultOption.textContent = 'Select Category';
+            defaultOption.textContent = 'All Categories';
             nameStyleSelect.appendChild(defaultOption);
 
             // Populate the name style dropdown with other options

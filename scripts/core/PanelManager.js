@@ -18,6 +18,8 @@
 ];
 
 const activePanels = [];
+let panelToDelete = null;
+
 
 (function () {
     const addPanelBtn = document.getElementById('add-panel-btn');
@@ -62,6 +64,21 @@ const activePanels = [];
     });
 
     initializeAllPanels();
+    const confirmDeleteBtn = document.getElementById('confirm-delete-btn');
+    const cancelDeleteBtn = document.getElementById('cancel-delete-btn');
+
+    confirmDeleteBtn.addEventListener('click', () => {
+        if (panelToDelete) {
+            deletePanel(panelToDelete);
+            panelToDelete = null;
+        }
+        document.getElementById('confirm-delete-popup').style.display = 'none';
+    });
+
+    cancelDeleteBtn.addEventListener('click', () => {
+        panelToDelete = null;
+        document.getElementById('confirm-delete-popup').style.display = 'none';
+    });
 })();
 
 function initializeAllPanels() {
@@ -75,8 +92,9 @@ function initPanel(panel) {
     makePanelMovable(panel);
 
     panel.querySelector('.minimize-btn').addEventListener('click', () => minimizePanel(panel));
-    panel.querySelector('.close-btn').addEventListener('click', () => deletePanel(panel));
+    panel.querySelector('.close-btn').addEventListener('click', () => confirmDeletePanel(panel));
 }
+
 
 function createPanel(name, type) {
     const middleSection = document.getElementById('middle-section');
@@ -209,6 +227,13 @@ function deletePanel(panel) {
 
     panel.remove();
 }
+
+function confirmDeletePanel(panel) {
+    panelToDelete = panel;
+    const confirmDeletePopup = document.getElementById('confirm-delete-popup');
+    confirmDeletePopup.style.display = 'flex';
+}
+
 
 function loadTool(panelContainer, toolName) {
     const panelId = panelContainer.id;

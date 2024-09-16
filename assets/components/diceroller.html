@@ -1,5 +1,6 @@
 <div class="dice-roller-container">
     <div class="dice-roller-left">
+        <center>Dice Type</center>
         <select id="dice-type" class="dice-dropdown">
             <option value="2">D2</option>
             <option value="4">D4</option>
@@ -12,8 +13,9 @@
             <option value="custom">Custom</option>
         </select>
         <input type="number" id="custom-dice-input" class="dice-input" placeholder="Enter sides for custom die" style="display: none;" min="1">
-
+        <center>Dice Count</center>
         <div class="dice-count-container">
+
             <button id="decrement-btn" class="count-btn">-</button>
             <input type="number" id="dice-count" class="dice-input" value="1" min="1">
             <button id="increment-btn" class="count-btn">+</button>

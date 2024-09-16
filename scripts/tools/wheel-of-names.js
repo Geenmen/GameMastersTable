@@ -118,9 +118,9 @@ function initializeWheelOfNames(panel) {
 
     // Function to update the result history
     function updateResultHistory(name) {
-        resultHistory.unshift(name);
+        resultHistory.push(name); // Add to the end of the array
         if (resultHistory.length > 10) {
-            resultHistory.pop(); // Keep only the last 10 results
+            resultHistory.shift(); // Remove the oldest result
         }
         renderResultHistory();
     }
