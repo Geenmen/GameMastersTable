@@ -93,6 +93,8 @@ function initPanel(panel) {
 
     panel.querySelector('.minimize-btn').addEventListener('click', () => minimizePanel(panel));
     panel.querySelector('.close-btn').addEventListener('click', () => confirmDeletePanel(panel));
+
+
 }
 
 

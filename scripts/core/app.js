@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
+
+
     const settingsBtn = document.getElementById('settings-btn');
     const settingsMenu = document.getElementById('settings-menu');
     const calculatorBtn = document.getElementById('calculator-btn');
