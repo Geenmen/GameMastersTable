@@ -1,4 +1,6 @@
-﻿const panelTypes = [
+﻿let isInteracting = false; // Global flag to track panel interactions
+
+const panelTypes = [
     { id: 'notepad', name: 'Notepad' },
     { id: 'soundboard', name: 'Sound Board Window' },
     { id: 'file-display', name: 'File Display Window' },
@@ -20,7 +22,6 @@
 const activePanels = [];
 let panelToDelete = null;
 
-
 (function () {
     const addPanelBtn = document.getElementById('add-panel-btn');
     const addPanelPopup = document.getElementById('add-panel-popup');
@@ -29,6 +30,7 @@ let panelToDelete = null;
     const addPanelBtnConfirm = document.getElementById('add-panel-btn-confirm');
     const cancelPanelBtn = document.getElementById('cancel-panel-btn');
 
+    // Populate panel types dropdown
     panelTypes.forEach(type => {
         const option = document.createElement('option');
         option.value = type.id;
@@ -36,12 +38,14 @@ let panelToDelete = null;
         panelTypeSelect.appendChild(option);
     });
 
+    // Show add panel popup
     addPanelBtn.addEventListener('click', () => {
         addPanelPopup.style.display = 'flex';
         panelNameInput.value = '';
         addPanelBtnConfirm.style.display = 'none';
     });
 
+    // Enable confirm button only when panel name is unique and non-empty
     panelNameInput.addEventListener('input', () => {
         const name = panelNameInput.value.trim();
         const isUnique = !activePanels.some(panel => panel.name === name);
@@ -52,10 +56,12 @@ let panelToDelete = null;
         }
     });
 
+    // Hide add panel popup
     cancelPanelBtn.addEventListener('click', () => {
         addPanelPopup.style.display = 'none';
     });
 
+    // Add new panel
     addPanelBtnConfirm.addEventListener('click', () => {
         const panelName = panelNameInput.value.trim();
         const panelType = panelTypeSelect.value;
@@ -63,7 +69,10 @@ let panelToDelete = null;
         addPanelPopup.style.display = 'none';
     });
 
+    // Initialize existing panels
     initializeAllPanels();
+
+    // Handle delete confirmation
     const confirmDeleteBtn = document.getElementById('confirm-delete-btn');
     const cancelDeleteBtn = document.getElementById('cancel-delete-btn');
 
@@ -90,25 +99,66 @@ function initializeAllPanels() {
 
 function initPanel(panel) {
     makePanelMovable(panel);
+    makePanelResizable(panel);
 
-    panel.querySelector('.minimize-btn').addEventListener('click', () => minimizePanel(panel));
-    panel.querySelector('.close-btn').addEventListener('click', () => confirmDeletePanel(panel));
+    // Minimize and close functionality
+    const minimizeBtn = panel.querySelector('.minimize-btn');
+    const closeBtn = panel.querySelector('.close-btn');
+    const moveHandle = panel.querySelector('.move-handle');
 
+    minimizeBtn.addEventListener('click', (e) => {
+        e.stopPropagation(); // Prevent event from bubbling up
+        minimizePanel(panel);
+    });
 
+    closeBtn.addEventListener('click', (e) => {
+        e.stopPropagation(); // Prevent event from bubbling up
+        confirmDeletePanel(panel);
+    });
+
+    moveHandle.addEventListener('mousedown', (e) => {
+        e.stopPropagation(); // Prevent panning when starting to drag
+    });
+
+    // Prevent panning when clicking inside the panel
+    panel.addEventListener('mousedown', (e) => {
+        e.stopPropagation();
+    });
+
+    // Prevent panning when interacting with interactive elements inside the panel
+    const interactiveElements = panel.querySelectorAll('button, input, textarea, select');
+    interactiveElements.forEach(element => {
+        element.addEventListener('mousedown', (e) => {
+            e.stopPropagation();
+        });
+    });
 }
 
-
 function createPanel(name, type) {
-    const middleSection = document.getElementById('middle-section');
+    const zoomableContent = document.getElementById('zoomable-content');
     const panelContainer = document.createElement('div');
     panelContainer.id = `panel-${name}`;
     panelContainer.className = 'panel-container';
 
+    // Calculate the center position within the zoomable content
+    const viewportWidth = zoomableContent.clientWidth / window.zoomScale;
+    const viewportHeight = zoomableContent.clientHeight / window.zoomScale;
+    const panelWidth = 300; // Assuming initial panel width
+    const panelHeight = 200; // Assuming initial panel height
+
+    const centerX = (viewportWidth - panelWidth) / 2;
+    const centerY = (viewportHeight - panelHeight) / 2;
+
+    // Set initial position at the center
+    panelContainer.style.left = `${centerX}px`;
+    panelContainer.style.top = `${centerY}px`;
+    panelContainer.style.transform = 'none'; // Ensure no transform initially
+
     panelContainer.innerHTML = `
         <div class="panel-header">
-            <button class="minimize-btn">-</button>
+            <button class="minimize-btn" aria-label="Minimize Panel">-</button>
             <span class="move-handle">Move</span>
-            <button class="close-btn">X</button>
+            <button class="close-btn" aria-label="Close Panel">X</button>
         </div>
         <div class="panel-body">
             Loading...
@@ -118,13 +168,11 @@ function createPanel(name, type) {
         </div>
     `;
 
-    middleSection.appendChild(panelContainer);
+    zoomableContent.appendChild(panelContainer);
     initPanel(panelContainer);
     loadTool(panelContainer, type);
     activePanels.push({ id: panelContainer.id, name, type, panelContainer });
 }
-
-
 
 
 
@@ -134,51 +182,52 @@ function makePanelMovable(panel) {
         .draggable({
             inertia: false,
             autoScroll: true,
+            modifiers: [
+                interact.modifiers.restrictRect({
+                    restriction: 'parent',
+                    endOnly: true
+                })
+            ],
             listeners: {
+                // Set the flag when dragging starts
                 start(event) {
+                    isInteracting = true;
                     const panel = event.target.closest('.panel-container');
                     panel.classList.add('dragging');
                 },
+                // Handle the drag move event
                 move(event) {
-                    const panel = event.target.closest('.panel-container');
-                    const x = (parseFloat(panel.getAttribute('data-x')) || 0) + event.dx;
-                    const y = (parseFloat(panel.getAttribute('data-y')) || 0) + event.dy;
+                    if (isInteracting) {
+                        const panel = event.target.closest('.panel-container');
+                        const currentScale = window.zoomScale || 1; // Use global scale
 
-                    panel.style.transform = `translate(${x}px, ${y}px)`;
-                    panel.setAttribute('data-x', x);
-                    panel.setAttribute('data-y', y);
+                        // Get current position from 'left' and 'top'
+                        let left = parseFloat(panel.style.left) || 0;
+                        let top = parseFloat(panel.style.top) || 0;
+
+                        // Update position based on movement, adjusted for scale
+                        left += event.dx / currentScale;
+                        top += event.dy / currentScale;
+
+                        panel.style.left = `${left}px`;
+                        panel.style.top = `${top}px`;
+                    }
                 },
+                // Unset the flag when dragging ends
                 end(event) {
+                    isInteracting = false;
                     const panel = event.target.closest('.panel-container');
                     panel.classList.remove('dragging');
                 },
             },
         });
+}
 
-    // Enable resizing
+function makePanelResizable(panel) {
     interact(panel)
         .resizable({
             edges: { left: true, right: true, bottom: true, top: true },
             inertia: true,
-            listeners: {
-                move(event) {
-                    const target = event.target;
-                    let x = parseFloat(target.getAttribute('data-x')) || 0;
-                    let y = parseFloat(target.getAttribute('data-y')) || 0;
-
-                    // Update the element's width and height
-                    target.style.width = `${event.rect.width}px`;
-                    target.style.height = `${event.rect.height}px`;
-
-                    // Update the element's position
-                    x += event.deltaRect.left;
-                    y += event.deltaRect.top;
-
-                    target.style.transform = `translate(${x}px, ${y}px)`;
-                    target.setAttribute('data-x', x);
-                    target.setAttribute('data-y', y);
-                },
-            },
             modifiers: [
                 interact.modifiers.restrictEdges({
                     outer: 'parent',
@@ -188,13 +237,53 @@ function makePanelMovable(panel) {
                     max: { width: 10000, height: 10000 },
                 }),
             ],
+            listeners: {
+                // Set the flag when resizing starts
+                start(event) {
+                    isInteracting = true;
+                },
+                // Handle the resize move event
+                move(event) {
+                    if (isInteracting) {
+                        const currentScale = window.zoomScale || 1; // Current zoom scale
+
+                        // Calculate new size adjusted for scale
+                        const newWidth = event.rect.width / currentScale;
+                        const newHeight = event.rect.height / currentScale;
+
+                        // Update panel size
+                        panel.style.width = `${newWidth}px`;
+                        panel.style.height = `${newHeight}px`;
+
+                        // Only adjust left and top if resizing from the left or top edges
+                        let left = parseFloat(panel.style.left) || 0;
+                        let top = parseFloat(panel.style.top) || 0;
+
+                        if (event.edges.left) {
+                            left += event.deltaRect.left / currentScale;
+                            left = Math.max(0, left); // Prevent negative left
+                            panel.style.left = `${left}px`;
+                        }
+                        if (event.edges.top) {
+                            top += event.deltaRect.top / currentScale;
+                            top = Math.max(0, top); // Prevent negative top
+                            panel.style.top = `${top}px`;
+                        }
+
+                        // Debugging: Log values to verify calculations
+                        console.log(`Resizing Panel: ${panel.id}`);
+                        console.log(`New Size: ${newWidth}px x ${newHeight}px`);
+                        console.log(`New Position: left=${left}px, top=${top}px`);
+                        console.log(`Scale: ${currentScale}`);
+                    }
+                },
+                // Unset the flag when resizing ends
+                end(event) {
+                    isInteracting = false;
+                },
+            },
         });
 }
-
-
-
-
-
 
 function minimizePanel(panel) {
     const minimizedArea = document.getElementById('bottom-section');
@@ -203,7 +292,8 @@ function minimizePanel(panel) {
     restoreButton.textContent = panel.querySelector('.panel-label').textContent;
     restoreButton.className = 'restore-panel-btn';
 
-    restoreButton.addEventListener('click', () => {
+    restoreButton.addEventListener('click', (e) => {
+        e.stopPropagation(); // Prevent event from bubbling up
         panel.style.display = 'flex';
         minimizedArea.removeChild(restoreButton);
     });
@@ -235,7 +325,6 @@ function confirmDeletePanel(panel) {
     const confirmDeletePopup = document.getElementById('confirm-delete-popup');
     confirmDeletePopup.style.display = 'flex';
 }
-
 
 function loadTool(panelContainer, toolName) {
     const panelId = panelContainer.id;

@@ -42,10 +42,55 @@
 
     updateDisplay();
 
-    // Initialize the position attributes to avoid jump
-    stopwatchContainer.setAttribute('data-x', 0);
-    stopwatchContainer.setAttribute('data-y', 0);
+    // Remove the resizing code (if any)
 
-    // Make the stopwatch container movable
+    // Update the move code to match the new move code from PanelManager.js
+    let isInteracting = false; // Local flag to track interactions
+
+    function makePanelMovable(panel) {
+        // Ensure interact.js is loaded
+        if (typeof interact === 'undefined') {
+            console.error('interact.js is required for makePanelMovable to work');
+            return;
+        }
+
+        // Use the panel itself as the move handle or define a specific handle if available
+        interact(panel)
+            .draggable({
+                inertia: false,
+                autoScroll: true,
+                modifiers: [
+                    interact.modifiers.restrictRect({
+                        restriction: 'parent',
+                        endOnly: true,
+                    }),
+                ],
+                listeners: {
+                    start(event) {
+                        isInteracting = true;
+                        panel.classList.add('dragging');
+                    },
+                    move(event) {
+                        if (isInteracting) {
+                            // Since there's no zoom, we can directly use event.dx and event.dy
+                            let left = parseFloat(panel.style.left) || 0;
+                            let top = parseFloat(panel.style.top) || 0;
+
+                            left += event.dx;
+                            top += event.dy;
+
+                            panel.style.left = `${left}px`;
+                            panel.style.top = `${top}px`;
+                        }
+                    },
+                    end(event) {
+                        isInteracting = false;
+                        panel.classList.remove('dragging');
+                    },
+                },
+            });
+    }
+
+    // Apply movable functionality to the stopwatch container
     makePanelMovable(stopwatchContainer);
 })();

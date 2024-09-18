@@ -5,15 +5,6 @@
     --section-color: #1f1f1f;
 }
 
-/* General app styles */
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: 'Arial', sans-serif;
-    background-color: var(--background-color);
-    color: #e0e0e0; /* Light text color */
-}
 
 #loading-screen {
     display: flex;
@@ -43,7 +34,7 @@ body, html {
     margin-top: auto;
     margin-bottom: 50px;
     opacity: 0;
-    animation: fadeIn 1.5s 1s forwards; /* Delayed fade-in */
+    animation: fadeIn 1.5s 1s forwards;
     color: var(--red-accent);
     position: absolute;
     bottom: 50px;
@@ -58,51 +49,230 @@ body, html {
     visibility: hidden;
 }
 
-#current-time {
-    font-size: 24px;
-    font-weight: bold; /* Make the text bold */
-    color: #e0e0e0;
-    padding: 10px 15px;
-    margin-right: 10px;
-    border: 2px solid var(--blue-border);
-    border-radius: 12px;
+/* Adjusted #top-section to accommodate two rows */
+#top-section {
     background-color: var(--section-color);
+    color: #e0e0e0;
+    padding: 10px 0;
+    border-bottom: 2px solid var(--blue-border);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
+/* Stack the rows vertically inside the top content */
+#top-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
 
-#add-panel-btn, #calculator-btn, #settings-btn, #stopwatch-btn {
+/* Styles for both rows */
+.panel-tools-row,
+.zoom-tools-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+}
+
+    /* Spacing between buttons in both rows */
+    .panel-tools-row > *,
+    .zoom-tools-row > * {
+        margin: 0 5px;
+    }
+
+/* Button styles for panel-related tools */
+#add-panel-btn,
+#calculator-btn,
+#settings-btn,
+#stopwatch-btn,
+#zoom-in,
+#zoom-out,
+#reset-zoom,
+#return-to-center-btn {
     padding: 10px 15px;
-    font-size: 24px;
+    font-size: 16px;
     border: 2px solid var(--blue-border);
     border-radius: 12px;
     background-color: var(--red-accent);
     color: #e0e0e0;
     cursor: pointer;
-    margin-right: 10px;
     transition: background-color 0.3s, border-color 0.3s;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-    #add-panel-btn:hover, #calculator-btn:hover, #settings-btn:hover {
+    /* Hover effect for all buttons */
+    #add-panel-btn:hover,
+    #calculator-btn:hover,
+    #settings-btn:hover,
+    #stopwatch-btn:hover,
+    #zoom-in:hover,
+    #zoom-out:hover,
+    #reset-zoom:hover,
+    #return-to-center-btn:hover {
         background-color: #d93636;
         border-color: var(--red-accent);
     }
 
+/* Adjusted #current-time styling */
+#current-time {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e0e0e0;
+    padding: 10px 15px;
+    border: 2px solid var(--blue-border);
+    border-radius: 12px;
+    background-color: var(--section-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Removed position absolute from #zoom-controls */
+#zoom-controls {
+    display: flex;
+}
+
+/* Adjusted banner position */
+#banner {
+    overflow: hidden;
+    width: 100%;
+    background-color: var(--section-color);
+    margin-top: 5px; /* Added margin to separate from above content */
+}
+
+/* Scrolling banner styles */
+.banner-content {
+    display: flex;
+    width: max-content;
+    animation: scroll-left 20s linear infinite;
+}
+
+.banner-text {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    white-space: nowrap;
+    font-size: 16px;
+    color: #e0e0e0;
+    margin-right: 50px;
+}
+
+    .banner-text a {
+        color: var(--red-accent);
+        text-decoration: none;
+        margin-left: 5px;
+    }
+
+        .banner-text a:hover {
+            text-decoration: underline;
+        }
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+#middle-section {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--section-color);
+    overflow: hidden;
+    border-top: 2px solid var(--blue-border);
+    border-bottom: 2px solid var(--blue-border);
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+
+
+
+/* Variable for dynamic top-section height */
+:root {
+    --top-section-height: 0px;
+    --bottom-section-height: 0px;
+}
+
+
+/* Bottom section styling */
+#bottom-section {
+    background-color: var(--section-color);
+    color: #e0e0e0;
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+    border-radius: 12px 12px 0 0;
+    border-top: 2px solid var(--blue-border);
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes growShrink {
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
 /* General popup styles */
 .popup-menu {
-    display: none; /* Initially hidden */
+    display: none;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1001; /* Ensure it's above other elements */
+    z-index: 1001;
     background-color: var(--section-color);
     border: 2px solid var(--blue-border);
     border-radius: 12px;
-    width: 400px;
+    width: 50%;
+    padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 600px) {
+    .popup-menu {
+        width: 90%;
+    }
 }
 
 .popup-content {
@@ -139,85 +309,59 @@ body, html {
     flex-basis: 50%;
 }
 
-.popup-menu {
-    width: 50%;
-    padding: 20px;
-}
-
-/* Responsive adjustments */
-@media (max-width: 600px) {
-    .popup-menu {
-        width: 90%;
-    }
-}
-
-
-/* Keyframes */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-/* Dimmed background when the popup is active */
 .popup {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7); /* Dim the screen */
+    background: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000; /* Ensure it's on top */
+    z-index: 1000;
 }
 
-/* Popup content box */
 .popup-content {
     background-color: var(--section-color);
     padding: 20px;
     border-radius: 12px;
-    text-align: left; /* Align text to the left for consistency */
+    text-align: left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 350px; /* Increase width for better spacing */
+    width: 350px;
     color: #e0e0e0;
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
+    flex-direction: column;
 }
 
     .popup-content h3 {
         margin-bottom: 15px;
-        font-size: 24px; /* Increase font size for better readability */
-        text-align: center; /* Center the title */
+        font-size: 24px;
+        text-align: center;
     }
 
     .popup-content label {
         display: block;
         margin-bottom: 5px;
-        font-weight: bold; /* Make labels bold for better visibility */
+        font-weight: bold;
     }
 
     .popup-content input,
     .popup-content select {
-        width: calc(100% - 20px); /* Adjust to fit within the container with padding */
+        width: calc(100% - 20px);
         padding: 10px;
         margin-bottom: 15px;
         border: 1px solid var(--blue-border);
         border-radius: 6px;
-        background-color: #2b2b2b; /* Slightly different shade for input background */
+        background-color: #2b2b2b;
         color: #e0e0e0;
-        outline: none; /* Remove outline on focus */
-        box-sizing: border-box; /* Ensure padding is included in width calculation */
+        outline: none;
+        box-sizing: border-box;
     }
 
         .popup-content input:focus,
         .popup-content select:focus {
-            border-color: var(--red-accent); /* Highlight border on focus */
+            border-color: var(--red-accent);
         }
 
     .popup-content button {
@@ -229,7 +373,7 @@ body, html {
         background-color: var(--red-accent);
         color: #e0e0e0;
         cursor: pointer;
-        width: 100%; /* Make buttons full-width */
+        width: 100%;
     }
 
         .popup-content button:hover {
@@ -237,120 +381,16 @@ body, html {
         }
 
         .popup-content button:last-child {
-            margin-top: 10px; /* Add spacing between buttons */
+            margin-top: 10px;
         }
 
-
-
-#bottom-section {
-    background-color: var(--section-color);
-    color: #e0e0e0;
-    padding: 10px;
-    text-align: center;
-    height: 50px;
-    border-radius: 12px 12px 0 0;
-    border-top: 2px solid var(--blue-border);
-    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
-    position: fixed; /* Changed to fixed */
-    bottom: 0; /* Attach to the bottom of the viewport */
-    left: 0;
-    width: 100%; /* Ensure it spans the full width of the viewport */
-    z-index: 0; /* Ensure it stays on top of other elements */
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-}
-
-#middle-section {
-    position: fixed; /* Attach the middle section to the viewport */
-    top: 70px; /* Offset to account for the height of the fixed top section */
-    bottom: 70px; /* Offset to account for the height of the fixed bottom section */
-    left: 0;
-    right: 0;
-    background-color: var(--section-color);
-    padding: 10px; /* Removed specific padding to avoid overlap */
-    overflow: auto; /* Enable scrolling if the content overflows */
-    border-top: 2px solid var(--blue-border);
-    border-bottom: 2px solid var(--blue-border);
-    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    box-sizing: border-box; /* Ensure padding and borders are included in the width/height calculations */
-    z-index: 0; /* Ensure it's below the top and bottom sections */
-}
-
-
-/* Styles for #top-section */
-#top-section {
-    background-color: var(--section-color);
-    color: #e0e0e0;
-    padding: 10px 0; /* Adjusted padding */
-    border-bottom: 2px solid var(--blue-border);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center;
-    position: fixed;
+/* Zoomable content styles */
+#zoomable-content {
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1; /* Ensure it stays above other elements */
-}
-
-/* Keep buttons laid out horizontally */
-#top-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%; /* Span full width */
-    padding-bottom: 5px; /* Space between buttons and banner */
-}
-
-    #top-content > * {
-        margin: 0 5px; /* Spacing between buttons */
-    }
-
-/* Scrolling banner styles */
-#banner {
+    height: 100%;
+    transform-origin: top left;
     overflow: hidden;
-    width: 100%;
-    background-color: var(--section-color);
-}
-
-.banner-content {
-    display: flex;
-    width: max-content; /* Adjust to content width */
-    animation: scroll-left 20s linear infinite;
-}
-
-.banner-text {
-    display: flex;
-    align-items: center;
-    flex-shrink: 0;
-    white-space: nowrap;
-    font-size: 16px;
-    color: #e0e0e0;
-    margin-right: 50px; /* Space between duplicated texts */
-}
-
-    .banner-text a {
-        color: var(--red-accent);
-        text-decoration: none;
-        margin-left: 5px;
-    }
-
-        .banner-text a:hover {
-            text-decoration: underline;
-        }
-
-@keyframes scroll-left {
-    0%, 100% {
-        transform: translateX(0vw);
-    }
-
-    50% {
-        transform: translateX(100vw);
-    }
 }

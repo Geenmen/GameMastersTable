@@ -1,14 +1,53 @@
-.panel-container {
+:root {
+    --red-accent: #ff4747;
+    --blue-border: #00bfff;
+    --background-color: #121212;
+    --section-color: #1f1f1f;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    color: #e0e0e0; /* Light text color */
+}
+
+/* Container for zoomable content */
+#zoomable-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+/* Zoomable content area */
+#zoomable-content {
     position: absolute;
-    background-color: #2e2e2e;
-    color: #e0e0e0;
-    border: 1px solid var(--blue-border);
+    top: 0;
+    left: 0;
+    transform-origin: top left; /* Set transform origin to top-left for predictable scaling */
+    /* Initial transform will be set via JavaScript */
+    will-change: transform, width, height; /* Hint for smoother transitions */
+}
+
+/* Panel Styles */
+.panel-container {
+    position: absolute; /* Positioned relative to zoomable-content */
+    width: 300px; /* Initial width */
+    height: 200px; /* Initial height */
+    background-color: #2b2b2b;
+    border: 2px solid var(--blue-border);
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
-    touch-action: none; /* Prevents default touch actions like scrolling */
-    z-index: 2;
+    overflow: hidden;
+    /* Removed transform and transition on transform */
+    /* Optional: Add transition on left and top for smooth movement */
+    /* transition: left 0.2s, top 0.2s; */ /* Commented out for immediate feedback */
+    will-change: left, top, width, height; /* Hint for smoother transitions */
 }
 
 .panel-header {
@@ -17,7 +56,7 @@
     align-items: center;
     background-color: var(--section-color);
     padding: 8px;
-    cursor: pointer;
+    cursor: default; /* Changed to default to prevent interference with drag */
     border-bottom: 1px solid var(--blue-border);
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -25,10 +64,9 @@
 
 .move-handle {
     cursor: move;
-    touch-action: none; /* Added to prevent interference with drag */
-    border: dotted;
-    border-color: white;
-    padding:5px;
+    touch-action: none; /* Prevent interference with drag */
+    border: 1px dotted white; /* Specified border width and style */
+    padding: 5px;
 }
 
 .panel-header button {
@@ -42,15 +80,15 @@
     margin-left: 5px;
 }
 
-.panel-header button:hover {
-    background-color: #6e9dc9;
-}
+    .panel-header button:hover {
+        background-color: #6e9dc9;
+    }
 
 .panel-body {
-    flex-grow: 1;
+    flex: 1;
     padding: 10px;
-    overflow-y: auto;
-    background-color: #3b3b3b;
+    background-color: var(--section-color);
+    overflow: auto;
     color: #e0e0e0;
 }
 
@@ -65,13 +103,13 @@
     border-bottom-right-radius: 8px;
 }
 
-.panel-footer .panel-label {
-    font-size: 14px;
-    color: #e0e0e0;
-}
+    .panel-footer .panel-label {
+        font-size: 14px;
+        color: #e0e0e0;
+    }
 
 .restore-panel-btn {
-    background-color: var(--blue-border);
+    background-color: var(--red-accent);
     color: #e0e0e0;
     border: none;
     padding: 5px 10px;
@@ -81,6 +119,6 @@
     margin: 5px;
 }
 
-.restore-panel-btn:hover {
-    background-color: #6e9dc9;
-}
+    .restore-panel-btn:hover {
+        background-color: #d93636;
+    }
