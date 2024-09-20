@@ -1,144 +1,38 @@
-.faction-manager-container {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    margin: 0 auto;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.FactionManager-step {
+    margin-bottom: 20px;
 }
 
-.faction-tabs {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-
-.faction-tabs button {
-    flex-grow: 1;
-    margin-right: 5px;
-    padding: 4px 6px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    text-align: center;
-    font-size: 12px;
-}
-
-.faction-tabs button:last-child {
-    margin-right: 0;
-}
-
-.faction-tabs button:hover {
-    background-color: #555;
-}
-
-.faction-display {
-    display: flex;
-    flex-direction: column;
-}
-
-#faction-list {
-    display: flex;
-    overflow-x: auto;
-    padding-bottom: 10px;
-}
-
-#faction-list .faction-item {
-    padding: 6px;
-    margin-right: 5px;
-    background-color: #333;
-    color: #fff;
-    border-radius: 3px;
-    cursor: pointer;
-    font-size: 12px;
-}
-
-#faction-list .faction-item:hover {
-    background-color: #555;
-}
-
-#faction-details {
-    padding: 8px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+button {
     margin-top: 10px;
 }
-
-.faction-form-container {
-    padding: 8px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+.carousel-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
 }
 
-.faction-form-container .form-step {
-    margin-bottom: 10px;
+.carousel-page {
+    scroll-snap-align: center;
+    flex: none;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.faction-form-container .form-step label {
-    font-size: 12px;
-    margin-right: 10px;
-}
-
-.faction-form-container .form-step input,
-.faction-form-container .form-step select,
-.faction-form-container .form-step textarea {
-    padding: 5px;
+    max-width: 600px;
     border: 1px solid #ccc;
-    border-radius: 3px;
-    font-size: 12px;
-    width: 70%;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: #f9f9f9;
 }
 
-.faction-form-container #faction-alignment,
-.faction-form-container #faction-resources {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.faction-form-container #faction-alignment label,
-.faction-form-container #faction-resources label {
-    font-size: 12px;
-    margin-right: 10px;
-    display: flex;
-    align-items: center;
-}
-
-.faction-form-container input[type="radio"],
-.faction-form-container input[type="checkbox"] {
-    margin-right: 5px;
-}
-
-.faction-form-container .form-actions {
-    display: flex;
-    justify-content: space-between;
+.card-table {
     width: 100%;
+    border-collapse: collapse;
 }
 
-.faction-form-container .form-actions button {
-    padding: 6px 8px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    font-size: 12px;
-    width: 48%;
-}
+    .card-table th, .card-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
 
-.faction-form-container .form-actions button:hover {
-    background-color: #555;
-}
+    .card-table th {
+        background-color: #f2f2f2;
+    }

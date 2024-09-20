@@ -1,132 +1,94 @@
-<div class="faction-manager-container">
-    <div class="faction-tabs">
-        <button id="create-faction-btn">Create Faction</button>
-        <button id="import-faction-btn">Import Faction</button>
-        <button id="delete-faction-btn">Delete Faction</button>
-        <button id="edit-faction-btn" disabled>Edit Faction</button>
-    </div>
+﻿<button id="FactionManager-createFactionBtn" onclick="startFactionCreation()">Create New Faction</button>
 
-    <div class="faction-display">
-        <div id="faction-list">
-            <!-- Faction items will be dynamically added here -->
+<div id="FactionManager-formContainer" style="display: none;">
+    <form id="FactionManager-form">
+        <!-- Step 1: Faction Name -->
+        <div class="FactionManager-step" id="FactionManager-step1">
+            <label for="FactionManager-factionName">Faction Name</label>
+            <input type="text" id="FactionManager-factionName" name="factionName" required>
+            <button type="button" onclick="nextStep(2)">Next</button>
         </div>
 
-        <div id="faction-details" class="faction-details">
-            <!-- Faction details will be displayed here -->
+        <!-- Step 2: Faction Type -->
+        <div class="FactionManager-step" id="FactionManager-step2" style="display:none;">
+            <label>Faction Type</label>
+            <!-- Placeholder radio buttons -->
+            <div id="FactionManager-factionType">
+                <input type="radio" name="factionType" value="1"> Placeholder #1<br>
+                <input type="radio" name="factionType" value="2"> Placeholder #2<br>
+                <!-- Add up to 15 placeholder radios -->
+            </div>
+            <button type="button" onclick="prevStep(1)">Back</button>
+            <button type="button" onclick="nextStep(3)">Next</button>
         </div>
-    </div>
 
-    <div id="faction-form-container" class="faction-form-container" style="display: none;">
-        <form id="faction-form">
-            <div class="form-step">
-                <label for="faction-name">Faction Name:</label>
-                <input type="text" id="faction-name" required />
-            </div>
+        <!-- Step 3: Faction Motto -->
+        <div class="FactionManager-step" id="FactionManager-step3" style="display:none;">
+            <label for="FactionManager-factionMotto">Faction Motto</label>
+            <input type="text" id="FactionManager-factionMotto" name="factionMotto" required>
+            <button type="button" onclick="prevStep(2)">Back</button>
+            <button type="button" onclick="nextStep(4)">Next</button>
+        </div>
 
-            <div class="form-step">
-                <label for="faction-type">Faction Type:</label>
-                <select id="faction-type" required>
-                    <option value="Criminal">Criminal</option>
-                    <option value="Governing">Governing</option>
-                    <option value="Political">Political</option>
-                    <option value="Guild">Guild</option>
-                    <option value="Union">Union</option>
-                    <option value="Religious">Religious</option>
-                    <option value="Military">Military</option>
-                    <option value="Cultural">Cultural</option>
-                    <option value="Economic">Economic</option>
-                    <option value="Scientific">Scientific</option>
-                    <option value="Rebel">Rebel</option>
-                    <option value="Secret">Secret</option>
-                    <option value="Mercantile">Mercantile</option>
-                    <option value="Nomadic">Nomadic</option>
-                    <option value="Educational">Educational</option>
-                    <option value="Arcane">Arcane</option>
-                    <option value="Philanthropic">Philanthropic</option>
-                </select>
-            </div>
+        <!-- Step 4: Faction Description -->
+        <div class="FactionManager-step" id="FactionManager-step4" style="display:none;">
+            <label for="FactionManager-factionDescription">Faction Description</label>
+            <textarea id="FactionManager-factionDescription" name="factionDescription" required></textarea>
+            <button type="button" onclick="prevStep(3)">Back</button>
+            <button type="button" onclick="nextStep(5)">Next</button>
+        </div>
 
-            <div class="form-step">
-                <label for="faction-description">Description:</label>
-                <textarea id="faction-description"></textarea>
+        <!-- Step 5: Faction Controlled Resources -->
+        <div class="FactionManager-step" id="FactionManager-step5" style="display:none;">
+            <label>Faction Controlled Resources</label>
+            <!-- Placeholder checkboxes -->
+            <div id="FactionManager-factionResources">
+                <input type="checkbox" name="factionResources" value="1"> Placeholder #1<br>
+                <input type="checkbox" name="factionResources" value="2"> Placeholder #2<br>
+                <!-- Add up to 15 placeholder checkboxes -->
             </div>
+            <button type="button" onclick="prevStep(4)">Back</button>
+            <button type="button" onclick="nextStep(6)">Next</button>
+        </div>
 
-            <div class="form-step">
-                <label for="faction-resources">Resources:</label>
-                <div id="faction-resources">
-                    <label><input type="checkbox" value="Money" /> Money</label>
-                    <label><input type="checkbox" value="Ores" /> Ores</label>
-                    <label><input type="checkbox" value="Political Power" /> Political Power</label>
-                    <label><input type="checkbox" value="Fabrication" /> Fabrication</label>
-                    <label><input type="checkbox" value="Transportation" /> Transportation</label>
-                    <label><input type="checkbox" value="Manpower" /> Manpower</label>
-                    <label><input type="checkbox" value="Land" /> Land</label>
-                    <label><input type="checkbox" value="Research" /> Research</label>
-                    <label><input type="checkbox" value="Espionage" /> Espionage</label>
-                    <label><input type="checkbox" value="Food" /> Food</label>
-                    <label><input type="checkbox" value="Technology" /> Technology</label>
-                    <label><input type="checkbox" value="Military" /> Military</label>
-                    <label><input type="checkbox" value="Trade" /> Trade</label>
-                    <label><input type="checkbox" value="Alliances" /> Alliances</label>
-                    <label><input type="checkbox" value="Energy" /> Energy</label>
-                    <label><input type="checkbox" value="Medical Care" /> Medical Care</label>
-                    <label><input type="checkbox" value="Faith" /> Faith</label>
-                </div>
+        <!-- Step 6: Faction Scale -->
+        <div class="FactionManager-step" id="FactionManager-step6" style="display:none;">
+            <label>Faction Scale</label>
+            <!-- Placeholder radio buttons -->
+            <div id="FactionManager-factionScale">
+                <input type="radio" name="factionScale" value="1"> Placeholder #1<br>
+                <input type="radio" name="factionScale" value="2"> Placeholder #2<br>
+                <!-- Add up to 10 placeholder radios -->
             </div>
+            <button type="button" onclick="prevStep(5)">Back</button>
+            <button type="button" onclick="nextStep(7)">Next</button>
+        </div>
 
-            <div class="form-step">
-                <label for="faction-political-scale">Political Scale:</label>
-                <select id="faction-political-scale" required>
-                    <option value="Tribe">Tribe</option>
-                    <option value="Village">Village</option>
-                    <option value="Clan">Clan</option>
-                    <option value="Township">Township</option>
-                    <option value="City-State">City-State</option>
-                    <option value="Region">Region</option>
-                    <option value="Kingdom">Kingdom</option>
-                    <option value="Nation">Nation</option>
-                    <option value="Empire">Empire</option>
-                    <option value="World Power">World Power</option>
-                </select>
+        <!-- Step 7: Faction Alignment -->
+        <div class="FactionManager-step" id="FactionManager-step7" style="display:none;">
+            <label>Faction Alignment</label>
+            <!-- Placeholder radio buttons -->
+            <div id="FactionManager-factionAlignment">
+                <input type="radio" name="factionAlignment" value="1"> Placeholder #1<br>
+                <input type="radio" name="factionAlignment" value="2"> Placeholder #2<br>
+                <!-- Add up to 9 placeholder radios -->
             </div>
+            <button type="button" onclick="prevStep(6)">Back</button>
+            <button type="button" onclick="nextStep(8)">Next</button>
+        </div>
 
-            <div class="form-step">
-                <label>Alignment:</label>
-                <div id="faction-alignment">
-                    <label><input type="radio" name="alignment" value="Lawful Good" /> Lawful Good</label>
-                    <label><input type="radio" name="alignment" value="Neutral Good" /> Neutral Good</label>
-                    <label><input type="radio" name="alignment" value="Chaotic Good" /> Chaotic Good</label>
-                    <label><input type="radio" name="alignment" value="Lawful Neutral" /> Lawful Neutral</label>
-                    <label><input type="radio" name="alignment" value="True Neutral" /> True Neutral</label>
-                    <label><input type="radio" name="alignment" value="Chaotic Neutral" /> Chaotic Neutral</label>
-                    <label><input type="radio" name="alignment" value="Lawful Evil" /> Lawful Evil</label>
-                    <label><input type="radio" name="alignment" value="Neutral Evil" /> Neutral Evil</label>
-                    <label><input type="radio" name="alignment" value="Chaotic Evil" /> Chaotic Evil</label>
-                </div>
+        <!-- Step 8: Membership Ranking -->
+        <div class="FactionManager-step" id="FactionManager-step8" style="display:none;">
+            <label>Membership Ranking</label>
+            <!-- Placeholder radio buttons -->
+            <div id="FactionManager-membershipRanking">
+                <input type="radio" name="membershipRanking" value="1"> Placeholder #1<br>
+                <input type="radio" name="membershipRanking" value="2"> Placeholder #2<br>
+                <!-- Add up to 7 placeholder radios -->
             </div>
-
-            <div class="form-actions">
-                <button type="button" id="faction-form-submit">Save Faction</button>
-                <button type="button" id="faction-form-cancel">Cancel</button>
-            </div>
-        </form>
-        <div id="layout-selection" class="layout-selection">
-    <h3>Select Member Layout</h3>
-    <div id="layout-options">
-        <button class="layout-option" data-layout="pyramid">Pyramid</button>
-        <button class="layout-option" data-layout="monarchy">Monarchy</button>
-        <button class="layout-option" data-layout="diarchy">Diarchy</button>
-        <button class="layout-option" data-layout="council">Council</button>
-        <button class="layout-option" data-layout="collective">Collective</button>
-        <button class="layout-option" data-layout="hive">Hive</button>
-        <button class="layout-option" data-layout="guild">Guild</button>
-        <button class="layout-option" data-layout="tribe">Tribe</button>
-        <button class="layout-option" data-layout="syndicate">Syndicate</button>
-    </div>
+            <button type="button" onclick="prevStep(7)">Back</button>
+            <button type="button" onclick="submitFactionForm()">Submit</button>
+        </div>
+    </form>
 </div>
-
-<div id="member-layout" class="member-layout" style="display: none;">
-    <!-- The selected layout will be displayed here -->
-</div>
-    </div>
-</div>
+<div id="carousel"></div>
