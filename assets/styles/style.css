@@ -396,11 +396,16 @@
     overflow: hidden;
     background-color: var(--section-color);
     opacity: 0.8;
-    background-image: linear-gradient(var(--red-accent) 2px, transparent 2px), linear-gradient(90deg, var(--red-accent) 2px, transparent 2px), linear-gradient(var(--red-accent) 1px, transparent 1px), linear-gradient(90deg, var(--red-accent) 1px, var(--section-color) 1px);
-    background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
-    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+    background-image: linear-gradient(var(--red-accent) 2.4px, transparent 2.4px), linear-gradient(to right, var(--red-accent) 2.4px, var(--section-color) 2.4px);
+    background-size: 48px 48px;
 }
+
+
+
+
 
 #add-panel-popup {
     z-index: 100000;
 }
+
+

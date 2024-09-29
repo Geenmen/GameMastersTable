@@ -1,38 +1,202 @@
-.FactionManager-step {
+/* Create Faction Button */
+#FactionManager-createFactionBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: var(--blue-border);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+    #FactionManager-createFactionBtn:hover {
+        background-color: #0099cc; /* Slightly darker blue */
+    }
+
+/* Form Container */
+#FactionManager-formContainer {
+    background-color: var(--section-color);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    color: #fff;
+}
+
+/* Progress Bar */
+.progress-bar {
+    background-color: #333;
+    border-radius: 5px;
     margin-bottom: 20px;
+    height: 10px;
+    width: 100%;
 }
 
-button {
-    margin-top: 10px;
+.progress {
+    background-color: var(--blue-border);
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+    transition: width 0.3s;
 }
-.carousel-container {
+
+/* Form Steps */
+.FactionManager-step {
+    display: none;
+}
+
+    .FactionManager-step.active {
+        display: block;
+    }
+
+    .FactionManager-step h2 {
+        margin-bottom: 20px;
+        color: #fff;
+    }
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: var(--section-color);
+    border: 1px solid var(--blue-border);
+    border-radius: 5px;
+    color: #fff;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+/* Radio and Checkbox Groups */
+.radio-group,
+.checkbox-group {
     display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
+    flex-wrap: wrap;
 }
 
-.carousel-page {
-    scroll-snap-align: center;
-    flex: none;
+    .radio-group label,
+    .checkbox-group label {
+        width: 48%;
+        margin-bottom: 10px;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .radio-group input,
+    .checkbox-group input {
+        margin-right: 10px;
+    }
+
+/* Button Group */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.next-btn,
+.back-btn,
+.submit-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.next-btn {
+    background-color: #28a745; /* Green for 'Next' */
+    color: #fff;
+}
+
+    .next-btn:hover {
+        background-color: #218838;
+    }
+
+.back-btn {
+    background-color: #6c757d; /* Grey for 'Back' */
+    color: #fff;
+}
+
+    .back-btn:hover {
+        background-color: #5a6268;
+    }
+
+.submit-btn {
+    background-color: var(--blue-border);
+    color: #fff;
+}
+
+    .submit-btn:hover {
+        background-color: #0099cc;
+    }
+
+/* Carousel */
+#carousel {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#carousel-page-content {
+    display: inline-block;
     width: 100%;
     max-width: 600px;
-    border: 1px solid #ccc;
+    background-color: var(--section-color);
+    border-radius: 8px;
     padding: 20px;
-    margin-right: 20px;
-    background-color: #f9f9f9;
+    border: 1px solid var(--blue-border);
+    color: #fff;
 }
 
+#carousel-nav-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+    #carousel-nav-buttons button {
+        background-color: var(--blue-border);
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        margin: 0 10px;
+    }
+
+        #carousel-nav-buttons button:hover {
+            background-color: #0099cc;
+        }
+
+/* Card Table */
 .card-table {
     width: 100%;
     border-collapse: collapse;
+    margin-top: 20px;
 }
 
-    .card-table th, .card-table td {
-        border: 1px solid #ddd;
-        padding: 8px;
+    .card-table th,
+    .card-table td {
+        border: 1px solid #444;
+        padding: 12px;
         text-align: left;
     }
 
     .card-table th {
-        background-color: #f2f2f2;
+        background-color: var(--red-accent);
+        color: #fff;
+    }
+
+    .card-table td {
+        color: #fff;
+    }
+
+    .card-table tr:nth-child(even) {
+        background-color: #2a2a2a;
     }
