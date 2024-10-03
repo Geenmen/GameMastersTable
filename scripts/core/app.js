@@ -158,6 +158,8 @@ function initializeZoomAndPan() {
     function applyTransform() {
         zoomableContent.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
         window.zoomScale = scale;
+        window.translateX = translateX;
+        window.translateY = translateY;
         zoomLevelDisplay.textContent = `${Math.round(scale * 100)}%`;
     }
 

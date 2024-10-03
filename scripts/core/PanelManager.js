@@ -140,18 +140,28 @@ function createPanel(name, type) {
     panelContainer.id = `panel-${name}`;
     panelContainer.className = 'panel-container';
 
-    // Calculate the center position within the zoomable content
-    const viewportWidth = zoomableContent.clientWidth / window.zoomScale;
-    const viewportHeight = zoomableContent.clientHeight / window.zoomScale;
-    const panelWidth = 300; // Assuming initial panel width
-    const panelHeight = 200; // Assuming initial panel height
+    // Get the center of the viewport in the zoomable content's coordinate system
+    const middleSection = document.getElementById('middle-section');
+    const viewportCenterX = middleSection.clientWidth / 2;
+    const viewportCenterY = middleSection.clientHeight / 2;
 
-    const centerX = (viewportWidth - panelWidth) / 2;
-    const centerY = (viewportHeight - panelHeight) / 2;
+    const currentScale = window.zoomScale || 1;
+    const currentTranslateX = window.translateX || 0;
+    const currentTranslateY = window.translateY || 0;
 
-    // Set initial position at the center
-    panelContainer.style.left = `${centerX}px`;
-    panelContainer.style.top = `${centerY}px`;
+    // Convert viewport center to content coordinates
+    const contentCenterX = (viewportCenterX - currentTranslateX) / currentScale;
+    const contentCenterY = (viewportCenterY - currentTranslateY) / currentScale;
+
+    const panelWidth = 300; // Adjust as needed
+    const panelHeight = 200; // Adjust as needed
+
+    // Position the panel so it's centered at the content center
+    const left = contentCenterX - panelWidth / 2;
+    const top = contentCenterY - panelHeight / 2;
+
+    panelContainer.style.left = `${left}px`;
+    panelContainer.style.top = `${top}px`;
     panelContainer.style.transform = 'none'; // Ensure no transform initially
 
     panelContainer.innerHTML = `

@@ -151,17 +151,22 @@
     margin-top: 5px; /* Added margin to separate from above content */
 }
 
+
 /* Scrolling banner styles */
+#banner {
+    overflow: hidden;
+    width: 100%;
+}
+
 .banner-content {
     display: flex;
-    width: max-content;
     animation: scroll-left 20s linear infinite;
 }
 
 .banner-text {
+    flex: none;
     display: flex;
     align-items: center;
-    flex-shrink: 0;
     white-space: nowrap;
     font-size: 16px;
     color: #e0e0e0;
@@ -180,13 +185,14 @@
 
 @keyframes scroll-left {
     0% {
-        transform: translateX(100%);
+        transform: translateX(-200);
     }
 
     100% {
-        transform: translateX(-100%);
+        transform: translateX(100%);
     }
 }
+
 
 #middle-section {
     position: fixed;
