@@ -1,0 +1,582 @@
+{
+  "genres": {
+    "Fire": [
+      {
+        "name": "Fireball",
+        "dice_damage": "8d6",
+        "description": "Bright streaks flash from the sky to a point within range and then blossom with a low roar into an explosion of flame."
+      },
+      {
+        "name": "Flame Smite",
+        "dice_damage": "4d6",
+        "description": "A vertical column of divine fire roars down from the heavens in a location unspecified."
+      },
+      {
+        "name": "Meteor Shower",
+        "dice_damage": "10d6",
+        "description": "Fiery meteors rain down from the sky, impacting randomly across the land."
+      },
+      {
+        "name": "Spontaneous Combustion",
+        "dice_damage": "6d6",
+        "description": "An object or creature suddenly bursts into flames without any apparent cause."
+      },
+      {
+        "name": "Ring of Fire",
+        "dice_damage": "5d6",
+        "description": "A circle of fire erupts around a random area, trapping anything inside."
+      },
+      {
+        "name": "Flaming Geyser",
+        "dice_damage": "7d6",
+        "description": "A burst of flame shoots up from the ground unexpectedly."
+      }
+    ],
+    "Ice": [
+      {
+        "name": "Sky of Cold",
+        "dice_damage": "8d8",
+        "description": "A blast of cold air erupts from the sky."
+      },
+      {
+        "name": "Ice Storm",
+        "dice_damage": "2d8 bludgeoning + 4d6 cold",
+        "description": "A hail of rock-hard ice pounds to the ground in a 20-foot-radius."
+      },
+      {
+        "name": "Frozen Ground",
+        "dice_damage": "None",
+        "description": "The ground becomes slick with ice, causing creatures to slip and fall."
+      },
+      {
+        "name": "Hailstorm",
+        "dice_damage": "3d6",
+        "description": "Chunks of ice fall from the sky, pelting everything below."
+      },
+      {
+        "name": "Frostbite Winds",
+        "dice_damage": "4d8",
+        "description": "A chilling wind causes frostbite to those exposed."
+      },
+      {
+        "name": "Glacial Spike",
+        "dice_damage": "6d6",
+        "description": "A massive spike of ice erupts from the ground, impaling anything above it."
+      }
+    ],
+    "Lightning": [
+      {
+        "name": "Lightning Strike",
+        "dice_damage": "8d8",
+        "description": "A bolt of lightning descends from the sky, striking a random target."
+      },
+      {
+        "name": "Chain Lightning",
+        "dice_damage": "10d8",
+        "description": "Lightning arcs from one target to another, hitting multiple creatures."
+      },
+      {
+        "name": "Static Field",
+        "dice_damage": "4d6",
+        "description": "The air becomes charged, shocking anyone who touches metal."
+      },
+      {
+        "name": "Ball Lightning",
+        "dice_damage": "5d8",
+        "description": "A sphere of electrical energy moves randomly, shocking anything it contacts."
+      }
+    ],
+    "Earth": [
+      {
+        "name": "Earthquake",
+        "dice_damage": "10d6",
+        "description": "The ground shakes violently, causing structures to collapse and chasms to open."
+      },
+      {
+        "name": "Rock Slide",
+        "dice_damage": "8d6",
+        "description": "A cascade of rocks tumbles down a slope, crushing anything in its path."
+      },
+      {
+        "name": "Quicksand",
+        "dice_damage": "None",
+        "description": "The ground turns to quicksand, trapping creatures that step into it."
+      },
+      {
+        "name": "Stone Spikes",
+        "dice_damage": "6d6",
+        "description": "Sharp rocks erupt from the ground, impaling anything above."
+      }
+    ],
+    "Wind": [
+      {
+        "name": "Tornado",
+        "dice_damage": "12d6",
+        "description": "A violent tornado forms, sweeping up anything in its path."
+      },
+      {
+        "name": "Gust of Wind",
+        "dice_damage": "None",
+        "description": "A strong wind blows, pushing creatures and objects."
+      },
+      {
+        "name": "Air Blade",
+        "dice_damage": "5d6",
+        "description": "A razor-thin blade of air slices through targets."
+      },
+      {
+        "name": "Whirlwind",
+        "dice_damage": "8d6",
+        "description": "A swirling column of air lifts and tosses creatures and objects."
+      }
+    ],
+    "Water": [
+      {
+        "name": "Flash Flood",
+        "dice_damage": "6d6",
+        "description": "A sudden surge of water floods the area."
+      },
+      {
+        "name": "Water Spout",
+        "dice_damage": "8d6",
+        "description": "A column of water rises and moves, sucking in anything nearby."
+      },
+      {
+        "name": "Acid Rain",
+        "dice_damage": "4d6",
+        "description": "A toxic rain falls from the sky, damaging creatures and corroding materials."
+      },
+      {
+        "name": "Tidal Wave",
+        "dice_damage": "10d6",
+        "description": "A massive wave crashes onto the shore, sweeping away everything."
+      }
+    ],
+    "Shadow": [
+      {
+        "name": "Darkness Falls",
+        "dice_damage": "None",
+        "description": "An unnatural darkness envelops the area."
+      },
+      {
+        "name": "Shadow Grasp",
+        "dice_damage": "5d6",
+        "description": "Shadows become solid and entangle creatures."
+      },
+      {
+        "name": "Nightmare Visions",
+        "dice_damage": "3d6 psychic",
+        "description": "Creatures are tormented by terrifying illusions."
+      },
+      {
+        "name": "Eclipse",
+        "dice_damage": "None",
+        "description": "The sun is obscured, casting the land into darkness."
+      }
+    ],
+    "Light": [
+      {
+        "name": "Blinding Flash",
+        "dice_damage": "None",
+        "description": "A sudden burst of light blinds creatures temporarily."
+      },
+      {
+        "name": "Solar Flare",
+        "dice_damage": "8d8 radiant",
+        "description": "A beam of intense light scorches the area."
+      },
+      {
+        "name": "Healing Rays",
+        "dice_damage": "Restores 6d6",
+        "description": "A soothing light heals wounds and cures ailments."
+      },
+      {
+        "name": "Luminescent Fog",
+        "dice_damage": "None",
+        "description": "A glowing fog fills the area, illuminating hidden things."
+      }
+    ],
+    "Nature": [
+      {
+        "name": "Vine Entangle",
+        "dice_damage": "None",
+        "description": "Vines sprout from the ground, restraining creatures."
+      },
+      {
+        "name": "Spore Cloud",
+        "dice_damage": "4d6 poison",
+        "description": "A cloud of toxic spores envelops the area."
+      },
+      {
+        "name": "Beast Stampede",
+        "dice_damage": "6d6",
+        "description": "A herd of wild animals rushes through, trampling anything in their path."
+      },
+      {
+        "name": "Pollen Burst",
+        "dice_damage": "None",
+        "description": "Allergic reactions cause sneezing and distraction."
+      }
+    ],
+    "Chaos": [
+      {
+        "name": "Wild Magic Surge",
+        "dice_damage": "Varies",
+        "description": "Unpredictable magical effects occur, causing random outcomes."
+      },
+      {
+        "name": "Temporal Distortion",
+        "dice_damage": "None",
+        "description": "Time warps in the area, causing delays or hastening."
+      },
+      {
+        "name": "Polymorph Field",
+        "dice_damage": "None",
+        "description": "Creatures randomly change form."
+      },
+      {
+        "name": "Gravity Flux",
+        "dice_damage": "None",
+        "description": "Gravity increases or decreases suddenly."
+      }
+    ],
+    "Divine": [
+      {
+        "name": "Angelic Choir",
+        "dice_damage": "Restores 8d6",
+        "description": "Heavenly music heals and uplifts those who hear it."
+      },
+      {
+        "name": "Divine Judgement",
+        "dice_damage": "10d8 radiant",
+        "description": "A beam of divine light smites wrongdoers."
+      },
+      {
+        "name": "Blessing of Protection",
+        "dice_damage": "None",
+        "description": "A shield surrounds creatures, reducing incoming damage."
+      },
+      {
+        "name": "Holy Fire",
+        "dice_damage": "6d6 radiant",
+        "description": "Sacred flames cleanse and purify."
+      }
+    ],
+    "Necrotic": [
+      {
+        "name": "Life Drain",
+        "dice_damage": "8d8 necrotic",
+        "description": "Life force is siphoned from creatures, weakening them."
+      },
+      {
+        "name": "Deathly Chill",
+        "dice_damage": "6d6 necrotic",
+        "description": "A cold aura saps the vitality of those nearby."
+      },
+      {
+        "name": "Ghastly Visage",
+        "dice_damage": "3d6 psychic",
+        "description": "Horrific images cause fear and mental anguish."
+      },
+      {
+        "name": "Animate Dead",
+        "dice_damage": "None",
+        "description": "Corpses rise as undead creatures."
+      }
+    ],
+    "Arcane": [
+      {
+        "name": "Mana Burst",
+        "dice_damage": "5d8 force",
+        "description": "A surge of magical energy explodes outward."
+      },
+      {
+        "name": "Arcane Lockdown",
+        "dice_damage": "None",
+        "description": "Magic becomes unstable or unusable in the area."
+      },
+      {
+        "name": "Spell Echo",
+        "dice_damage": "Varies",
+        "description": "Spells cast in the area may repeat unexpectedly."
+      },
+      {
+        "name": "Eldritch Storm",
+        "dice_damage": "8d6 force",
+        "description": "An otherworldly storm wreaks havoc."
+      }
+    ],
+    "Poison": [
+      {
+        "name": "Toxic Cloud",
+        "dice_damage": "6d6 poison",
+        "description": "A poisonous gas fills the area."
+      },
+      {
+        "name": "Venomous Touch",
+        "dice_damage": "4d8 poison",
+        "description": "Contact with surfaces causes poisoning."
+      },
+      {
+        "name": "Corrosive Rain",
+        "dice_damage": "5d6 acid",
+        "description": "An acidic rain falls, damaging creatures and objects."
+      },
+      {
+        "name": "Noxious Fumes",
+        "dice_damage": "3d6 poison",
+        "description": "Inhaled fumes cause sickness and disorientation."
+      }
+    ],
+    "Mind": [
+      {
+        "name": "Psychic Scream",
+        "dice_damage": "6d8 psychic",
+        "description": "A mental assault causes intense pain."
+      },
+      {
+        "name": "Confusion Field",
+        "dice_damage": "None",
+        "description": "Creatures act unpredictably."
+      },
+      {
+        "name": "Memory Loss",
+        "dice_damage": "None",
+        "description": "Creatures forget recent events."
+      },
+      {
+        "name": "Telekinetic Storm",
+        "dice_damage": "5d6 force",
+        "description": "Objects are hurled around by unseen forces."
+      }
+    ],
+    "Time": [
+      {
+        "name": "Time Stop",
+        "dice_damage": "None",
+        "description": "Time freezes for a brief moment."
+      },
+      {
+        "name": "Aging Touch",
+        "dice_damage": "None",
+        "description": "Creatures age rapidly upon contact."
+      },
+      {
+        "name": "Temporal Loop",
+        "dice_damage": "None",
+        "description": "Events repeat in a cycle."
+      },
+      {
+        "name": "Accelerated Decay",
+        "dice_damage": "6d6 necrotic",
+        "description": "Objects and creatures deteriorate rapidly."
+      }
+    ],
+    "Metal": [
+      {
+        "name": "Magnetic Pull",
+        "dice_damage": "None",
+        "description": "Metal objects are drawn together forcefully."
+      },
+      {
+        "name": "Rust Storm",
+        "dice_damage": "4d6",
+        "description": "Metal corrodes and weakens."
+      },
+      {
+        "name": "Metallic Resonance",
+        "dice_damage": "3d6 thunder",
+        "description": "Metal objects vibrate violently."
+      },
+      {
+        "name": "Iron Grip",
+        "dice_damage": "None",
+        "description": "Metal constricts, trapping creatures."
+      }
+    ],
+    "Sound": [
+      {
+        "name": "Thunderclap",
+        "dice_damage": "5d6 thunder",
+        "description": "A loud boom damages and deafens creatures."
+      },
+      {
+        "name": "Sonic Boom",
+        "dice_damage": "8d6 thunder",
+        "description": "A powerful shockwave emanates outward."
+      },
+      {
+        "name": "Whispering Voices",
+        "dice_damage": "3d6 psychic",
+        "description": "Inaudible whispers distract and unsettle."
+      },
+      {
+        "name": "Echo Chamber",
+        "dice_damage": "None",
+        "description": "Sounds are amplified, making stealth impossible."
+      }
+    ],
+    "Illusion": [
+      {
+        "name": "Mirror Images",
+        "dice_damage": "None",
+        "description": "Multiple illusions of creatures appear, causing confusion."
+      },
+      {
+        "name": "Phantasmal Terrain",
+        "dice_damage": "None",
+        "description": "The environment appears altered."
+      },
+      {
+        "name": "Invisibility Field",
+        "dice_damage": "None",
+        "description": "Creatures become invisible unintentionally."
+      },
+      {
+        "name": "Displacement",
+        "dice_damage": "None",
+        "description": "Perceptions are distorted; objects appear shifted."
+      }
+    ],
+    "Life": [
+      {
+        "name": "Bloom",
+        "dice_damage": "None",
+        "description": "Plants grow rapidly, overtaking the area."
+      },
+      {
+        "name": "Rejuvenation",
+        "dice_damage": "Restores 8d6",
+        "description": "Wounds heal and energy is restored."
+      },
+      {
+        "name": "Summon Wildlife",
+        "dice_damage": "Varies",
+        "description": "Animals appear in the area."
+      },
+      {
+        "name": "Abundant Harvest",
+        "dice_damage": "None",
+        "description": "Crops yield more than expected."
+      }
+    ],
+    "Death": [
+      {
+        "name": "Blight",
+        "dice_damage": "8d8 necrotic",
+        "description": "Plants wither and die; creatures are drained of life."
+      },
+      {
+        "name": "Curse of Weakness",
+        "dice_damage": "None",
+        "description": "Creatures feel feeble and sluggish."
+      },
+      {
+        "name": "Deathly Aura",
+        "dice_damage": "6d6 necrotic",
+        "description": "An aura of death harms living creatures."
+      },
+      {
+        "name": "Soul Rend",
+        "dice_damage": "10d6 necrotic",
+        "description": "A portion of the soul is torn away."
+      }
+    ],
+    "Space": [
+      {
+        "name": "Warp Space",
+        "dice_damage": "None",
+        "description": "Distances and directions become distorted."
+      },
+      {
+        "name": "Planar Rift",
+        "dice_damage": "Varies",
+        "description": "A tear between dimensions releases unknown entities."
+      },
+      {
+        "name": "Gravity Well",
+        "dice_damage": "5d6 force",
+        "description": "Creatures are pulled toward a central point."
+      },
+      {
+        "name": "Teleportation Flux",
+        "dice_damage": "None",
+        "description": "Creatures and objects randomly teleport short distances."
+      }
+    ],
+    "Luck": [
+      {
+        "name": "Fortune's Favor",
+        "dice_damage": "None",
+        "description": "Good luck befalls creatures in the area."
+      },
+      {
+        "name": "Misfortune",
+        "dice_damage": "None",
+        "description": "Bad luck causes mishaps and accidents."
+      },
+      {
+        "name": "Random Chance",
+        "dice_damage": "Varies",
+        "description": "Unpredictable events occur, for better or worse."
+      },
+      {
+        "name": "Coin Flip",
+        "dice_damage": "None",
+        "description": "An outcome is determined by pure chance."
+      }
+    ],
+    "Nonmagical": [
+      {
+        "name": "Meteorite Impact",
+        "dice_damage": "12d6",
+        "description": "A meteorite crashes into the ground, causing massive destruction."
+      },
+      {
+        "name": "Avalanche",
+        "dice_damage": "10d6",
+        "description": "A massive slide of snow or rock tumbles down a mountain."
+      },
+      {
+        "name": "Sinkhole",
+        "dice_damage": "None",
+        "description": "The ground collapses, creating a deep pit."
+      },
+      {
+        "name": "Wildfire",
+        "dice_damage": "6d6 per round",
+        "description": "A fire spreads rapidly, consuming everything in its path."
+      },
+      {
+        "name": "Stampede",
+        "dice_damage": "8d6",
+        "description": "A herd of animals rushes through, trampling anything."
+      },
+      {
+        "name": "Plague of Insects",
+        "dice_damage": "None",
+        "description": "A swarm of insects descends, devouring crops and causing chaos."
+      },
+      {
+        "name": "Flood",
+        "dice_damage": "None",
+        "description": "Water levels rise, submerging low-lying areas."
+      },
+      {
+        "name": "Eclipse",
+        "dice_damage": "None",
+        "description": "The sun or moon is obscured, affecting visibility and moods."
+      },
+      {
+        "name": "Famine",
+        "dice_damage": "None",
+        "description": "Crops fail, leading to food shortages."
+      },
+      {
+        "name": "Drought",
+        "dice_damage": "None",
+        "description": "A lack of rain causes water sources to dry up."
+      }
+    ]
+  }
+}

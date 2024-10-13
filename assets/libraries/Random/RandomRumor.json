@@ -1,12 +1,12 @@
 {
   "rumors": [
     {
-      "text": "A shadowy figure has been seen slipping into the mayors house late at night, leaving no trace behind.",
+      "text": "A shadowy figure has been seen slipping into the mayor's house late at night, leaving no trace behind.",
       "category": "Mystery",
       "source": "Local Gossip"
     },
     {
-      "text": "Strange lights have been spotted in the old abandoned mansion on the hill. Some say its haunted; others believe something more sinister is going on.",
+      "text": "Strange lights have been spotted in the old abandoned mansion on the hill. Some say it's haunted; others believe something more sinister is going on.",
       "category": "Mystery",
       "source": "Town Crier"
     },
@@ -31,12 +31,12 @@
       "source": "Housemaid"
     },
     {
-      "text": "There’s a rumor that the crypt under the old cathedral holds more than just bones. Some claim to have heard footsteps echoing from below.",
+      "text": "There's a rumor that the crypt under the old cathedral holds more than just bones. Some claim to have heard footsteps echoing from below.",
       "category": "Mystery",
       "source": "Gravedigger"
     },
     {
-      "text": "A merchant ship was found adrift off the coast, with the crew missing and the cargo untouched. The only clue was a single word carved into the mast: Beware.",
+      "text": "A merchant ship was found adrift off the coast, with the crew missing and the cargo untouched. The only clue was a single word carved into the mast: 'Beware.'",
       "category": "Mystery",
       "source": "Dock Worker"
     },
@@ -51,6 +51,106 @@
       "source": "Innkeeper"
     },
     {
+      "text": "The clock tower strikes thirteen at midnight, but only on nights when the moon is full.",
+      "category": "Mystery",
+      "source": "Night Watchman"
+    },
+    {
+      "text": "The portraits in the old manor are said to follow you with their eyes, and some swear they change positions overnight.",
+      "category": "Mystery",
+      "source": "Curious Visitor"
+    },
+    {
+      "text": "Livestock has been found drained of blood in the morning, with no signs of struggle or tracks.",
+      "category": "Mystery",
+      "source": "Farmer"
+    },
+    {
+      "text": "A traveler disappeared after spending a night at the inn; all that was found was his untouched belongings.",
+      "category": "Mystery",
+      "source": "Innkeeper"
+    },
+    {
+      "text": "Children have been having the same nightmares, all describing a figure calling to them from the woods.",
+      "category": "Mystery",
+      "source": "Concerned Parent"
+    },
+    {
+      "text": "A hidden room was discovered behind a bookcase in the town hall, but no one knows who built it or why.",
+      "category": "Mystery",
+      "source": "Council Member"
+    },
+    {
+      "text": "Someone has been leaving cryptic messages written in chalk on doorsteps around town.",
+      "category": "Mystery",
+      "source": "Shopkeeper"
+    },
+    {
+      "text": "The church bells ring even when there's no wind, and no one is in the bell tower.",
+      "category": "Mystery",
+      "source": "Villager"
+    },
+    {
+      "text": "The statue in the town square seems to be slowly turning to face east, though no one has seen it move.",
+      "category": "Mystery",
+      "source": "Market Vendor"
+    },
+    {
+      "text": "A local farmer claims his shadow has been acting independently, moving even when he stands still.",
+      "category": "Mystery",
+      "source": "Farmer"
+    },
+    {
+      "text": "The old lighthouse on the cliff has been lit at night, even though it's been abandoned for years.",
+      "category": "Mystery",
+      "source": "Fisherman"
+    },
+    {
+      "text": "A strange melody can be heard in the forest at dusk, luring those who follow it deeper into the woods.",
+      "category": "Mystery",
+      "source": "Hunter"
+    },
+    {
+      "text": "The town's cats have all disappeared overnight, leaving residents puzzled.",
+      "category": "Mystery",
+      "source": "Pet Owner"
+    },
+    {
+      "text": "A mysterious symbol has appeared carved into trees throughout the area.",
+      "category": "Mystery",
+      "source": "Woodsman"
+    },
+    {
+      "text": "People have been finding coins from unknown origins in their pockets, with dates that don't make sense.",
+      "category": "Mystery",
+      "source": "Traveler"
+    },
+    {
+      "text": "The reflection in the mirror sometimes shows someone else's face looking back.",
+      "category": "Mystery",
+      "source": "Tailor"
+    },
+    {
+      "text": "A traveler tells of a bridge that appears only under certain conditions, leading to an unknown destination.",
+      "category": "Mystery",
+      "source": "Wanderer"
+    },
+    {
+      "text": "The baker's bread has been vanishing from the shelves, but the doors remain locked overnight.",
+      "category": "Mystery",
+      "source": "Baker"
+    },
+    {
+      "text": "The moon appeared red last night, and an eerie silence fell over the town.",
+      "category": "Mystery",
+      "source": "Astronomer"
+    },
+    {
+      "text": "Some residents have reported losing time, with no memory of the missing hours.",
+      "category": "Mystery",
+      "source": "Clockmaker"
+    },
+    {
       "text": "A hidden valley has been uncovered deep within the mountains, filled with rare plants and creatures no one has ever seen before.",
       "category": "Discovery",
       "source": "Explorer"
@@ -61,12 +161,12 @@
       "source": "Antiquarian"
     },
     {
-      "text": "A fisherman pulled up a strange artifact from the depths of the sea. Some say it’s a relic from an ancient civilization that was thought to be a myth.",
+      "text": "A fisherman pulled up a strange artifact from the depths of the sea. Some say it's a relic from an ancient civilization that was thought to be a myth.",
       "category": "Discovery",
       "source": "Fisherman"
     },
     {
-      "text": "A farmer unearthed a mysterious stone tablet while plowing his fields. It’s covered in strange symbols that no one can decipher.",
+      "text": "A farmer unearthed a mysterious stone tablet while plowing his fields. It's covered in strange symbols that no one can decipher.",
       "category": "Discovery",
       "source": "Farmer"
     },
@@ -86,7 +186,7 @@
       "source": "Miner"
     },
     {
-      "text": "An old shipwreck was found off the coast, with its hold filled with strange artifacts that don’t seem to belong to any known culture.",
+      "text": "An old shipwreck was found off the coast, with its hold filled with strange artifacts that don't seem to belong to any known culture.",
       "category": "Discovery",
       "source": "Diver"
     },
@@ -101,27 +201,77 @@
       "source": "Returning Explorer"
     },
     {
-      "text": "The bakers son has been seen sneaking out of the mayors daughters window late at night. Seems like a secret romance is brewing.",
+      "text": "A hidden library was found in the basement of an old mansion, filled with books thought to be lost.",
+      "category": "Discovery",
+      "source": "Book Collector"
+    },
+    {
+      "text": "A shepherd stumbled upon ruins of an ancient temple while searching for a lost sheep.",
+      "category": "Discovery",
+      "source": "Shepherd"
+    },
+    {
+      "text": "Miners uncovered a vast underground city, seemingly abandoned in haste.",
+      "category": "Discovery",
+      "source": "Miner"
+    },
+    {
+      "text": "A new species of flower was found that blooms only under moonlight.",
+      "category": "Discovery",
+      "source": "Botanist"
+    },
+    {
+      "text": "An ancient tree was found that is said to be as old as the world itself.",
+      "category": "Discovery",
+      "source": "Forest Ranger"
+    },
+    {
+      "text": "A traveler brought back a creature preserved in ice, possibly from a bygone era.",
+      "category": "Discovery",
+      "source": "Adventurer"
+    },
+    {
+      "text": "A strange portal-like structure was found in the desert, made of unknown material.",
+      "category": "Discovery",
+      "source": "Nomad"
+    },
+    {
+      "text": "A map depicting lands beyond the known world was found hidden in a tapestry.",
+      "category": "Discovery",
+      "source": "Historian"
+    },
+    {
+      "text": "A song in a forgotten language was heard coming from deep within the mountains.",
+      "category": "Discovery",
+      "source": "Mountaineer"
+    },
+    {
+      "text": "A crystal cave was found that resonates with music when touched.",
+      "category": "Discovery",
+      "source": "Cave Explorer"
+    },
+    {
+      "text": "The baker's son has been seen sneaking out of the mayor's daughter's window late at night. Seems like a secret romance is brewing.",
       "category": "Gossip",
       "source": "Village Gossip"
     },
     {
-      "text": "The merchant’s wife was spotted at the tavern with a handsome stranger while her husband was away on business.",
+      "text": "The merchant's wife was spotted at the tavern with a handsome stranger while her husband was away on business.",
       "category": "Gossip",
       "source": "Tavern Regular"
     },
     {
-      "text": "It’s said that the blacksmith’s apprentice has been spreading nasty rumors about his master, hoping to take over the forge.",
+      "text": "It's said that the blacksmith's apprentice has been spreading nasty rumors about his master, hoping to take over the forge.",
       "category": "Gossip",
       "source": "Street Vendor"
     },
     {
-      "text": "The noblewoman’s sudden wealth might have something to do with the mysterious new visitor who’s been staying at her estate.",
+      "text": "The noblewoman's sudden wealth might have something to do with the mysterious new visitor who's been staying at her estate.",
       "category": "Gossip",
       "source": "Chambermaid"
     },
     {
-      "text": "The town guard captain was overheard arguing with a cloaked figure in the alley behind the inn. Some say hes mixed up in shady dealings.",
+      "text": "The town guard captain was overheard arguing with a cloaked figure in the alley behind the inn. Some say he's mixed up in shady dealings.",
       "category": "Gossip",
       "source": "Eavesdropper"
     },
@@ -131,7 +281,7 @@
       "source": "Churchgoer"
     },
     {
-      "text": "The miller’s daughter is said to be with child, but no one knows who the father is. Speculation is running wild throughout the village.",
+      "text": "The miller's daughter is said to be with child, but no one knows who the father is. Speculation is running wild throughout the village.",
       "category": "Gossip",
       "source": "Midwife"
     },
@@ -141,17 +291,67 @@
       "source": "Market Stall Owner"
     },
     {
-      "text": "The town magistrate’s wife has been seen wearing the same dress more than once this month. Could their fortune be dwindling?",
+      "text": "The town magistrate's wife has been seen wearing the same dress more than once this month. Could their fortune be dwindling?",
       "category": "Gossip",
       "source": "Dressmaker"
     },
     {
-      "text": "There’s talk that the innkeeper’s daughter is planning to run away with a traveling bard. Everyone’s betting on when it’ll happen.",
+      "text": "There's talk that the innkeeper's daughter is planning to run away with a traveling bard. Everyone's betting on when it'll happen.",
       "category": "Gossip",
       "source": "Stable Boy"
     },
     {
-      "text": "The elders say that the unusually long drought is a sign of the gods’ displeasure, and a great storm is coming to cleanse the land.",
+      "text": "The mayor's son was caught stealing from the market stalls at night.",
+      "category": "Gossip",
+      "source": "Shopkeeper"
+    },
+    {
+      "text": "The librarian spends too much time in the forbidden section of the library.",
+      "category": "Gossip",
+      "source": "Bookworm"
+    },
+    {
+      "text": "The barmaid has been receiving secret love letters from an anonymous admirer.",
+      "category": "Gossip",
+      "source": "Tavern Patron"
+    },
+    {
+      "text": "The blacksmith's wife was seen meeting a stranger at the edge of town.",
+      "category": "Gossip",
+      "source": "Gossiping Neighbor"
+    },
+    {
+      "text": "The butcher is suspected of diluting the meat with unknown ingredients.",
+      "category": "Gossip",
+      "source": "Customer"
+    },
+    {
+      "text": "The alchemist has been seen purchasing suspicious herbs from the swamp witch.",
+      "category": "Gossip",
+      "source": "Herbalist"
+    },
+    {
+      "text": "The stable boy claims to have seen the lord's wife sneaking into the servant's quarters.",
+      "category": "Gossip",
+      "source": "Stable Hand"
+    },
+    {
+      "text": "The tailor's prices have suddenly dropped; some think he is selling stolen goods.",
+      "category": "Gossip",
+      "source": "Merchant"
+    },
+    {
+      "text": "The schoolmaster is rumored to be too strict, causing students to disappear.",
+      "category": "Gossip",
+      "source": "Parent"
+    },
+    {
+      "text": "The cobbler's shoes are said to have strange effects on those who wear them.",
+      "category": "Gossip",
+      "source": "Villager"
+    },
+    {
+      "text": "The elders say that the unusually long drought is a sign of the gods' displeasure, and a great storm is coming to cleanse the land.",
       "category": "Weather",
       "source": "Village Elder"
     },
@@ -166,12 +366,12 @@
       "source": "Shepherd"
     },
     {
-      "text": "A traveling merchant swears he saw a whirlwind of fire in the desert, and it’s said to be heading towards the nearest town.",
+      "text": "A traveling merchant swears he saw a whirlwind of fire in the desert, and it's said to be heading towards the nearest town.",
       "category": "Weather",
       "source": "Traveling Merchant"
     },
     {
-      "text": "There’s talk of an early winter this year, with snow already falling in the highlands. Some say it’s a sign of a harsh season to come.",
+      "text": "There's talk of an early winter this year, with snow already falling in the highlands. Some say it's a sign of a harsh season to come.",
       "category": "Weather",
       "source": "Hunter"
     },
@@ -186,12 +386,12 @@
       "source": "Tavern Patron"
     },
     {
-      "text": "Some villagers claim they’ve seen the northern lights dancing in the sky, a rare sight this far south. They believe it’s an omen of strange weather ahead.",
+      "text": "Some villagers claim they've seen the northern lights dancing in the sky, a rare sight this far south. They believe it's an omen of strange weather ahead.",
       "category": "Weather",
       "source": "Traveling Minstrel"
     },
     {
-      "text": "The river has been running higher than usual, and some are worried it might flood the town if the rains don’t stop soon.",
+      "text": "The river has been running higher than usual, and some are worried it might flood the town if the rains don't stop soon.",
       "category": "Weather",
       "source": "Local Farmer"
     },
@@ -201,7 +401,57 @@
       "source": "Old Sailor"
     },
     {
-      "text": "The blacksmith bet the innkeeper that he could drink him under the table. Let’s just say, the smith was carried home that night.",
+      "text": "A comet has appeared in the sky, and some believe it heralds disaster.",
+      "category": "Weather",
+      "source": "Astronomer"
+    },
+    {
+      "text": "Animals have been acting strangely before a storm hits.",
+      "category": "Weather",
+      "source": "Shepherd"
+    },
+    {
+      "text": "The sun didn't rise on time yesterday, leading to fears of a supernatural cause.",
+      "category": "Weather",
+      "source": "Farmer"
+    },
+    {
+      "text": "Unseasonal hail destroyed crops in the fields overnight.",
+      "category": "Weather",
+      "source": "Field Worker"
+    },
+    {
+      "text": "The wind has been howling with voices that seem to whisper warnings.",
+      "category": "Weather",
+      "source": "Traveler"
+    },
+    {
+      "text": "A sudden cold snap froze the river overnight, trapping boats.",
+      "category": "Weather",
+      "source": "Fisherman"
+    },
+    {
+      "text": "The moon vanished from the sky last night, replaced by darkness.",
+      "category": "Weather",
+      "source": "Night Watchman"
+    },
+    {
+      "text": "A heatwave has struck in the middle of winter, causing confusion.",
+      "category": "Weather",
+      "source": "Villager"
+    },
+    {
+      "text": "Rainbows have been appearing without any rain.",
+      "category": "Weather",
+      "source": "Child"
+    },
+    {
+      "text": "The stars seem to be rearranged, forming unknown constellations.",
+      "category": "Weather",
+      "source": "Stargazer"
+    },
+    {
+      "text": "The blacksmith bet the innkeeper that he could drink him under the table. Let's just say, the smith was carried home that night.",
       "category": "Banter",
       "source": "Tavern Regular"
     },
@@ -221,12 +471,12 @@
       "source": "Guard"
     },
     {
-      "text": "They say the new apprentice at the alchemist’s shop mixed up a love potion and a hair tonic. Now someone in town has a very affectionate beard!",
+      "text": "They say the new apprentice at the alchemist's shop mixed up a love potion and a hair tonic. Now someone in town has a very affectionate beard!",
       "category": "Banter",
       "source": "Alchemist"
     },
     {
-      "text": "The carpenter is telling everyone that he’s going to build a house that can float. When asked why, he just winks and says, Youll see.",
+      "text": "The carpenter is telling everyone that he's going to build a house that can float. When asked why, he just winks and says, 'You'll see.'",
       "category": "Banter",
       "source": "Carpenter"
     },
@@ -236,37 +486,87 @@
       "source": "Bard"
     },
     {
-      "text": "A fisherman swears he caught a fish this big, but everyone knows it gets bigger every time he tells the story.",
+      "text": "A fisherman swears he caught a fish 'this big,' but everyone knows it gets bigger every time he tells the story.",
       "category": "Banter",
       "source": "Fisherman"
     },
     {
-      "text": "There’s a rumor that the butcher tried to cook dinner for his wife and set the kitchen on fire. No one’s asked him to cook since.",
+      "text": "There's a rumor that the butcher tried to cook dinner for his wife and set the kitchen on fire. No one's asked him to cook since.",
       "category": "Banter",
       "source": "Butcher"
     },
     {
-      "text": "The miller’s daughter challenged the mayor’s son to a footrace. He tripped on his own feet before the race even started!",
+      "text": "The miller's daughter challenged the mayor's son to a footrace. He tripped on his own feet before the race even started!",
       "category": "Banter",
       "source": "Miller"
     },
     {
-      "text": "The mayor’s sudden push for new taxes has some wondering if he’s trying to line his own pockets before leaving office.",
+      "text": "The cobbler says his shoes can make anyone dance, but he can't dance himself.",
+      "category": "Banter",
+      "source": "Cobbler"
+    },
+    {
+      "text": "The smithy's new apprentice is so clumsy, he tripped over his own shadow.",
+      "category": "Banter",
+      "source": "Blacksmith"
+    },
+    {
+      "text": "The innkeeper's dog can fetch ale better than the barmaid.",
+      "category": "Banter",
+      "source": "Laughing Patron"
+    },
+    {
+      "text": "The mayor tried to ride a horse, but the horse sat down instead.",
+      "category": "Banter",
+      "source": "Stable Hand"
+    },
+    {
+      "text": "The bard wrote a song so bad that even the deaf man complained.",
+      "category": "Banter",
+      "source": "Musician"
+    },
+    {
+      "text": "The town drunk claims he saw a pig flying over the moon.",
+      "category": "Banter",
+      "source": "Amused Villager"
+    },
+    {
+      "text": "The guard fell asleep on duty and woke up in the stocks.",
+      "category": "Banter",
+      "source": "Guard"
+    },
+    {
+      "text": "The chef's new dish was so spicy, it set off the fire alarm.",
+      "category": "Banter",
+      "source": "Chef"
+    },
+    {
+      "text": "The merchant tried to sell sand in the desert and went bankrupt.",
+      "category": "Banter",
+      "source": "Merchant"
+    },
+    {
+      "text": "The hunter missed a deer so close that it laughed at him.",
+      "category": "Banter",
+      "source": "Hunter"
+    },
+    {
+      "text": "The mayor's sudden push for new taxes has some wondering if he's trying to line his own pockets before leaving office.",
       "category": "Political",
       "source": "Council Member"
     },
     {
-      "text": "There’s talk that the new trade agreement was made under the table, with certain officials receiving generous gifts to ensure its passage.",
+      "text": "There's talk that the new trade agreement was made under the table, with certain officials receiving generous gifts to ensure its passage.",
       "category": "Political",
       "source": "Trade Merchant"
     },
     {
-      "text": "The opposition leader was seen dining with a foreign ambassador. Some suspect they’re planning something behind closed doors.",
+      "text": "The opposition leader was seen dining with a foreign ambassador. Some suspect they're planning something behind closed doors.",
       "category": "Political",
       "source": "Political Insider"
     },
     {
-      "text": "Rumor has it that the king’s advisor is the one truly running the kingdom, pulling strings while the king remains a figurehead.",
+      "text": "Rumor has it that the king's advisor is the one truly running the kingdom, pulling strings while the king remains a figurehead.",
       "category": "Political",
       "source": "Court Servant"
     },
@@ -286,12 +586,12 @@
       "source": "Palace Guard"
     },
     {
-      "text": "There’s speculation that the newly appointed minister is nothing more than a puppet for the wealthy merchant guilds.",
+      "text": "There's speculation that the newly appointed minister is nothing more than a puppet for the wealthy merchant guilds.",
       "category": "Political",
       "source": "Disgruntled Official"
     },
     {
-      "text": "It’s said that the queen’s sudden interest in charity is a cover for diverting funds to her personal accounts.",
+      "text": "It's said that the queen's sudden interest in charity is a cover for diverting funds to her personal accounts.",
       "category": "Political",
       "source": "Noble Gossip"
     },
@@ -301,22 +601,72 @@
       "source": "Legislative Aide"
     },
     {
+      "text": "The military is being secretly mobilized for an unknown purpose.",
+      "category": "Political",
+      "source": "Soldier"
+    },
+    {
+      "text": "The treasury is mysteriously empty; funds have vanished without explanation.",
+      "category": "Political",
+      "source": "Treasury Clerk"
+    },
+    {
+      "text": "A foreign spy has infiltrated the court, posing as a noble.",
+      "category": "Political",
+      "source": "Spy Hunter"
+    },
+    {
+      "text": "The prince is suspected of plotting against his own father, the king.",
+      "category": "Political",
+      "source": "Royal Attendant"
+    },
+    {
+      "text": "The king's health is failing, and factions are vying for the throne.",
+      "category": "Political",
+      "source": "Court Physician"
+    },
+    {
+      "text": "An assassination attempt on a council member was covered up.",
+      "category": "Political",
+      "source": "Anonymous Source"
+    },
+    {
+      "text": "The chief justice is accepting bribes to sway court decisions.",
+      "category": "Political",
+      "source": "Lawyer"
+    },
+    {
+      "text": "The army general is gaining too much influence over the king.",
+      "category": "Political",
+      "source": "Military Advisor"
+    },
+    {
+      "text": "A secret treaty was signed with a former enemy nation.",
+      "category": "Political",
+      "source": "Diplomat"
+    },
+    {
+      "text": "The queen is rumored to have an illegitimate child.",
+      "category": "Political",
+      "source": "Lady-in-Waiting"
+    },
+    {
       "text": "They say a giant sleeps beneath the mountain, and when it stirs, earthquakes shake the land.",
       "category": "Folk Tale",
       "source": "Old Storyteller"
     },
     {
-      "text": "In the deepest part of the forest, there’s a tree that grants wishes, but it only listens to those with pure hearts.",
+      "text": "In the deepest part of the forest, there's a tree that grants wishes, but it only listens to those with pure hearts.",
       "category": "Folk Tale",
       "source": "Wandering Bard"
     },
     {
-      "text": "There’s a tale of a river spirit who can heal any wound, but she only appears under the light of a full moon.",
+      "text": "There's a tale of a river spirit who can heal any wound, but she only appears under the light of a full moon.",
       "category": "Folk Tale",
       "source": "Village Elder"
     },
     {
-      "text": "Long ago, a witch cursed a prince to live as a frog until he finds true love’s kiss. Some say he still waits by a forgotten pond.",
+      "text": "Long ago, a witch cursed a prince to live as a frog until he finds true love's kiss. Some say he still waits by a forgotten pond.",
       "category": "Folk Tale",
       "source": "Local Legend"
     },
@@ -326,17 +676,17 @@
       "source": "Tavern Drunk"
     },
     {
-      "text": "There’s a legend of a ghost ship that sails the seas on stormy nights, crewed by the souls of those lost at sea.",
+      "text": "There's a legend of a ghost ship that sails the seas on stormy nights, crewed by the souls of those lost at sea.",
       "category": "Folk Tale",
       "source": "Old Sailor"
     },
     {
-      "text": "In a distant village, it’s believed that the first snowfall of winter brings the spirits of ancestors back to guide the living.",
+      "text": "In a distant village, it's believed that the first snowfall of winter brings the spirits of ancestors back to guide the living.",
       "category": "Folk Tale",
       "source": "Traveling Merchant"
     },
     {
-      "text": "Some say a wise old fox roams the forest, leading lost travelers to safety—but only if they’re polite and respectful.",
+      "text": "Some say a wise old fox roams the forest, leading lost travelers to safety—but only if they're polite and respectful.",
       "category": "Folk Tale",
       "source": "Hunter"
     },
@@ -346,67 +696,67 @@
       "source": "Fisherman"
     },
     {
-      "text": "There’s a story of a hidden village where no one ever ages, but those who find it can never leave.",
+      "text": "There's a story of a hidden village where no one ever ages, but those who find it can never leave.",
       "category": "Folk Tale",
       "source": "Wandering Minstrel"
     },
     {
-      "text": "They say a giant sleeps beneath the mountain, and when it stirs, earthquakes shake the land.",
+      "text": "A man who can turn into a wolf wanders the woods at night.",
       "category": "Folk Tale",
-      "source": "Old Storyteller"
+      "source": "Shepherd"
     },
     {
-      "text": "In the deepest part of the forest, there’s a tree that grants wishes, but it only listens to those with pure hearts.",
+      "text": "The moon is actually the eye of a sleeping god.",
       "category": "Folk Tale",
-      "source": "Wandering Bard"
+      "source": "Stargazer"
     },
     {
-      "text": "There’s a tale of a river spirit who can heal any wound, but she only appears under the light of a full moon.",
+      "text": "There's a cave where time stands still; those who enter never age but cannot leave.",
       "category": "Folk Tale",
-      "source": "Village Elder"
+      "source": "Explorer"
     },
     {
-      "text": "Long ago, a witch cursed a prince to live as a frog until he finds true love’s kiss. Some say he still waits by a forgotten pond.",
+      "text": "A golden apple tree grants immortality to those who eat its fruit.",
       "category": "Folk Tale",
-      "source": "Local Legend"
+      "source": "Farmer"
     },
     {
-      "text": "The mountains are said to be home to a dragon who guards an ancient treasure. Brave souls who seek it never return.",
+      "text": "The river is formed from the tears of a heartbroken goddess.",
       "category": "Folk Tale",
-      "source": "Tavern Drunk"
+      "source": "Priestess"
     },
     {
-      "text": "There’s a legend of a ghost ship that sails the seas on stormy nights, crewed by the souls of those lost at sea.",
+      "text": "The sun is pulled across the sky by a fiery chariot driven by horses.",
       "category": "Folk Tale",
-      "source": "Old Sailor"
+      "source": "Elder"
     },
     {
-      "text": "In a distant village, it’s believed that the first snowfall of winter brings the spirits of ancestors back to guide the living.",
+      "text": "The mountains were once giants turned to stone.",
       "category": "Folk Tale",
-      "source": "Traveling Merchant"
+      "source": "Storyteller"
     },
     {
-      "text": "Some say a wise old fox roams the forest, leading lost travelers to safety—but only if they’re polite and respectful.",
+      "text": "A phoenix rises from the ashes every hundred years in the eastern lands.",
       "category": "Folk Tale",
-      "source": "Hunter"
+      "source": "Traveler"
     },
     {
-      "text": "The tale goes that a lonely mermaid sings to sailors from the cliffs, luring them to their doom, but she weeps for each life taken.",
+      "text": "The sea is home to a massive serpent that can swallow ships whole.",
       "category": "Folk Tale",
-      "source": "Fisherman"
+      "source": "Sailor"
     },
     {
-      "text": "There’s a story of a hidden village where no one ever ages, but those who find it can never leave.",
+      "text": "The stars are the campfires of spirits watching over the world.",
       "category": "Folk Tale",
-      "source": "Wandering Minstrel"
+      "source": "Child"
     },
     {
-      "text": "Something doesn’t feel right about that new merchant in town. He’s too charming, too perfect. I think he’s hiding something.",
+      "text": "Something doesn't feel right about that new merchant in town. He's too charming, too perfect. I think he's hiding something.",
       "category": "Gut Feeling",
       "source": "Suspicious Local"
     },
     {
-      "text": "I can’t explain it, but every time I walk past the old mill at night, I get the feeling that something is watching me.",
+      "text": "I can't explain it, but every time I walk past the old mill at night, I get the feeling that something is watching me.",
       "category": "Gut Feeling",
       "source": "Nervous Villager"
     },
@@ -416,12 +766,12 @@
       "source": "Traveler"
     },
     {
-      "text": "I don’t trust the innkeeper’s new assistant. There’s something off about him. He’s too quiet, and his eyes... they’re always darting around.",
+      "text": "I don't trust the innkeeper's new assistant. There's something off about him. He's too quiet, and his eyes... they're always darting around.",
       "category": "Gut Feeling",
       "source": "Regular Patron"
     },
     {
-      "text": "That abandoned house on the edge of town? I have a feeling it’s not as empty as it seems. Sometimes, I hear whispers when I walk by.",
+      "text": "That abandoned house on the edge of town? I have a feeling it's not as empty as it seems. Sometimes, I hear whispers when I walk by.",
       "category": "Gut Feeling",
       "source": "Passerby"
     },
@@ -431,47 +781,97 @@
       "source": "Town Gossip"
     },
     {
-      "text": "That stranger who just passed through town? I don’t know why, but I felt a chill when he looked at me. Best to keep an eye out.",
+      "text": "That stranger who just passed through town? I don't know why, but I felt a chill when he looked at me. Best to keep an eye out.",
       "category": "Gut Feeling",
       "source": "Market Stall Owner"
     },
     {
-      "text": "There’s something unsettling about the way the animals have been acting lately. It’s as if they know something we don’t.",
+      "text": "There's something unsettling about the way the animals have been acting lately. It's as if they know something we don't.",
       "category": "Gut Feeling",
       "source": "Farmhand"
     },
     {
-      "text": "I can’t shake the feeling that something is wrong with the old well. The water’s fine, but every time I draw a bucket, I feel like I’m being watched.",
+      "text": "I can't shake the feeling that something is wrong with the old well. The water's fine, but every time I draw a bucket, I feel like I'm being watched.",
       "category": "Gut Feeling",
       "source": "Local Farmer"
     },
     {
-      "text": "Ever since that storm last week, I’ve had this nagging feeling that something bad is coming. Can’t explain it, just a sense of dread.",
+      "text": "Ever since that storm last week, I've had this nagging feeling that something bad is coming. Can't explain it, just a sense of dread.",
       "category": "Gut Feeling",
       "source": "Weathered Sailor"
     },
     {
-      "text": "Someone’s been switching the signs around town again. Travelers are getting lost, and the prankster is nowhere to be found.",
+      "text": "The air feels heavier lately, like before a storm, but the sky is clear.",
+      "category": "Gut Feeling",
+      "source": "Villager"
+    },
+    {
+      "text": "The forest seems quieter than usual; no birds are singing.",
+      "category": "Gut Feeling",
+      "source": "Hunter"
+    },
+    {
+      "text": "My dreams have been dark and troubling; I feel they're a warning.",
+      "category": "Gut Feeling",
+      "source": "Sleepless Resident"
+    },
+    {
+      "text": "The town feels emptier, though no one has left.",
+      "category": "Gut Feeling",
+      "source": "Observer"
+    },
+    {
+      "text": "The shadows seem longer than they should be.",
+      "category": "Gut Feeling",
+      "source": "Night Watchman"
+    },
+    {
+      "text": "I get a shiver every time I pass the graveyard.",
+      "category": "Gut Feeling",
+      "source": "Child"
+    },
+    {
+      "text": "I feel uneasy around the new guard; he seems too interested in our business.",
+      "category": "Gut Feeling",
+      "source": "Shopkeeper"
+    },
+    {
+      "text": "The sun feels colder, if that's possible.",
+      "category": "Gut Feeling",
+      "source": "Farmer"
+    },
+    {
+      "text": "The children have been unusually quiet; it's unsettling.",
+      "category": "Gut Feeling",
+      "source": "Teacher"
+    },
+    {
+      "text": "The taste of the water seems off, but no one else notices.",
+      "category": "Gut Feeling",
+      "source": "Traveler"
+    },
+    {
+      "text": "Someone's been switching the signs around town again. Travelers are getting lost, and the prankster is nowhere to be found.",
       "category": "Mischievous",
       "source": "Laughing Youth"
     },
     {
-      "text": "The baker’s pies have been disappearing, but no one’s seen who’s been taking them. Some say it’s the town’s prankster striking again.",
+      "text": "The baker's pies have been disappearing, but no one's seen who's been taking them. Some say it's the town's prankster striking again.",
       "category": "Mischievous",
       "source": "Bakery Customer"
     },
     {
-      "text": "Rumor has it that someone’s been filling the town well with soap at night. The villagers woke up to a fountain of bubbles yesterday.",
+      "text": "Rumor has it that someone's been filling the town well with soap at night. The villagers woke up to a fountain of bubbles yesterday.",
       "category": "Mischievous",
       "source": "Town Watch"
     },
     {
-      "text": "The mayor’s wig was found hanging from the town hall’s flagpole this morning. No one knows who did it, but everyone’s chuckling.",
+      "text": "The mayor's wig was found hanging from the town hall's flagpole this morning. No one knows who did it, but everyone's chuckling.",
       "category": "Mischievous",
       "source": "Amused Townsperson"
     },
     {
-      "text": "Someone’s been tying the shoelaces together of anyone who falls asleep in the tavern. The resulting stumbles have been the talk of the town.",
+      "text": "Someone's been tying the shoelaces together of anyone who falls asleep in the tavern. The resulting stumbles have been the talk of the town.",
       "category": "Mischievous",
       "source": "Tavern Regular"
     },
@@ -481,42 +881,92 @@
       "source": "Night Watchman"
     },
     {
-      "text": "The local blacksmith’s tools keep going missing, only to reappear in strange places like the bakery or the church. No one knows how they get there.",
+      "text": "The local blacksmith's tools keep going missing, only to reappear in strange places like the bakery or the church. No one knows how they get there.",
       "category": "Mischievous",
       "source": "Frustrated Blacksmith"
     },
     {
-      "text": "All the apples in the orchard were replaced with painted rocks overnight. The farmer is furious, but the children can’t stop laughing.",
+      "text": "All the apples in the orchard were replaced with painted rocks overnight. The farmer is furious, but the children can't stop laughing.",
       "category": "Mischievous",
       "source": "Farmhand"
     },
     {
-      "text": "The town’s scarecrow was dressed up in nobleman’s clothes, and no one’s claimed responsibility. The nobles are not amused.",
+      "text": "The town's scarecrow was dressed up in nobleman's clothes, and no one's claimed responsibility. The nobles are not amused.",
       "category": "Mischievous",
       "source": "Field Worker"
     },
     {
-      "text": "The mayor’s speech was interrupted by someone setting off a bag of fireworks nearby. No one saw who did it, but it sure livened up the event.",
+      "text": "The mayor's speech was interrupted by someone setting off a bag of fireworks nearby. No one saw who did it, but it sure livened up the event.",
       "category": "Mischievous",
       "source": "Event Attendee"
     },
     {
-      "text": "Whispers are going around that a rival company planted a mole in the R&D department, and that’s how they launched their product first.",
+      "text": "Someone released pigs into the school with numbers painted on them.",
+      "category": "Mischievous",
+      "source": "Schoolteacher"
+    },
+    {
+      "text": "The town's statue was painted in bright colors overnight.",
+      "category": "Mischievous",
+      "source": "Artist"
+    },
+    {
+      "text": "Someone replaced the town crier's bell with a rubber chicken.",
+      "category": "Mischievous",
+      "source": "Laughing Bystander"
+    },
+    {
+      "text": "The horses in the stable were braided with ribbons and bows.",
+      "category": "Mischievous",
+      "source": "Stable Boy"
+    },
+    {
+      "text": "The chickens were found wearing tiny hats.",
+      "category": "Mischievous",
+      "source": "Farmer"
+    },
+    {
+      "text": "Someone drew mustaches on all the portraits in the town hall.",
+      "category": "Mischievous",
+      "source": "Custodian"
+    },
+    {
+      "text": "The inn's sign was flipped upside down.",
+      "category": "Mischievous",
+      "source": "Traveler"
+    },
+    {
+      "text": "The blacksmith's anvil was coated in grease.",
+      "category": "Mischievous",
+      "source": "Blacksmith"
+    },
+    {
+      "text": "The local river was dyed a bright pink.",
+      "category": "Mischievous",
+      "source": "Fisherman"
+    },
+    {
+      "text": "Someone placed whoopee cushions on the council chairs.",
+      "category": "Mischievous",
+      "source": "Council Member"
+    },
+    {
+      "text": "Whispers are going around that a rival company planted a mole in the R&D department, and that's how they launched their product first.",
       "category": "Corporate Espionage",
       "source": "Anonymous Insider"
     },
     {
-      "text": "There’s talk that a top executive has been selling trade secrets to the highest bidder, and now the competition is too close for comfort.",
+      "text": "There's talk that a top executive has been selling trade secrets to the highest bidder, and now the competition is too close for comfort.",
       "category": "Corporate Espionage",
       "source": "Corporate Gossip"
     },
     {
-      "text": "Rumor has it that the latest data breach wasn’t an accident but an inside job orchestrated by someone looking to sabotage the company.",
+      "text": "Rumor has it that the latest data breach wasn't an accident but an inside job orchestrated by someone looking to sabotage the company.",
       "category": "Corporate Espionage",
       "source": "IT Specialist"
     },
     {
-      "text": "A key engineer was poached by a competitor, but not before they took a copy of the company’s proprietary software with them.",
+      "text": "A key engineer was poached by a competitor, but not before they took a copy of the company's proprietary software with them.",
       "category": "Corporate Espionage",
       "source": "Concerned Colleague"
     },
@@ -526,17 +976,17 @@
       "source": "Financial Analyst"
     },
     {
-      "text": "There’s a rumor that the recent malfunction in the production line wasn’t an accident but deliberate sabotage by someone on the inside.",
+      "text": "There's a rumor that the recent malfunction in the production line wasn't an accident but deliberate sabotage by someone on the inside.",
       "category": "Corporate Espionage",
       "source": "Factory Worker"
     },
     {
-      "text": "The competitor’s new marketing strategy looks suspiciously similar to the one that was discussed in last month’s confidential meeting.",
+      "text": "The competitor's new marketing strategy looks suspiciously similar to the one that was discussed in last month's confidential meeting.",
       "category": "Corporate Espionage",
       "source": "Marketing Executive"
     },
     {
-      "text": "Someone’s been tampering with the CEO’s emails, and there’s speculation that sensitive information has already been leaked to rivals.",
+      "text": "Someone's been tampering with the CEO's emails, and there's speculation that sensitive information has already been leaked to rivals.",
       "category": "Corporate Espionage",
       "source": "Executive Assistant"
     },
@@ -546,12 +996,62 @@
       "source": "Security Officer"
     },
     {
-      "text": "The recent merger talks were suddenly called off, and some say it’s because key negotiation details were leaked to the press by a disgruntled employee.",
+      "text": "The recent merger talks were suddenly called off, and some say it's because key negotiation details were leaked to the press by a disgruntled employee.",
       "category": "Corporate Espionage",
       "source": "Business Analyst"
     },
     {
-      "text": "There’s talk of a new continent discovered far to the west, rich in resources and inhabited by strange, unknown creatures.",
+      "text": "The company's prototype was leaked online before the launch.",
+      "category": "Corporate Espionage",
+      "source": "Product Manager"
+    },
+    {
+      "text": "A new hire seems too interested in sensitive projects.",
+      "category": "Corporate Espionage",
+      "source": "Team Leader"
+    },
+    {
+      "text": "Software code has been mysteriously altered, causing bugs.",
+      "category": "Corporate Espionage",
+      "source": "Developer"
+    },
+    {
+      "text": "The CEO's phone was found bugged.",
+      "category": "Corporate Espionage",
+      "source": "Security Chief"
+    },
+    {
+      "text": "A competitor seems to know about our future plans.",
+      "category": "Corporate Espionage",
+      "source": "Sales Director"
+    },
+    {
+      "text": "The R&D lab was broken into, but nothing was stolen.",
+      "category": "Corporate Espionage",
+      "source": "Lab Technician"
+    },
+    {
+      "text": "A shipment was rerouted and lost, possibly intercepted.",
+      "category": "Corporate Espionage",
+      "source": "Logistics Manager"
+    },
+    {
+      "text": "An ex-employee is now working for the rival company.",
+      "category": "Corporate Espionage",
+      "source": "HR Representative"
+    },
+    {
+      "text": "Company emails were leaked to the press.",
+      "category": "Corporate Espionage",
+      "source": "Communications Officer"
+    },
+    {
+      "text": "The competitor's product uses technology patented by us.",
+      "category": "Corporate Espionage",
+      "source": "Patent Lawyer"
+    },
+    {
+      "text": "There's talk of a new continent discovered far to the west, rich in resources and inhabited by strange, unknown creatures.",
       "category": "World",
       "source": "Explorer"
     },
@@ -601,12 +1101,62 @@
       "source": "Trade Envoy"
     },
     {
-      "text": "There’s word of a pack of wild beasts moving closer to the village, attacking livestock and threatening anyone who ventures too far.",
+      "text": "A massive volcano is predicted to erupt, threatening the region.",
+      "category": "World",
+      "source": "Geologist"
+    },
+    {
+      "text": "Magical energy is fading from the world, and mages are losing power.",
+      "category": "World",
+      "source": "Archmage"
+    },
+    {
+      "text": "Sea levels are rising, and islands are disappearing.",
+      "category": "World",
+      "source": "Sailor"
+    },
+    {
+      "text": "A celestial event is expected, possibly bringing great change.",
+      "category": "World",
+      "source": "Astronomer"
+    },
+    {
+      "text": "Trade routes are being disrupted by pirates and warlords.",
+      "category": "World",
+      "source": "Merchant"
+    },
+    {
+      "text": "A comet is approaching, and some believe it will impact the earth.",
+      "category": "World",
+      "source": "Stargazer"
+    },
+    {
+      "text": "The world's leaders are gathering for an unprecedented summit.",
+      "category": "World",
+      "source": "Diplomat"
+    },
+    {
+      "text": "The gods are said to have abandoned the world.",
+      "category": "World",
+      "source": "Priest"
+    },
+    {
+      "text": "A new religion is spreading rapidly, causing unrest.",
+      "category": "World",
+      "source": "Missionary"
+    },
+    {
+      "text": "Legendary creatures thought extinct are being sighted again.",
+      "category": "World",
+      "source": "Hunter"
+    },
+    {
+      "text": "There's word of a pack of wild beasts moving closer to the village, attacking livestock and threatening anyone who ventures too far.",
       "category": "Danger",
       "source": "Hunter"
     },
     {
-      "text": "A massive storm is brewing off the coast, and sailors are saying it’s like nothing they’ve ever seen before. They’re warning everyone to stay off the water.",
+      "text": "A massive storm is brewing off the coast, and sailors are saying it's like nothing they've ever seen before. They're warning everyone to stay off the water.",
       "category": "Danger",
       "source": "Old Sailor"
     },
@@ -626,12 +1176,12 @@
       "source": "Healer"
     },
     {
-      "text": "A dark figure has been seen lurking around the edge of the forest at night. Some say it’s an assassin waiting for the right moment to strike.",
+      "text": "A dark figure has been seen lurking around the edge of the forest at night. Some say it's an assassin waiting for the right moment to strike.",
       "category": "Danger",
       "source": "Villager"
     },
     {
-      "text": "The river has been rising rapidly, and villagers are worried it might flood the entire town if the rains don’t stop soon.",
+      "text": "The river has been rising rapidly, and villagers are worried it might flood the entire town if the rains don't stop soon.",
       "category": "Danger",
       "source": "Farmer"
     },
@@ -641,14 +1191,64 @@
       "source": "Local Farmer"
     },
     {
-      "text": "Travelers from the north are reporting sightings of an enormous dragon. They say it’s been burning everything in its path.",
+      "text": "Travelers from the north are reporting sightings of an enormous dragon. They say it's been burning everything in its path.",
       "category": "Danger",
       "source": "Caravan Guard"
     },
     {
-      "text": "There’s a rumor that a cursed artifact has been unearthed in the ruins, and those who touch it are doomed to a swift and painful death.",
+      "text": "There's a rumor that a cursed artifact has been unearthed in the ruins, and those who touch it are doomed to a swift and painful death.",
       "category": "Danger",
       "source": "Archaeologist"
+    },
+    {
+      "text": "A swarm of locusts is devouring crops, threatening famine.",
+      "category": "Danger",
+      "source": "Farmer"
+    },
+    {
+      "text": "Earthquakes have been shaking the region more frequently.",
+      "category": "Danger",
+      "source": "Geologist"
+    },
+    {
+      "text": "Bandits have taken over the mountain pass, cutting off trade.",
+      "category": "Danger",
+      "source": "Merchant"
+    },
+    {
+      "text": "The bridge to the neighboring town has collapsed.",
+      "category": "Danger",
+      "source": "Traveler"
+    },
+    {
+      "text": "An army is marching towards the kingdom with ill intent.",
+      "category": "Danger",
+      "source": "Scout"
+    },
+    {
+      "text": "The water supply has been poisoned, causing sickness.",
+      "category": "Danger",
+      "source": "Healer"
+    },
+    {
+      "text": "A madman is setting fires throughout the town.",
+      "category": "Danger",
+      "source": "Guard"
+    },
+    {
+      "text": "A beast is terrorizing the countryside, defying all attempts to slay it.",
+      "category": "Danger",
+      "source": "Hunter"
+    },
+    {
+      "text": "The dead are said to be rising from their graves at night.",
+      "category": "Danger",
+      "source": "Gravedigger"
+    },
+    {
+      "text": "A cult has been kidnapping people for dark rituals.",
+      "category": "Danger",
+      "source": "Villager"
     }
   ]
 }

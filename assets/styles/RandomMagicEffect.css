@@ -1,0 +1,24 @@
+/* Styles for RandomMagicEffect Tool */
+#random-magic-effect {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+    #random-magic-effect button, #random-magic-effect select {
+        margin: 5px;
+        padding: 10px;
+    }
+
+#effect-display {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+    #effect-display h2 {
+        margin-bottom: 10px;
+    }
+
+    #effect-display p {
+        margin: 5px 0;
+    }

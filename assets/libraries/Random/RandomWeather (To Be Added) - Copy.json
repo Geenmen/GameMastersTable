@@ -1,0 +1,748 @@
+{
+  "weather_types": {
+    "Windy": [
+      {
+        "name": "Gentle Breeze",
+        "description": "A soft wind that rustles leaves and cools the air.",
+        "temperature": "Mild",
+        "wind": "Gentle"
+      },
+      {
+        "name": "Gale",
+        "description": "Strong winds that make travel difficult.",
+        "temperature": "Cool",
+        "wind": "Strong"
+      },
+      {
+        "name": "Whistling Winds",
+        "description": "Winds strong enough to produce audible sounds.",
+        "temperature": "Variable",
+        "wind": "Moderate"
+      },
+      {
+        "name": "Dust Storm",
+        "description": "Strong winds lift dust and sand, reducing visibility.",
+        "temperature": "Hot",
+        "wind": "Severe"
+      },
+      {
+        "name": "Windstorm",
+        "description": "High winds causing minor structural damage and uprooting trees.",
+        "temperature": "Cool",
+        "wind": "Very Strong"
+      },
+      {
+        "name": "Tornado",
+        "description": "A violently rotating column of air touching the ground.",
+        "temperature": "Warm",
+        "wind": "Extreme"
+      },
+      {
+        "name": "Blustery",
+        "description": "Frequent gusts of wind make conditions unpredictable.",
+        "temperature": "Cold",
+        "wind": "Gusty"
+      },
+      {
+        "name": "Wind Shear",
+        "description": "Sudden changes in wind speed and direction.",
+        "temperature": "Variable",
+        "wind": "Erratic"
+      },
+      {
+        "name": "Zephyr",
+        "description": "A mild, gentle breeze often associated with spring.",
+        "temperature": "Mild",
+        "wind": "Light"
+      },
+      {
+        "name": "Hurricane Winds",
+        "description": "Extremely strong winds associated with hurricanes.",
+        "temperature": "Warm",
+        "wind": "Catastrophic"
+      }
+    ],
+    "Foggy": [
+      {
+        "name": "Light Fog",
+        "description": "A thin layer of fog reduces visibility slightly.",
+        "temperature": "Cool",
+        "wind": "Calm"
+      },
+      {
+        "name": "Heavy Fog",
+        "description": "Thick fog severely limits visibility.",
+        "temperature": "Cold",
+        "wind": "Still"
+      },
+      {
+        "name": "Mist",
+        "description": "A very light fog that creates a moist atmosphere.",
+        "temperature": "Mild",
+        "wind": "Gentle"
+      },
+      {
+        "name": "Freezing Fog",
+        "description": "Fog that freezes on surfaces, creating icy conditions.",
+        "temperature": "Freezing",
+        "wind": "Calm"
+      },
+      {
+        "name": "Sea Fog",
+        "description": "Fog formed over the ocean, drifting inland.",
+        "temperature": "Cool",
+        "wind": "Light"
+      },
+      {
+        "name": "Valley Fog",
+        "description": "Fog that settles in low-lying areas and valleys.",
+        "temperature": "Cold",
+        "wind": "Still"
+      },
+      {
+        "name": "Radiation Fog",
+        "description": "Fog formed on clear nights due to ground cooling.",
+        "temperature": "Cold",
+        "wind": "Calm"
+      },
+      {
+        "name": "Upslope Fog",
+        "description": "Fog formed as moist air moves up a slope.",
+        "temperature": "Cool",
+        "wind": "Gentle"
+      },
+      {
+        "name": "Advection Fog",
+        "description": "Fog formed when warm, moist air passes over a cool surface.",
+        "temperature": "Mild",
+        "wind": "Light"
+      },
+      {
+        "name": "Ice Fog",
+        "description": "Fog composed of tiny ice crystals in extremely cold conditions.",
+        "temperature": "Frigid",
+        "wind": "Calm"
+      }
+    ],
+    "Rainy": [
+      {
+        "name": "Light Drizzle",
+        "description": "Fine droplets of rain that barely wet the ground.",
+        "temperature": "Mild",
+        "wind": "Light"
+      },
+      {
+        "name": "Steady Rain",
+        "description": "Continuous rainfall that soaks the ground.",
+        "temperature": "Cool",
+        "wind": "Moderate"
+      },
+      {
+        "name": "Heavy Downpour",
+        "description": "Intense rain that can cause flooding.",
+        "temperature": "Warm",
+        "wind": "Strong"
+      },
+      {
+        "name": "Thunderstorm",
+        "description": "Rain accompanied by thunder and lightning.",
+        "temperature": "Warm",
+        "wind": "Variable"
+      },
+      {
+        "name": "Sleet",
+        "description": "A mix of rain and ice pellets.",
+        "temperature": "Cold",
+        "wind": "Moderate"
+      },
+      {
+        "name": "Monsoon",
+        "description": "Seasonal heavy rains that last for days or weeks.",
+        "temperature": "Hot",
+        "wind": "Variable"
+      },
+      {
+        "name": "Torrential Rain",
+        "description": "Extremely heavy rain that can lead to flash floods.",
+        "temperature": "Warm",
+        "wind": "Strong"
+      },
+      {
+        "name": "Showers",
+        "description": "Intermittent rain with breaks of dry weather.",
+        "temperature": "Mild",
+        "wind": "Gentle"
+      },
+      {
+        "name": "Acid Rain",
+        "description": "Rain mixed with pollutants, harmful to the environment.",
+        "temperature": "Variable",
+        "wind": "Moderate"
+      },
+      {
+        "name": "Hailstorm",
+        "description": "Rain accompanied by hailstones.",
+        "temperature": "Cool",
+        "wind": "Strong"
+      }
+    ],
+    "Sunny": [
+      {
+        "name": "Clear Skies",
+        "description": "Not a cloud in sight; bright and sunny.",
+        "temperature": "Warm",
+        "wind": "Calm"
+      },
+      {
+        "name": "Scorching Heat",
+        "description": "Extreme temperatures with intense sunlight.",
+        "temperature": "Hot",
+        "wind": "Light"
+      },
+      {
+        "name": "Mild Sunshine",
+        "description": "Pleasantly warm with gentle sunlight.",
+        "temperature": "Mild",
+        "wind": "Gentle"
+      },
+      {
+        "name": "Blazing Sun",
+        "description": "Sunlight is intense and can cause heat exhaustion.",
+        "temperature": "Very Hot",
+        "wind": "Still"
+      },
+      {
+        "name": "Solar Eclipse",
+        "description": "The sun is obscured by the moon, casting shadows.",
+        "temperature": "Variable",
+        "wind": "Calm"
+      },
+      {
+        "name": "Sun Showers",
+        "description": "Rain falls while the sun is shining.",
+        "temperature": "Warm",
+        "wind": "Light"
+      },
+      {
+        "name": "Dappled Sunlight",
+        "description": "Sunlight filters through leaves, creating patterns.",
+        "temperature": "Mild",
+        "wind": "Gentle"
+      },
+      {
+        "name": "Heat Haze",
+        "description": "Distorted visuals due to rising hot air.",
+        "temperature": "Hot",
+        "wind": "Still"
+      },
+      {
+        "name": "Golden Hour",
+        "description": "Warm, golden sunlight just after sunrise or before sunset.",
+        "temperature": "Cool",
+        "wind": "Calm"
+      },
+      {
+        "name": "High UV Index",
+        "description": "Sunlight strong enough to cause rapid sunburn.",
+        "temperature": "Hot",
+        "wind": "Gentle"
+      }
+    ],
+    "Snowy": [
+      {
+        "name": "Light Snow",
+        "description": "Gentle snowfall that dusts the ground.",
+        "temperature": "Cold",
+        "wind": "Calm"
+      },
+      {
+        "name": "Blizzard",
+        "description": "Heavy snow with strong winds and poor visibility.",
+        "temperature": "Freezing",
+        "wind": "Strong"
+      },
+      {
+        "name": "Snow Flurries",
+        "description": "Intermittent light snow with little accumulation.",
+        "temperature": "Cold",
+        "wind": "Light"
+      },
+      {
+        "name": "Sleet",
+        "description": "A mix of rain and snow, often freezing on surfaces.",
+        "temperature": "Freezing",
+        "wind": "Moderate"
+      },
+      {
+        "name": "Snowstorm",
+        "description": "Heavy snowfall that accumulates quickly.",
+        "temperature": "Cold",
+        "wind": "Moderate"
+      },
+      {
+        "name": "Hail",
+        "description": "Small balls of ice falling like rain.",
+        "temperature": "Cold",
+        "wind": "Variable"
+      },
+      {
+        "name": "Whiteout",
+        "description": "Snow and wind combine to obscure all visibility.",
+        "temperature": "Freezing",
+        "wind": "Strong"
+      },
+      {
+        "name": "Frost",
+        "description": "A thin layer of ice crystals on surfaces.",
+        "temperature": "Freezing",
+        "wind": "Calm"
+      },
+      {
+        "name": "Snow Squall",
+        "description": "A sudden, intense snowfall with strong winds.",
+        "temperature": "Very Cold",
+        "wind": "Strong"
+      },
+      {
+        "name": "Ice Storm",
+        "description": "Freezing rain that coats everything in ice.",
+        "temperature": "Freezing",
+        "wind": "Light"
+      }
+    ],
+    "Stormy": [
+      {
+        "name": "Thunderstorm",
+        "description": "Rain with thunder and lightning.",
+        "temperature": "Warm",
+        "wind": "Variable"
+      },
+      {
+        "name": "Lightning Storm",
+        "description": "Frequent lightning strikes, often without much rain.",
+        "temperature": "Hot",
+        "wind": "Moderate"
+      },
+      {
+        "name": "Hurricane",
+        "description": "A severe tropical storm with high winds and heavy rain.",
+        "temperature": "Warm",
+        "wind": "Extreme"
+      },
+      {
+        "name": "Tropical Storm",
+        "description": "A storm with winds less severe than a hurricane.",
+        "temperature": "Hot",
+        "wind": "Very Strong"
+      },
+      {
+        "name": "Cyclone",
+        "description": "A system of winds rotating inward to an area of low pressure.",
+        "temperature": "Warm",
+        "wind": "Severe"
+      },
+      {
+        "name": "Sandstorm",
+        "description": "High winds lift sand particles, reducing visibility.",
+        "temperature": "Hot",
+        "wind": "Strong"
+      },
+      {
+        "name": "Dust Devil",
+        "description": "A small whirlwind of dust and debris.",
+        "temperature": "Hot",
+        "wind": "Light"
+      },
+      {
+        "name": "Squall",
+        "description": "A sudden, sharp increase in wind speed lasting minutes.",
+        "temperature": "Cool",
+        "wind": "Strong"
+      },
+      {
+        "name": "Supercell Storm",
+        "description": "A severe thunderstorm with a rotating updraft.",
+        "temperature": "Warm",
+        "wind": "Severe"
+      },
+      {
+        "name": "Waterspout",
+        "description": "A tornado occurring over water.",
+        "temperature": "Warm",
+        "wind": "Extreme"
+      }
+    ],
+    "Cloudy": [
+      {
+        "name": "Overcast",
+        "description": "Completely covered skies with gray clouds.",
+        "temperature": "Cool",
+        "wind": "Calm"
+      },
+      {
+        "name": "Partly Cloudy",
+        "description": "A mix of sun and clouds.",
+        "temperature": "Mild",
+        "wind": "Gentle"
+      },
+      {
+        "name": "High Clouds",
+        "description": "Thin, wispy clouds high in the atmosphere.",
+        "temperature": "Cool",
+        "wind": "Light"
+      },
+      {
+        "name": "Low Clouds",
+        "description": "Thick clouds close to the ground, often leading to fog.",
+        "temperature": "Cool",
+        "wind": "Calm"
+      },
+      {
+        "name": "Cumulus Clouds",
+        "description": "Puffy, white clouds that can develop into storms.",
+        "temperature": "Warm",
+        "wind": "Variable"
+      },
+      {
+        "name": "Stratus Clouds",
+        "description": "Gray, featureless clouds that often bring light rain.",
+        "temperature": "Cool",
+        "wind": "Light"
+      },
+      {
+        "name": "Cirrus Clouds",
+        "description": "Thin, feather-like clouds made of ice crystals.",
+        "temperature": "Cold",
+        "wind": "High Altitude Winds"
+      },
+      {
+        "name": "Mackerel Sky",
+        "description": "Sky filled with rippling clouds resembling fish scales.",
+        "temperature": "Mild",
+        "wind": "Gentle"
+      },
+      {
+        "name": "Anvil Clouds",
+        "description": "Large clouds associated with thunderstorms.",
+        "temperature": "Variable",
+        "wind": "Strong"
+      },
+      {
+        "name": "Lenticular Clouds",
+        "description": "Lens-shaped clouds often mistaken for UFOs.",
+        "temperature": "Cool",
+        "wind": "High Altitude Winds"
+      }
+    ],
+    "Extreme": [
+      {
+        "name": "Heatwave",
+        "description": "Prolonged period of excessively hot weather.",
+        "temperature": "Very Hot",
+        "wind": "Still"
+      },
+      {
+        "name": "Cold Snap",
+        "description": "Sudden onset of significantly colder weather.",
+        "temperature": "Frigid",
+        "wind": "Light"
+      },
+      {
+        "name": "Drought",
+        "description": "Extended period of deficient rainfall.",
+        "temperature": "Hot",
+        "wind": "Variable"
+      },
+      {
+        "name": "Flood",
+        "description": "Overflow of water submerging normally dry land.",
+        "temperature": "Variable",
+        "wind": "Variable"
+      },
+      {
+        "name": "Wildfire",
+        "description": "Uncontrolled fire in combustible vegetation.",
+        "temperature": "Hot",
+        "wind": "Strong"
+      },
+      {
+        "name": "Avalanche",
+        "description": "Rapid flow of snow down a slope.",
+        "temperature": "Cold",
+        "wind": "Variable"
+      },
+      {
+        "name": "Earthquake",
+        "description": "Shaking of the surface due to seismic activity.",
+        "temperature": "Variable",
+        "wind": "Still"
+      },
+      {
+        "name": "Tsunami",
+        "description": "Large ocean wave caused by underwater disturbances.",
+        "temperature": "Variable",
+        "wind": "Variable"
+      },
+      {
+        "name": "Volcanic Ash",
+        "description": "Air filled with ash particles from a volcanic eruption.",
+        "temperature": "Warm",
+        "wind": "Variable"
+      },
+      {
+        "name": "Meteor Shower",
+        "description": "Visible passage of meteors entering the atmosphere.",
+        "temperature": "Variable",
+        "wind": "Calm"
+      }
+    ],
+    "Magical": [
+      {
+        "name": "Mana Storm",
+        "description": "A storm charged with magical energy affecting spells.",
+        "temperature": "Cool",
+        "wind": "Erratic"
+      },
+      {
+        "name": "Arcane Aurora",
+        "description": "Mystical lights dance across the sky.",
+        "temperature": "Cold",
+        "wind": "Calm"
+      },
+      {
+        "name": "Elemental Rain",
+        "description": "Rain infused with elemental properties like fire or acid.",
+        "temperature": "Variable",
+        "wind": "Moderate"
+      },
+      {
+        "name": "Time Fog",
+        "description": "A fog that causes time distortion for those within it.",
+        "temperature": "Cool",
+        "wind": "Still"
+      },
+      {
+        "name": "Whispering Winds",
+        "description": "Winds that carry voices or messages from unknown sources.",
+        "temperature": "Mild",
+        "wind": "Gentle"
+      },
+      {
+        "name": "Gravity Flux",
+        "description": "Gravity weakens or strengthens sporadically.",
+        "temperature": "Variable",
+        "wind": "Calm"
+      },
+      {
+        "name": "Ethereal Eclipse",
+        "description": "Sun and moon align, affecting magical energies.",
+        "temperature": "Variable",
+        "wind": "Still"
+      },
+      {
+        "name": "Spirit Snow",
+        "description": "Snowflakes that shimmer with spiritual energy.",
+        "temperature": "Freezing",
+        "wind": "Calm"
+      },
+      {
+        "name": "Chromatic Clouds",
+        "description": "Clouds shift colors, influencing emotions.",
+        "temperature": "Mild",
+        "wind": "Light"
+      },
+      {
+        "name": "Phantom Rain",
+        "description": "Rain that doesn't wet surfaces but affects the mind.",
+        "temperature": "Cool",
+        "wind": "Gentle"
+      }
+    ],
+    "Seasonal": [
+      {
+        "name": "Spring Thaw",
+        "description": "Melting snow and ice as temperatures rise.",
+        "temperature": "Mild",
+        "wind": "Gentle"
+      },
+      {
+        "name": "Summer Haze",
+        "description": "Hot, humid conditions with reduced visibility.",
+        "temperature": "Hot",
+        "wind": "Calm"
+      },
+      {
+        "name": "Autumn Leaves",
+        "description": "Falling leaves create colorful landscapes.",
+        "temperature": "Cool",
+        "wind": "Light"
+      },
+      {
+        "name": "Winter Chill",
+        "description": "Cold temperatures with biting winds.",
+        "temperature": "Cold",
+        "wind": "Moderate"
+      },
+      {
+        "name": "Harvest Moon",
+        "description": "A large, orange moon that signifies the harvest season.",
+        "temperature": "Cool",
+        "wind": "Calm"
+      },
+      {
+        "name": "First Frost",
+        "description": "The first freeze marking the onset of winter.",
+        "temperature": "Freezing",
+        "wind": "Light"
+      },
+      {
+        "name": "Midnight Sun",
+        "description": "Sun remains visible at midnight in polar regions.",
+        "temperature": "Cold",
+        "wind": "Calm"
+      },
+      {
+        "name": "Vernal Showers",
+        "description": "Frequent light rains promoting new growth.",
+        "temperature": "Mild",
+        "wind": "Gentle"
+      },
+      {
+        "name": "Dog Days",
+        "description": "Hottest days of summer with oppressive heat.",
+        "temperature": "Very Hot",
+        "wind": "Still"
+      },
+      {
+        "name": "Ice Melt Floods",
+        "description": "Rising waters due to melting ice and snow.",
+        "temperature": "Mild",
+        "wind": "Variable"
+      }
+    ],
+    "Humid": [
+      {
+        "name": "Muggy",
+        "description": "Uncomfortably humid with warm temperatures.",
+        "temperature": "Warm",
+        "wind": "Calm"
+      },
+      {
+        "name": "Tropical Humidity",
+        "description": "High humidity common in tropical regions.",
+        "temperature": "Hot",
+        "wind": "Light"
+      },
+      {
+        "name": "Swampy",
+        "description": "Heavy air with moisture, often in marsh areas.",
+        "temperature": "Warm",
+        "wind": "Still"
+      },
+      {
+        "name": "Dew Point High",
+        "description": "Air saturated with moisture, causing dew formation.",
+        "temperature": "Mild",
+        "wind": "Calm"
+      },
+      {
+        "name": "Sticky Heat",
+        "description": "Combination of high heat and humidity.",
+        "temperature": "Very Hot",
+        "wind": "Light"
+      },
+      {
+        "name": "Fog Drizzle",
+        "description": "Mist so heavy it feels like light rain.",
+        "temperature": "Cool",
+        "wind": "Still"
+      },
+      {
+        "name": "Oppressive Humidity",
+        "description": "Humidity so high it hinders breathing.",
+        "temperature": "Hot",
+        "wind": "Calm"
+      },
+      {
+        "name": "Humid Night",
+        "description": "High humidity levels continue after sunset.",
+        "temperature": "Warm",
+        "wind": "Gentle"
+      },
+      {
+        "name": "Steam Fog",
+        "description": "Fog formed when cold air moves over warm water.",
+        "temperature": "Cold",
+        "wind": "Calm"
+      },
+      {
+        "name": "Tropical Depression",
+        "description": "Low-pressure area with moist air and potential storms.",
+        "temperature": "Warm",
+        "wind": "Moderate"
+      }
+    ],
+    "Dry": [
+      {
+        "name": "Arid Heat",
+        "description": "Extremely dry conditions with high temperatures.",
+        "temperature": "Hot",
+        "wind": "Light"
+      },
+      {
+        "name": "Desert Winds",
+        "description": "Dry winds that dehydrate and parch the land.",
+        "temperature": "Very Hot",
+        "wind": "Moderate"
+      },
+      {
+        "name": "Dust Bowl",
+        "description": "Dry soil lifted by winds, causing dust storms.",
+        "temperature": "Warm",
+        "wind": "Strong"
+      },
+      {
+        "name": "Clear Dry Air",
+        "description": "Low humidity with excellent visibility.",
+        "temperature": "Mild",
+        "wind": "Gentle"
+      },
+      {
+        "name": "Dry Lightning",
+        "description": "Lightning strikes without accompanying rain.",
+        "temperature": "Hot",
+        "wind": "Variable"
+      },
+      {
+        "name": "Parched Earth",
+        "description": "Ground is cracked due to lack of moisture.",
+        "temperature": "Hot",
+        "wind": "Still"
+      },
+      {
+        "name": "Sirocco",
+        "description": "Hot, dry wind blowing from the desert.",
+        "temperature": "Very Hot",
+        "wind": "Strong"
+      },
+      {
+        "name": "Desiccating Breeze",
+        "description": "Wind that absorbs moisture from surroundings.",
+        "temperature": "Warm",
+        "wind": "Moderate"
+      },
+      {
+        "name": "Static Air",
+        "description": "Dry air causing static electricity buildup.",
+        "temperature": "Cool",
+        "wind": "Calm"
+      },
+      {
+        "name": "Dry Cold",
+        "description": "Cold temperatures with very low humidity.",
+        "temperature": "Cold",
+        "wind": "Gentle"
+      }
+    ]
+  }
+}
