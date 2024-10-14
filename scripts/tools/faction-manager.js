@@ -1,249 +1,222 @@
-﻿(function () {
-    // Faction Manager Code
+﻿function initializeFactionManager(panelContainer) {
     let facmanFactions = [];
 
     const facmanCreateFactionBtn = document.querySelector('.facman-create-faction-btn');
-    const facmanFactionCardsWrapper = document.querySelector('.facman-faction-cards-wrapper');
-    const facmanPrevBtn = document.querySelector('.facman-prev-btn');
-    const facmanNextBtn = document.querySelector('.facman-next-btn');
-
-    let facmanCurrentIndex = 0;
+    const facmanFactionList = document.querySelector('.facman-faction-list');
+    const facmanFactionCard = document.getElementById('facman-faction-card');
+    const facmanFactionManager = document.querySelector('.facman-faction-manager');
 
     facmanCreateFactionBtn.addEventListener('click', function () {
-        facmanCreateFactionCard();
-        facmanUpdateCarousel();
+        facmanOpenCreateFactionModal();
     });
 
-    facmanPrevBtn.addEventListener('click', function () {
-        if (facmanCurrentIndex > 0) {
-            facmanCurrentIndex--;
-            facmanUpdateCarousel();
-        }
-    });
-
-    facmanNextBtn.addEventListener('click', function () {
-        if (facmanCurrentIndex < facmanFactions.length - 1) {
-            facmanCurrentIndex++;
-            facmanUpdateCarousel();
-        }
-    });
-
-    function facmanUpdateCarousel() {
-        const offset = -facmanCurrentIndex * facmanFactionCardsWrapper.clientWidth;
-        facmanFactionCardsWrapper.style.transform = `translateX(${offset}px)`;
+    function facmanOpenCreateFactionModal() {
+        facmanOpenModal('Create Faction', function (factionData) {
+            if (factionData) {
+                facmanAddFaction(factionData);
+            }
+        }, true);
     }
 
-    function facmanCreateFactionCard(facmanFactionData = {}) {
-        const card = document.createElement('div');
-        card.className = 'facman-faction-card';
+    function facmanAddFaction(factionData) {
+        facmanFactions.push(factionData);
+        facmanRenderFactionList();
+    }
 
-        // Default fields
-        const defaultFields = [
-            'Faction Name',
-            'Size',
-            'Motto',
-            'Description',
-            'Allies'
-        ];
+    function facmanRenderFactionList() {
+        facmanFactionList.innerHTML = '';
+        facmanFactions.forEach((faction, index) => {
+            const factionBtn = document.createElement('button');
+            factionBtn.textContent = faction['Faction Name'] || `Faction ${index + 1}`;
+            factionBtn.addEventListener('click', function () {
+                facmanOpenFactionCard(index);
+            });
+            facmanFactionList.appendChild(factionBtn);
+        });
+    }
 
-        // Create fields container
-        const fieldsContainer = document.createElement('div');
-        fieldsContainer.className = 'facman-fields-container';
+    function facmanOpenFactionCard(index) {
+        const factionData = facmanFactions[index];
 
-        defaultFields.forEach(fieldName => {
-            const fieldRow = facmanCreateField(fieldName, facmanFactionData[fieldName] || '');
-            fieldsContainer.appendChild(fieldRow);
+        facmanFactionCard.innerHTML = `
+            <button class="facman-close-card-btn" id="facman-close-card-btn">✖</button>
+            <h3>Faction Details</h3>
+            <div id="facman-details"></div>
+
+            <!-- Allies Section -->
+            <div class="section-heading">Allies</div>
+            <ul id="facman-allies-list"></ul>
+            <button class="facman-add-ally-btn">Add Ally</button>
+
+            <!-- Membership Section -->
+            <div class="section-heading">Membership</div>
+            <div id="facman-membership-section"></div>
+
+            <!-- Custom Fields Section -->
+            <div class="section-heading">Custom Fields</div>
+            <div id="facman-custom-fields"></div>
+            <button class="facman-add-field-btn">Add Custom Field</button>
+
+            <!-- Edit Button -->
+            <button class="facman-toggle-edit-btn">Edit All Details</button>
+        `;
+
+        // Close button functionality with save before close
+        const closeBtn = facmanFactionCard.querySelector('#facman-close-card-btn');
+        closeBtn.addEventListener('click', function () {
+            facmanSaveCurrentFactionData(index);  // Save data before closing
+            facmanFactionCard.classList.remove('active');
         });
 
-        card.appendChild(fieldsContainer);
+        // Populate faction details
+        const detailsContainer = facmanFactionCard.querySelector('#facman-details');
+        const detailFields = ['Faction Name', 'Size', 'Alignment', 'Motto', 'Description'];
+        detailFields.forEach(field => {
+            const div = document.createElement('div');
+            div.classList.add('facman-detail-item');
+            div.innerHTML = `
+                <label>${field}:</label>
+                <span id="faction-${field.toLowerCase().replace(' ', '-')}-cell">${factionData[field]}</span>
+            `;
+            detailsContainer.appendChild(div);
+        });
+
+        // Allies section
+        const alliesList = facmanFactionCard.querySelector('#facman-allies-list');
+        const renderAllies = () => {
+            alliesList.innerHTML = '';
+            factionData.allies.forEach(ally => {
+                const li = document.createElement('li');
+                li.innerHTML = `${ally} <button class="facman-remove-ally-btn">✖</button>`;
+                alliesList.appendChild(li);
+
+                const removeAllyBtn = li.querySelector('.facman-remove-ally-btn');
+                removeAllyBtn.addEventListener('click', function () {
+                    li.remove();
+                    factionData.allies = factionData.allies.filter(a => a !== ally);
+                });
+            });
+        };
+        renderAllies();
+
+        const addAllyBtn = facmanFactionCard.querySelector('.facman-add-ally-btn');
+        addAllyBtn.addEventListener('click', function () {
+            facmanOpenModal('Add Ally', function (allyName) {
+                if (allyName) {
+                    factionData.allies.push(allyName);
+                    renderAllies();
+                }
+            });
+        });
+
+        // Membership section
+        const membershipSection = facmanFactionCard.querySelector('#facman-membership-section');
+        const membershipElem = facmanCreateMembershipSection(factionData.membership || {});
+        membershipSection.appendChild(membershipElem);
 
         // Custom fields
-        if (facmanFactionData.customFields) {
-            facmanFactionData.customFields.forEach(customField => {
-                const fieldRow = facmanCreateField(customField.name, customField.value, true);
-                fieldsContainer.appendChild(fieldRow);
+        const customFieldsContainer = facmanFactionCard.querySelector('#facman-custom-fields');
+        const renderCustomFields = () => {
+            customFieldsContainer.innerHTML = '';
+            factionData.customFields.forEach(field => {
+                const div = document.createElement('div');
+                div.classList.add('facman-custom-field');
+                div.innerHTML = `
+                    <label>${field.name}:</label>
+                    <span>${field.value}</span>
+                    <button class="facman-remove-field-btn">✖</button>
+                `;
+                customFieldsContainer.appendChild(div);
+
+                const removeFieldBtn = div.querySelector('.facman-remove-field-btn');
+                removeFieldBtn.addEventListener('click', function () {
+                    div.remove();
+                    factionData.customFields = factionData.customFields.filter(f => f.name !== field.name);
+                });
             });
-        }
+        };
+        renderCustomFields();
 
-        // Add Field button
-        const addFieldBtn = document.createElement('button');
-        addFieldBtn.className = 'facman-add-field-btn';
-        addFieldBtn.textContent = 'Add Field';
-        card.appendChild(addFieldBtn);
-
+        const addFieldBtn = facmanFactionCard.querySelector('.facman-add-field-btn');
         addFieldBtn.addEventListener('click', function () {
-            const fieldRow = facmanCreateField('', '', true);
-            fieldsContainer.appendChild(fieldRow);
+            facmanOpenModal('Add Custom Field', function (fieldName) {
+                if (fieldName) {
+                    facmanOpenModal('Enter Value for ' + fieldName, function (fieldValue) {
+                        if (fieldValue) {
+                            factionData.customFields.push({ name: fieldName, value: fieldValue });
+                            renderCustomFields();
+                        }
+                    });
+                }
+            });
         });
 
         // Toggle Edit/View button
-        const toggleEditBtn = document.createElement('button');
-        toggleEditBtn.className = 'facman-toggle-edit-btn';
-        toggleEditBtn.textContent = 'Save';
-
-        card.appendChild(toggleEditBtn);
-
-        let isEditing = true;
+        const toggleEditBtn = facmanFactionCard.querySelector('.facman-toggle-edit-btn');
+        let isEditing = false;
         toggleEditBtn.addEventListener('click', function () {
             isEditing = !isEditing;
-            facmanToggleEditMode(card, isEditing);
+            facmanToggleEditMode(facmanFactionCard, isEditing, index);
             toggleEditBtn.textContent = isEditing ? 'Save' : 'Edit';
         });
 
-        // Membership management
-        const membershipSection = facmanCreateMembershipSection(facmanFactionData.membership || {});
-        card.appendChild(membershipSection);
-
-        facmanFactionCardsWrapper.appendChild(card);
-        facmanFactions.push(facmanFactionData);
-
-        // Initially in edit mode
-        facmanToggleEditMode(card, true);
-
-        // Update index to the latest card
-        facmanCurrentIndex = facmanFactions.length - 1;
-        facmanUpdateCarousel();
+        facmanFactionCard.classList.add('active');
     }
 
-    function facmanCreateField(labelText, valueText, isCustom = false) {
-        const fieldRow = document.createElement('div');
-        fieldRow.className = 'facman-field-row';
+    function facmanToggleEditMode(card, isEditing, index) {
+        const factionData = facmanFactions[index];
+        const detailFields = ['Faction Name', 'Size', 'Alignment', 'Motto', 'Description'];
 
-        const labelInput = document.createElement('input');
-        labelInput.type = 'text';
-        labelInput.placeholder = 'Field Name';
-        labelInput.value = labelText;
-
-        const valueInput = document.createElement('input');
-        valueInput.type = 'text';
-        valueInput.placeholder = 'Value';
-        valueInput.value = valueText;
-
-        fieldRow.appendChild(labelInput);
-        fieldRow.appendChild(valueInput);
-
-        if (isCustom) {
-            const removeFieldBtn = document.createElement('span');
-            removeFieldBtn.className = 'facman-remove-field-btn';
-            removeFieldBtn.textContent = '✖';
-            fieldRow.appendChild(removeFieldBtn);
-
-            removeFieldBtn.addEventListener('click', function () {
-                fieldRow.remove();
-            });
-        }
-
-        return fieldRow;
-    }
-
-    function facmanToggleEditMode(card, isEditing) {
-        const inputs = card.querySelectorAll('input, textarea');
-        inputs.forEach(input => {
-            input.disabled = !isEditing;
+        detailFields.forEach(field => {
+            const cell = card.querySelector(`#faction-${field.toLowerCase().replace(' ', '-')}-cell`);
+            if (isEditing) {
+                const value = cell.textContent;
+                cell.innerHTML = `<input type="text" value="${value}">`;
+            } else {
+                const input = cell.querySelector('input');
+                const value = input.value.trim();
+                cell.textContent = value;
+                factionData[field] = value;
+            }
         });
 
-        const removeFieldBtns = card.querySelectorAll('.facman-remove-field-btn');
-        removeFieldBtns.forEach(btn => {
-            btn.style.display = isEditing ? 'inline' : 'none';
-        });
-
-        const addFieldBtn = card.querySelector('.facman-add-field-btn');
-        addFieldBtn.style.display = isEditing ? 'inline-block' : 'none';
-
-        const membershipSection = card.querySelector('.facman-membership-section');
-        const membershipControls = membershipSection.querySelectorAll('.facman-add-tier-btn, .facman-add-member-btn, .facman-move-member-select, .facman-remove-member-btn, .facman-remove-tier-btn');
-        membershipControls.forEach(control => {
-            control.style.display = isEditing ? 'inline-block' : 'none';
-        });
-
-        const fieldsContainer = card.querySelector('.facman-fields-container');
-        const fieldRows = fieldsContainer.querySelectorAll('.facman-field-row');
-
-        if (!isEditing) {
-            // Save data
-            const facmanFactionData = {};
-            const customFields = [];
-
-            fieldRows.forEach(row => {
-                const inputs = row.querySelectorAll('input');
-                const fieldName = inputs[0].value;
-                const fieldValue = inputs[1].value;
-
-                if (['Faction Name', 'Size', 'Motto', 'Description', 'Allies'].includes(fieldName)) {
-                    facmanFactionData[fieldName] = fieldValue;
-                } else {
-                    customFields.push({
-                        name: fieldName,
-                        value: fieldValue
-                    });
+        // Custom fields edit
+        const customFieldsContainer = card.querySelector('#facman-custom-fields');
+        Array.from(customFieldsContainer.children).forEach(div => {
+            const span = div.querySelector('span');
+            if (isEditing) {
+                const value = span.textContent;
+                span.innerHTML = `<input type="text" value="${value}">`;
+            } else {
+                const input = span.querySelector('input');
+                const value = input.value.trim();
+                span.textContent = value;
+                const fieldName = div.querySelector('label').textContent.replace(':', '');
+                const customField = factionData.customFields.find(f => f.name === fieldName);
+                if (customField) {
+                    customField.value = value;
                 }
-            });
+            }
+        });
 
-            facmanFactionData.customFields = customFields;
+        // Allies section
+        const alliesList = card.querySelector('#facman-allies-list');
+        Array.from(alliesList.children).forEach(li => {
+            if (isEditing) {
+                const allyName = li.textContent.replace(' ✖', '');
+                li.innerHTML = `<input type="text" value="${allyName}"> <button class="facman-remove-ally-btn">✖</button>`;
+            } else {
+                const input = li.querySelector('input');
+                const allyName = input.value.trim();
+                li.innerHTML = `${allyName} <button class="facman-remove-ally-btn">✖</button>`;
 
-            // Save membership data
-            const membershipData = facmanCollectMembershipData(membershipSection);
-            facmanFactionData.membership = membershipData;
+                factionData.allies = Array.from(alliesList.children).map(li => li.textContent.replace(' ✖', ''));
+            }
+        });
 
-            // Update the factions array
-            const factionIndex = Array.from(facmanFactionCardsWrapper.children).indexOf(card);
-            facmanFactions[factionIndex] = facmanFactionData;
-
-            // Replace inputs with labels for view mode
-            fieldRows.forEach(row => {
-                const inputs = row.querySelectorAll('input');
-                const fieldName = inputs[0].value;
-                const fieldValue = inputs[1].value;
-
-                row.innerHTML = '';
-
-                const label = document.createElement('div');
-                label.className = 'facman-field-label';
-                label.textContent = fieldName + ':';
-                row.appendChild(label);
-
-                const value = document.createElement('div');
-                value.className = 'facman-field-value';
-                value.textContent = fieldValue;
-                row.appendChild(value);
-            });
-        } else {
-            // Convert labels back to inputs for edit mode
-            fieldRows.forEach(row => {
-                const fieldLabel = row.querySelector('.facman-field-label');
-                const fieldValue = row.querySelector('.facman-field-value');
-
-                const fieldName = fieldLabel.textContent.replace(':', '');
-                const fieldVal = fieldValue.textContent;
-
-                row.innerHTML = '';
-
-                const labelInput = document.createElement('input');
-                labelInput.type = 'text';
-                labelInput.placeholder = 'Field Name';
-                labelInput.value = fieldName;
-
-                const valueInput = document.createElement('input');
-                valueInput.type = 'text';
-                valueInput.placeholder = 'Value';
-                valueInput.value = fieldVal;
-
-                row.appendChild(labelInput);
-                row.appendChild(valueInput);
-
-                // Remove button only if custom field
-                if (!['Faction Name', 'Size', 'Motto', 'Description', 'Allies'].includes(fieldName)) {
-                    const removeFieldBtn = document.createElement('span');
-                    removeFieldBtn.className = 'facman-remove-field-btn';
-                    removeFieldBtn.textContent = '✖';
-                    row.appendChild(removeFieldBtn);
-
-                    removeFieldBtn.addEventListener('click', function () {
-                        row.remove();
-                    });
-                }
-            });
-        }
+        // Show/hide add buttons for editing
+        card.querySelector('.facman-add-ally-btn').style.display = isEditing ? 'block' : 'none';
+        card.querySelector('.facman-add-field-btn').style.display = isEditing ? 'block' : 'none';
     }
 
     // Membership management functions
@@ -251,32 +224,23 @@
         const membershipSection = document.createElement('div');
         membershipSection.className = 'facman-membership-section';
 
-        const membershipHeader = document.createElement('h3');
-        membershipHeader.textContent = 'Membership';
-        membershipSection.appendChild(membershipHeader);
-
-        // Tiers container
         const tiersContainer = document.createElement('div');
         tiersContainer.className = 'facman-tiers-container';
 
-        // Load existing tiers if any
-        if (membershipData.tiers) {
-            membershipData.tiers.forEach(tierData => {
-                const tier = facmanCreateTier(tierData.name, tierData.members);
-                tiersContainer.appendChild(tier);
-            });
-        }
+        membershipData.tiers?.forEach(tierData => {
+            const tier = facmanCreateTier(tierData.name, tierData.members);
+            tiersContainer.appendChild(tier);
+        });
 
         membershipSection.appendChild(tiersContainer);
 
-        // Add Tier button
         const addTierBtn = document.createElement('button');
         addTierBtn.className = 'facman-add-tier-btn';
         addTierBtn.textContent = 'Add Tier';
         membershipSection.appendChild(addTierBtn);
 
         addTierBtn.addEventListener('click', function () {
-            openModal('Add Tier', function (tierName) {
+            facmanOpenModal('Add Tier', function (tierName) {
                 if (tierName) {
                     const tier = facmanCreateTier(tierName, []);
                     tiersContainer.appendChild(tier);
@@ -291,188 +255,204 @@
         const tier = document.createElement('div');
         tier.className = 'facman-tier';
 
+        const removeTierBtn = document.createElement('button');
+        removeTierBtn.className = 'facman-remove-tier-btn';
+        removeTierBtn.textContent = '✖';
+        removeTierBtn.addEventListener('click', function () {
+            tier.remove();
+        });
+        tier.appendChild(removeTierBtn);
+
         const tierHeader = document.createElement('div');
         tierHeader.className = 'facman-tier-header';
 
         const tierNameElem = document.createElement('h4');
         tierNameElem.textContent = tierName;
 
-        const tierControls = document.createElement('div');
-        tierControls.className = 'facman-tier-controls';
-
-        const removeTierBtn = document.createElement('button');
-        removeTierBtn.className = 'facman-remove-tier-btn';
-        removeTierBtn.textContent = '✖';
-
-        tierControls.appendChild(removeTierBtn);
-
-        removeTierBtn.addEventListener('click', function () {
-            tier.remove();
-        });
-
         tierHeader.appendChild(tierNameElem);
-        tierHeader.appendChild(tierControls);
-
         tier.appendChild(tierHeader);
 
-        // Members list
         const membersList = document.createElement('ul');
-        membersList.className = 'facman-tier-members';
-
-        // Load existing members
-        members.forEach(memberName => {
-            const memberItem = facmanCreateMember(memberName, tier);
+        members.forEach(member => {
+            const memberItem = facmanCreateMember(member);
             membersList.appendChild(memberItem);
         });
-
         tier.appendChild(membersList);
 
-        // Add Member button
         const addMemberBtn = document.createElement('button');
         addMemberBtn.className = 'facman-add-member-btn';
         addMemberBtn.textContent = 'Add Member';
-
         addMemberBtn.addEventListener('click', function () {
-            openModal('Add Member', function (memberName) {
+            facmanOpenModal('Add Member', function (memberName) {
                 if (memberName) {
-                    const memberItem = facmanCreateMember(memberName, tier);
+                    const memberItem = facmanCreateMember(memberName);
                     membersList.appendChild(memberItem);
                 }
             });
         });
-
         tier.appendChild(addMemberBtn);
 
         return tier;
     }
 
-    function facmanCreateMember(memberName, currentTier) {
+    function facmanCreateMember(memberName) {
         const memberItem = document.createElement('li');
+        memberItem.innerHTML = `${memberName} <button class="facman-remove-member-btn">✖</button>`;
 
-        const memberNameElem = document.createElement('div');
-        memberNameElem.className = 'facman-member-name';
-        memberNameElem.textContent = memberName;
-
-        const memberControls = document.createElement('div');
-        memberControls.className = 'facman-member-controls';
-
-        // Move member select
-        const moveMemberSelect = document.createElement('select');
-        moveMemberSelect.className = 'facman-move-member-select';
-
-        const optionDefault = document.createElement('option');
-        optionDefault.value = '';
-        optionDefault.textContent = 'Move to...';
-        moveMemberSelect.appendChild(optionDefault);
-
-        // Populate tiers excluding current tier
-        const allTiers = currentTier.parentElement.querySelectorAll('.facman-tier');
-        allTiers.forEach(tier => {
-            if (tier !== currentTier) {
-                const tierName = tier.querySelector('.facman-tier-header h4').textContent;
-                const option = document.createElement('option');
-                option.value = tierName;
-                option.textContent = tierName;
-                moveMemberSelect.appendChild(option);
-            }
-        });
-
-        moveMemberSelect.addEventListener('change', function () {
-            const selectedTierName = moveMemberSelect.value;
-            if (selectedTierName) {
-                // Find the selected tier
-                const allTiers = currentTier.parentElement.querySelectorAll('.facman-tier');
-                const selectedTier = Array.from(allTiers).find(tier => {
-                    return tier.querySelector('.facman-tier-header h4').textContent === selectedTierName;
-                });
-
-                // Move member to selected tier
-                const membersList = selectedTier.querySelector('.facman-tier-members');
-                membersList.appendChild(memberItem);
-                moveMemberSelect.value = '';
-            }
-        });
-
-        // Remove member button
-        const removeMemberBtn = document.createElement('button');
-        removeMemberBtn.className = 'facman-remove-member-btn';
-        removeMemberBtn.textContent = '✖';
-
+        const removeMemberBtn = memberItem.querySelector('.facman-remove-member-btn');
         removeMemberBtn.addEventListener('click', function () {
             memberItem.remove();
         });
 
-        memberControls.appendChild(moveMemberSelect);
-        memberControls.appendChild(removeMemberBtn);
-
-        memberItem.appendChild(memberNameElem);
-        memberItem.appendChild(memberControls);
-
         return memberItem;
     }
 
-    function facmanCollectMembershipData(membershipSection) {
-        const tiers = [];
-        const tierElements = membershipSection.querySelectorAll('.facman-tier');
+    // Save the current faction's data to ensure that the membership and other details are not lost
+    function facmanSaveCurrentFactionData(index) {
+        const factionData = facmanFactions[index];
+        const membershipSection = document.querySelector('.facman-membership-section');
+        const tiersContainer = membershipSection.querySelector('.facman-tiers-container');
 
-        tierElements.forEach(tierElement => {
+        // Collect membership data (tiers and members)
+        const newTiers = [];
+        tiersContainer.querySelectorAll('.facman-tier').forEach(tierElement => {
             const tierName = tierElement.querySelector('.facman-tier-header h4').textContent;
             const members = [];
-            const memberItems = tierElement.querySelectorAll('.facman-tier-members li .facman-member-name');
-
-            memberItems.forEach(memberItem => {
-                members.push(memberItem.textContent);
+            tierElement.querySelectorAll('li').forEach(memberElement => {
+                members.push(memberElement.textContent.replace(' ✖', ''));
             });
-
-            tiers.push({
-                name: tierName,
-                members: members
-            });
+            newTiers.push({ name: tierName, members: members });
         });
 
-        return { tiers: tiers };
+        factionData.membership.tiers = newTiers;
+
+        // Save the updated faction data back into the array
+        facmanFactions[index] = factionData;
     }
 
     // Modal functions
-    const modal = document.getElementById('facman-modal');
-    const modalCloseBtn = document.getElementById('facman-modal-close-btn');
-    const modalBody = document.getElementById('facman-modal-body');
+    const facmanModal = document.getElementById('facman-modal');
+    const facmanModalCloseBtn = document.getElementById('facman-modal-close-btn');
+    const facmanModalBody = document.getElementById('facman-modal-body');
 
-    function openModal(title, callback) {
-        modalBody.innerHTML = '';
+    function facmanOpenModal(title, callback, isCreateFaction = false) {
+        facmanModalBody.innerHTML = '';
 
         const titleElem = document.createElement('h3');
         titleElem.textContent = title;
-        modalBody.appendChild(titleElem);
+        facmanModalBody.appendChild(titleElem);
 
-        const input = document.createElement('input');
-        input.type = 'text';
-        modalBody.appendChild(input);
+        if (isCreateFaction) {
+            const defaultFields = ['Faction Name', 'Motto', 'Description'];
+            const fieldInputs = {};
 
-        const submitBtn = document.createElement('button');
-        submitBtn.textContent = 'Submit';
-        submitBtn.style.marginTop = '20px';
-        modalBody.appendChild(submitBtn);
+            defaultFields.forEach(fieldName => {
+                const input = document.createElement('input');
+                input.type = 'text';
+                input.placeholder = fieldName;
+                facmanModalBody.appendChild(input);
+                fieldInputs[fieldName] = input;
+            });
 
-        submitBtn.addEventListener('click', function () {
-            const value = input.value.trim();
-            modal.classList.remove('active');
-            callback(value);
-        });
+            const sizes = ['Tribe', 'Village', 'Clan', 'Township', 'City', 'State', 'Region', 'Nation', 'Empire', 'World Power'];
+            facmanModalBody.appendChild(facmanCreateRadioGroup('Faction Size', 'factionSize', sizes));
 
-        modal.classList.add('active');
-        input.focus();
+            const alignments = ['Chaotic Good', 'Chaotic Neutral', 'Chaotic Evil', 'Lawful Good', 'Lawful Neutral', 'Lawful Evil', 'Neutral Good', 'True Neutral', 'Neutral Evil'];
+            facmanModalBody.appendChild(facmanCreateRadioGroup('Faction Alignment', 'factionAlignment', alignments));
+
+            const submitBtn = document.createElement('button');
+            submitBtn.textContent = 'Create Faction';
+            facmanModalBody.appendChild(submitBtn);
+
+            submitBtn.addEventListener('click', function () {
+                const factionData = {};
+                let hasName = false;
+
+                defaultFields.forEach(fieldName => {
+                    const value = fieldInputs[fieldName].value.trim();
+                    if (fieldName === 'Faction Name' && value) hasName = true;
+                    factionData[fieldName] = value;
+                });
+
+                if (!hasName) {
+                    alert('Faction Name is required.');
+                    return;
+                }
+
+                const sizeRadio = facmanModalBody.querySelector('input[name="factionSize"]:checked');
+                if (sizeRadio) factionData['Size'] = sizeRadio.value;
+                else {
+                    alert('Faction Size is required.');
+                    return;
+                }
+
+                const alignmentRadio = facmanModalBody.querySelector('input[name="factionAlignment"]:checked');
+                if (alignmentRadio) factionData['Alignment'] = alignmentRadio.value;
+                else {
+                    alert('Faction Alignment is required.');
+                    return;
+                }
+
+                factionData.membership = { tiers: [] };
+                factionData.allies = [];
+                factionData.customFields = [];
+
+                facmanModal.classList.remove('active');
+                callback(factionData);
+            });
+        } else {
+            const input = document.createElement('input');
+            input.type = 'text';
+            facmanModalBody.appendChild(input);
+
+            const submitBtn = document.createElement('button');
+            submitBtn.textContent = 'Submit';
+            facmanModalBody.appendChild(submitBtn);
+
+            submitBtn.addEventListener('click', function () {
+                const value = input.value.trim();
+                if (value === '') {
+                    alert('This field cannot be empty.');
+                    return;
+                }
+                facmanModal.classList.remove('active');
+                callback(value);
+            });
+        }
+
+        facmanModal.classList.add('active');
     }
 
-    modalCloseBtn.addEventListener('click', function () {
-        modal.classList.remove('active');
+    facmanModalCloseBtn.addEventListener('click', function () {
+        facmanModal.classList.remove('active');
     });
 
     // Close modal on outside click
-    window.addEventListener('click', function (event) {
-        if (event.target === modal) {
-            modal.classList.remove('active');
+    facmanModal.addEventListener('click', function (event) {
+        if (event.target === facmanModal) {
+            facmanModal.classList.remove('active');
         }
     });
 
-})();
+    function facmanCreateRadioGroup(labelText, groupName, options) {
+        const group = document.createElement('div');
+        group.className = 'facman-radio-group';
+        const label = document.createElement('h4');
+        label.textContent = labelText;
+        group.appendChild(label);
+
+        options.forEach(option => {
+            const optionLabel = document.createElement('label');
+            const radio = document.createElement('input');
+            radio.type = 'radio';
+            radio.name = groupName;
+            radio.value = option;
+            optionLabel.appendChild(radio);
+            optionLabel.appendChild(document.createTextNode(option));
+            group.appendChild(optionLabel);
+        });
+
+        return group;
+    }
+
+};

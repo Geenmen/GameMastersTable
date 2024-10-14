@@ -1,23 +1,22 @@
 ﻿<div class="facman-faction-manager">
     <button class="facman-create-faction-btn">Create Faction</button>
-    <!-- Carousel Container -->
-    <div class="facman-carousel-container">
-        <div class="facman-faction-cards-wrapper">
-            <!-- Faction cards will be appended here -->
-        </div>
-        <!-- Carousel Navigation -->
-        <div class="facman-carousel-nav">
-            <button class="facman-prev-btn">❮</button>
-            <button class="facman-next-btn">❯</button>
+    <!-- Faction List -->
+    <div class="facman-faction-list">
+        <!-- Faction buttons will be appended here -->
+    </div>
+
+    <!-- Modal for creating factions -->
+    <div class="facman-modal" id="facman-modal">
+        <div class="facman-modal-content">
+            <button class="facman-modal-close-btn" id="facman-modal-close-btn">✖</button>
+            <div id="facman-modal-body">
+                <!-- Modal content will be injected here -->
+            </div>
         </div>
     </div>
-</div>
-<!-- Modal for adding/editing tiers and members -->
-<div class="facman-modal" id="facman-modal">
-    <div class="facman-modal-content">
-        <span class="facman-modal-close-btn" id="facman-modal-close-btn">✖</span>
-        <div id="facman-modal-body">
-            <!-- Modal content will be injected here -->
-        </div>
+
+    <!-- Faction Card -->
+    <div class="facman-faction-card" id="facman-faction-card">
+        <!-- Faction details will be injected here -->
     </div>
 </div>
