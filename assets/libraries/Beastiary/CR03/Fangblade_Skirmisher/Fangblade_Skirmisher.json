@@ -1,3 +1,65 @@
 {
-    "name": "Fangblade Skirmisher"
+  "creature_name": "Fangblade Skirmisher",
+  "type": "Humanoid",
+  "alignment": "Chaotic Neutral",
+  "description": "The Fangblade Skirmisher is a nimble and vicious warrior, often found as part of marauding bands that ambush travelers. With quick reflexes and sharp fangs adorning their blades, they specialize in hit-and-run tactics, striking quickly and retreating before enemies can retaliate.",
+  "image": "",
+  "armor_class": 15,
+  "hit_points": 55,
+  "speed": {
+    "walk": "40 ft",
+    "fly": ""
+  },
+  "ability_scores": {
+    "strength": 13,
+    "dexterity": 18,
+    "constitution": 14,
+    "intelligence": 10,
+    "wisdom": 12,
+    "charisma": 11
+  },
+  "saving_throws": {
+    "strength": "+3",
+    "dexterity": "+6",
+    "constitution": "+4"
+  },
+  "skills": {
+    "perception": "+4",
+    "stealth": "+8"
+  },
+  "damage_resistances": "Slashing from non-magical weapons",
+  "damage_immunities": "",
+  "condition_immunities": "Frightened",
+  "senses": {
+    "darkvision": "60 ft",
+    "passive_perception": "14"
+  },
+  "languages": "Common, Goblin",
+  "challenge_rating": "03",
+  "tamable": false,
+  "lair_type": "None",
+  "traits": [
+    {
+      "name": "Skirmisher's Agility",
+      "description": "The Fangblade Skirmisher can move up to half its speed as a bonus action without provoking opportunity attacks."
+    },
+    {
+      "name": "Ambusher",
+      "description": "The Fangblade Skirmisher has advantage on attack rolls against any creature it has surprised."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "description": "The Fangblade Skirmisher makes two attacks with its Fangblade."
+    },
+    {
+      "name": "Fangblade",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage plus 4 (1d6) poison damage."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

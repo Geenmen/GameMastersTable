@@ -1,3 +1,65 @@
 {
-    "name": "Dawnlight Spark"
+  "creature_name": "Dawnlight Spark",
+  "type": "Fey",
+  "alignment": "Chaotic Good",
+  "description": "Dawnlight Sparks are radiant, small fey creatures that appear as glowing orbs of light with faint wings. They are guardians of dawn, bringing light and hope to those lost in the darkness. Their light can be both soothing and blinding, depending on the intent of the Spark. They are known for their playful, mischievous nature but can become fierce protectors in times of danger.",
+  "image": "",
+  "armor_class": 13,
+  "hit_points": 27,
+  "speed": {
+    "walk": "30 ft",
+    "fly": "50 ft"
+  },
+  "ability_scores": {
+    "strength": 6,
+    "dexterity": 16,
+    "constitution": 12,
+    "intelligence": 10,
+    "wisdom": 14,
+    "charisma": 18
+  },
+  "saving_throws": {
+    "strength": "",
+    "dexterity": "+5",
+    "constitution": "+3"
+  },
+  "skills": {
+    "perception": "+4",
+    "stealth": "+7"
+  },
+  "damage_resistances": "radiant, cold",
+  "damage_immunities": "lightning",
+  "condition_immunities": "charmed, frightened",
+  "senses": {
+    "darkvision": "60 ft",
+    "passive_perception": "14"
+  },
+  "languages": "Sylvan, Elvish, telepathy 60 ft",
+  "challenge_rating": "03",
+  "tamable": false,
+  "lair_type": "Glades and sunlit forests",
+  "traits": [
+    {
+      "name": "Radiant Aura",
+      "description": "The Dawnlight Spark emits a radiant light in a 20-foot radius. Allies within this aura gain advantage on saving throws against being charmed or frightened."
+    },
+    {
+      "name": "Blinding Flash",
+      "description": "As a reaction to being attacked, the Dawnlight Spark can release a burst of light. The attacker must succeed on a DC 13 Dexterity saving throw or be blinded until the end of its next turn."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Light Bolt",
+      "description": "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit: 10 (2d6 + 3) radiant damage."
+    },
+    {
+      "name": "Soothing Light",
+      "description": "The Dawnlight Spark emits a calming glow. One creature of the Spark's choice within 30 feet regains 1d8 + 2 hit points."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

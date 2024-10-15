@@ -1,3 +1,65 @@
 {
-    "name": "Cursed Mirror"
+  "creature_name": "Cursed Mirror",
+  "type": "Construct",
+  "alignment": "Chaotic Evil",
+  "description": "The Cursed Mirror is a haunted relic created by dark sorcery. It reflects not only the appearance but the very soul of those who gaze into it, trapping their likeness within and turning their reflections against them. It can summon twisted, shadowy doppelgängers that attack the real person.",
+  "image": "",
+  "armor_class": 14,
+  "hit_points": 45,
+  "speed": {
+    "walk": "0 ft.",
+    "fly": "0 ft."
+  },
+  "ability_scores": {
+    "strength": 6,
+    "dexterity": 14,
+    "constitution": 12,
+    "intelligence": 10,
+    "wisdom": 13,
+    "charisma": 18
+  },
+  "saving_throws": {
+    "strength": "",
+    "dexterity": "+4",
+    "constitution": "+2"
+  },
+  "skills": {
+    "perception": "+4",
+    "stealth": "+6"
+  },
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical weapons",
+  "damage_immunities": "psychic, necrotic",
+  "condition_immunities": "charmed, frightened, paralyzed",
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": "14"
+  },
+  "languages": "understands Common but cannot speak",
+  "challenge_rating": "3",
+  "tamable": false,
+  "lair_type": "Haunted Castle or Cursed Shrine",
+  "traits": [
+    {
+      "name": "Reflective Curse",
+      "description": "Any creature that looks into the Cursed Mirror must succeed on a DC 14 Wisdom saving throw or become cursed. While cursed, the creature's reflection attacks them, mimicking their moves."
+    },
+    {
+      "name": "Doppelgänger Summoning",
+      "description": "The Cursed Mirror can summon a shadowy doppelgänger of any creature reflected in it. This doppelgänger has the same stats as the creature, except it has 20 fewer hit points and deals necrotic damage instead of its normal damage type."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Summon Reflection",
+      "description": "The Cursed Mirror summons a shadowy reflection of a creature that gazes into it within 30 feet. The reflection fights as if it were the original creature, with 20 fewer hit points. The reflection lasts for 1 minute or until destroyed."
+    },
+    {
+      "name": "Soul Siphon",
+      "description": "The Cursed Mirror can draw energy from a creature's reflection. A creature that is cursed by the mirror must make a DC 14 Constitution saving throw or take 2d6 necrotic damage, healing the mirror for the same amount."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

@@ -1,0 +1,75 @@
+{
+  "creature_name": "Carl and Nancy",
+  "type": "Aberration (Twin Entity)",
+  "alignment": "Neutral Evil",
+  "description": "Carl and Nancy are a horrifying fusion of two entities, constantly shifting between male and female forms, bound together by a single consciousness. Their appearance is grotesque—Carl's half is a towering figure made of twisted flesh and bone, with countless eyes peering out from his muscular form. Nancy's half is a shadowy figure with long, ethereal limbs that seem to phase in and out of reality, with her face obscured by a veil of black mist. Together, they have the power to reshape galaxies, their voices creating harmonies that can bend the fabric of space and time.",
+  "image": "A grotesque fusion of two beings, one muscular with multiple eyes, the other shadowy and ethereal.",
+  "armor_class": 28,
+  "hit_points": 900,
+  "speed": {
+    "walk": "60 ft.",
+    "fly": "400 ft."
+  },
+  "ability_scores": {
+    "strength": 28,
+    "dexterity": 26,
+    "constitution": 30,
+    "intelligence": 30,
+    "wisdom": 24,
+    "charisma": 32
+  },
+  "saving_throws": {
+    "strength": "+18",
+    "dexterity": "+19",
+    "constitution": "+20"
+  },
+  "skills": {
+    "perception": "+24",
+    "stealth": "+21"
+  },
+  "damage_resistances": "Force, Psychic, Radiant",
+  "damage_immunities": "Necrotic, Poison",
+  "condition_immunities": "Charmed, Exhaustion, Petrified",
+  "senses": {
+    "darkvision": "1,000 ft.",
+    "passive_perception": "35"
+  },
+  "languages": "All, Telepathy 1,000 ft.",
+  "challenge_rating": "30",
+  "tamable": false,
+  "lair_type": "Carl and Nancy dwell within a nexus of interdimensional space, where time warps and the rules of reality are bent.",
+  "traits": [
+    {
+      "name": "Dual Minds",
+      "description": "Carl and Nancy have advantage on all Intelligence, Wisdom, and Charisma saving throws. They can also take an additional action on their turn once per round."
+    },
+    {
+      "name": "Reality Warp",
+      "description": "Once per day, Carl and Nancy can alter the fabric of reality within 1,000 feet, causing time to slow or reverse, or altering the terrain completely."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Cosmic Shriek",
+      "description": "Carl and Nancy release a harrowing shriek, sending out psychic waves in a 500-foot radius. All creatures in the area must make a DC 28 Wisdom saving throw or take 110 (15d10) psychic damage and be stunned for 1 minute."
+    },
+    {
+      "name": "Dimensional Tear",
+      "description": "They can open a rift in the fabric of space, transporting themselves and others to a different plane of existence. The rift remains open for 1 minute."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [
+    {
+      "name": "Tidal Shift",
+      "description": "Carl and Nancy can reverse gravity within their lair, causing all creatures to be pulled into the sky and take 70 (10d12) force damage when they fall."
+    }
+  ],
+  "regional_effects": [
+    {
+      "name": "Dimensional Flux",
+      "description": "Within 5 miles of Carl and Nancy’s lair, space bends and warps, creating spatial distortions and temporal anomalies."
+    }
+  ]
+}

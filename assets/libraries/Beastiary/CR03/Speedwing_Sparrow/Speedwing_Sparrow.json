@@ -1,3 +1,65 @@
 {
-    "name": "Speedwing Sparrow"
+  "creature_name": "Speedwing Sparrow",
+  "type": "Beast",
+  "alignment": "Neutral",
+  "description": "The Speedwing Sparrow is a swift and agile bird known for its incredible speed in flight. Its feathers shimmer with hues of silver and blue, making it a breathtaking sight as it darts through forests and open skies. It is often seen as a symbol of freedom and swiftness by those who admire nature's wonders.",
+  "image": "",
+  "armor_class": 14,
+  "hit_points": 32,
+  "speed": {
+    "walk": "10 ft",
+    "fly": "90 ft"
+  },
+  "ability_scores": {
+    "strength": 8,
+    "dexterity": 18,
+    "constitution": 12,
+    "intelligence": 4,
+    "wisdom": 14,
+    "charisma": 10
+  },
+  "saving_throws": {
+    "strength": "+1",
+    "dexterity": "+6",
+    "constitution": "+3"
+  },
+  "skills": {
+    "perception": "+4",
+    "stealth": "+8"
+  },
+  "damage_resistances": "Bludgeoning from non-magical attacks",
+  "damage_immunities": "",
+  "condition_immunities": "Frightened",
+  "senses": {
+    "darkvision": "60 ft",
+    "passive_perception": "14"
+  },
+  "languages": "Understands Auran but cannot speak",
+  "challenge_rating": "03",
+  "tamable": true,
+  "lair_type": "Forests or Mountainous Areas",
+  "traits": [
+    {
+      "name": "Evasion",
+      "description": "If the Speedwing Sparrow is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+    },
+    {
+      "name": "Keen Sight",
+      "description": "The Speedwing Sparrow has advantage on Wisdom (Perception) checks that rely on sight."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Talons",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage."
+    },
+    {
+      "name": "Dive Attack",
+      "description": "If the Speedwing Sparrow is flying and dives at least 30 feet straight toward a target and then hits it with a talon attack on the same turn, the target takes an extra 9 (2d8) slashing damage."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

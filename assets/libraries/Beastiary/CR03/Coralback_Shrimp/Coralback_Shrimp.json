@@ -1,3 +1,65 @@
 {
-    "name": "Coralback Shrimp"
+  "creature_name": "Coralback Shrimp",
+  "type": "Beast",
+  "alignment": "Unaligned",
+  "description": "The Coralback Shrimp is a large, vibrant crustacean found in shallow coastal waters. Its back is covered in a hard, coral-like exoskeleton, providing natural camouflage and protection. Despite its size, the Coralback Shrimp is surprisingly nimble, using its pincers to defend itself and burrow into the seabed when threatened. Its brightly colored coral exoskeleton can also release a sharp toxin, stunning nearby predators.",
+  "image": "",
+  "armor_class": 16,
+  "hit_points": 85,
+  "speed": {
+    "walk": "10 ft.",
+    "fly": ""
+  },
+  "ability_scores": {
+    "strength": 15,
+    "dexterity": 17,
+    "constitution": 14,
+    "intelligence": 2,
+    "wisdom": 10,
+    "charisma": 5
+  },
+  "saving_throws": {
+    "strength": "+4",
+    "dexterity": "+5",
+    "constitution": "+3"
+  },
+  "skills": {
+    "perception": "+2",
+    "stealth": "+6"
+  },
+  "damage_resistances": "Piercing, Slashing",
+  "damage_immunities": "Poison",
+  "condition_immunities": "Poisoned",
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": "12"
+  },
+  "languages": "",
+  "challenge_rating": "3",
+  "tamable": false,
+  "lair_type": "Coral Reefs",
+  "traits": [
+    {
+      "name": "Camouflage",
+      "description": "The Coralback Shrimp can blend into coral reefs and rocky seabeds, giving it advantage on Dexterity (Stealth) checks to hide in these environments."
+    },
+    {
+      "name": "Toxic Exoskeleton",
+      "description": "Any creature that makes a melee attack against the Coralback Shrimp must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Pincer Attack",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8+4) bludgeoning damage."
+    },
+    {
+      "name": "Coral Burst",
+      "description": "The Coralback Shrimp releases a burst of sharp coral shards in a 10-foot radius. Each creature in the area must make a DC 14 Dexterity saving throw, taking 14 (4d6) piercing damage on a failed save, or half as much on a successful one."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

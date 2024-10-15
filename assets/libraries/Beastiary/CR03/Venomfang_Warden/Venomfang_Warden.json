@@ -1,3 +1,65 @@
 {
-    "name": "Venomfang Warden"
+  "creature_name": "Venomfang Warden",
+  "type": "Monstrosity",
+  "alignment": "Chaotic Neutral",
+  "description": "A massive, snake-like guardian creature, the Venomfang Warden serves as a protector of ancient ruins deep within the jungle. It has emerald-green scales and glowing, venom-dripping fangs. Its keen senses make it an almost impossible foe to surprise.",
+  "image": "",
+  "armor_class": 15,
+  "hit_points": 68,
+  "speed": {
+    "walk": "30 ft.",
+    "fly": ""
+  },
+  "ability_scores": {
+    "strength": 16,
+    "dexterity": 14,
+    "constitution": 16,
+    "intelligence": 8,
+    "wisdom": 13,
+    "charisma": 10
+  },
+  "saving_throws": {
+    "strength": "+5",
+    "dexterity": "+4",
+    "constitution": "+5"
+  },
+  "skills": {
+    "perception": "+3",
+    "stealth": "+4"
+  },
+  "damage_resistances": "Poison",
+  "damage_immunities": "",
+  "condition_immunities": "Poisoned",
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": "13"
+  },
+  "languages": "Understands Common but cannot speak",
+  "challenge_rating": "3",
+  "tamable": false,
+  "lair_type": "Ruins, Jungle",
+  "traits": [
+    {
+      "name": "Keen Senses",
+      "description": "The Venomfang Warden has advantage on Wisdom (Perception) checks that rely on smell."
+    },
+    {
+      "name": "Venomous Bite",
+      "description": "When the Venomfang Warden hits with its bite attack, the target must succeed on a DC 13 Constitution saving throw or take 10 (3d6) poison damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage, plus 10 (3d6) poison damage."
+    },
+    {
+      "name": "Constrict",
+      "description": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the Venomfang Warden can't constrict another target."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

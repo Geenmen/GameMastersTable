@@ -1,0 +1,75 @@
+{
+  "creature_name": "Geenmen",
+  "type": "Fiend",
+  "alignment": "Lawful Evil",
+  "description": "Geenmen is a massive figure, his skin resembling molten rock and volcanic glass. His body radiates an intense, searing heat that can ignite the ground where he steps. Geenmen’s head is a twisting crown of horns, with magma flowing beneath cracked skin. His glowing eyes pierce through the fabric of reality, capable of seeing both the physical and astral planes simultaneously. With every breath, ash and sulfur fill the air, and his deep voice rumbles like the eruption of a volcano.",
+  "image": "A lava-skinned giant with magma cracks and horned crown, standing over a burning battlefield.",
+  "armor_class": 27,
+  "hit_points": 920,
+  "speed": {
+    "walk": "40 ft.",
+    "fly": "250 ft."
+  },
+  "ability_scores": {
+    "strength": 32,
+    "dexterity": 22,
+    "constitution": 30,
+    "intelligence": 20,
+    "wisdom": 18,
+    "charisma": 26
+  },
+  "saving_throws": {
+    "strength": "+21",
+    "dexterity": "+17",
+    "constitution": "+20"
+  },
+  "skills": {
+    "perception": "+18",
+    "stealth": "+16"
+  },
+  "damage_resistances": "Fire, Necrotic",
+  "damage_immunities": "Radiant, Cold, Psychic",
+  "condition_immunities": "Blinded, Paralyzed, Stunned",
+  "senses": {
+    "darkvision": "500 ft.",
+    "passive_perception": "30"
+  },
+  "languages": "Infernal, Abyssal, Telepathy 300 ft.",
+  "challenge_rating": "30",
+  "tamable": false,
+  "lair_type": "A volcanic rift where rivers of lava flow and the air is thick with sulfur.",
+  "traits": [
+    {
+      "name": "Magma Aura",
+      "description": "Creatures within 100 feet of Geenmen take 20 (3d10) fire damage at the start of their turn."
+    },
+    {
+      "name": "Volcanic Burst",
+      "description": "When Geenmen is reduced to half health, he erupts in a burst of magma, dealing 100 (15d10) fire damage to all creatures within 300 feet."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Molten Strike",
+      "description": "Geenmen slams the ground with his fists, causing molten rock to erupt in a 200-foot radius. All creatures in the area must make a DC 27 Dexterity saving throw or take 90 (12d12) fire damage and be knocked prone."
+    },
+    {
+      "name": "Lava Flow",
+      "description": "Geenmen creates a river of lava that moves through the battlefield, dealing 60 (10d6) fire damage to creatures in its path. The lava remains for 1 minute, acting as difficult terrain."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [
+    {
+      "name": "Eruption",
+      "description": "Geenmen can cause a dormant volcano within his lair to erupt, sending flaming debris over a 1-mile radius, dealing 50 (8d10) fire damage to all creatures caught in the blast."
+    }
+  ],
+  "regional_effects": [
+    {
+      "name": "Volcanic Tremors",
+      "description": "Within 5 miles of Geenmen’s lair, the ground constantly trembles, and volcanic eruptions are frequent."
+    }
+  ]
+}

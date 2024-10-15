@@ -1,3 +1,65 @@
 {
-    "name": "Snowborn Sentinel"
+  "creature_name": "Snowborn Sentinel",
+  "type": "Elemental",
+  "alignment": "Neutral",
+  "description": "The Snowborn Sentinel is a towering, humanoid figure made of densely packed snow and ice, with glowing blue eyes. It stands guard over frozen tundras and mountain passes, protecting its territory with cold, unyielding resolve. Its form is resistant to heat, and it moves with surprising speed for its size, blending into its snowy environment. Legends say that they are summoned by ancient winter spirits to guard sacred icy places.",
+  "image": "",
+  "armor_class": 15,
+  "hit_points": 60,
+  "speed": {
+    "walk": "30 ft",
+    "fly": ""
+  },
+  "ability_scores": {
+    "strength": 16,
+    "dexterity": 12,
+    "constitution": 14,
+    "intelligence": 6,
+    "wisdom": 10,
+    "charisma": 8
+  },
+  "saving_throws": {
+    "strength": "+4",
+    "dexterity": "+2",
+    "constitution": "+4"
+  },
+  "skills": {
+    "perception": "+2",
+    "stealth": "+3"
+  },
+  "damage_resistances": "Cold",
+  "damage_immunities": "",
+  "condition_immunities": "Charmed, Exhaustion",
+  "senses": {
+    "darkvision": "60 ft",
+    "passive_perception": "12"
+  },
+  "languages": "Primordial",
+  "challenge_rating": "03",
+  "tamable": false,
+  "lair_type": "Frozen Tundra",
+  "traits": [
+    {
+      "name": "Icy Aura",
+      "description": "Any creature that starts its turn within 10 feet of the Snowborn Sentinel must succeed on a DC 12 Constitution saving throw or take 1d6 cold damage."
+    },
+    {
+      "name": "Snow Camouflage",
+      "description": "The Snowborn Sentinel has advantage on Dexterity (Stealth) checks made to hide in snowy terrain."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Ice Slam",
+      "description": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 4) bludgeoning damage, plus 4 (1d6) cold damage."
+    },
+    {
+      "name": "Snowstorm Blast (Recharge 5-6)",
+      "description": "The Snowborn Sentinel exhales a freezing blast of snow and ice in a 30-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 21 (6d6) cold damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

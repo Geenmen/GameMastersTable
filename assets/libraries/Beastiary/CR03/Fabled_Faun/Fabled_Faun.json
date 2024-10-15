@@ -1,3 +1,65 @@
 {
-    "name": "Fabled Faun"
+  "creature_name": "Fabled Faun",
+  "type": "Fey",
+  "alignment": "Chaotic Good",
+  "description": "A Fabled Faun is a mysterious woodland creature, known for its gentle nature and deep connection to the magic of the forest. Its upper body resembles that of a humanoid, with curling horns and a mane of leaves and flowers, while its lower half is that of a nimble deer. Fabled Fauns are often seen dancing under moonlight and are revered by woodland creatures as protectors of nature.",
+  "image": "",
+  "armor_class": 15,
+  "hit_points": 44,
+  "speed": {
+    "walk": "40 ft",
+    "fly": ""
+  },
+  "ability_scores": {
+    "strength": 10,
+    "dexterity": 16,
+    "constitution": 12,
+    "intelligence": 14,
+    "wisdom": 16,
+    "charisma": 18
+  },
+  "saving_throws": {
+    "strength": "+1",
+    "dexterity": "+5",
+    "constitution": "+3"
+  },
+  "skills": {
+    "perception": "+6",
+    "stealth": "+5"
+  },
+  "damage_resistances": "Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": {
+    "darkvision": "60 ft",
+    "passive_perception": "16"
+  },
+  "languages": "Sylvan, Elvish, Common",
+  "challenge_rating": "03",
+  "tamable": false,
+  "lair_type": "Forest Grove",
+  "traits": [
+    {
+      "name": "Fey Ancestry",
+      "description": "The Fabled Faun has advantage on saving throws against being charmed, and magic can't put it to sleep."
+    },
+    {
+      "name": "Magic Resistance",
+      "description": "The Fabled Faun has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Hoof Kick",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 3) bludgeoning damage."
+    },
+    {
+      "name": "Call of the Wild",
+      "description": "The Fabled Faun can magically summon 1d4 fey creatures (sprites, pixies, or other woodland beings). These creatures act as allies to the Faun."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

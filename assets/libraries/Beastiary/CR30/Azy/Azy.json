@@ -1,0 +1,75 @@
+{
+  "creature_name": "Azy",
+  "type": "Celestial",
+  "alignment": "Chaotic Neutral",
+  "description": "Azy appears as a colossal, translucent figure, composed entirely of shimmering stardust and nebula clouds. His humanoid form shifts in appearance, with cosmic winds swirling around him, making him look both present and ethereal. His eyes are twin black holes, absorbing all light and knowledge, while his body glows faintly in hues of violet and sapphire. His hands, resembling galaxies themselves, hold immense cosmic power that can create or destroy entire star systems with a mere gesture.",
+  "image": "A humanoid figure made of stardust and nebula, with black holes for eyes, towering over planets.",
+  "armor_class": 25,
+  "hit_points": 850,
+  "speed": {
+    "walk": "50 ft.",
+    "fly": "300 ft."
+  },
+  "ability_scores": {
+    "strength": 30,
+    "dexterity": 24,
+    "constitution": 28,
+    "intelligence": 26,
+    "wisdom": 22,
+    "charisma": 30
+  },
+  "saving_throws": {
+    "strength": "+20",
+    "dexterity": "+18",
+    "constitution": "+19"
+  },
+  "skills": {
+    "perception": "+22",
+    "stealth": "+18"
+  },
+  "damage_resistances": "Radiant, Necrotic, Fire",
+  "damage_immunities": "Psychic, Force, Cold",
+  "condition_immunities": "Frightened, Charmed, Paralyzed",
+  "senses": {
+    "darkvision": "500 ft.",
+    "passive_perception": "32"
+  },
+  "languages": "All, Telepathy 500 ft.",
+  "challenge_rating": "30",
+  "tamable": false,
+  "lair_type": "Azy resides in the heart of dying stars, turning supernovas into his celestial throne.",
+  "traits": [
+    {
+      "name": "Gravity Well",
+      "description": "Azy can manipulate gravity, causing enemies within a 500 ft. radius to have disadvantage on movement and saving throws against being pulled toward him."
+    },
+    {
+      "name": "Astral Step",
+      "description": "As a bonus action, Azy can teleport up to 1,000 feet to an unoccupied space he can see."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Galaxy Crush",
+      "description": "Azy raises his hands, condensing the energy of a galaxy into a single point. He then unleashes it in a 300-foot-radius explosion, dealing 120 (20d10) force damage to all creatures in the area. Creatures must succeed on a DC 28 Dexterity saving throw or be disintegrated."
+    },
+    {
+      "name": "Black Hole Creation",
+      "description": "Azy creates a black hole at a point he can see within 1,000 feet. The black hole lasts for 1 minute, pulling in all creatures within a 300-foot radius. Creatures must make a DC 26 Strength saving throw or be pulled into the black hole, taking 70 (10d12) force damage per turn until they escape."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [
+    {
+      "name": "Stellar Collapse",
+      "description": "Once per round, Azy can cause a nearby star to implode, creating a shockwave that deals 50 (8d10) radiant damage to all creatures within 1,000 feet."
+    }
+  ],
+  "regional_effects": [
+    {
+      "name": "Cosmic Disturbance",
+      "description": "Within 10 miles of Azy's presence, stars flicker erratically, and space itself warps, distorting time and light."
+    }
+  ]
+}

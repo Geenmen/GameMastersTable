@@ -1,3 +1,65 @@
 {
-    "name": "Ironfang Brute"
+  "creature_name": "Ironfang Brute",
+  "type": "Humanoid",
+  "alignment": "Chaotic Evil",
+  "description": "The Ironfang Brute is a towering, muscular figure with skin as tough as iron. Its tusk-like teeth protrude from a snarling maw, and its eyes glow with a malevolent intelligence. It wields a massive spiked club, bashing foes with brutal strength.",
+  "image": "",
+  "armor_class": 16,
+  "hit_points": 60,
+  "speed": {
+    "walk": "30 ft",
+    "fly": "—"
+  },
+  "ability_scores": {
+    "strength": 18,
+    "dexterity": 12,
+    "constitution": 16,
+    "intelligence": 8,
+    "wisdom": 10,
+    "charisma": 7
+  },
+  "saving_throws": {
+    "strength": "+6",
+    "dexterity": "+2",
+    "constitution": "+5"
+  },
+  "skills": {
+    "perception": "+2",
+    "stealth": "+1"
+  },
+  "damage_resistances": "Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
+  "damage_immunities": "",
+  "condition_immunities": "Charmed, Frightened",
+  "senses": {
+    "darkvision": "60 ft",
+    "passive_perception": "12"
+  },
+  "languages": "Common, Goblin",
+  "challenge_rating": "3",
+  "tamable": false,
+  "lair_type": "None",
+  "traits": [
+    {
+      "name": "Brutal Assault",
+      "description": "The Ironfang Brute deals an extra 1d6 damage on melee attacks when it hits with a melee weapon."
+    },
+    {
+      "name": "Relentless Endurance",
+      "description": "Once per day, when the Brute is reduced to 0 hit points but not killed outright, it can drop to 1 hit point instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "description": "The Ironfang Brute makes two attacks with its spiked club."
+    },
+    {
+      "name": "Spiked Club",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d6+5) bludgeoning damage."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

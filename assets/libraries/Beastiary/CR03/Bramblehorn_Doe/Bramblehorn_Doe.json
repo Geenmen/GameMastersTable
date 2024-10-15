@@ -1,3 +1,69 @@
 {
-    "name": "Bramblehorn Doe"
+  "creature_name": "Bramblehorn Doe",
+  "type": "Fey Beast",
+  "alignment": "Neutral Good",
+  "description": "The Bramblehorn Doe is a majestic woodland creature with antlers resembling tangled vines and leaves. Its fur shimmers with a faint, greenish hue, blending seamlessly with the forest environment. Known for its gentle nature and its ability to heal the land, it serves as a protector of the forest, calling upon the flora to entangle foes and shield allies. Its large, soft eyes convey wisdom and a deep connection to nature.",
+  "image": "",
+  "armor_class": 15,
+  "hit_points": 58,
+  "speed": {
+    "walk": "40 ft",
+    "fly": "0"
+  },
+  "ability_scores": {
+    "strength": 14,
+    "dexterity": 18,
+    "constitution": 13,
+    "intelligence": 12,
+    "wisdom": 16,
+    "charisma": 15
+  },
+  "saving_throws": {
+    "strength": "+2",
+    "dexterity": "+6",
+    "constitution": "+1"
+  },
+  "skills": {
+    "perception": "+5",
+    "stealth": "+8"
+  },
+  "damage_resistances": "bludgeoning, piercing",
+  "damage_immunities": "poison",
+  "condition_immunities": "charmed, poisoned",
+  "senses": {
+    "darkvision": "60 ft",
+    "passive_perception": "15"
+  },
+  "languages": "Sylvan, telepathy 60 ft (with woodland creatures)",
+  "challenge_rating": "3",
+  "tamable": false,
+  "lair_type": "Dense Forest",
+  "traits": [
+    {
+      "name": "Forest Camouflage",
+      "description": "The Bramblehorn Doe has advantage on Dexterity (Stealth) checks made to hide in forested terrain."
+    },
+    {
+      "name": "Entangling Vines",
+      "description": "Once per short rest, the Bramblehorn Doe can summon vines to entangle a 20-foot square area within 30 feet. Any creature in the area must succeed on a DC 14 Strength saving throw or be restrained. The vines last for 1 minute or until the Bramblehorn Doe dismisses them."
+    },
+    {
+      "name": "Nature's Grace",
+      "description": "The Bramblehorn Doe regains 5 hit points at the start of its turn if it is in a forest or surrounded by natural plant life."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Hoof Attack",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 4) bludgeoning damage."
+    },
+    {
+      "name": "Healing Aura",
+      "description": "Once per day, the Bramblehorn Doe can create a healing aura within a 10-foot radius. Any friendly creatures within the aura regain 2d8 hit points."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

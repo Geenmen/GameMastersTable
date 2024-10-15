@@ -1,3 +1,69 @@
 {
-    "name": "Frostbite Novice"
+  "creature_name": "Frostbite Novice",
+  "type": "Humanoid",
+  "alignment": "Neutral Evil",
+  "description": "A Frostbite Novice is a cold-hearted apprentice of dark ice magic, trained by powerful frost mages. They wield chilling magic to slow and freeze their enemies, their skin pale and icy blue. Often found in arctic regions, they are cruel and calculating, using the cold to their advantage.",
+  "image": "",
+  "armor_class": 13,
+  "hit_points": 39,
+  "speed": {
+    "walk": "30 ft",
+    "fly": "None"
+  },
+  "ability_scores": {
+    "strength": 10,
+    "dexterity": 14,
+    "constitution": 12,
+    "intelligence": 16,
+    "wisdom": 11,
+    "charisma": 13
+  },
+  "saving_throws": {
+    "strength": "+0",
+    "dexterity": "+2",
+    "constitution": "+1"
+  },
+  "skills": {
+    "perception": "+2",
+    "stealth": "+4"
+  },
+  "damage_resistances": "Cold",
+  "damage_immunities": "None",
+  "condition_immunities": "None",
+  "senses": {
+    "darkvision": "60 ft",
+    "passive_perception": "12"
+  },
+  "languages": "Common, Draconic",
+  "challenge_rating": "3",
+  "tamable": false,
+  "lair_type": "Frozen Cavern",
+  "traits": [
+    {
+      "name": "Chill Aura",
+      "description": "Any creature that starts its turn within 10 feet of the Frostbite Novice must make a DC 12 Constitution saving throw or take 1d6 cold damage."
+    },
+    {
+      "name": "Icy Step",
+      "description": "The Frostbite Novice can move across icy surfaces without needing to make an ability check. Difficult terrain composed of ice or snow doesn’t cost it extra movement."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Frostbolt",
+      "description": "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit: 2d8 cold damage."
+    },
+    {
+      "name": "Ice Spear",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d8 piercing damage plus 1d6 cold damage."
+    },
+    {
+      "name": "Freezing Touch",
+      "description": "Melee Spell Attack: +5 to hit, reach 5 ft., one target. Hit: 1d6 cold damage and the target's speed is reduced by 10 feet until the end of its next turn."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

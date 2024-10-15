@@ -1,3 +1,73 @@
 {
-    "name": "Scaled Toadhawk"
+  "creature_name": "Scaled Toadhawk",
+  "type": "Beast",
+  "alignment": "Neutral",
+  "description": "The Scaled Toadhawk is a strange hybrid creature found in swamps and forests. It has the body of a large toad, covered in rough scales, and the wings of a hawk, allowing it to glide silently between trees. Its long, sticky tongue can snatch small prey from a distance, while its sharp talons make it a dangerous predator in both air and on land.",
+  "image": "",
+  "armor_class": 13,
+  "hit_points": 39,
+  "speed": {
+    "walk": "30 ft.",
+    "fly": "40 ft."
+  },
+  "ability_scores": {
+    "strength": 14,
+    "dexterity": 15,
+    "constitution": 12,
+    "intelligence": 5,
+    "wisdom": 12,
+    "charisma": 6
+  },
+  "saving_throws": {
+    "strength": "+4",
+    "dexterity": "+5",
+    "constitution": "+3"
+  },
+  "skills": {
+    "perception": "+4",
+    "stealth": "+6"
+  },
+  "damage_resistances": "poison",
+  "damage_immunities": "",
+  "condition_immunities": "poisoned",
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": "14"
+  },
+  "languages": "understands Common but can't speak",
+  "challenge_rating": "03",
+  "tamable": false,
+  "lair_type": "Swamp",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "description": "The Scaled Toadhawk can breathe air and water."
+    },
+    {
+      "name": "Silent Glide",
+      "description": "When flying, the Scaled Toadhawk can move without making a sound."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "description": "The Scaled Toadhawk makes two attacks: one with its bite and one with its talons."
+    },
+    {
+      "name": "Bite",
+      "description": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 3) piercing damage."
+    },
+    {
+      "name": "Talons",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage."
+    },
+    {
+      "name": "Tongue Snare",
+      "description": "Ranged Weapon Attack: +5 to hit, reach 15 ft., one target. Hit: The target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the Scaled Toadhawk can't use its tongue on another target."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

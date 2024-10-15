@@ -1,3 +1,69 @@
 {
-    "name": "Wandering Blade"
+  "creature_name": "Wandering Blade",
+  "type": "Construct",
+  "alignment": "Neutral",
+  "description": "The Wandering Blade is an ancient, animated sword that roams battlefields and ruins, seeking to defend its lost master’s honor. It floats effortlessly through the air, silently gliding toward intruders. Its blade glows faintly with a dim, eerie light, and it never tires in combat, seemingly fueled by an undying magical power.",
+  "image": "",
+  "armor_class": 16,
+  "hit_points": 45,
+  "speed": {
+    "walk": "0 ft.",
+    "fly": "40 ft. (hover)"
+  },
+  "ability_scores": {
+    "strength": 14,
+    "dexterity": 18,
+    "constitution": 13,
+    "intelligence": 6,
+    "wisdom": 10,
+    "charisma": 5
+  },
+  "saving_throws": {
+    "strength": "+4",
+    "dexterity": "+6",
+    "constitution": "+3"
+  },
+  "skills": {
+    "perception": "+2",
+    "stealth": "+6"
+  },
+  "damage_resistances": "bludgeoning, piercing, and slashing from non-magical attacks",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": "12"
+  },
+  "languages": "understands Common but cannot speak",
+  "challenge_rating": "03",
+  "tamable": false,
+  "lair_type": "Ruins or ancient battlegrounds",
+  "traits": [
+    {
+      "name": "Evasion",
+      "description": "If the Wandering Blade is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+    },
+    {
+      "name": "Incorporeal Movement",
+      "description": "The Wandering Blade can move through creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "description": "The Wandering Blade makes two attacks with its longsword."
+    },
+    {
+      "name": "Longsword",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) slashing damage."
+    },
+    {
+      "name": "Whirlwind Strike (Recharge 5-6)",
+      "description": "The Wandering Blade spins in a deadly arc, attacking all creatures within 5 feet of it. Each creature must succeed on a DC 14 Dexterity saving throw or take 13 (2d8 + 4) slashing damage."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

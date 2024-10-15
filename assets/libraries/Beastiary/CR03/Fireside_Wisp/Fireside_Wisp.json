@@ -1,3 +1,65 @@
 {
-    "name": "Fireside Wisp"
+  "creature_name": "Fireside Wisp",
+  "type": "Elemental",
+  "alignment": "Chaotic Neutral",
+  "description": "A floating, flickering entity of glowing embers and shimmering heat. The Fireside Wisp is often found in the wilderness near campfires, drawn to the warmth and energy of flames. It appears as a small sphere of swirling embers that crackles softly like a fire. While not inherently hostile, it can be unpredictable, flaring up in bursts of intense heat when provoked.",
+  "image": "",
+  "armor_class": 13,
+  "hit_points": 40,
+  "speed": {
+    "walk": "0 ft",
+    "fly": "40 ft (hover)"
+  },
+  "ability_scores": {
+    "strength": 4,
+    "dexterity": 16,
+    "constitution": 12,
+    "intelligence": 10,
+    "wisdom": 14,
+    "charisma": 12
+  },
+  "saving_throws": {
+    "strength": "",
+    "dexterity": "+5",
+    "constitution": "+3"
+  },
+  "skills": {
+    "perception": "+4",
+    "stealth": "+6"
+  },
+  "damage_resistances": "Fire, Lightning",
+  "damage_immunities": "Poison",
+  "condition_immunities": "Exhaustion, Grappled, Paralyzed, Poisoned, Prone",
+  "senses": {
+    "darkvision": "60 ft",
+    "passive_perception": "14"
+  },
+  "languages": "Ignan, understands Common but cannot speak",
+  "challenge_rating": "3",
+  "tamable": false,
+  "lair_type": "Campfires, small caves with lingering warmth",
+  "traits": [
+    {
+      "name": "Incorporeal Movement",
+      "description": "The Fireside Wisp can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+    },
+    {
+      "name": "Heated Aura",
+      "description": "Creatures within 5 feet of the Fireside Wisp at the start of their turn take 3 (1d6) fire damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Ember Flare",
+      "description": "The Wisp emits a burst of heat and light in a 15-foot radius. All creatures within range must make a DC 13 Dexterity saving throw or take 12 (2d8+3) fire damage and be blinded until the end of their next turn. On a successful save, they take half damage and are not blinded."
+    },
+    {
+      "name": "Touch of Flame",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) fire damage."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

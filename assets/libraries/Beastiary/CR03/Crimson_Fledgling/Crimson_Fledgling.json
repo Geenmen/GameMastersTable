@@ -1,3 +1,65 @@
 {
-    "name": "Crimson Fledgling"
+  "creature_name": "Crimson Fledgling",
+  "type": "Undead",
+  "alignment": "Chaotic Evil",
+  "description": "The Crimson Fledgling is a newly awakened vampire spawn, still learning the limits of its dark powers. Its eyes glow with a menacing crimson hue, and its fangs are sharp and eager for blood. It moves with an unnatural grace, blending into the shadows effortlessly. It prefers to prey on the weak but is extremely dangerous when cornered.",
+  "image": "",
+  "armor_class": 15,
+  "hit_points": 55,
+  "speed": {
+    "walk": "30 ft.",
+    "fly": "40 ft. (hover)"
+  },
+  "ability_scores": {
+    "strength": 15,
+    "dexterity": 18,
+    "constitution": 14,
+    "intelligence": 10,
+    "wisdom": 12,
+    "charisma": 16
+  },
+  "saving_throws": {
+    "strength": "+3",
+    "dexterity": "+6",
+    "constitution": "+4"
+  },
+  "skills": {
+    "perception": "+3",
+    "stealth": "+7"
+  },
+  "damage_resistances": "Necrotic, Nonmagical Bludgeoning, Piercing, and Slashing",
+  "damage_immunities": "Poison",
+  "condition_immunities": "Charmed, Exhaustion, Poisoned",
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": "13"
+  },
+  "languages": "Understands Common and Infernal but doesn't speak",
+  "challenge_rating": "03",
+  "tamable": false,
+  "lair_type": "Ruins or Dark Forest",
+  "traits": [
+    {
+      "name": "Sunlight Sensitivity",
+      "description": "While in sunlight, the Crimson Fledgling has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    },
+    {
+      "name": "Regeneration",
+      "description": "The Crimson Fledgling regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Claw Attack",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 3) slashing damage."
+    },
+    {
+      "name": "Bite",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the fledgling. Hit: 10 (2d6 + 3) piercing damage plus 7 (2d6) necrotic damage. The target’s hit point maximum is reduced by an amount equal to the necrotic damage taken, and the Crimson Fledgling regains hit points equal to that amount."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

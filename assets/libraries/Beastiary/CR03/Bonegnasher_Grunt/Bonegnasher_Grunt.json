@@ -1,3 +1,69 @@
 {
-    "name": "Bonegnasher Grunt"
+  "creature_name": "Bonegnasher Grunt",
+  "type": "Undead",
+  "alignment": "Chaotic Evil",
+  "description": "The Bonegnasher Grunt is a ghastly soldier raised from the bones of fallen warriors. Covered in tattered armor and gnashing its teeth with feral rage, it serves dark masters in the shadows of forgotten battlegrounds. Its hollow eyes burn with malevolent energy, and its skeletal form moves with surprising speed and strength for a creature of its size.",
+  "image": "",
+  "armor_class": 14,
+  "hit_points": 45,
+  "speed": {
+    "walk": "30 ft",
+    "fly": ""
+  },
+  "ability_scores": {
+    "strength": 16,
+    "dexterity": 12,
+    "constitution": 14,
+    "intelligence": 6,
+    "wisdom": 8,
+    "charisma": 5
+  },
+  "saving_throws": {
+    "strength": "+3",
+    "dexterity": "+2",
+    "constitution": "+4"
+  },
+  "skills": {
+    "perception": "+2",
+    "stealth": "+3"
+  },
+  "damage_resistances": "necrotic, slashing from non-magical weapons",
+  "damage_immunities": "poison",
+  "condition_immunities": "poisoned, exhaustion",
+  "senses": {
+    "darkvision": "60 ft",
+    "passive_perception": "12"
+  },
+  "languages": "Understands Common but cannot speak",
+  "challenge_rating": "3",
+  "tamable": false,
+  "lair_type": "Forgotten battlefields, ancient ruins",
+  "traits": [
+    {
+      "name": "Undead Fortitude",
+      "description": "If damage reduces the Bonegnasher Grunt to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the Grunt drops to 1 hit point instead."
+    },
+    {
+      "name": "Gnashing Fury",
+      "description": "When the Bonegnasher Grunt takes damage, it gains advantage on its next attack roll until the end of its next turn."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "description": "The Bonegnasher Grunt makes two attacks: one with its bite and one with its claws."
+    },
+    {
+      "name": "Bite",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+    },
+    {
+      "name": "Claws",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

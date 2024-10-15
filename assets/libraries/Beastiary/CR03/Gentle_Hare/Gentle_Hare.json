@@ -1,3 +1,65 @@
 {
-    "name": "Gentle Hare"
+  "creature_name": "Gentle Hare",
+  "type": "Beast",
+  "alignment": "Neutral Good",
+  "description": "The Gentle Hare is a large, graceful creature, standing nearly as tall as a person. Its fur is soft and shimmering, reflecting moonlight in silver hues. Though gentle by nature, it possesses an innate ability to defend itself when necessary. It's often found in enchanted forests, where it serves as a guardian for smaller creatures.",
+  "image": "",
+  "armor_class": 15,
+  "hit_points": 52,
+  "speed": {
+    "walk": "40 ft",
+    "fly": ""
+  },
+  "ability_scores": {
+    "strength": 14,
+    "dexterity": 18,
+    "constitution": 12,
+    "intelligence": 10,
+    "wisdom": 14,
+    "charisma": 16
+  },
+  "saving_throws": {
+    "strength": "+2",
+    "dexterity": "+6",
+    "constitution": "+1"
+  },
+  "skills": {
+    "perception": "+5",
+    "stealth": "+7"
+  },
+  "damage_resistances": "Cold, Nonmagical Bludgeoning",
+  "damage_immunities": "",
+  "condition_immunities": "Charmed, Frightened",
+  "senses": {
+    "darkvision": "60 ft",
+    "passive_perception": "15"
+  },
+  "languages": "Understands Common and Sylvan but cannot speak",
+  "challenge_rating": "3",
+  "tamable": true,
+  "lair_type": "Enchanted Forests",
+  "traits": [
+    {
+      "name": "Graceful Leap",
+      "description": "The Gentle Hare can jump up to 30 feet as part of its movement, without provoking opportunity attacks."
+    },
+    {
+      "name": "Soothing Presence",
+      "description": "Once per long rest, the Gentle Hare can calm hostile creatures within a 30-foot radius. Hostile creatures must make a DC 14 Wisdom saving throw or become charmed for 1 minute."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Claw Swipe",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 3) slashing damage."
+    },
+    {
+      "name": "Moonlit Dash",
+      "description": "The Gentle Hare can dash as a bonus action. It leaves a trail of moonlight in its wake, granting advantage on the next attack roll it makes before the end of its turn."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

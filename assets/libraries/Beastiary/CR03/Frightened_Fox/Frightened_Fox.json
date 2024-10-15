@@ -1,3 +1,65 @@
 {
-    "name": "Frightened Fox"
+  "creature_name": "Frightened Fox",
+  "type": "Beast",
+  "alignment": "Neutral",
+  "description": "A small, skittish fox with dark fur that blends into the shadows. Its large, alert eyes constantly dart around, as if it is always expecting danger. It is often found in the depths of haunted forests or near cursed ruins, using its agility and instincts to escape danger rather than fight.",
+  "image": "",
+  "armor_class": 13,
+  "hit_points": 24,
+  "speed": {
+    "walk": "40 ft",
+    "fly": "0 ft"
+  },
+  "ability_scores": {
+    "strength": 6,
+    "dexterity": 17,
+    "constitution": 10,
+    "intelligence": 5,
+    "wisdom": 14,
+    "charisma": 8
+  },
+  "saving_throws": {
+    "strength": "+0",
+    "dexterity": "+5",
+    "constitution": "+2"
+  },
+  "skills": {
+    "perception": "+4",
+    "stealth": "+6"
+  },
+  "damage_resistances": "Necrotic",
+  "damage_immunities": "",
+  "condition_immunities": "Frightened",
+  "senses": {
+    "darkvision": "60 ft",
+    "passive_perception": "14"
+  },
+  "languages": "Understands Sylvan but cannot speak",
+  "challenge_rating": "3",
+  "tamable": true,
+  "lair_type": "Forest or Ruins",
+  "traits": [
+    {
+      "name": "Evasion",
+      "description": "When the Frightened Fox is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+    },
+    {
+      "name": "Frightened Escape",
+      "description": "When reduced to half of its hit points or lower, the Frightened Fox can Dash as a bonus action. It gains advantage on Stealth checks during this time."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+    },
+    {
+      "name": "Tail Swipe",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage, and the target must succeed on a DC 12 Dexterity saving throw or be knocked prone."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

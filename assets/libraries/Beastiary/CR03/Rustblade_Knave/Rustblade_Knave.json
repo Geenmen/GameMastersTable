@@ -1,3 +1,65 @@
 {
-    "name": "Rustblade Knave"
+  "creature_name": "Rustblade Knave",
+  "type": "Humanoid",
+  "alignment": "Chaotic Neutral",
+  "description": "The Rustblade Knave is a cunning rogue with a wicked sense of self-preservation. Armed with a rusting blade that corrodes armor, this knave has an aura of deceit and unpredictability, making them dangerous adversaries, especially in the shadows of urban environments.",
+  "image": "",
+  "armor_class": 15,
+  "hit_points": 45,
+  "speed": {
+    "walk": "30 ft",
+    "fly": ""
+  },
+  "ability_scores": {
+    "strength": 12,
+    "dexterity": 17,
+    "constitution": 14,
+    "intelligence": 11,
+    "wisdom": 10,
+    "charisma": 13
+  },
+  "saving_throws": {
+    "strength": "+1",
+    "dexterity": "+5",
+    "constitution": "+2"
+  },
+  "skills": {
+    "perception": "+2",
+    "stealth": "+6"
+  },
+  "damage_resistances": "Slashing from non-magical weapons",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": {
+    "darkvision": "60 ft",
+    "passive_perception": "12"
+  },
+  "languages": "Common, Thieves' Cant",
+  "challenge_rating": "03",
+  "tamable": false,
+  "lair_type": "Urban Ruins",
+  "traits": [
+    {
+      "name": "Rusting Blade",
+      "description": "The Rustblade Knave's weapon corrodes metal on contact. A creature hit by the knave’s blade must succeed on a DC 13 Dexterity saving throw or have their armor's AC reduced by 1. Non-magical armor is destroyed if this effect reduces its AC to 10."
+    },
+    {
+      "name": "Cunning Action",
+      "description": "On each of its turns, the Rustblade Knave can use a bonus action to Dash, Disengage, or Hide."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "description": "The Rustblade Knave makes two melee attacks with its rusting blade."
+    },
+    {
+      "name": "Rusting Blade",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) slashing damage and the target must make a DC 13 Dexterity saving throw or suffer the Rusting Blade trait's effect."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

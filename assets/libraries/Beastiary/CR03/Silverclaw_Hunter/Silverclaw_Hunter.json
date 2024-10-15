@@ -1,3 +1,69 @@
 {
-    "name": "Silverclaw Hunter"
+  "creature_name": "Silverclaw Hunter",
+  "type": "Beast",
+  "alignment": "Neutral",
+  "description": "A sleek, predatory beast with metallic silver claws that glint in the light. The Silverclaw Hunter is known for its agility, stealth, and precision in the hunt. Its eyes are sharp and calculating, always observing its prey from the shadows before striking with deadly accuracy.",
+  "image": "",
+  "armor_class": 14,
+  "hit_points": 37,
+  "speed": {
+    "walk": "40 ft.",
+    "fly": "—"
+  },
+  "ability_scores": {
+    "strength": 15,
+    "dexterity": 17,
+    "constitution": 13,
+    "intelligence": 4,
+    "wisdom": 14,
+    "charisma": 7
+  },
+  "saving_throws": {
+    "strength": "+4",
+    "dexterity": "+5",
+    "constitution": "+3"
+  },
+  "skills": {
+    "perception": "+4",
+    "stealth": "+7"
+  },
+  "damage_resistances": "Slashing (from non-magical weapons)",
+  "damage_immunities": "",
+  "condition_immunities": "Frightened",
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": "14"
+  },
+  "languages": "Understands but cannot speak Common",
+  "challenge_rating": "3",
+  "tamable": false,
+  "lair_type": "Dense forests or rocky mountains",
+  "traits": [
+    {
+      "name": "Keen Smell",
+      "description": "The Silverclaw Hunter has advantage on Wisdom (Perception) checks that rely on smell."
+    },
+    {
+      "name": "Pack Tactics",
+      "description": "The Silverclaw Hunter has advantage on an attack roll against a creature if at least one of the Hunter's allies is within 5 feet of the creature and the ally isn't incapacitated."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "description": "The Silverclaw Hunter makes two attacks: one with its bite and one with its claws."
+    },
+    {
+      "name": "Bite",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d10+4) piercing damage."
+    },
+    {
+      "name": "Claw",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) slashing damage."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

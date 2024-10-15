@@ -1,3 +1,65 @@
 {
-    "name": "Swampstalker Crocodile"
+  "creature_name": "Swampstalker Crocodile",
+  "type": "Beast",
+  "alignment": "Unaligned",
+  "description": "The Swampstalker Crocodile is an enormous, predatory reptile found lurking in the murky waters of dense swamplands. Its moss-covered scales allow it to blend seamlessly into its environment, and it waits patiently for prey, striking with incredible speed and ferocity. Known for its powerful bite and death roll, this creature is a nightmare for those who stray too close to its territory.",
+  "image": "",
+  "armor_class": 14,
+  "hit_points": 68,
+  "speed": {
+    "walk": "20 ft.",
+    "fly": "—"
+  },
+  "ability_scores": {
+    "strength": 19,
+    "dexterity": 12,
+    "constitution": 17,
+    "intelligence": 2,
+    "wisdom": 10,
+    "charisma": 5
+  },
+  "saving_throws": {
+    "strength": "+5",
+    "dexterity": "+2",
+    "constitution": "+3"
+  },
+  "skills": {
+    "perception": "+3",
+    "stealth": "+5"
+  },
+  "damage_resistances": "Bludgeoning from non-magical attacks",
+  "damage_immunities": "Poison",
+  "condition_immunities": "Frightened",
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": "13"
+  },
+  "languages": "—",
+  "challenge_rating": "3",
+  "tamable": false,
+  "lair_type": "Swamp",
+  "traits": [
+    {
+      "name": "Camouflage",
+      "description": "The Swampstalker Crocodile has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+    },
+    {
+      "name": "Hold Breath",
+      "description": "The crocodile can hold its breath for up to 30 minutes."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 18 (2d10 + 5) piercing damage. If the target is a creature, it is grappled (escape DC 14)."
+    },
+    {
+      "name": "Death Roll",
+      "description": "The Swampstalker Crocodile can use its action to roll violently while grappling a creature. The target must succeed on a DC 14 Strength saving throw or take 14 (3d6 + 5) bludgeoning damage and be knocked prone."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

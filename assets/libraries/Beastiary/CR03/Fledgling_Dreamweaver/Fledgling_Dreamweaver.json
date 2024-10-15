@@ -1,3 +1,65 @@
 {
-    "name": "Fledgling Dreamweaver"
+  "creature_name": "Fledgling Dreamweaver",
+  "type": "Fey",
+  "alignment": "Chaotic Neutral",
+  "description": "A small and ethereal creature, the Fledgling Dreamweaver hovers between the veil of reality and dreams. Its gossamer wings shimmer in the light, and its presence causes nearby beings to drift into strange, dreamlike trances. It weaves illusions from the threads of sleep and is often found near areas of great natural beauty or places charged with mystical energy.",
+  "image": "",
+  "armor_class": 13,
+  "hit_points": 38,
+  "speed": {
+    "walk": "20 ft",
+    "fly": "40 ft"
+  },
+  "ability_scores": {
+    "strength": 7,
+    "dexterity": 16,
+    "constitution": 12,
+    "intelligence": 14,
+    "wisdom": 12,
+    "charisma": 18
+  },
+  "saving_throws": {
+    "strength": "",
+    "dexterity": "Dex +5",
+    "constitution": ""
+  },
+  "skills": {
+    "perception": "Perception +3",
+    "stealth": "Stealth +5"
+  },
+  "damage_resistances": "Psychic; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
+  "damage_immunities": "",
+  "condition_immunities": "Charmed, Frightened",
+  "senses": {
+    "darkvision": "60 ft",
+    "passive_perception": "13"
+  },
+  "languages": "Sylvan, Common, telepathy 60 ft.",
+  "challenge_rating": "03",
+  "tamable": false,
+  "lair_type": "Mystical Glade",
+  "traits": [
+    {
+      "name": "Dreamweaver's Touch",
+      "description": "A creature touched by the Fledgling Dreamweaver must succeed on a DC 13 Wisdom saving throw or fall into a deep slumber for 1d4 hours. The sleeper wakes if it takes damage or if another creature uses an action to shake it awake."
+    },
+    {
+      "name": "Ethereal Jaunt",
+      "description": "As a bonus action, the Fledgling Dreamweaver can magically shift from the Material Plane to the Ethereal Plane, or vice versa."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Illusory Strike",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) psychic damage. The target must succeed on a DC 13 Intelligence saving throw or believe the damage to be real, becoming frightened for 1 minute."
+    },
+    {
+      "name": "Dream Mist",
+      "description": "The Fledgling Dreamweaver exhales a cloud of shimmering mist in a 15-foot cone. Each creature in that area must succeed on a DC 13 Wisdom saving throw or be charmed for 1 minute. While charmed in this way, the creature sees vivid hallucinations of its desires or fears."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

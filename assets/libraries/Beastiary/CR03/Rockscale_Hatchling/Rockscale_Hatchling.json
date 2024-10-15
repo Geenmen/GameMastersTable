@@ -1,3 +1,65 @@
 {
-    "name": "Rockscale Hatchling"
+  "creature_name": "Rockscale Hatchling",
+  "type": "Dragon",
+  "alignment": "Neutral",
+  "description": "The Rockscale Hatchling is a young, stone-scaled dragon that inhabits rocky cliffs and mountains. Its scales are incredibly tough, resembling cracked stone, giving it natural camouflage in its environment. Though young and not fully grown, it is still a formidable foe, capable of unleashing bursts of elemental fury. The hatchling is protective of its nest and highly territorial.",
+  "image": "",
+  "armor_class": 16,
+  "hit_points": 52,
+  "speed": {
+    "walk": "30 ft.",
+    "fly": "60 ft."
+  },
+  "ability_scores": {
+    "strength": 15,
+    "dexterity": 14,
+    "constitution": 16,
+    "intelligence": 8,
+    "wisdom": 12,
+    "charisma": 10
+  },
+  "saving_throws": {
+    "strength": "+4",
+    "dexterity": "+3",
+    "constitution": "+5"
+  },
+  "skills": {
+    "perception": "+4",
+    "stealth": "+3"
+  },
+  "damage_resistances": "Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
+  "damage_immunities": "Earth (or Stone-related elemental damage)",
+  "condition_immunities": "Frightened",
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": "14"
+  },
+  "languages": "Draconic",
+  "challenge_rating": "3",
+  "tamable": false,
+  "lair_type": "Rocky Cliffs or Caves",
+  "traits": [
+    {
+      "name": "Stone Camouflage",
+      "description": "The Rockscale Hatchling has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+    },
+    {
+      "name": "Tough Scales",
+      "description": "The hatchling's stony scales grant it an Armor Class of 16."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage."
+    },
+    {
+      "name": "Elemental Breath (Recharge 5-6)",
+      "description": "The Rockscale Hatchling exhales a burst of stone shards in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 18 (4d8) piercing damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

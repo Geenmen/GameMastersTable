@@ -1,3 +1,65 @@
 {
-    "name": "Quicksand Pool"
+  "creature_name": "Quicksand Pool",
+  "type": "Elemental",
+  "alignment": "Neutral",
+  "description": "A dangerous and deceptive creature that appears as a harmless patch of sandy terrain. When approached, it reveals its true nature by dragging unsuspecting victims into its shifting, suffocating depths. The Quicksand Pool is a semi-sentient elemental entity formed by corrupted earth magic, thriving in desolate areas such as deserts and swamps.",
+  "image": "",
+  "armor_class": 12,
+  "hit_points": 58,
+  "speed": {
+    "walk": "0 ft.",
+    "fly": "0 ft."
+  },
+  "ability_scores": {
+    "strength": 16,
+    "dexterity": 8,
+    "constitution": 18,
+    "intelligence": 5,
+    "wisdom": 10,
+    "charisma": 6
+  },
+  "saving_throws": {
+    "strength": "+5",
+    "dexterity": "",
+    "constitution": "+6"
+  },
+  "skills": {
+    "perception": "+2",
+    "stealth": "+4"
+  },
+  "damage_resistances": "Bludgeoning, Piercing",
+  "damage_immunities": "Poison",
+  "condition_immunities": "Prone, Grappled, Poisoned, Stunned",
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": "12"
+  },
+  "languages": "None",
+  "challenge_rating": "3",
+  "tamable": false,
+  "lair_type": "Deserts, Swamps",
+  "traits": [
+    {
+      "name": "Engulf",
+      "description": "A creature that steps into the quicksand must succeed on a DC 14 Strength saving throw or be restrained and pulled 5 feet deeper into the pool. The creature takes 2d6 bludgeoning damage at the start of its turn while restrained."
+    },
+    {
+      "name": "False Appearance",
+      "description": "While the Quicksand Pool remains motionless, it is indistinguishable from an ordinary patch of sand."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Suffocating Pull",
+      "description": "The Quicksand Pool attempts to pull a creature deeper into its depths. The target must make a DC 14 Strength saving throw or be pulled 10 feet deeper and take 2d6 bludgeoning damage. On a successful save, the creature is only pulled 5 feet."
+    },
+    {
+      "name": "Whirlpool",
+      "description": "The Quicksand Pool can create a vortex of swirling sand around itself. All creatures within a 15-foot radius must make a DC 13 Dexterity saving throw or be pulled 5 feet towards the center of the pool and take 1d6 bludgeoning damage."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

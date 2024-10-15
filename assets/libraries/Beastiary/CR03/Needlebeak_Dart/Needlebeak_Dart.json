@@ -1,3 +1,65 @@
 {
-    "name": "Needlebeak Dart"
+  "creature_name": "Needlebeak Dart",
+  "type": "Beast",
+  "alignment": "Neutral",
+  "description": "The Needlebeak Dart is a small, swift avian creature known for its razor-sharp beak and darting flight patterns. It typically hunts in packs, swooping down on unsuspecting prey with incredible precision. Its sleek feathers shimmer with a metallic sheen, allowing it to blend into its surroundings. The Needlebeak Dart can be found in forests and mountain regions where it nests high in cliffsides.",
+  "image": "",
+  "armor_class": 15,
+  "hit_points": 27,
+  "speed": {
+    "walk": "10 ft.",
+    "fly": "60 ft."
+  },
+  "ability_scores": {
+    "strength": 6,
+    "dexterity": 18,
+    "constitution": 12,
+    "intelligence": 3,
+    "wisdom": 14,
+    "charisma": 7
+  },
+  "saving_throws": {
+    "strength": "-2",
+    "dexterity": "+6",
+    "constitution": "+1"
+  },
+  "skills": {
+    "perception": "+4",
+    "stealth": "+7"
+  },
+  "damage_resistances": "Piercing",
+  "damage_immunities": "",
+  "condition_immunities": "Frightened",
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": "14"
+  },
+  "languages": "Understands Common but cannot speak",
+  "challenge_rating": "03",
+  "tamable": false,
+  "lair_type": "Clifftop nests",
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "description": "The Needlebeak Dart has advantage on attack rolls against a creature if at least one of the Dart's allies is within 5 feet of the creature and the ally isn't incapacitated."
+    },
+    {
+      "name": "Keen Sight",
+      "description": "The Needlebeak Dart has advantage on Wisdom (Perception) checks that rely on sight."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Needle Strike",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) piercing damage."
+    },
+    {
+      "name": "Dive Attack",
+      "description": "If the Needlebeak Dart is flying and dives at least 30 feet straight toward a target and then hits it with a Needle Strike, the target takes an extra 7 (2d6) piercing damage."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

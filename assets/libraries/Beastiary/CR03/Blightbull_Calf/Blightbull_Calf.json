@@ -1,3 +1,65 @@
 {
-    "name": "Blightbull Calf"
+  "creature_name": "Blightbull Calf",
+  "type": "Beast",
+  "alignment": "Neutral Evil",
+  "description": "A twisted young offspring of the Blightbull, this calf is already corrupted by the dark magic that runs through its bloodline. Its body is covered in patches of decaying skin, and its horns are malformed and twisted. Though smaller and less powerful than its adult form, the Blightbull Calf is still a formidable threat to any who cross its path.",
+  "image": "",
+  "armor_class": 13,
+  "hit_points": 45,
+  "speed": {
+    "walk": "30 ft",
+    "fly": "—"
+  },
+  "ability_scores": {
+    "strength": 16,
+    "dexterity": 12,
+    "constitution": 14,
+    "intelligence": 3,
+    "wisdom": 10,
+    "charisma": 6
+  },
+  "saving_throws": {
+    "strength": "+4",
+    "dexterity": "+2",
+    "constitution": "+3"
+  },
+  "skills": {
+    "perception": "+2",
+    "stealth": "+3"
+  },
+  "damage_resistances": "Necrotic",
+  "damage_immunities": "Poison",
+  "condition_immunities": "Charmed, Frightened",
+  "senses": {
+    "darkvision": "60 ft",
+    "passive_perception": "12"
+  },
+  "languages": "Understands Abyssal but cannot speak",
+  "challenge_rating": "03",
+  "tamable": false,
+  "lair_type": "Cursed Fields",
+  "traits": [
+    {
+      "name": "Death Aura",
+      "description": "Any creature that starts its turn within 10 feet of the Blightbull Calf must succeed on a DC 12 Constitution saving throw or take 1d6 necrotic damage."
+    },
+    {
+      "name": "Corrupted Charge",
+      "description": "If the Blightbull Calf moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 1d6 necrotic damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Gore",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 2) piercing damage plus 3 (1d6) necrotic damage."
+    },
+    {
+      "name": "Stomp",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one prone target. Hit: 8 (1d8 + 2) bludgeoning damage."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

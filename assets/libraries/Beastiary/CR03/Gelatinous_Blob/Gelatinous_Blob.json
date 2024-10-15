@@ -1,3 +1,65 @@
 {
-    "name": "Gelatinous Blob"
+  "creature_name": "Gelatinous Blob",
+  "type": "Ooze",
+  "alignment": "Unaligned",
+  "description": "A slow-moving, translucent mass of semi-solid goo that digests anything it comes in contact with. It silently moves through dungeons or dark caves, consuming anything organic. The Gelatinous Blob is mindless, but persistent, making it a dangerous foe for adventurers.",
+  "image": "",
+  "armor_class": 8,
+  "hit_points": 84,
+  "speed": {
+    "walk": "15 ft.",
+    "fly": "0 ft."
+  },
+  "ability_scores": {
+    "strength": 14,
+    "dexterity": 6,
+    "constitution": 18,
+    "intelligence": 1,
+    "wisdom": 6,
+    "charisma": 1
+  },
+  "saving_throws": {
+    "strength": "+4",
+    "dexterity": "",
+    "constitution": "+7"
+  },
+  "skills": {
+    "perception": "10",
+    "stealth": ""
+  },
+  "damage_resistances": "Acid, Cold, Lightning",
+  "damage_immunities": "Slashing, Piercing",
+  "condition_immunities": "Blinded, Charmed, Deafened, Exhaustion, Frightened, Prone",
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": "10"
+  },
+  "languages": "None",
+  "challenge_rating": "3",
+  "tamable": false,
+  "lair_type": "Dungeons, Caverns",
+  "traits": [
+    {
+      "name": "Amorphous",
+      "description": "The Gelatinous Blob can move through a space as narrow as 1 inch wide without squeezing."
+    },
+    {
+      "name": "Transparent",
+      "description": "Even when the blob is in plain sight, it takes a successful Wisdom (Perception) check to spot a Gelatinous Blob that has neither moved nor attacked."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Pseudopod",
+      "description": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 12 (2d6+4) bludgeoning damage plus 7 (2d6) acid damage."
+    },
+    {
+      "name": "Engulf",
+      "description": "The blob moves up to its speed. While doing so, it can enter Large or smaller creatures' spaces. Whenever the blob enters a creature's space, the creature must make a DC 12 Dexterity saving throw."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }

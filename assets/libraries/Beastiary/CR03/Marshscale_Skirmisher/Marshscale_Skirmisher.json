@@ -1,3 +1,69 @@
 {
-    "name": "Marshscale Skirmisher"
+  "creature_name": "Marshscale Skirmisher",
+  "type": "Humanoid (Lizardfolk)",
+  "alignment": "Neutral Evil",
+  "description": "The Marshscale Skirmisher is a lithe and agile lizardfolk, known for its mastery of guerrilla warfare in marshy terrain. Its scales are a mottled green and brown, perfect for blending into the swamp. It moves swiftly through the wetlands, ambushing prey with precision strikes before disappearing into the muck.",
+  "image": "",
+  "armor_class": 14,
+  "hit_points": 35,
+  "speed": {
+    "walk": "30 ft",
+    "fly": "—"
+  },
+  "ability_scores": {
+    "strength": 12,
+    "dexterity": 16,
+    "constitution": 14,
+    "intelligence": 8,
+    "wisdom": 11,
+    "charisma": 10
+  },
+  "saving_throws": {
+    "strength": "+3",
+    "dexterity": "+5",
+    "constitution": "+4"
+  },
+  "skills": {
+    "perception": "+2",
+    "stealth": "+6"
+  },
+  "damage_resistances": "Poison",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": {
+    "darkvision": "60 ft",
+    "passive_perception": "12"
+  },
+  "languages": "Draconic, Common",
+  "challenge_rating": "3",
+  "tamable": false,
+  "lair_type": "Swamp",
+  "traits": [
+    {
+      "name": "Ambusher",
+      "description": "The Marshscale Skirmisher has advantage on attack rolls against any creature it has surprised."
+    },
+    {
+      "name": "Amphibious",
+      "description": "The Marshscale Skirmisher can breathe air and water."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "description": "The Marshscale Skirmisher makes two attacks with its spear."
+    },
+    {
+      "name": "Spear",
+      "description": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d6+3) piercing damage."
+    },
+    {
+      "name": "Javelin",
+      "description": "Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 8 (1d8+3) piercing damage."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": []
 }
